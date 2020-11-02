@@ -2,7 +2,7 @@
 
 - Getting started
 
-  - [Quick start](/quickstart)
+  - [Quick start](/quickstart/)
   - [Writing more pages](more-pages.md)
   - [Custom navbar](custom-navbar.md)
   - [Cover page](cover.md)
