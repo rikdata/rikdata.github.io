@@ -2,7 +2,7 @@
 RikData one App for all business systems
 
 | Dashboard  | Search | Result |
-| ------------- | ------------- |
+| ------------- | ------------- | ------------- |
 | <img src="/images/ScreenShots/basic/Screenshot_20201102-011149.jpg" width="250"/> | <img src="/images/ScreenShots/basic/Screenshot_20201102-011429.jpg" width="250"/>  | <img src="/images/ScreenShots/basic/Screenshot_20201102-011506.jpg" width="250"/>  |
 
 
