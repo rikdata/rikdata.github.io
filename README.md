@@ -6,25 +6,18 @@ RikData is primarily designed as a single app for accessing all modules of Oracl
 
 You can use RikData One App with your internal MES/PLM and Quality systems with Oracle cloud without creating any customization. 
 
-RikData allows users to configure all forms and fields: 
+###### RikData allows users to configure all forms and fields: 
+* Which forms should be visible to which user. (Ex: A technician can only issue materials to a work order but can not edit the work order) 
+* Which fields of a single form visible to which user(Ex: Buyers can view and edit purchasing related fields on item maters and Planners can view and edit only planning-related fields on item master)
+* What should be the sequence of each field in a form (Ex: while doing a material transaction, the user will view item number before a unit of measure)
+* Which fields are mandatory to save a document or complete a transaction (the field might or might not be mandatory in Oracle /SAP).
+* The default value for each field
 
-Which forms should be visible to which user. (Ex: A technician can only issue materials to a work order but can not edit the work order) 
-
-Which fields of a single form visible to which user(Ex: Buyers can view and edit purchasing related fields on item maters and Planners can view and edit only planning-related fields on item master)
-
-What should be the sequence of each field in a form (Ex: while doing a material transaction, the user will view item number before a unit of measure)
-
-Which fields are mandatory to save a document or complete a transaction (the field might or might not be mandatory in Oracle /SAP).
-
-The default value for each field
-
-Option to scan all fields
-
-Create own dashboards showing data/menus important to a user
-
-Search documents with various parameters and save the query for future reference
-
-Create charts and reports as per business requirements
+###### It also allows users to
+* scan all fields
+* Create own dashboards showing data/menus important to a user
+* Search documents with various parameters and save the query for future reference
+* Create charts and reports as per business requirements
 
 
 
