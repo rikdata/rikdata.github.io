@@ -6,6 +6,8 @@ RikData one App for all business systems
 | <img src="/images/ScreenShots/basic/Screenshot_20201102-011149.jpg" width="250"/> | <img src="/images/ScreenShots/basic/Screenshot_20201102-011429.jpg" width="250"/>  | <img src="/images/ScreenShots/basic/Screenshot_20201102-011506.jpg" width="250"/>  |
 | Navigation  | Menu | Settings |
 | <img src="/images/ScreenShots/basic/Screenshot_20201102-011353.jpg" width="250"/> | <img src="/images/ScreenShots/basic/Screenshot_20201102-011412.jpg" width="250"/>  | <img src="/images/ScreenShots/basic/Screenshot_20201102-011220.jpg" width="250"/>  |
+| Qucik Menu  | Configuration | Settings |
+| <img src="/images/ScreenShots/basic/Screenshot_20201102-011158.jpg" width="250"/> | <img src="/images/ScreenShots/basic/Screenshot_20201102-011158.jpg" width="250"/>  | <img src="/images/ScreenShots/basic/Screenshot_20201102-011220.jpg" width="250"/>  |
 
 The idea behind RikData is to Simplify, Standardize, and Synchronize different business processes using a single app.
 RikData is primarily designed as a single app for accessing all modules of Oracle Cloud Application; it can be used for any other business systems such as SAP HANA S/4 (Cloud and On-Premise). The default configuration allows users to use Oracle Cloud (2600+ functionalities) and all the SAP HANA s/4 features available via REST. 
