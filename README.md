@@ -1,3 +1,5 @@
+<span class="top-message">[:pencil2:Edit Document](https://github.com/rikdata/rikdata.github.io/edit/main/README.md)</span>
+
 # RikData
 RikData one App for all business systems
 
@@ -28,3 +30,6 @@ It also allows users to
 * Create own dashboards showing data/menus important to a user
 * Search documents with various parameters and save the query for future reference
 * Create charts and reports as per business requirements
+
+<a class="btn btn-light float-right" href="#/quickstart/" role="button">Quick Start</a>
+

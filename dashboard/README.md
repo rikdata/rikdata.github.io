@@ -1,3 +1,4 @@
+<span class="top-message">[:pencil2:Edit Document](https://github.com/rikdata/rikdata.github.io/edit/main/dashboard/README.md)</span>
 ## Default Dashboard 
 
  <img src="/images/ScreenShots/dashboard/Screenshot_20201102-115528.jpg" width="250"/>

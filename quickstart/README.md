@@ -1,3 +1,4 @@
+<span class="top-message">[:pencil2:Edit Document](https://github.com/rikdata/rikdata.github.io/edit/main/quickstart/README.md)</span>
 ## One-Time Configuration
 
  <img src="/images/ScreenShots/galaxys7/Screenshot_20201017-220313.jpg" width="250"/>
@@ -90,4 +91,4 @@ The app will take you to a new instance form(same as the view/edit form). Enter 
 
  <img src="/images/ScreenShots/getting-started/Screenshot_20201102-112343.jpg" width="250"/>
 
-
+<a class="btn btn-light float-right" href="#/dashboard/" role="button">Dashboard</a>
