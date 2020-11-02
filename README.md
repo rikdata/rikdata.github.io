@@ -1,4 +1,4 @@
-<span class="top-message">[:pencil2:Edit Document](https://github.com/rikdata/rikdata.github.io/edit/main/README.md)</span>
+<span class="top-message float-right">[:pencil2:Edit Document](https://github.com/rikdata/rikdata.github.io/edit/main/README.md)</span>
 
 # RikData
 RikData one App for all business systems
@@ -31,5 +31,5 @@ It also allows users to
 * Search documents with various parameters and save the query for future reference
 * Create charts and reports as per business requirements
 
-<a class="btn btn-light float-right" href="#/quickstart/" role="button">Quick Start</a>
+<a class="btn btn-light float-right" href="#/quickstart/?id=one-time-configuration" role="button">Quick Start</a>
 

@@ -8,8 +8,12 @@
   
 - Search
   - [Advanced Search](/search/)
+    - [Search Criterias](/search/?id=enter-search-criterias)
+    - [Search Results](/search/?id=search-result)
+    - [Save Query](/search/?id=save-search-result)
+    - [View Charts](/search/?id=view-charts)
   - [Quick Search](/search/?id=quick-search)
-  
+ 
 - Documents
   - [View](configuration.md)
   - [Update](themes.md)

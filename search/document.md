@@ -1,4 +1,0 @@
-
-## Search Document
-To search any document, enter value in any of the search fields and click on search button
-<img src="/images/ScreenShots/basic/Screenshot_20201102-011421.jpg" width="400"/>

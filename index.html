@@ -18,11 +18,43 @@
 .top-message a{
   text-decoration: none;
 }
+
+.sidebar{
+  padding-top: 60px;
+}
+
+.content{
+  padding-top: 50px;
+}
+
+.markdown-section{
+  max-width: 98%;
+}
+
+.icon.top{
+  transform: rotate(15deg);
+  margin-right: 5px;
+}
+
   </style>
 
 </head>
 <body>
-  <div id="app"></div>
+  <div>
+    <div class="navbar navbar-expand-md fixed-top  bg-white border-bottom shadow-sm">
+      <img class="icon top" src="/images/rikdata_logo_small.png" height="40"/>
+      <h5 class="my-0 mr-md-auto font-weight-normal">RikData OneApp</h5>
+      <nav class="my-2 my-md-0 mr-md-3">
+        <a class="p-2 text-dark" href="#">Andriod</a>
+        <a class="p-2 text-dark" href="#">iPhone</a>
+        <a class="p-2 text-dark" href="#">Support</a>
+      </nav>
+    </div>
+    
+  
+    <div id="app"> </div>
+  </div>
+
   <script>
     window.$docsify = {
       loadSidebar: true,

@@ -11,10 +11,11 @@
    - [Delete An Instance](/quickstart/?id=delete-an-instance)
    - [Create A New Instance](/quickstart/?id=create-a-new-instance)
   - [Dashboard](/dashboard/)
+  - [Navigation](/navigation/)
 
 - Search
-  - [Configuration](configuration.md)
-  - [Themes](themes.md)
+  - [Advanced Search](/search/)
+  - [Quick Search](/search/?id=quick-search)
   
 - Documents
   - [View](configuration.md)
@@ -27,17 +28,10 @@
   - [Update](themes.md)
   - [Create](configuration.md)
 
-- Chart
-  - [Configuration](configuration.md)
-  - [Themes](themes.md)
-
-- Customization
-  - [Configuration](configuration.md)
-  - [Themes](themes.md)
-
 - Configuration
-  - [Deploy](deploy.md)
-  - [Helpers](helpers.md)
-
-- [Awesome docsify](awesome.md)
-- [Changelog](changelog.md)
+  - [Navigation Menu](deploy.md)
+   - [Navigation Group](helpers.md)
+  - [Settings](helpers.md)  
+  - [Dashboard](helpers.md)  
+   - [Tab](helpers.md)
+  - [Charts](deploy.md)

@@ -1,3 +1,4 @@
+<span class="top-message float-right">[:pencil2:Edit Document](https://github.com/rikdata/rikdata.github.io/edit/main/quickstart/README.md)</span>
 ## One-Time Configuration
 
  <img src="/images/ScreenShots/galaxys7/Screenshot_20201017-220313.jpg" width="250"/>

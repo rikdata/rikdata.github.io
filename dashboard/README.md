@@ -1,4 +1,4 @@
-<span class="top-message">[:pencil2:Edit Document](https://github.com/rikdata/rikdata.github.io/edit/main/dashboard/README.md)</span>
+<span class="top-message float-right">[:pencil2:Edit Document](https://github.com/rikdata/rikdata.github.io/edit/main/dashboard/README.md)</span>
 ## Default Dashboard 
 
  <img src="/images/ScreenShots/dashboard/Screenshot_20201102-115528.jpg" width="250"/>
@@ -98,3 +98,5 @@ To create a Dashboard, click on the menu button (three dots ... on right side co
 The app will take you to a new dashboard form(same as the view/edit form). Enter all the information and click on save
 
 <img src="/images/ScreenShots/dashboard/Screenshot_20201102-132840.jpg" width="250"/>
+
+<a class="btn btn-light float-right" href="#/navigation/" role="button">Navigation Menu</a>

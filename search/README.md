@@ -1,0 +1,64 @@
+<span class="top-message float-right">[:pencil2:Edit Document](https://github.com/rikdata/rikdata.github.io/edit/main/search/README.md)</span>
+
+<img src="/images/ScreenShots/search/Screenshot_20201102-151649.jpg" width="250"/>
+ 
+You can navigate to the search screen by clicking on any menu on your dashboard. From search screen
+* you can search documents (such as invoice, purchase order)
+* create a new document
+* define a new chart
+* clear search result cache
+* update entity definition
+
+<img src="/images/ScreenShots/dashboard/Screenshot_20201102-132846.jpg" width="250"/>
+
+When you visit a search page for the first time, the app fetches all the related list of values from the server (Ex: when you visit sub inventory screen, the app will fetch a list of organizations). So, the app might take a couple of seconds to load and will show below the screen till it fetches all the data from the server.
+
+The list of values is cached for a session. So, suppose you visit another screen that needs the same list of values (Ex: Inventory Transaction screen that needs organization and sub inventory), the app will use the values from the cache.
+
+## Enter Search Criteria
+
+ <img src="/images/ScreenShots/search/Screenshot_20201102-151713.jpg" width="250"/>
+
+You can search using various keywords (such as %, *, =, =>, <=, <, >, etc ). Enter the keyword and corresponding field value before clicking on the search button
+
+<img src="/images/ScreenShots/search/Screenshot_20201102-151802.jpg" width="250"/>
+
+Fields that have a list of values are shown as a select field. All the other fields are shown as text fields.
+All the text fields show a camera icon. You can click on the camera icon to scan (Barcode/Text) any field value.
+
+<img src="/images/ScreenShots/search/Screenshot_20201102-151824.jpg" width="250"/>
+
+
+## Search Result
+
+ <img src="/images/ScreenShots/search/Screenshot_20201102-151830.jpg" width="250"/>
+
+From the search result screen
+* you can view documents (such as invoice, purchase order)
+* delete a document
+* you can create a transaction (such as issuing material to WO, completing move transaction)
+* save the search result and use it in charts
+
+<img src="/images/ScreenShots/search/Screenshot_20201102-151913.jpg" width="250"/>
+
+
+## Save Search Result
+
+<img src="/images/ScreenShots/search/Screenshot_20201102-151838.jpg" width="250"/>
+
+To save a query (all entered criteria and search result), click on the save query button. The app will create a new saved query and will show you the name of the new saved query. You can later change the name, description, etc. of the query.
+
+The app will automatically refresh the query result when you visit the saved query.
+You can use the saved query in tabs and dashboards.
+
+## View Charts
+
+Click on the "view chart" button on the result page to view charts defined for the entity. If charts are defined for the searched entity, then the app will show the list of all charts in floating action button (click on the button at right bottom corner)
+
+<img src="/images/ScreenShots/search/Screenshot_20201102-192836.jpg" width="250"/>
+
+<img src="/images/ScreenShots/search/Screenshot_20201102-192845.jpg" width="250"/>
+ 
+Click on the chart name, and the app will take you to the chart screen
+
+<img src="/images/ScreenShots/search/Screenshot_20201102-192854.jpg" width="250"/>

@@ -9,7 +9,7 @@
 - Search
   - [Advanced Search](/search/)
   - [Quick Search](/search/?id=quick-search)
-  
+
 - Documents
   - [View](configuration.md)
   - [Update](themes.md)
