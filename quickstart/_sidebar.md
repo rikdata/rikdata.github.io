@@ -3,8 +3,8 @@
 - Getting started
 
   - [Quick start](/quickstart/)
-   - [One-Time Configuration](/quickstart/one-time-configuration)
-   - [Login](/quickstart/login)
+   - [One-Time Configuration](/quickstart/?id=one-time-configuration)
+   - [Login](/quickstart/?id=login)
 
 - Search
   - [Configuration](configuration.md)
