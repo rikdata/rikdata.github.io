@@ -3,10 +3,8 @@
 - Getting started
 
   - [Quick start](/quickstart/)
-  - [Writing more pages](more-pages.md)
-  - [Custom navbar](custom-navbar.md)
-  - [Cover page](cover.md)
-
+  - [Dashboard](/dashboard/)
+  
 - Search
   - [Configuration](configuration.md)
   - [Themes](themes.md)

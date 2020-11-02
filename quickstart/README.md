@@ -59,7 +59,7 @@ Review the details and make modifications as required. Click on the Save button 
 
 ## Copy an instance
 
-To copy an instance, click on the delete button on the search result screen.
+To copy an instance, click on the copy button on the search result screen.
 
  <img src="/images/ScreenShots/getting-started/Screenshot_20201102-112352.jpg" width="250"/>
 

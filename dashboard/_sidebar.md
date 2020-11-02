@@ -3,14 +3,15 @@
 - Getting started
 
   - [Quick start](/quickstart/)
-   - [One-Time Configuration](/quickstart/?id=one-time-configuration)
-   - [Login](/quickstart/?id=login)
-   - [Instance Setup](/quickstart/?id=instance-setup)
-   - [View/Edit An Instance](/quickstart/?id=viewedit-an-instance)
-   - [Copy An Instance](/quickstart/?id=copy-an-instance)
-   - [Delete An Instance](/quickstart/?id=delete-an-instance)
-   - [Create A New Instance](/quickstart/?id=create-a-new-instance)
   - [Dashboard](/dashboard/)
+   - [Default Dashboard](/dashboard/?id=default-dashboard)
+   - [Dashboard Contents](/dashboard/?id=dashboard-contents)
+   - [Saved Queries](/dashboard/?id=saved-queries-in-dashboard)
+   - [Search Dashboards](/dashboard/?id=search-dashboards)
+   - [View/Edit A Dashboard](/dashboard/?id=viewedit-a-dashboard)
+   - [Copy A Dashboard](/dashboard/?id=copy-a-dashboard)
+   - [Delete A Dashboard](/dashboard/?id=delete-a-dashboard)
+   - [Create A Dashboard](/dashboard/?id=create-a-new-dashboard)
 
 - Search
   - [Configuration](configuration.md)
