@@ -1,6 +1,6 @@
 - Getting started
 
-  - [Quick start](/#/docs/quickstart.md)
+  - [Quick start](/docs/quickstart.md)
   - [Writing more pages](more-pages.md)
   - [Custom navbar](custom-navbar.md)
   - [Cover page](cover.md)
