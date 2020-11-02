@@ -28,11 +28,3 @@ It also allows users to
 * Create own dashboards showing data/menus important to a user
 * Search documents with various parameters and save the query for future reference
 * Create charts and reports as per business requirements
-
-
-## Search Document
-To search any document, enter value in any of the search fields and click on search button
-
-<img src="/images/ScreenShots/basic/Screenshot_20201102-011421.jpg" width="400"/>
-
-
