@@ -41,3 +41,19 @@ You can also navigate to the instance screen by clicking on Navigation Menu on t
 Click on the search button to search all the existing instances. If you want to search a specific instance, then enter the corresponding instance details in the search fields and then click on the search button.
 
 You can select the result format - table or list before clicking on the search button—the value defaults from your settings.
+
+The app will take you to the result screen.
+
+ <img src="/images/ScreenShots/galaxys7/Screenshot_20201017-220355.jpg" width="250"/>
+
+## View/Edit an Instance
+
+ <img src="/images/ScreenShots/getting-started/Screenshot_20201102-112303.jpg" width="250"/>
+
+Click on View / Fetch-View to view and update the details of an instance.
+*There is no difference between View / Fetch-View, for instance, as all the data are stored locally. However, for documents and traction (such as POs, WOs, Item., etc.) Fetch-View always fetches data from the server but View the first check if the data has been fetched for the current session. If it finds any existing data in the cache, then it shows the data.
+
+ <img src="/images/ScreenShots/getting-started/Screenshot_20201102-112343.jpg" width="250"/>
+
+Review the details and make modifications as required. Click on the Save button at the top right corner to save the instance details. Click on the back buttons at the top to navigate back to the login screen to complete the login 
+
