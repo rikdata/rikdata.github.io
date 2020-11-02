@@ -34,7 +34,7 @@ Click on the plus sign on the login page, and the app will take you to the insta
 
  <img src="/images/ScreenShots/galaxys7/Screenshot_20201017-220348.jpg" width="250"/>
 
-You can also navigate to the instance screen by clicking on Navigation Menu on the User menu.
+You can also navigate to the instance screen by clicking on Application Instance on the User menu.
 
  <img src="/images/ScreenShots/basic/Screenshot_20201102-011158.jpg" width="250"/>
  
