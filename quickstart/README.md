@@ -55,5 +55,39 @@ Click on View / Fetch-View to view and update the details of an instance.
 
  <img src="/images/ScreenShots/getting-started/Screenshot_20201102-112343.jpg" width="250"/>
 
-Review the details and make modifications as required. Click on the Save button at the top right corner to save the instance details. Click on the back buttons at the top to navigate back to the login screen to complete the login 
+Review the details and make modifications as required. Click on the Save button at the top right corner to save the instance details. Click on the back buttons at the top to navigate back to the login screen to complete the login.
+
+## Copy an instance
+
+To copy an instance, click on the delete button on the search result screen.
+
+ <img src="/images/ScreenShots/getting-started/Screenshot_20201102-112352.jpg" width="250"/>
+
+The app will copy all the details of the selected instance and will take you to the view/edit form. Enter/Modify all the required information and click on save
+
+ <img src="/images/ScreenShots/getting-started/Screenshot_20201102-112343.jpg" width="250"/>
+
+## Delete an Instance
+
+To delete an instance, click on the delete button on the search result screen.
+
+ <img src="/images/ScreenShots/getting-started/Screenshot_20201102-112303.jpg" width="250"/>
+
+The app will show you a confirmation dialog box.
+
+ <img src="/images/ScreenShots/getting-started/Screenshot_20201102-112318.jpg" width="250"/>
+
+Click on "Yes" to delete the instance. Click on "No" to cancel the action.
+
+
+## Create a new instance
+
+To create an instance, click on the menu button (three dots ... on right side corner) on the search screen page and select "Create New".
+
+ <img src="/images/ScreenShots/getting-started/Screenshot_20201102-112352.jpg" width="250"/>
+
+The app will take you to a new instance form(same as the view/edit form). Enter all the information and click on save
+
+ <img src="/images/ScreenShots/getting-started/Screenshot_20201102-112343.jpg" width="250"/>
+
 
