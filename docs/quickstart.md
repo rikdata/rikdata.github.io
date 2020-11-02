@@ -1,38 +1,10 @@
-# RikData
-RikData one App for all business systems
+## One-Time Configuration
 
-| Dashboard  | Search | Result |
-| ------------- | ------------- | ------------- |
-| <img src="/images/ScreenShots/basic/Screenshot_20201102-011149.jpg" width="250"/> | <img src="/images/ScreenShots/basic/Screenshot_20201102-011429.jpg" width="250"/>  | <img src="/images/ScreenShots/basic/Screenshot_20201102-011506.jpg" width="250"/>  |
-| Navigation  | Menu | Settings |
-| <img src="/images/ScreenShots/basic/Screenshot_20201102-011353.jpg" width="250"/> | <img src="/images/ScreenShots/basic/Screenshot_20201102-011412.jpg" width="250"/>  | <img src="/images/ScreenShots/basic/Screenshot_20201102-011220.jpg" width="250"/>  |
-| Qucik Menu  | Configuration | Settings |
-| <img src="/images/ScreenShots/basic/Screenshot_20201102-011158.jpg" width="250"/> | <img src="/images/ScreenShots/basic/Screenshot_20201102-011210.jpg" width="250"/>  | <img src="/images/ScreenShots/galaxys7/Screenshot_20200823-114036.jpg" width="250"/>  |
-
-The idea behind RikData is to Simplify, Standardize, and Synchronize different business processes using a single app.
-RikData is primarily designed as a single app for accessing all modules of Oracle Cloud Application; it can be used for any other business systems such as SAP HANA S/4 (Cloud and On-Premise). The default configuration allows users to use Oracle Cloud (2600+ functionalities) and all the SAP HANA s/4 features available via REST. 
-
-You can use RikData One App with your internal MES/PLM and Quality systems with Oracle cloud without creating any customization. 
-
-###### Configuraion
-RikData allows users to configure all forms and fields: 
-* Which forms should be visible to which user. (Ex: A technician can only issue materials to a work order but can not edit the work order) 
-* Which fields of a single form visible to which user(Ex: Buyers can view and edit purchasing related fields on item maters and Planners can view and edit only planning-related fields on item master)
-* What should be the sequence of each field in a form (Ex: while doing a material transaction, the user will view item number before a unit of measure)
-* Which fields are mandatory to save a document or complete a transaction (the field might or might not be mandatory in Oracle /SAP).
-* The default value for each field
-
-###### Standard Functionality
-It also allows users to
-* Scan all fields
-* Create own dashboards showing data/menus important to a user
-* Search documents with various parameters and save the query for future reference
-* Create charts and reports as per business requirements
-
-
-## Search Document
-To search any document, enter value in any of the search fields and click on search button
-
-<img src="/images/ScreenShots/basic/Screenshot_20201102-011421.jpg" width="400"/>
-
-
+ <img src="/images/ScreenShots/galaxys7/Screenshot_20201017-220313.jpg" width="250"/>
+ When you open the app for the first time, the system will show you the above screen. You can complete the configuration in 2 different ways.
+ 
+ * If you have received a configuration file Link and guide from your admin, then follow the steps as per the guide
+ 
+ * Else click on the start configuration button. The default configuration will load all the paths for Oracle Cloud Application and SAP Hana S/4 Cloud.
+Later, you can modify the configuration as per your business need.
+If you are responsible for configuration at your organization, you can configure all the forms, fields, charts, queries, etc. Export the configuration file and load it to a server (ex: github.com) from where all users can import the configuration
