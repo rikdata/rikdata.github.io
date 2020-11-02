@@ -1,6 +1,8 @@
 ## One-Time Configuration
 
  <img src="/images/ScreenShots/galaxys7/Screenshot_20201017-220313.jpg" width="250"/>
+ 
+ 
  When you open the app for the first time, the system will show you the above screen. You can complete the configuration in 2 different ways.
  
  * If you have received a configuration file Link and guide from your admin, then follow the steps as per the guide
