@@ -1,3 +1,5 @@
+- [Home](/)
+
 - Getting started
 
   - [Quick start](/docs/quickstart.md)
