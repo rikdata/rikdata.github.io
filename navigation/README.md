@@ -17,4 +17,4 @@
 
  To vuew all the menus as a list without any group disable the "ShowExpansionTileForMenus" button on settings screen
  
- <a class="btn btn-light float-right" href="#/dashboard/?id=default-dashboard" role="button">Dashboard</a>
+ <a class="btn btn-light float-right" href="#/search/" role="button">Search</a>

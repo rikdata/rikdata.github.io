@@ -11,10 +11,8 @@
   - [Quick Search](/search/?id=quick-search)
   
 - Documents
-  - [View](configuration.md)
-  - [Update](themes.md)
-  - [Create](configuration.md)
-  - [Delete](themes.md)
+  - [View Document](/document/?id=view-document)
+  - [Maintain Document](/document/?id=maintain-document)
 
 - Transactions
   - [View](configuration.md)

@@ -59,6 +59,20 @@ Click on the "view chart" button on the result page to view charts defined for t
 
 <img src="/images/ScreenShots/search/Screenshot_20201102-192845.jpg" width="250"/>
  
-Click on the chart name, and the app will take you to the chart screen
+Click on the chart name, and the app will take you to the chart screen.
 
 <img src="/images/ScreenShots/search/Screenshot_20201102-192854.jpg" width="250"/>
+
+## Quick Search
+
+Currently, the quick search allows you to search for a navigation menu. If you use the default configuration, the app will create 1500+ navigation menus, and at the beginning, it might not be easy to find a specific navigation path.  So, you can use the quick search to search such menus. You can also add menus to your favourite for easy access.
+
+<img src="/images/ScreenShots/search/Screenshot_20201102-214800.jpg" width="250"/>
+
+To access quick search, click on the search icon on the dashboard (Icon is shown on the right top corner). In the quick search screen, enter the value you want to search and click on the search icon next to it.
+
+When you enter more than three characters in the search field, the app will auto query the value and show the matched result.
+
+<img src="/images/ScreenShots/search/Screenshot_20201102-214814.jpg" width="250"/>
+
+<a class="btn btn-light float-right" href="#/document/" role="button">Document</a>
