@@ -17,7 +17,13 @@ The settings screen allows the user to configure the application for defaulting 
 #### Default Theme
 The default theme controls the application background and text colors. It also controls other color combinations such as progress bar, circular progress indicator, icon colors, etc. The application comes with several color themes; choose the theme that best suits your test. You need to close and reopen the application for the theme to take effect.
 
-Several documents contain line-level information(such as Purchase Order, Work Order (Production Order in SAP), BOM, etc.). Line details are shown in a separate tab, and as one header can contain multiple lines, line details are shown as a list. You need to click on the expand button to view the details of a line.
+<img src="/images/ScreenShots/galaxys7/Screenshot_20201017-212513.jpg" width="250"/>
+<img src="/images/ScreenShots/galaxys7/Screenshot_20201017-212521.jpg" width="250"/>
+<img src="/images/ScreenShots/galaxys7/Screenshot_20201017-215952.jpg" width="250"/>
+<img src="/images/ScreenShots/galaxys7/Screenshot_20201017-215921.jpg" width="250"/>
+<img src="/images/ScreenShots/galaxys7/Screenshot_20201017-220241.jpg" width="250"/>
+<img src="/images/ScreenShots/galaxys7/Screenshot_20201017-220201.jpg" width="250"/>
+
 
 #### Default Search Result Display
 You can view search results in tabular and list format. For transactions, you have to query data in list format. The default search result display controls how the app will show the search result if you don't select anything before search. If you change the display type before the search, then the application will cache the current session's value and show all the other results in the same format. If you need to view it in a different format, then change it before doing the next search.
@@ -91,3 +97,6 @@ Click on the delete button to delete the favorite. Click on the view button to v
 <img src="/images/ScreenShots/configuration/Screenshot_20201103-190311.jpg" width="250"/>
 
 Change any field value as required and click on the Save button.
+
+<a class="btn btn-light float-right" href="#/quickstart/" role="button">Getting Started</a>
+<a class="btn btn-light float-right" href="https://github.com/rikdata/rikdata.github.io/issues" role="button">Issue Log</a>

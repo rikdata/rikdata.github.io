@@ -1,6 +1,6 @@
 <span class="top-message float-right">[:pencil2:Edit Document](https://github.com/rikdata/rikdata.github.io/edit/main/transaction/README.md)</span>
 
-Material Transaction is an area in which SAP lags way behind Oracle in releasing REST API. So, if you are using Oracle cloud, then you can do almost all transactions such as 
+Material Transaction is an area in which SAP lags way behind Oracle in releasing REST APIs. So, if you are using Oracle cloud, then you can do almost all transactions such as 
 * Inventory - Misc. Issue, Misc. Receipt, Sub Inventory Transfer, Cycle Count Entry, etc
 * Manufacturing - Components Issue/Return, Move Transaction (Including the last operation to Complete WO), Resource Transaction, Start/Stop, etc
 * Inventory for Sales - Picking, Shipping
@@ -318,4 +318,4 @@ Scroll to the Serail or Lot tab to view the Serial and Lot Information
 <img src="/images/ScreenShots/transaction/Screenshot_20201017-214928.jpg" width="250"/>
 
 
-<a class="btn btn-light float-right" href="#/navigation/" role="button">Navigation Menu</a>
+<a class="btn btn-light float-right" href="#/configuration/" role="button">Configuration</a>

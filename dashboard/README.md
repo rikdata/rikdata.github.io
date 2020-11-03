@@ -99,4 +99,74 @@ The app will take you to a new dashboard form(same as the view/edit form). Enter
 
 <img src="/images/ScreenShots/dashboard/Screenshot_20201102-132840.jpg" width="250"/>
 
+
+
+# Tab
+Each dashboard contains several tabs, and tab contains contents: Navigation Menus, Charts, and Query Results.
+So first, you need to define tabs and then assign them to dashboards.
+
+<img src="/images/ScreenShots/configuration/Screenshot_20201103-190057.jpg" width="250"/>
+
+## Search Tabs
+
+Click on the tab icon on the configuration page to navigate to the search tabs screen.
+
+<img src="/images/ScreenShots/tabs/Screenshot_20201103-234539.jpg" width="250"/>
+
+Click on the search button to search all the existing dashboards. If you want to search a specific tab, then enter the corresponding tab details in the search fields and then click on the search button.
+
+You can select the result format - table or list before clicking on the search button—the value defaults from your settings.
+
+The app will take you to the result screen.
+
+<img src="/images/ScreenShots/tabs/Screenshot_20201103-234547.jpg" width="250"/>
+
+## View/Edit a Tab
+
+<img src="/images/ScreenShots/tabs/Screenshot_20201103-234551.jpg" width="250"/>
+
+Click on View / Fetch-View to view and update the details of a tab.
+*There is no difference between View / Fetch-View, for a tab, as all the data are stored locally. However, for documents and transaction (such as POs, WOs, Item., etc.) Fetch-View always fetches data from the server but View the first check if the data has been fetched for the current session. If it finds any existing data in the cache, then it shows the data.
+
+<img src="/images/ScreenShots/tabs/Screenshot_20201103-234559.jpg" width="250"/>
+
+Review the details and make modifications as required. Click on the Save button at the top right corner to save the tab details.
+
+## Copy a Tab
+
+To copy a Tab, click on the copy button on the search result screen.
+
+<img src="/images/ScreenShots/tabs/Screenshot_20201103-234551.jpg" width="250"/>
+
+The app will copy all the details of the selected tab and will take you to the view/edit form. Enter/Modify all the required information and click on save
+
+Depending on the content type you select on the main tab, the app will show different values on tab content.
+
+<img src="/images/ScreenShots/tabs/Screenshot_20201103-234607.jpg" width="250"/>
+
+Enable the specific tab content (a query, or a chart, or several menus) you want to show on this tab
+
+## Delete a Tab
+
+To delete a tab, click on the delete button on the search result screen.
+
+<img src="/images/ScreenShots/tabs/Screenshot_20201103-234551.jpg" width="250"/>
+
+The app will show you a confirmation dialog box.
+
+<img src="/images/ScreenShots/dashboard/Screenshot_20201102-132819.jpg" width="250"/>
+
+Click on "Yes" to delete the dashboard. Click on "No" to cancel the action.
+
+
+## Create a new Tab
+
+To create a Dashboard, click on the menu button (three dots ... on right side corner) on the search screen page and select "Create New".
+
+<img src="/images/ScreenShots/dashboard/Screenshot_20201102-132846.jpg" width="250"/>
+
+The app will take you to a new dashboard form(same as the view/edit form). Enter all the information and click on save. Initially, the app will show only one tab. So, you need to select a content tab and re-open the screen again after saving it to view the second tab. In the second tab, you can select the contents you want to show on this tab.
+
+<img src="/images/ScreenShots/tabs/Screenshot_20201103-234559.jpg" width="250"/>
+
 <a class="btn btn-light float-right" href="#/navigation/" role="button">Navigation Menu</a>

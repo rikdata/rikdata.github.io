@@ -6,13 +6,15 @@
  
  When you open the app for the first time, the app will show you the above screen. You can complete the configuration in 2 different ways.
  
- * If you have received a configuration file Link and guide from your admin, then follow the steps as per the guide
+ * If you have received a configuration file link and guide from your admin, then follow the steps as per the guide
  
- * Else click on the start configuration button. The default configuration will load all the paths for Oracle Cloud Application and SAP Hana S/4 Cloud.
-Later, you can modify the configuration as per your business need.
-If you are responsible for configuration at your organization, you can configure all the forms, fields, charts, queries, etc. Export the configuration file and load it to a server (ex: github.com) from where all users can import the configuration
+ * Else click on the start configuration button that will load the default configuration.
 
-The default configuration can take up to 3-4 minutes. However, a custom configuration could less time depending upon the number of configurations the app needs to complete.
+If you are from Oracle 11i/R12 background, you can consider the default configuration the same as a vision instance installation; it will create all navigation paths with some sample charts, queries, and dashboard. For those from SAP ECC background, you can consider default configuration as an IDES installation.
+
+The default configuration will load all the paths for Oracle Cloud Application and SAP Hana S/4 Cloud. Later, you can modify the configuration as per your business need. If you are responsible for configuration at your organization, you can configure all the forms, fields, charts, queries, etc. Export the configuration file and load it to a server (ex: github.com) from where all other users can import the configuration
+
+The default configuration can take up to 3-4 minutes. However, a custom configuration usually will take less time depending upon the number of configurations the app needs to complete.
 Once the configuration is complete, the app will take you to the login screen.
 
 ## Login
@@ -52,7 +54,7 @@ The app will take you to the result screen.
  <img src="/images/ScreenShots/getting-started/Screenshot_20201102-112303.jpg" width="250"/>
 
 Click on View / Fetch-View to view and update the details of an instance.
-*There is no difference between View / Fetch-View, for instance, as all the data are stored locally. However, for documents and traction (such as POs, WOs, Item., etc.) Fetch-View always fetches data from the server but View the first check if the data has been fetched for the current session. If it finds any existing data in the cache, then it shows the data.
+*There is no difference between View / Fetch-View, for instance, as all the data are stored locally. However, for documents and transactions (such as POs, WOs, Item., etc.) Fetch-View always fetches data from the server but View the first check if the data has been fetched for the current session. If it finds any existing data in the cache, then it shows the data.
 
  <img src="/images/ScreenShots/getting-started/Screenshot_20201102-112343.jpg" width="250"/>
 

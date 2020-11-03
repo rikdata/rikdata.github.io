@@ -12,6 +12,12 @@
    - [Copy A Dashboard](/dashboard/?id=copy-a-dashboard)
    - [Delete A Dashboard](/dashboard/?id=delete-a-dashboard)
    - [Create A Dashboard](/dashboard/?id=create-a-new-dashboard)
+  - [Tab](/dashboard/?id=tab)
+   - [Search Tabs](/dashboard/?id=search-tabs)
+   - [View/Edit A Tab](/dashboard/?id=viewedit-a-tab)
+   - [Copy A Tab](/dashboard/?id=copy-a-tab)
+   - [Delete A Tab](/dashboard/?id=delete-a-tab)
+   - [Create A Tab](/dashboard/?id=create-a-new-tab)
   - [Navigation](/navigation/)
 
 - Search
