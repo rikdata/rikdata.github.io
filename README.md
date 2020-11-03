@@ -1,7 +1,24 @@
 <span class="top-message float-right">[:pencil2:Edit Document](https://github.com/rikdata/rikdata.github.io/edit/main/README.md)</span>
 
 # RikData
-RikData one App for all business systems
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">OneApp for all business systems</h1>
+    <p class="lead">The idea behind RikData is to Simplify, Standardize, and Synchronize different business processes using a single app.</p>
+  </div>
+</div>
+
+RikData is primarily designed as a single app for accessing all modules of Oracle Cloud Application; it can be used for any other business systems such as SAP HANA S/4 (Cloud and On-Premise). The default configuration allows users to use Oracle Cloud (2600+ functionalities) and all the SAP HANA s/4 features available via ODATA. 
+
+?> You can check which functionalities are currently supported by these two products on their official documentation site.
+* SAP: https://api.sap.com/ (Only ODATA APIs)
+* Oracle: https://docs.oracle.com/en/cloud/saas/index.html (Only REST APIs)
+
+You can use RikData One App with your internal MES/PLM and Quality systems with Oracle cloud & SAP Hana S/4 without creating any customization. You can use any business systems that provide REST APIs similar to the REST APIs provided by either Oracle Cloud or SAP Hana S/4 cloud. 
+
+
+
 
 | Dashboard  | Search | Result |
 | ------------- | ------------- | ------------- |
@@ -9,12 +26,9 @@ RikData one App for all business systems
 | Navigation  | Menu | Settings |
 | <img src="/images/ScreenShots/basic/Screenshot_20201102-011353.jpg" width="250"/> | <img src="/images/ScreenShots/basic/Screenshot_20201102-011412.jpg" width="250"/>  | <img src="/images/ScreenShots/basic/Screenshot_20201102-011220.jpg" width="250"/>  |
 | Qucik Menu  | Configuration | Settings |
-| <img src="/images/ScreenShots/basic/Screenshot_20201102-011158.jpg" width="250"/> | <img src="/images/ScreenShots/basic/Screenshot_20201102-011210.jpg" width="250"/>  | <img src="/images/ScreenShots/galaxys7/Screenshot_20200823-114036.jpg" width="250"/>  |
+| <img src="/images/ScreenShots/basic/Screenshot_20201102-011158.jpg" width="250"/> | <img src="/images/ScreenShots/basic/Screenshot_20201102-011210.jpg" width="250"/>  | <img src="/images/ScreenShots/document/Screenshot_20200823-114036.jpg" width="250"/>  |
 
-The idea behind RikData is to Simplify, Standardize, and Synchronize different business processes using a single app.
-RikData is primarily designed as a single app for accessing all modules of Oracle Cloud Application; it can be used for any other business systems such as SAP HANA S/4 (Cloud and On-Premise). The default configuration allows users to use Oracle Cloud (2600+ functionalities) and all the SAP HANA s/4 features available via REST. 
 
-You can use RikData One App with your internal MES/PLM and Quality systems with Oracle cloud without creating any customization. 
 
 ###### Configuraion
 RikData allows users to configure all forms and fields: 
