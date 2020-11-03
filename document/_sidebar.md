@@ -23,14 +23,13 @@
    - [Create a new document](/document/?id=create-a-new-document)
 
 - Transactions
-  - [View](configuration.md)
-  - [Update](themes.md)
-  - [Create](configuration.md)
+  - [Inventory](/transaction/?id=inventory-transactions)
+  - [Manufacturing](/transaction/?id=manufacturing-transactions)
 
 - Configuration
-  - [Navigation Menu](deploy.md)
-   - [Navigation Group](helpers.md)
-  - [Settings](helpers.md)  
-  - [Dashboard](helpers.md)  
-   - [Tab](helpers.md)
-  - [Charts](deploy.md)
+  - [Settings](/configuration/?id=inventory-transactions) 
+  - [Navigation Menu](/configuration/?id=navigation-menu)
+  - [Dashboard](/configuration/?id=dashboard) 
+  - [Charts](/configuration/?id=charts)
+  - [Favourite](/configuration/?id=favourite)
+  - [Query](/configuration/?id=query)

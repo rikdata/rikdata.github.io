@@ -88,4 +88,4 @@ To create a document, click on the menu button (three dots ... on right side cor
 The app will take you to a new document form(same as the view/edit form). Enter all the information and click on save
 
 
-<a class="btn btn-light float-right" href="#/navigation/" role="button">Navigation Menu</a>
+<a class="btn btn-light float-right" href="#/transaction/" role="button">Transaction</a>

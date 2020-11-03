@@ -34,7 +34,7 @@ You can create saved queries and assign it to your dashboard for easy access. Fo
 Depending on the type of saved queries, the app will allow various activities
 * You can navigate from the dashboard data to specific data. Ex: If you have created a query for all open Work Orders, then you can navigate to a
 specific work order from the dashboard result
-* You delete a record
+* You can delete a record
 * You can copy a record
 
 ## Search Dashboards
@@ -62,7 +62,7 @@ The app will take you to the result screen.
 <img src="/images/ScreenShots/dashboard/Screenshot_20201102-132834.jpg" width="250"/>
 
 Click on View / Fetch-View to view and update the details of a Dashboard.
-*There is no difference between View / Fetch-View, for a dashboard, as all the data are stored locally. However, for documents and traction (such as POs, WOs, Item., etc.) Fetch-View always fetches data from the server but View the first check if the data has been fetched for the current session. If it finds any existing data in the cache, then it shows the data.
+*There is no difference between View / Fetch-View, for a dashboard, as all the data are stored locally. However, for documents and transaction (such as POs, WOs, Item., etc.) Fetch-View always fetches data from the server but View the first check if the data has been fetched for the current session. If it finds any existing data in the cache, then it shows the data.
 
 <img src="/images/ScreenShots/dashboard/Screenshot_20201102-132840.jpg" width="250"/>
 
