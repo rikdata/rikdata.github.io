@@ -20,8 +20,8 @@
 
 - Configuration
   - [Settings](/configuration/?id=settings) 
-  - [Navigation Menu](/configuration/?id=navigation-menu)
-  - [Dashboard](/configuration/?id=dashboard) 
-  - [Charts](/configuration/?id=charts)
   - [Favourite](/configuration/?id=favourite)
+  - [Menu Path](/configuration/?id=menu-path)
+  - [Charts](/configuration/?id=charts)
   - [Query](/configuration/?id=query)
+

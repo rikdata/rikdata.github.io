@@ -20,7 +20,12 @@
 
 - Configuration
   - [Settings](/configuration/?id=settings) 
-  - [Navigation Menu](/configuration/?id=navigation-menu)
-  - [Charts](/configuration/?id=charts)
   - [Favourite](/configuration/?id=favourite)
+  - [Menu Path](/configuration/?id=menu-path)
+   - [Search Menu Path](/configuration/?id=search-menu-paths)
+   - [View/Edit Paths](/configuration/?id=viewedit-a-menu-path)
+   - [Copy Paths](/configuration/?id=copy-a-menu-path)
+   - [Delete a path](/configuration/?id=delete-a-menu-path)
+   - [Create a new path](/configuration/?id=create-a-new-menu-path)
+  - [Charts](/configuration/?id=charts)
   - [Query](/configuration/?id=query)

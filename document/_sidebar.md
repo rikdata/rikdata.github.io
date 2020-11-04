@@ -27,8 +27,8 @@
   - [Manufacturing](/transaction/?id=manufacturing-transactions)
 
 - Configuration
-  - [Settings](/configuration/?id=inventory-transactions) 
-  - [Navigation Menu](/configuration/?id=navigation-menu)
-  - [Charts](/configuration/?id=charts)
+  - [Settings](/configuration/?id=settings) 
   - [Favourite](/configuration/?id=favourite)
+  - [Menu Path](/configuration/?id=menu-path)
+  - [Charts](/configuration/?id=charts)
   - [Query](/configuration/?id=query)
