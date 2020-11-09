@@ -22,7 +22,7 @@
    - [Confirm Pick Wave](/transaction/?id=confirm-pick-wave-pick-transaction)
    - [Ship Confirm](/transaction/?id=ship-confirm)
    - [Receive](/transaction/po/?id=receiving-receipt)
-   - [Inspect](/transaction/po/?id=receiving-receipt)
+   - [Inspect](/transaction/po/?id=inspect-receipts)
    - [Put Away](/transaction/po/?id=put-aways)
    - [Cycle Count](/transaction/?id=miscellaneous-issue-receipt)
    - [Serial & Lot](/transaction/?id=seriallot-number)
