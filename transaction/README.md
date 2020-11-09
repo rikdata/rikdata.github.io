@@ -16,7 +16,7 @@ This guide covers the second approach as it's more convenient to do a transactio
 
 ## Miscellaneous Issue / Receipt
 
-To do a miscellaneous issue/receipt transaction, first, navigate to the item search form from your dashboard/favorite.
+First, to do a miscellaneous issue/receipt transaction, navigate to the item search form from your dashboard/favorite.
 
 <img src="/images/ScreenShots/transaction/Screenshot_20201017-213449.jpg" width="250"/>
 
@@ -35,7 +35,7 @@ Click on the Menu against an item that you want to transact and click on the sel
 
 Next, select the transaction type (ex: Misc Issue / Receipt)
 
-!> Even though the app shows all transaction types on this screen. Don't use it for WIP/PO/SO related transactions as you might have to manually enter all the information. There are better ways to do PO Receipt and WIP Material Transactions by first searching the document.
+!> Even though the app shows all transaction types on this screen. Don't use it for WIP/PO/SO related transactions as you might have to enter all the information manually. There are better ways to do PO Receipt and WIP Material Transactions by first searching the document.
 
 <img src="/images/ScreenShots/transaction/Screenshot_20201017-213626.jpg" width="250"/>
 <img src="/images/ScreenShots/transaction/Screenshot_20201017-213634.jpg" width="250"/>
@@ -62,6 +62,125 @@ Next, click on the Save button.
 
 <img src="/images/ScreenShots/transaction/Screenshot_20201017-213729.jpg" width="250"/>
 <img src="/images/ScreenShots/transaction/Screenshot_20201017-213737.jpg" width="250"/>
+
+
+## Create Pick Wave
+
+A pick wave is a batch of shipment lines that are pick released together based on certain business-related criteria. To create a pick, navigate to the sales order form from your dashboard/favorite.
+
+<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_01A.JPG" width="250"/>
+
+Enter the order/customer details or any other criteria in the search form and click on the search button.
+
+<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_01.JPG" width="250"/>
+
+Click on the Menu against an item that you want to transact and click on the select button.
+
+<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_02.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_03.JPG" width="250"/>
+
+Next, select the transaction type as pick wave.
+
+The app will fetch all the related information required to complete the pick wave process and will take you to a confirmation screen where you need to validate all information and change any detail as required.
+
+
+<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_04.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_05.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_06.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_07.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_08.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_09.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_10.JPG" width="250"/>
+
+Enable "CreateShipmentsFlag," and "PickReleaseFlag" if you want to pick release the orders.
+
+Scroll up and down to view all the fields. You can configure the navigation menu for Pickwave to control what fields should be shown to the user and in which sequence. You can also make fields mandatory and read-only depending on your business requirements.
+
+Next, click on the Save button. You can review the picklist details on the Oracle cloud.
+
+<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_100.JPG" width="750"/>
+<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_101.JPG" width="750"/>
+<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_102.JPG" width="750"/>
+
+In case of any error, the system will show you show the error message received from the Oracle cloud.
+
+
+## Confirm Pick Wave (Pick Transaction)
+
+<img src="/images/ScreenShots/transaction/confirm_pick_wave/rikdata_confirm_pick_wave_102.JPG" width="750"/>
+
+The Pick Transactions resource allows confirming picks on a pick slip. It allows capturing the quantity and inventory details like subinventory, locator, lot, and serial numbers along with the necessary exceptions. To confirm pick, navigate to the pick slip details search form from your dashboard/favorite.
+
+<img src="/images/ScreenShots/transaction/confirm_pick_wave/rikdata_confirm_pick_wave_01A.JPG" width="250"/>
+
+Enter the order/customer details or any other criteria in the search form and click on the search button.
+
+<img src="/images/ScreenShots/transaction/confirm_pick_wave/rikdata_confirm_pick_wave_01.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/confirm_pick_wave/rikdata_confirm_pick_wave_02.JPG" width="250"/>
+
+
+Click on the Menu against an item that you want to transact and click on the select button.
+
+<img src="/images/ScreenShots/transaction/confirm_pick_wave/rikdata_confirm_pick_wave_03.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/confirm_pick_wave/rikdata_confirm_pick_wave_04.JPG" width="250"/>
+
+Next, select the transaction type as pick transaction.
+
+<img src="/images/ScreenShots/transaction/confirm_pick_wave/rikdata_confirm_pick_wave_05.JPG" width="250"/>
+
+The app will fetch all the related information required to complete the pick wave process and will take you to a confirmation screen where you need to validate all information and enter some other information such as Quantity, Subinventory,  etc.
+
+<img src="/images/ScreenShots/transaction/confirm_pick_wave/rikdata_confirm_pick_wave_07.JPG" width="250"/>
+
+Scroll up and down to view all the fields. You can configure the navigation menu for Pickwave to control what fields should be shown to the user and in which sequence. You can also make fields mandatory and read-only depending on your business requirements.
+
+Next, click on the Save button.
+
+<img src="/images/ScreenShots/transaction/confirm_pick_wave/rikdata_confirm_pick_wave_103.JPG" width="750"/>
+
+
+
+## Ship Confirm
+
+Ship confirm is the process of confirming that items have shipped through a shipment against a sales order/internal order. A shipment comprises a set of shipment lines, grouped by certain common shipping attributes, that are scheduled to be shipped to a customer's ship-to location on a specific date and time. You can include items from different sales orders in a shipment. You can either manually or automatically group shipment lines to create a shipment.
+
+To do a ship confirm a transaction, navigate to the shipments search form from your dashboard/favorite.
+
+<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_01.JPG" width="250"/>
+
+Enter the shipment details or any other criteria in the search form and click on the search button.
+
+<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_02.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_03.JPG" width="250"/>
+
+
+Click on the Menu against an item that you want to transact and click on the select button.
+
+<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_04.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_05.JPG" width="250"/>
+
+Next, select the transaction type as the shipment transaction request.
+
+<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_06.JPG" width="250"/>
+
+The app will fetch all the related information required to complete the shipment process and will take you to a confirmation screen where you need to validate all information and enter some other information such as Action Code, Carrier, etc.
+
+<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_07.JPG" width="250"/>
+
+Scroll up and down to view all the fields. You can configure the navigation menu for shipment transactions to control what fields should be shown to the user and in which sequence. You can also make fields mandatory and read-only depending on your business requirements.
+
+<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_08.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_09.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_10.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_11.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_12.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_13.JPG" width="250"/>
+
+Next, click on the Save button.
+
+The system will complete the transaction and will show you the below message.
+
+<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_14.JPG" width="250"/>
 
 
 ## Serial/Lot Number
@@ -104,7 +223,7 @@ The app will show all the available work orders with operation details. To view 
 
 <img src="/images/ScreenShots/transaction/Screenshot_20201017-213017.jpg" width="250"/>
 
-Click on the Menu against an operation that you want to do material transaction and click on the select button.
+Click on the Menu against an operation that you want to do a material transaction and click on the select button.
 
 Next, select "Material Transaction" in the transaction type list of values.
 
@@ -167,13 +286,13 @@ Enter the item or organization code or work order number in the search form and 
 
 The app will show all the available work orders with operation details. To view the work order details (such item, description, dates, etc.), you click on the expand button, and the app will show you all the details. You can also visit to the work order details form by clicking on the Fetch/View button, but that's not required to complete a transaction. If you do navigate to the work order details screen, then use the back button to navigate back to the current search result screen.
 
-Click on the Menu against an operation that you want to do resource transaction and click on the select button.
+Click on the Menu against an operation that you want to do resource transactions and click on the select button.
 
 Next, select "Resource Transaction" in the transaction type list of values.
 
 <img src="/images/ScreenShots/transaction/Screenshot_20201017-213235.jpg" width="250"/>
 
-The app will take you to a confirmation screen where you need to validate all information and enter some other information such as Quantity, Unit of Mesaure, Resource etc.
+The app will take you to a confirmation screen where you need to validate all information and enter some other information such as Quantity, Unit of Measure, Resource, etc.
 
 <img src="/images/ScreenShots/transaction/Screenshot_20201017-213259.jpg" width="250"/>
 
@@ -199,7 +318,7 @@ Next, click on the Save button.
 
 ## Operation Move
 
-To do a operation move transaction against a Work Order, first, navigate to the dispatch list form.
+To do an operation move transaction against a Work Order, first, navigate to the dispatch list form.
 
 <img src="/images/ScreenShots/transaction/Screenshot_20201017-213000.jpg" width="250"/>
 
@@ -224,7 +343,7 @@ Next, select "Operation Transaction" in the transaction type list of values.
 
 <img src="/images/ScreenShots/transaction/Screenshot_20201017-213149.jpg" width="250"/>
 
-The app will take you to a confirmation screen where you need to validate all information and enter some other information such as To Dispatch code, reason code, etc
+The app will take you to a confirmation screen where you need to validate all information and enter some other information such as To Dispatch code, reason code, etc.
 
 <img src="/images/ScreenShots/transaction/Screenshot_20201017-213201.jpg" width="250"/>
 
@@ -244,9 +363,9 @@ Next, click on the Save button.
 <img src="/images/ScreenShots/transaction/Screenshot_20201017-213223.jpg" width="250"/>
 
 
-## Operation Start Stop
+## Operation Start-Stop
 
-To do a operation start/stop transaction against a Work Order, first, navigate to the dispatch list form.
+To do an operation start/stop transaction against a Work Order, first navigate to the dispatch list form.
 
 <img src="/images/ScreenShots/transaction/Screenshot_20201017-213000.jpg" width="250"/>
 
@@ -272,7 +391,7 @@ Next, select "Operation Start Stop" in the transaction type list of values.
 
 The app will take you to a confirmation screen where you need to validate all information and enter some other information such as Date, Time, etc.
 
-The transaction screen will show several tabs. The first Tab (Basic tab) contains information that is required to complete the start/stop transaction. Source System Code and Source System Type are required to complete a operation start/stop transaction using REST API, and thus the app will default the value from the navigation menu configuration. If required, you can manually change the value.
+The transaction screen will show several tabs. The first Tab (Basic tab) contains information that is required to complete the start/stop transaction. Source System Code and Source System Type are required to complete an operation start/stop transaction using REST API, and thus the app will default the value from the navigation menu configuration. If required, you can manually change the value.
 
 !> You can change the default value of Source System Code and Source System Type in the menu path for operation transactions
 

@@ -45,9 +45,9 @@ Some level 3 records might contain multiple details. Ex: Purchase order shipment
 <img src="/images/ScreenShots/document/Screenshot_20201102-224213.jpg" width="250"/>
 
 If a document is allowed to be saved, then the app will show a save icon at the right top corner. You can change any information on the form and click on the Save button.
-You can control which forms should the save button in the menu. Check the menu configuration for details.
+You can control which forms should show the save button in the menu. Check the menu configuration for details.
 
-The system first validates all the entered information and then posts it to the server (Oracle and SAP). If the document is successfully updated in the server, it will show a message stating that the document is successfully updated. In case of any error, the app will show a simple error message to the users.
+The system first validates all the entered information and then posts it to the server (Oracle or SAP). If the document is successfully updated in the server, it will show a message stating that the document is successfully updated. In case of any error, the app will show a simple error message to the users.
 
 <img src="/images/ScreenShots/document/Screenshot_20201102-224221.jpg" width="250"/>
 
