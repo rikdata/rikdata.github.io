@@ -11,9 +11,9 @@ You can navigate to the search screen by clicking on any menu on your dashboard.
 
 <img src="/images/ScreenShots/dashboard/Screenshot_20201102-132846.jpg" width="250"/>
 
-When you visit a search page for the first time, the app fetches all the related list of values from the server (Ex: when you visit sub inventory screen, the app will fetch a list of organizations). So, the app might take a couple of seconds to load and will show below the screen till it fetches all the data from the server.
+When you visit a search page for the first time, the app fetches all the related list of values from the server (Ex: when you visit sub inventory screen, the app will fetch a list of organizations). So, the app might take a couple of seconds to load and shows below screen until it fetches all the server data.
 
-The list of values is cached for a session. So, suppose you visit another screen that needs the same list of values (Ex: Inventory Transaction screen that needs organization and sub inventory), the app will use the values from the cache.
+The list of values is cached for a session. So, suppose you visit another screen that needs the same list of values (Ex: Inventory Transaction screen that needs organization and sub inventory), the app will use the cache's values.
 
 ## Enter Search Criteria
 

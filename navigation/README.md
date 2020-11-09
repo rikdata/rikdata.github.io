@@ -15,6 +15,6 @@
 
 <img src="/images/ScreenShots/navigation/Screenshot_20201102-151626.jpg" width="250"/>
 
- To vuew all the menus as a list without any group disable the "ShowExpansionTileForMenus" button on settings screen
+ To view all the menus as a list without any group, disable the "ShowExpansionTileForMenus" button on the settings screen
  
  <a class="btn btn-light float-right" href="#/search/" role="button">Search</a>
