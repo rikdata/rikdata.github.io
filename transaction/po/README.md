@@ -53,10 +53,10 @@ Next, click on the Save button.
 
 You can review the details on the Oracle cloud.
 
-<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_102.JPG" width="750"/>
+<img src="/images/ScreenShots/transaction/po/receive/rikdata_po_receive_100.JPG" width="750"/>
 
 
-## Review Interface Errors
+## Review Receiving Errors
 
 If any incorrect data is entered while receiving a document, Oracle will not be able to complete the receiving process. You can review all such transactions using the interface form.
 To review all such transactions, navigate to the "Receiving Receipt Transaction" form from your dashboard/favorite.
@@ -78,7 +78,97 @@ The app will fetch all the information related to the selected transaction. It w
 
 Scroll right to the Error tab to review transaction error details.
 
-<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_102.JPG" width="750"/>
+
+## Put Aways
+
+<div class="card bg-light">
+  <div class="card-body">
+    <h6 class="card-subtitle mb-2 text-muted">From Oracle Docs</h6>
+    <p class="card-text">Put Aways
+Putting away received lines is the process by which goods are moved to their final destination.
+These aspects are important when putting away received lines:
+
+* Lot and serial number information
+* Inventory or expense destinations
+
+Note: When you put away a line with Inventory as the destination, inventory is automatically updated..</p>
+    <a href="https://docs.oracle.com/en/cloud/saas/supply-chain-management/20d/famli/put-away-receipts.html#FAMLI136206" class="">Source</a>
+  </div>
+</div>
+
+To Put Away received/inspected incoming goods, navigate to the "Lines To PutAway" form from your dashboard/favorite.
+
+<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_01.JPG" width="250"/>
+
+Enter the item/organization details or any other criteria in the search form and click on the search button.
+
+<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_02.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_03.JPG" width="250"/>
+
+
+Click on the Menu against an item that you want to transact and click on the select button.
+
+<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_04.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_05.JPG" width="250"/>
+
+Next, select the transaction type as "Receiving Receipt Transaction Request."
+
+The app will fetch all the related information required to complete the receiving receipt process. It will take you to a confirmation screen where you need to validate all information and change any detail as needed.
+
+Enter/change below fields
+* Quantity
+* Transaction Type: Deliver
+* Transaction Date
+
+<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_06A.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_06B.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_08.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_11.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_12.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_13.JPG" width="250"/>
+
+Scroll up and down to view all the fields. You can configure the navigation menu for Receiving Receipt Transaction Request to control what fields should be shown to the user and in which sequence. You can also make fields mandatory and read-only depending on your business requirements.
+
+<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_14.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_15.JPG" width="250"/>
+
+Enter the lot and serial details if applicable.
+
+Next, click on the Save button. 
+
+<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_16.JPG" width="250"/>
+
+You can review the details on the Oracle cloud.
+<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_100.JPG" width="750"/>
+<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_101.JPG" width="750"/>
+
+
+## Review Put Aways Errors
+
+If any incorrect data is entered while doing a put-away transaction, Oracle will not be able to complete the put-away process. You can review all such transactions using the interface form.
+To review all such transactions, navigate to the "Receiving Receipt Transaction" form from your dashboard/favorite.
+
+<img src="/images/ScreenShots/transaction/po/putaway_error/rikdata_po_putaway_error_04.JPG" width="250"/>
+
+Enter the document number/item/organization details or any other criteria in the search form and click on the search button.
+
+<img src="/images/ScreenShots/transaction/po/putaway_error/rikdata_po_putaway_error_05.JPG" width="250"/>
+
+Click on the Menu against an item that you want to view the details and click on.
+
+<img src="/images/ScreenShots/transaction/po/putaway_error/rikdata_po_putaway_error_06.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/putaway_error/rikdata_po_putaway_error_07.JPG" width="250"/>
+
+The app will fetch all the information related to the selected transaction. It will take you to a detailed form screen where you can review all the transaction and error details.
+
+<img src="/images/ScreenShots/transaction/po/putaway_error/rikdata_po_putaway_error_08.JPG" width="250"/>
+
+Scroll right to the Error tab to review transaction error details.
+
+<img src="/images/ScreenShots/transaction/po/putaway_error/rikdata_po_putaway_error_09.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/putaway_error/rikdata_po_putaway_error_10.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/putaway_error/rikdata_po_putaway_error_11.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/putaway_error/rikdata_po_putaway_error_12.JPG" width="250"/>
 
 
 <a class="btn btn-light float-right" href="#/configuration/" role="button">Configuration</a>

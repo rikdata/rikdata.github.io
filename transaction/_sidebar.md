@@ -23,7 +23,7 @@
    - [Ship Confirm](/transaction/?id=ship-confirm)
    - [Receive](/transaction/po/?id=receiving-receipt)
    - [Inspect](/transaction/po/?id=receiving-receipt)
-   - [Put Away](/transaction/po/?id=receiving-receipt)
+   - [Put Away](/transaction/po/?id=put-aways)
    - [Cycle Count](/transaction/?id=miscellaneous-issue-receipt)
    - [Serial & Lot](/transaction/?id=seriallot-number)
   - [Manufacturing](/transaction/?id=manufacturing-transactions)
