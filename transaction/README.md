@@ -64,6 +64,58 @@ Next, click on the Save button.
 <img src="/images/ScreenShots/transaction/Screenshot_20201017-213737.jpg" width="250"/>
 
 
+
+## Subinventory Transfers
+
+<div class="card bg-light">
+  <div class="card-body">
+    <h6 class="card-subtitle mb-2 text-muted">From Oracle Docs</h6>
+    <p class="card-text">Use a subinventory transfer to transfer material within your current organization between subinventories, or between two locators within the same subinventory. Examples of subinventory transfers are transferring between asset and expense subinventories, and transferring between tracked and non-tracked subinventories.
+</p>
+    <a href="https://docs.oracle.com/en/cloud/saas/supply-chain-management/20d/famml/inventory-transactions.html#FAMML1153487" class="">Source</a>
+  </div>
+</div>
+
+To create a subinventory transfer, navigate to the "Items Search" form from your dashboard/favorite.
+
+<img src="/images/ScreenShots/transaction/subinventory_transfer/rikdata_subinv_transfer_01.JPG" width="250"/>
+
+Enter the item/organization details or any other criteria in the search form and click on the search button.
+
+<img src="/images/ScreenShots/transaction/subinventory_transfer/rikdata_subinv_transfer_02.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/subinventory_transfer/rikdata_subinv_transfer_03.JPG" width="250"/>
+
+
+Click on the Menu against an item that you want to transfer and click on the select button.
+
+<img src="/images/ScreenShots/transaction/subinventory_transfer/rikdata_subinv_transfer_04.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/subinventory_transfer/rikdata_subinv_transfer_05.JPG" width="250"/>
+
+Next, select the transaction type as "Subinventory Transfer."
+
+The app will fetch all the related information required to complete the Subinventory Transfer. It will take you to a confirmation screen where you need to validate all information and enter other required information such as From Subinventory, To Subinventory, Quantity, Serial and Lot Infomation.
+
+
+<img src="/images/ScreenShots/transaction/subinventory_transfer/rikdata_subinv_transfer_06.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/subinventory_transfer/rikdata_subinv_transfer_07.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/subinventory_transfer/rikdata_subinv_transfer_08.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/subinventory_transfer/rikdata_subinv_transfer_09.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/subinventory_transfer/rikdata_subinv_transfer_10.JPG" width="250"/>
+
+
+Scroll up and down to view all the fields. You can configure the navigation menu for Inventory Transaction to control what fields should be shown to the user and in what sequence. You can also make fields mandatory and read-only depending on your business requirements.
+
+Next, click on the Save button. 
+
+<img src="/images/ScreenShots/transaction/subinventory_transfer/rikdata_subinv_transfer_11.JPG" width="250"/>
+
+You can review the details on the Oracle cloud.
+
+<img src="/images/ScreenShots/transaction/subinventory_transfer/rikdata_subinv_transfer_100.JPG" width="250"/>
+
+
+
+
 ## Create Pick Wave
 
 A pick wave is a batch of shipment lines that are pick released together based on certain business-related criteria. To create a pick, navigate to the sales order form from your dashboard/favorite.
@@ -437,4 +489,4 @@ Scroll to the Serail or Lot tab to view the Serial and Lot Information
 <img src="/images/ScreenShots/transaction/Screenshot_20201017-214928.jpg" width="250"/>
 
 
-<a class="btn btn-light float-right" href="#/configuration/" role="button">Configuration</a>
+<a class="btn btn-light float-right" href="#/transaction/po/" role="button">PO Related Transactions</a>

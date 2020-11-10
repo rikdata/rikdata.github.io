@@ -21,10 +21,12 @@
 - Transactions
   - [Inventory](/transaction/?id=inventory-transactions)
   - [Manufacturing](/transaction/?id=manufacturing-transactions)
+  - [Purchasing](/transaction/po/)
 
 - Configuration
-  - [Settings](/configuration/?id=settings) 
-  - [Favourite](/configuration/?id=favourite)
-  - [Menu Path](/configuration/?id=menu-path)
+  - [Settings](/configuration/?id=inventory-transactions) 
+  - [Navigation Menu](/configuration/?id=navigation-menu)
   - [Charts](/configuration/?id=charts)
+  - [Favourite](/configuration/?id=favourite)
   - [Query](/configuration/?id=query)
+  - [Configuring Sap](/configuration/sap/?id=configuring-sap)

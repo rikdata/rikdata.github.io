@@ -17,6 +17,7 @@
 - Transactions
   - [Inventory](/transaction/?id=inventory-transactions)
   - [Manufacturing](/transaction/?id=manufacturing-transactions)
+  - [Purchasing](/transaction/po/)
 
 - Configuration
   - [Settings](/configuration/?id=settings) 
@@ -24,4 +25,5 @@
   - [Menu Path](/configuration/?id=menu-path)
   - [Charts](/configuration/?id=charts)
   - [Query](/configuration/?id=query)
+  - [Configuring Sap](/configuration/sap/?id=configuring-sap)
 

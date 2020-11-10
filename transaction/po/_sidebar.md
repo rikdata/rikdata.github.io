@@ -16,21 +16,12 @@
 
 - Transactions
   - [Inventory](/transaction/?id=inventory-transactions)
-   - [Miscellaneous](/transaction/?id=miscellaneous-issue-receipt)
-   - [Sub Inventory](/transaction/?id=inventory-transactions)
-   - [Create Pick Wave](/transaction/?id=create-pick-wave)
-   - [Confirm Pick Wave](/transaction/?id=confirm-pick-wave-pick-transaction)
-   - [Ship Confirm](/transaction/?id=ship-confirm)
+  - [Manufacturing](/transaction/?id=manufacturing-transactions)
+  - [Purchasing](/transaction/po/)
    - [Receive](/transaction/po/?id=receiving-receipt)
    - [Inspect](/transaction/po/?id=inspect-receipts)
    - [Put Away](/transaction/po/?id=put-aways)
-   - [Cycle Count](/transaction/?id=miscellaneous-issue-receipt)
-   - [Serial & Lot](/transaction/?id=seriallot-number)
-  - [Manufacturing](/transaction/?id=manufacturing-transactions)
-   - [Material](/transaction/?id=material-transaction)
-   - [Resource](/transaction/?id=resource-transaction)  
-   - [Operation Move](/transaction/?id=operation-move)
-   - [Start Stop](/transaction/?id=operation-start-stop)
+
 
 - Configuration
   - [Settings](/configuration/?id=inventory-transactions) 
@@ -38,3 +29,4 @@
   - [Charts](/configuration/?id=charts)
   - [Favourite](/configuration/?id=favourite)
   - [Query](/configuration/?id=query)
+  - [Configuring Sap](/configuration/sap/?id=configuring-sap)
