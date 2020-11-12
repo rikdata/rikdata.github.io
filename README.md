@@ -5,7 +5,7 @@
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
     <h1 class="display-4">OneApp for all business systems</h1>
-    <p class="lead">OneApp provides a single, simple, standardized user interface to all business systems used in an Organization.<br> </p><button type="button" class="btn btn-info">OneOrganization OneApp</button>
+    <p class="lead">OneApp provides a single, simple, standardized user interface for all business systems used in an Organization.<br> </p><button type="button" class="btn btn-info">OneOrganization OneApp</button>
   </div>
 </div>
 
