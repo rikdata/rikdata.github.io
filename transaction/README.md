@@ -235,6 +235,71 @@ The system will complete the transaction and will show you the below message.
 <img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_14.JPG" width="250"/>
 
 
+
+## Cycle Count
+
+<div class="card bg-light">
+  <div class="card-body">
+    <h6 class="card-subtitle mb-2 text-muted">From Oracle Docs</h6>
+    <p class="card-text">Inspection is the process of accepting or rejecting goods from suppliers or customers before they're put away to their final destination.
+
+These aspects are important when inspecting receipt lines:
+* Inspection quality
+* Inspection quantity
+* Split line inspections
+* Multiple or single line inspections
+</p>
+    <a href="https://docs.oracle.com/en/cloud/saas/supply-chain-management/20d/famli/inspect-receipts.html#FAMLI191285" class="">Source</a>
+  </div>
+</div>
+
+To inspect incoming goods before delivery, navigate to the "Lines To Inspect" form from your dashboard/favorite.
+
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_01.JPG" width="250"/>
+
+Enter the item/organization details or any other criteria in the search form and click on the search button.
+
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_02.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_03.JPG" width="250"/>
+
+
+Click on the Menu against an item that you want to inspect and click on the select button.
+
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_04.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_05.JPG" width="250"/>
+
+Next, select the transaction type as "Receiving Receipt Transaction Request."
+
+The app will fetch all the related information required to complete the inspection process. It will take you to a confirmation screen where you need to validate all information and change any detail as needed.
+
+
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_06.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_07A.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_08.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_09.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_10.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_11.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_12.JPG" width="250"/>
+
+
+Scroll up and down to view all the fields. You can configure the navigation menu for Receiving Receipt Request to control what fields should be shown to the user and in what sequence. You can also make fields mandatory and read-only depending on your business requirements.
+
+Enter all the required fields, such as 
+* Quantity
+* Transaction Type: Accept / Reject
+* Transaction Date
+
+Next, click on the Save button. 
+
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_13.JPG" width="250"/>
+
+You can review the details on the Oracle cloud.
+
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_100.JPG" width="750"/>
+
+
+
+
 ## Serial/Lot Number
 
 If an item is serial or lot controlled, then you need to enter the serial and lot details in the serial/lot tab. If you don't enter, the app will show below warning message, and won't submit the transaction to the server.
