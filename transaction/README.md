@@ -1,9 +1,60 @@
 <span class="top-message float-right">[:pencil2:Edit Document](https://github.com/rikdata/rikdata.github.io/edit/main/transaction/README.md)</span>
 
-Material Transaction is an area in which SAP lags way behind Oracle in releasing REST APIs. So, if you are using Oracle cloud, then you can do almost all transactions such as 
+We create transactions in different ways in Oracle and SAP. Oracle's transaction process has remained the same for the last 15-20 years in all 11i, R12, and Cloud versions. Most of the transactions have separate forms (ex. Sub Inventory Transfer Form, Misc. Transaction Form, WIP Material / Resource Form, PO Receipt Form, etc.). SAP ECC used to be the same before MIGO. However, MIGO simplified and streamlined all the transactions to a single form, and, now in Hana S/4, we have the same functionality. OneApp uses a completely simplified and streamlined approach for all transactions. Irrespective of the underline ERP system, we do all transactions in the same way in OneApp.
+
+<div class="card bg-light">
+  <div class="card-body">
+    <h6 class="card-subtitle mb-2 text-muted">Transactions in 4 Steps</h6>
+    <p class="card-text">
+
+* Search the document
+* Select the transaction type
+* Review and Update the details
+* Save the transaction
+
+</p>
+  </div>
+</div>
+
+
+
+* #### Search the document: 
+First, we search the document we want to transact. Ex: Purchase Order, Work Order, Cycle Count, or Sales Order, etc. For transactions that don't involve any documents (such as Miscellaneous issue/receipt in Oracle or 501/502/561 type of transactions in SAP), we first search the item we want to transact.
+
+<img src="/images/ScreenShots/transaction/SAP/initial/Search_SAP.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/SAP/initial/Search_Oracle.JPG" width="250"/>
+
+
+
+* #### Select the transaction type:
+Depending on the criteria we enter in step1, the app will show different results. We need to select the document/item we want to transact and the transaction type (Ex: Material Issue to WO in Oracle)
+
+<img src="/images/ScreenShots/transaction/SAP/initial/Select_SAP.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/SAP/initial/Select_Oracle.JPG" width="250"/>
+
+
+
+* ####  Review and Update the details: 
+The app will default various information as per our selection in step1, local settings, and the data available in the ERP. We need to review all the details and enter new details wherever applicable (Ex: Quantity, Serial Information, Sub Inventory in Oracle/Storage in SAP)
+
+<img src="/images/ScreenShots/transaction/SAP/initial/Review_SAP.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/SAP/initial/Review_Oracle.JPG" width="250"/>
+
+
+
+* #### Save the transaction: 
+Finally, we click on the Save button. The app will validate all the information and will post it to the ERP system. If any error occurs in the ERP, the app will show the message returned from the ERP system to the user.
+
+<img src="/images/ScreenShots/transaction/SAP/initial/Save_SAP.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/SAP/initial/Save_Oracle.JPG" width="250"/>
+
+
+Using OneApp, you can do almost all transactions available in Oracle & SAP, such as 
 * Inventory - Misc. Issue, Misc. Receipt, Sub Inventory Transfer, Cycle Count Entry, etc
 * Manufacturing - Components Issue/Return, Move Transaction (Including the last operation to Complete WO), Resource Transaction, Start/Stop, etc
-* Inventory for Sales - Picking, Shipping
+* Inventory related to Sales - Picking, Shipping
+* Inventory related to Purchasing - Receive, Inspect, PuAway
+* All MIGO transactions in SAP
 
 # Inventory Transactions
 
@@ -93,7 +144,7 @@ Click on the Menu against an item that you want to transfer and click on the sel
 
 Next, select the transaction type as "Subinventory Transfer."
 
-The app will fetch all the related information required to complete the Subinventory Transfer. It will take you to a confirmation screen where you need to validate all information and enter other required information such as From Subinventory, To Subinventory, Quantity, Serial and Lot Infomation.
+The app will fetch all the related information required to complete the Subinventory Transfer. It will take you to a confirmation screen where you need to validate all information and enter other required information such as From Subinventory, To Subinventory, Quantity, Serial, and Lot Infomation.
 
 
 <img src="/images/ScreenShots/transaction/subinventory_transfer/rikdata_subinv_transfer_06.JPG" width="250"/>
