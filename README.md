@@ -29,6 +29,8 @@ You can use RikData One App with your internal MES/PLM and Quality systems with 
 | <img src="/images/ScreenShots/basic/Screenshot_20201102-011353.jpg" width="250"/> | <img src="/images/ScreenShots/basic/Screenshot_20201102-011412.jpg" width="250"/>  | <img src="/images/ScreenShots/basic/Screenshot_20201102-011220.jpg" width="250"/>  |
 | Qucik Menu  | Configuration | Settings |
 | <img src="/images/ScreenShots/basic/Screenshot_20201102-011158.jpg" width="250"/> | <img src="/images/ScreenShots/basic/Screenshot_20201102-011210.jpg" width="250"/>  | <img src="/images/ScreenShots/document/Screenshot_20200823-114036.jpg" width="250"/>  |
+| Custom Dashboard  | Reports  | Charts |
+| <img src="/images/ScreenShots/dashboard/Screenshot_20201102-132746.jpg" width="250"/> | <img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_11.JPG" width="250"/>  | <img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_10.JPG" width="250"/>  |
 
 
 

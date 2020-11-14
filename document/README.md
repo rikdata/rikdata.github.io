@@ -126,6 +126,8 @@ Click on a chart to view the details.
 
 <img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_10.JPG" width="250"/>
 <img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_11.JPG" width="250"/>
+<img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_12.JPG" width="250"/>
+
 
 Click on the back button to navigate back to the search result screen.
 
