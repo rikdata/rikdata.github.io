@@ -45,7 +45,7 @@ Some level 3 records might contain multiple details. Ex: Purchase order shipment
 <img src="/images/ScreenShots/document/Screenshot_20201102-224213.jpg" width="250"/>
 
 If a document is allowed to be saved, then the app will show a save icon at the right top corner. You can change any information on the form and click on the Save button.
-You can control which forms should show the save button in the menu. Check the menu configuration for details.
+You can control which forms should show the save button in the Menu. Check the menu configuration for details.
 
 The system first validates all the entered information and then posts it to the server (Oracle or SAP). If the document is successfully updated in the server, it will show a message stating that the document is successfully updated. In case of any error, the app will show a simple error message to the users.
 
@@ -86,6 +86,48 @@ To create a document, click on the menu button (three dots ... on right side cor
 <img src="/images/ScreenShots/document/Screenshot_20201102-225907.jpg" width="250"/>
 
 The app will take you to a new document form(same as the view/edit form). Enter all the information and click on save
+
+# SAP Examples
+The process of reviewing a document is the same both in SAP and Oracle. Below is an example of reviewing stock (onhand in Oracle) in a plant (inventory organization in Oracle), and you can follow the same steps to review any other document.
+
+#### Stock In SAP
+
+To review stock in a plant, navigate to the "Material Stock" search form from your dashboard/favorite.
+
+<img src="/images/ScreenShots/document/sap/stock/rikdata_sap_stock_01.JPG" width="250"/>
+
+Enter the product/plant details or any other criteria in the search form and click on the search button.
+
+<img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_02.JPG" width="250"/>
+<img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_03.JPG" width="250"/>
+
+
+Click on the expand icon against an item that you want to view.
+
+<img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_04.JPG" width="250"/>
+<img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_05.JPG" width="250"/>
+
+Click on the Menu against an item that you want to review and click on the view button.
+
+<img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_06.JPG" width="250"/>
+<img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_07.JPG" width="250"/>
+
+If any chart is defined for the Stock entity, then you can view the stock details in a chart.
+Click on the View Charts button on the search result list screen.
+
+<img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_08.JPG" width="250"/>
+
+If the chart is defined for the entity, then a new floating action button will be visible on the screen. Click on the button to view all the defined charts.
+
+<img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_09.JPG" width="250"/>
+
+Click on a chart to view the details.
+
+
+<img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_10.JPG" width="250"/>
+<img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_11.JPG" width="250"/>
+
+Click on the back button to navigate back to the search result screen.
 
 
 <a class="btn btn-light float-right" href="#/transaction/" role="button">Transaction</a>
