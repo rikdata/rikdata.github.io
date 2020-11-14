@@ -18,9 +18,7 @@
   - [Inventory](/transaction/?id=inventory-transactions)
   - [Manufacturing](/transaction/?id=manufacturing-transactions)
   - [Purchasing](/transaction/po/)
-   - [Receive](/transaction/po/?id=receiving-receipt)
-   - [Inspect](/transaction/po/?id=inspect-receipts)
-   - [Put Away](/transaction/po/?id=put-aways)
+  - [SAP](/transaction/sap/)
 
 
 - Configuration
