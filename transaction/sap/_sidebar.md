@@ -19,7 +19,8 @@
   - [Manufacturing](/transaction/?id=manufacturing-transactions)
   - [Purchasing](/transaction/po/)
   - [SAP](/transaction/sap/)
-
+    - [Material Documents](/transaction/sap/?id=material-documents)
+    - [PO 101](/transaction/sap/?id=receipt-for-po-101)
 
 - Configuration
   - [Settings](/configuration/?id=inventory-transactions) 

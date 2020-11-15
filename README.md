@@ -9,17 +9,17 @@
   </div>
 </div>
 
-OneApp is a mobile application for creating, viewing, and updating various business-related documents and transactions. Though OneApp is primarily designed as a single mobile app for accessing all Oracle Cloud Application modules, it can be used for any other business systems such as SAP HANA S/4 (Cloud and On-Premise). The default configuration allows users to use Oracle Cloud (2600+ functionalities) and all the SAP HANA s/4 features available via ODATA. 
+OneApp is a mobile application for creating, viewing, and updating various business-related documents and transactions. Though OneApp is primarily designed as a single mobile app for accessing all Oracle Cloud Application and SAP Hana S/4 (Cloud and On-Premise) modules, it can be used for any other PLM, Quality, MES business system. The default configuration allows users to use Oracle Cloud (2600+ functionalities) and all the SAP HANA s/4 features available via ODATA. 
 
 <div class="alert alert-secondary" role="alert">
  You can check which functionalities are currently supported by these two products on their official documentation site.
- <ul><li>SAP: https://api.sap.com/ (Only ODATA APIs)</li>
- <li>Oracle: https://docs.oracle.com/en/cloud/saas/index.html (Only REST APIs)
+ <ul><li>SAP: <a href="https://api.sap.com/">https://api.sap.com/</a> (Only ODATA APIs)</li>
+ <li>Oracle: <a href="https://docs.oracle.com/en/cloud/saas/index.html">https://docs.oracle.com/en/cloud/saas/index.html</a> (Only REST APIs)
 </li>
  </ul>
 </div>
 
-You can use RikData One App with your internal MES/PLM and Quality systems with Oracle cloud & SAP Hana S/4 without creating any customization. You can use any business systems that provide REST APIs similar to the REST APIs provided by either Oracle Cloud or SAP Hana S/4 cloud. 
+You can use RikData One App with your internal MES/PLM and Quality management systems with Oracle cloud & SAP Hana S/4 without creating any customization. You can use any business systems that provide REST APIs similar to the REST APIs provided by either Oracle Cloud or SAP Hana S/4 cloud. 
 
 
 | Dashboard  | Search | Result |

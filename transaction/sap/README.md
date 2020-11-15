@@ -76,4 +76,61 @@ The app will fetch all the related information required to complete the MIGO pro
 
 The main difference between this form and the non-serialized form is the serial tab. Scroll to the serial tab and enter serial number information before saving the record.
 
+## Receipt for PO (101)
+
+<div class="card bg-light">
+  <div class="card-body">
+    <h6 class="card-subtitle mb-2 text-muted">From SAP Docs</h6>
+    <p class="card-text">With this app, you can post the receipt of goods with reference to the purchase order with which you ordered the goods. If a material is delivered for a purchase order, it is important for all the departments involved that the goods receipt entry in the system references this purchase order. This app supports you, for example, as a warehouse clerk or inventory manager in your daily work.</p>
+    <a href="https://help.sap.com/viewer/91b21005dded4984bcccf4a69ae1300c/1909.001/en-US/9ddf815494758c4ce10000000a4450e5.html" class="">Source</a>
+  </div>
+</div>
+
+To receive a purchase order, navigate to the "101 PO Recieve" form from your dashboard/favorite.
+
+!> The name/label of Menu can be changed as per business preference
+
+<img src="/images/ScreenShots/transaction/SAP/101/rikdata_sap_migo_101_16.JPG" width="250"/>
+
+Enter the product/purchase order/plant details or any other criteria in the search form and click on the search button.
+
+<img src="/images/ScreenShots/transaction/SAP/101/rikdata_sap_migo_101_17.JPG" width="250"/>
+
+Click on the Menu against an item that you want to transact and click on the select button.
+
+<img src="/images/ScreenShots/transaction/SAP/101/rikdata_sap_migo_101_18.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/SAP/101/rikdata_sap_migo_101_18B.JPG" width="250"/>
+
+Next, select the transaction type as "Material Document Header."
+
+The app will fetch all the related information required to complete the document creation process. It will take you to a confirmation screen where you need to validate all information and change any detail as needed.
+
+
+<img src="/images/ScreenShots/transaction/SAP/101/rikdata_sap_migo_101_19.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/SAP/101/rikdata_sap_migo_101_19B.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/SAP/101/rikdata_sap_migo_101_19C.JPG" width="250"/>
+
+
+Scroll up and down to view all the fields. You can configure the navigation menu for "101 PO Recieve" to control what fields should be shown to the user and in what sequence. You can also make fields mandatory and read-only depending on your business requirements.
+
+Review/enter/change below fields
+* Storage location (Defaults if entered on PO)
+* Quantity (Defaults from PO line)
+* Unit of Entry (Defaults from PO line)
+
+Next, click on the Save button. 
+
+<img src="/images/ScreenShots/transaction/SAP/101/rikdata_sap_migo_101_20.JPG" width="250"/>
+
+The app will post the document to SAP and will show the returned message (document year, document number, transaction type, date, etc.)
+
+You can review the details on the GUI.
+
+<img src="/images/ScreenShots/transaction/SAP/101/rikdata_sap_migo_101_100.JPG" width="750"/>
+
+
+<img src="/images/ScreenShots/transaction/SAP/101/rikdata_sap_migo_101_101.JPG" width="750"/>
+
+
+
 <a class="btn btn-light float-right" href="#/configuration/" role="button">Configuration</a>
