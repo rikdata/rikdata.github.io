@@ -12,11 +12,11 @@
 
  <img src="/images/ScreenShots/dashboard/Screenshot_20201102-132436.jpg" width="250"/>
 
- To view dahboards menus in different colors enable enable "UseMultiColorTheme" in settings
+ To view dashboards, menus in different colors enable enable "UseMultiColorTheme" in settings.
 
   <img src="/images/ScreenShots/dashboard/rikdata_dashboard_02.JPG" width="250"/>
 
-  The "UseMultiColorTheme" setting controls background and border colors of all menus.
+  The "UseMultiColorTheme" setting controls the background and border colors of all menus.
 
   <img src="/images/ScreenShots/dashboard/rikdata_dashboard_01.JPG" width="250"/>
     <img src="/images/ScreenShots/dashboard/rikdata_dashboard_03.JPG" width="250"/>
@@ -75,7 +75,7 @@ The app will take you to the result screen.
 <img src="/images/ScreenShots/dashboard/Screenshot_20201102-132834.jpg" width="250"/>
 
 Click on View / Fetch-View to view and update the details of a Dashboard.
-*There is no difference between View / Fetch-View, for a dashboard, as all the data are stored locally. However, for documents and transaction (such as POs, WOs, Item., etc.) Fetch-View always fetches data from the server but View the first check if the data has been fetched for the current session. If it finds any existing data in the cache, then it shows the data.
+*There is no difference between View / Fetch-View, for a dashboard, as all the data are stored locally. However, for documents and transactions (such as POs, WOs, Item., etc.) Fetch-View always fetches data from the server but View the first check if the data has been fetched for the current session. If it finds any existing data in the cache, then it shows the data.
 
 <img src="/images/ScreenShots/dashboard/Screenshot_20201102-132840.jpg" width="250"/>
 
@@ -139,7 +139,7 @@ The app will take you to the result screen.
 <img src="/images/ScreenShots/tabs/Screenshot_20201103-234551.jpg" width="250"/>
 
 Click on View / Fetch-View to view and update the details of a tab.
-*There is no difference between View / Fetch-View, for a tab, as all the data are stored locally. However, for documents and transaction (such as POs, WOs, Item., etc.) Fetch-View always fetches data from the server but View the first check if the data has been fetched for the current session. If it finds any existing data in the cache, then it shows the data.
+*There is no difference between View / Fetch-View, for a tab, as all the data are stored locally. However, for documents and transactions (such as POs, WOs, Item., etc.) Fetch-View always fetches data from the server but View the first check if the data has been fetched for the current session. If it finds any existing data in the cache, then it shows the data.
 
 <img src="/images/ScreenShots/tabs/Screenshot_20201103-234559.jpg" width="250"/>
 
