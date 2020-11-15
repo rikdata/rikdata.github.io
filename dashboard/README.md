@@ -12,6 +12,19 @@
 
  <img src="/images/ScreenShots/dashboard/Screenshot_20201102-132436.jpg" width="250"/>
 
+ To view dahboards menus in different colors enable enable "UseMultiColorTheme" in settings
+
+  <img src="/images/ScreenShots/dashboard/rikdata_dashboard_02.JPG" width="250"/>
+
+  The "UseMultiColorTheme" setting controls background and border colors of all menus.
+
+  <img src="/images/ScreenShots/dashboard/rikdata_dashboard_01.JPG" width="250"/>
+    <img src="/images/ScreenShots/dashboard/rikdata_dashboard_03.JPG" width="250"/>
+  <img src="/images/ScreenShots/dashboard/rikdata_dashboard_04.JPG" width="250"/>
+  <img src="/images/ScreenShots/dashboard/rikdata_dashboard_05.JPG" width="250"/>
+
+
+
 ## Dashboard Contents
 
  <img src="/images/ScreenShots/dashboard/Screenshot_20201102-132735.jpg" width="250"/>

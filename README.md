@@ -25,12 +25,12 @@ You can use RikData One App with your internal MES/PLM and Quality systems with 
 | Dashboard  | Search | Result |
 | ------------- | ------------- | ------------- |
 | <img src="/images/ScreenShots/basic/Screenshot_20201102-011149.jpg" width="250"/> | <img src="/images/ScreenShots/basic/Screenshot_20201102-011429.jpg" width="250"/>  | <img src="/images/ScreenShots/basic/Screenshot_20201102-011506.jpg" width="250"/>  |
-| Navigation  | Menu | Settings |
-| <img src="/images/ScreenShots/basic/Screenshot_20201102-011353.jpg" width="250"/> | <img src="/images/ScreenShots/basic/Screenshot_20201102-011412.jpg" width="250"/>  | <img src="/images/ScreenShots/basic/Screenshot_20201102-011220.jpg" width="250"/>  |
-| Qucik Menu  | Configuration | Settings |
+| Custom Dashboard  | Menu | Settings |
+| <img src="/images/ScreenShots/dashboard/Screenshot_20201102-132746.jpg" width="250"/> | <img src="/images/ScreenShots/basic/Screenshot_20201102-011412.jpg" width="250"/>  | <img src="/images/ScreenShots/basic/Screenshot_20201102-011220.jpg" width="250"/>  |
+| Qucik Menu  | Configuration | Configurable Forms |
 | <img src="/images/ScreenShots/basic/Screenshot_20201102-011158.jpg" width="250"/> | <img src="/images/ScreenShots/basic/Screenshot_20201102-011210.jpg" width="250"/>  | <img src="/images/ScreenShots/document/Screenshot_20200823-114036.jpg" width="250"/>  |
-| Custom Dashboard  | Reports  | Charts |
-| <img src="/images/ScreenShots/dashboard/Screenshot_20201102-132746.jpg" width="250"/> | <img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_11.JPG" width="250"/>  | <img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_12.JPG" width="250"/>  |
+| Personalized Menus  | Reports  | Charts |
+| <img src="/images/ScreenShots/dashboard/rikdata_dashboard_05.JPG" width="250"/> | <img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_11.JPG" width="250"/>  | <img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_12.JPG" width="250"/>  |
 
 
 
