@@ -27,11 +27,12 @@
   - [Purchasing](/transaction/po/)
 
 - Configuration
-  - [Settings](/configuration/?id=inventory-transactions) 
-  - [Navigation Menu](/configuration/?id=navigation-menu)
-  - [Charts](/configuration/?id=charts)
+  - [Settings](/configuration/?id=settings) 
   - [Favourite](/configuration/?id=favourite)
+  - [Menu Path](/configuration/?id=menu-path)
+  - [Charts](/configuration/?id=charts)
   - [Query](/configuration/?id=query)
   - [Configuring Sap](/configuration/sap/?id=configuring-sap)
+  - [Movement/Transaction Type](/configuration/sap/new_movement_type/)
 
 

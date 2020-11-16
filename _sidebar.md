@@ -27,4 +27,5 @@
   - [Charts](/configuration/?id=charts)
   - [Query](/configuration/?id=query)
   - [Configuring Sap](/configuration/sap/?id=configuring-sap)
+  - [Movement/Transaction Type](/configuration/sap/new_movement_type/)
 
