@@ -23,7 +23,6 @@
    - [Put Away](/transaction/po/?id=put-aways)
   - [SAP](/transaction/sap/)
 
-
 - Configuration
   - [Settings](/configuration/?id=settings) 
   - [Favourite](/configuration/?id=favourite)

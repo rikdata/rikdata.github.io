@@ -1,6 +1,6 @@
 <span class="top-message float-right">[:pencil2:Edit Document](https://github.com/rikdata/rikdata.github.io/edit/main/transaction/sap/README.md)</span>
 
-This document covers only a few transactions as examples, but you can use the same process to do any other transaction in SAP Hana S/4.
+This document covers only a few transactions as examples, but you can use the same process to do any other transaction in SAP Hana S/4. Refer to <a href="#/configuration/sap/new_movement_type/">"new movement type/transaction type" </a> guide to create new menus for a specific movement type as per your business requirement
 
 ## Material Documents
 
@@ -9,7 +9,7 @@ This document covers only a few transactions as examples, but you can use the sa
     <h6 class="card-subtitle mb-2 text-muted">From SAP Docs</h6>
     <p class="card-text">In the Inventory Management system, when a goods movement is posted, a material document is generated that serves as proof of the movement and as a source of information for any applications that follow. A material document consists of a header and at least one item. The header contains general data about the movement (for example, its date). Each item describes one movement.
     
-  Once you have posted a goods movement, you can no longer change the document. You can only enter additional information in the document, such as the reference to the original document or comment on the event. If you want to reverse the movement or change the quantity of material moved, you must enter a new document.
+  Once you have posted a goods movement, you can no longer change the document. You can only enter additional information in the document, such as referencing the original document or comment on the event. If you want to reverse the movement or change the quantity of material moved, you must enter a new document.
     </p>
     <a href="https://help.sap.com/doc/PRODUCTION/saphelp_me150/15.0.3VERSIONFORSAPME/en-US/13/63bd534f22b44ce10000000a174cb4/frameset.htm" class="">Source</a>
   </div>
@@ -132,5 +132,46 @@ You can review the details on the GUI.
 <img src="/images/ScreenShots/transaction/SAP/101/rikdata_sap_migo_101_101.JPG" width="750"/>
 
 
+## Issue for Cost Center (201)
+
+To issue an item/stock against a cost center, navigate to the "MIGO 201" search form from your dashboard/favorite.
+
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_30.JPG" width="250"/>
+
+!> The name/label of Menu can be changed as per business preference
+
+Enter the product/plant details or any other criteria in the search form and click on the search button.
+
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_31.JPG" width="250"/>
+
+Click on the Menu against an item that you want to transact and click on the select button.
+
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_32.JPG" width="250"/>
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_33.JPG" width="250"/>
+
+Next, select the transaction type as "Material Document Header."
+
+The app will fetch all the related information required to complete the document creation process. It will take you to a confirmation screen where you need to validate all information and change any detail as needed.
+
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_34.JPG" width="250"/>
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_35.JPG" width="250"/>
+
+Scroll up and down to view all the fields.
+
+Review/enter/change below fields
+* Unit of Entry
+* "Quantity in Unit of entry."
+* Cost center
+
+Next, click on the Save button. 
+
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_36.JPG" width="250"/>
+
+The app will post the document to SAP and will show the returned message (document year, document number, transaction type, date, etc.)
+
+You can review the details on the GUI.
+
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_37.JPG" width="750"/>
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_38.JPG" width="750"/>
 
 <a class="btn btn-light float-right" href="#/configuration/" role="button">Configuration</a>
