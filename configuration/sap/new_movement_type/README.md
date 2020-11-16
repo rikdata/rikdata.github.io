@@ -97,6 +97,8 @@ Save the new Menu
 
 
 Reopen the same path to view and modify the entity details 
+
+
 <img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_12.JPG" width="250"/>
 
 * Change the value of all the fields as required for the new transaction. 
@@ -147,6 +149,13 @@ Reopen the same path to view and modify the entity details
 <img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_19.JPG" width="250"/>
 
 <img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_20.JPG" width="250"/>
+
+!> If the field that you want to use has a different name in the source document, then enter the source document name in the entity definition
+Ex: UOM name in A_MatlStkInAcctMod is different from A_MaterialDocumentItem_201. So, you need to enter the sourceFieldName as  "MaterialBaseUnit"  for "EntryUnit" field.
+
+
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_20B_source_field_name.JPG" width="250"/>
+
 
 * Change the value of all the fields as required for the new transaction. 
 * Enter 201 as the default value for GoodsMovementType and make it read-only so that users can't use this path to any other transaction
