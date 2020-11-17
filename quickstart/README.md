@@ -1,26 +1,57 @@
 <span class="top-message float-right">[:pencil2:Edit Document](https://github.com/rikdata/rikdata.github.io/edit/main/quickstart/README.md)</span>
 ## One-Time Configuration
 
- <img src="/images/ScreenShots/galaxys7/Screenshot_20201017-220313.jpg" width="250"/>
+ <img src="/images/ScreenShots/install/rikdata_install_01.jpg" width="400"/>
  
  
  When you open the app for the first time, the app will show you the above screen. You can complete the configuration in 2 different ways.
  
  * If you have received a configuration file link and guide from your admin, then follow the steps as per the guide
  
- * Else click on the start configuration button that will load the default configuration.
+ * Else tap/click on the "Create Default Configuration" button that will load the default configuration.
 
-If you are from Oracle 11i/R12 background, you can consider the default configuration the same as a vision instance installation; it will create all navigation paths with some sample charts, queries, and dashboard. For those from SAP ECC background, you can consider default configuration as an IDES installation.
+ 
+ If you are from Oracle 11i/R12 background, you can consider the default configuration the same as a vision instance installation; it will create all navigation paths with some sample charts, queries, and dashboard. For those from SAP ECC background, you can consider default configuration as an IDES installation.
+
+ If you tap/click on "Import Custom Configuration," then the app will take you to the below screen where you need to enter the configuration file path.
+
+ <img src="/images/ScreenShots/install/rikdata_install_03.jpg" width="400"/>
+
+You can import the configuration file from your local folder (both on phones and on windows) or import it from an external server. Enter the path and tap/click on the corresponding button.
+
+!> If you decide to upload the file to GitHub or any local server, make sure the get path sends the raw data.
+In the case of GitHub, share the raw file path, not the normal file path.
+
+The app will ask for your confirmation. Click on Yes to start the configuration.
+
+ <img src="/images/ScreenShots/install/rikdata_install_04.jpg" width="400"/>
+
+If you tap/click on "Create Default Configuration," then the app will take you to the below screen where you need to select the application name.
+
+ <img src="/images/ScreenShots/install/rikdata_install_02.jpg" width="400"/>
+
+Tap/Click on the application name. If you want to configure both the applications, then tap/click on the "Configure Both" button.
 
 The default configuration will load all the paths for Oracle Cloud Application and SAP Hana S/4 Cloud. Later, you can modify the configuration as per your business need. If you are responsible for configuration at your organization, you can configure all the forms, fields, charts, queries, etc. Export the configuration file and load it to a server (ex: github.com) from where all other users can import the configuration
 
-The default configuration can take up to 3-4 minutes. However, a custom configuration usually will take less time depending upon the number of configurations the app needs to complete.
 Once the configuration is complete, the app will take you to the login screen.
+
+ <img src="/images/ScreenShots/install/rikdata_install_06.jpg" width="400"/>
+
+The default configuration for both the applications (SAP & Oracle) can take up to 3-4 minutes. However, a custom configuration usually will take less time, depending upon the number of configurations the app needs to complete.
+
+Default configuration times on some devices
+* Galaxy Fold 2 - 20 Seconds
+* Samsung Galaxy S7 - 110 Seconds
+* Nexus 10 - 130 Seconds
+* iPhone 11 - 80 Seconds
+* Windows 10 Pro OS (8GB RAM) - 35 Seconds
+
+
 
 ## Login
 
- <img src="/images/ScreenShots/galaxys7/Screenshot_20201017-220423.jpg" width="250"/>
- 
+ <img src="/images/ScreenShots/install/rikdata_install_07.jpg" width="500"/>
  
 To login
 * Select an instance
@@ -30,6 +61,9 @@ To login
  Click on login.
 
 If you have used the default configuration, then the app will show a few demo instance details. You need to modify the instance details before trying to login. If you have used custom configuration, your admin would have configured all the required instances for you. So, you can ignore the below steps.
+
+ <img src="/images/ScreenShots/install/rikdata_install_08.jpg" width="500"/>
+
 
 ## Instance Setup
 
@@ -85,7 +119,7 @@ Click on "Yes" to delete the instance. Click on "No" to cancel the action.
 
 ## Create a new instance
 
-To create an instance, click on the menu button (three dots ... on right side corner) on the search screen page and select "Create New".
+To create an instance, click on the menu button (three dots ... on the right side corner) on the search screen page and select "Create New".
 
  <img src="/images/ScreenShots/getting-started/Screenshot_20201102-112352.jpg" width="250"/>
 
