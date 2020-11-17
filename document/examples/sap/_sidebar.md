@@ -12,15 +12,15 @@
 - Documents
   - [View Document](/document/?id=view-document)
   - [Maintain Document](/document/?id=maintain-document)
+  - [SAP Examples](/document/?id=sap-examples)
+   - [Stock](/document/examples/sap/?id=stock-in-sap)
+   - [Product](/document/examples/sap/?id=product)
+
 
 - Transactions
   - [Inventory](/transaction/?id=inventory-transactions)
   - [Manufacturing](/transaction/?id=manufacturing-transactions)
   - [Purchasing](/transaction/po/)
-  - [SAP](/transaction/sap/)
-    - [Material Documents](/transaction/sap/?id=material-documents)
-    - [PO 101](/transaction/sap/?id=receipt-for-po-101)
-    - [Cost Center 201](/transaction/sap/?id=issue-for-cost-center-201)
 
 - Configuration
   - [Settings](/configuration/?id=settings) 

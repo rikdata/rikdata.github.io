@@ -182,4 +182,22 @@ The app will take you to a new dashboard form(same as the view/edit form). Enter
 
 <img src="/images/ScreenShots/tabs/Screenshot_20201103-234559.jpg" width="250"/>
 
-<a class="btn btn-light float-right" href="#/navigation/" role="button">Navigation Menu</a>
+## Menu List
+
+ You can click on any icon on the dashboard to view all the menus assigned to that module. 
+ You can configure which menus should appear in which module and in what sequence by changing the navigation path details.
+
+ <img src="/images/ScreenShots/dashboard/Screenshot_20201102-115528.jpg" width="250"/>
+ 
+ You can view navigation menus grouped in a specific business function ex: all Shipping related transactions as a single group.
+ The app allows you to create custom groups and assign groups to paths.
+
+<img src="/images/ScreenShots/navigation/Screenshot_20201102-151528.jpg" width="250"/>
+
+ You can also view all the navigation menus of a module in a list without any group. 
+
+<img src="/images/ScreenShots/navigation/Screenshot_20201102-151626.jpg" width="250"/>
+
+ To view all the menus as a list without any group, disable the "ShowExpansionTileForMenus" button on the settings screen
+ 
+ <a class="btn btn-light float-right" href="#/search/" role="button">Search</a>

@@ -4,7 +4,6 @@
 
   - [Quick start](/quickstart/)
   - [Dashboard](/dashboard/)
-  - [Navigation](/navigation/)
   
 - Search
   - [Advanced Search](/search/)
@@ -13,6 +12,7 @@
 - Documents
   - [View Document](/document/?id=view-document)
   - [Maintain Document](/document/?id=maintain-document)
+  - [SAP Examples](/document/examples/sap/)
 
 - Transactions
   - [Inventory](/transaction/?id=inventory-transactions)

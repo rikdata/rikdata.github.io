@@ -11,7 +11,6 @@
    - [Delete An Instance](/quickstart/?id=delete-an-instance)
    - [Create A New Instance](/quickstart/?id=create-a-new-instance)
   - [Dashboard](/dashboard/)
-  - [Navigation](/navigation/)
 
 - Search
   - [Advanced Search](/search/)

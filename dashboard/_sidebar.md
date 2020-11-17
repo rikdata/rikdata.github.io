@@ -18,7 +18,7 @@
    - [Copy A Tab](/dashboard/?id=copy-a-tab)
    - [Delete A Tab](/dashboard/?id=delete-a-tab)
    - [Create A Tab](/dashboard/?id=create-a-new-tab)
-  - [Navigation](/navigation/)
+  - [Navigation](/dashboard/?id=menu-list)
 
 - Search
   - [Advanced Search](/search/)

@@ -4,7 +4,6 @@
 
   - [Quick start](/quickstart/)
   - [Dashboard](/dashboard/)
-  - [Navigation](/navigation/)
   
 - Search
   - [Advanced Search](/search/)

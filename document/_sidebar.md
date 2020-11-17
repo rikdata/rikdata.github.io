@@ -4,7 +4,6 @@
 
   - [Quick start](/quickstart/)
   - [Dashboard](/dashboard/)
-  - [Navigation](/navigation/)
   
 - Search
   - [Advanced Search](/search/)
@@ -21,7 +20,7 @@
    - [Copy a document](/document/?id=copy-a-document)
    - [Delete a document](/document/?id=delete-a-document)
    - [Create a new document](/document/?id=create-a-new-document)
-  - [SAP Examples](/document/?id=sap-examples)
+  - [SAP Examples](/document/examples/sap/)
 
 - Transactions
   - [Inventory](/transaction/?id=inventory-transactions)
