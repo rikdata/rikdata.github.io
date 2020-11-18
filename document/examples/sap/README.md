@@ -1,6 +1,7 @@
 <span class="top-message float-right">[:pencil2:Edit Document](https://github.com/rikdata/rikdata.github.io/edit/main/document/examples/sap/README.md)</span>
 # SAP Examples
-The process of reviewing a document is the same both in SAP and Oracle. Below is an example of reviewing stock (onhand in Oracle) in a plant (inventory organization in Oracle), and you can follow the same steps to review any other document.
+The process of reviewing a document is the same both in SAP and Oracle. Below are a few examples of reviewing and updating some documents such as stock (onhand in Oracle) in a plant (inventory organization in Oracle),  updating the description of a product (item), and reviewing a Purchase order details (header, line, schedule, subcontracting, etc.).
+You can follow the same steps to review any other document.
 
 #### Stock In SAP
 
@@ -77,7 +78,62 @@ Scroll on the top tab to review all the details of the product
 
 Click on the back button to navigate back to the search result screen.
 
+#### Purchase Order
 
+Navigate to the purchase order search from your favorite/dashboard
+
+<img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_01.JPG" width="300"/>
+<img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_01A.JPG" width="300"/>
+
+
+Enter the Company Code/Purchase Order details or any other criteria in the search form and click on the search button.
+
+<img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_02.JPG" width="300"/>
+<img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_03.JPG" width="300"/>
+
+
+Click on the expand icon against an item that you want to view.
+
+<img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_04Z.JPG" width="250"/>
+
+Click on the Menu against an item that you want to review and click on the view button.
+
+<img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_04.JPG" width="250"/>
+
+Scroll on the top tab to review all the details of the product
+
+<img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_05.JPG" width="250"/>
+<img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_06.JPG" width="250"/>
+
+By default, the application fetches only top level information such as PO Header and Line details.
+
+<img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_07.JPG" width="250"/>
+<img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_08.JPG" width="250"/>
+
+You can scroll up/down and left/right to view all the tabs & data.
+
+<img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_09.JPG" width="250"/>
+<img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_10.JPG" width="250"/>
+
+Tabs that contain multiple records, such as PO lines with plant and material details, are shown in an expansion tile.
+You can click on any tile to view the details of that line.
+
+<img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_11.JPG" width="250"/>
+<img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_12.JPG" width="250"/>
+
+By default, the app does not fetch level 3 information (such as schedule line or account assignment). The app shows buttons to fetch the data from the Hana S/4 server. If you want to review any specific information, click on the corresponding button, and the app will show you the details below the button.
+
+<img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_13.JPG" width="250"/>
+<img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_14.JPG" width="250"/>
+
+Similarly, if the level 3 details contain any level 4 data (subcontracting components of schedule line), then the app will show a button for the same. Click on the button to view the details.
+
+<img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_15.JPG" width="250"/>
+<img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_16.JPG" width="250"/>
+
+
+
+Click on the back button to navigate back to the search result screen.
 
 #### Update a document
 

@@ -1,5 +1,5 @@
 <span class="top-message float-right">[:pencil2:Edit Document](https://github.com/rikdata/rikdata.github.io/edit/main/document/README.md)</span>
-The app allows you to search and view all the documents (such as Purchase Order, Work Order, Sales Order, Inventory Onhand in Oracle Cloud, and SAP Hana S/4 cloud). Currently, Oracle also allows us to create, update, and delete several documents. So, whatever documents are allowed to be updated/created in the Oracle cloud can also be done through the OneApp. The same is applicable for SAP Hana S/4. However, if you are using Hana S/4 on-premise, not many documents are updated through REST.
+The app allows you to search and view all the documents (such as Purchase Order, Work Order, Sales Order, Inventory Onhand in Oracle Cloud, and SAP Hana S/4 cloud). Currently, Oracle also allows us to create, update, and delete several documents. So, whatever documents are allowed to be updated/created in the Oracle cloud can also be done through the OneApp. The same is applicable for SAP Hana S/4. However, if you are using Hana S/4 on-premise, not many documents are updated through  ODATA.
 
 All the documents are accessed and shown in the same manner. So, this guide covers only a few of the available documents as an example, but you can use the same process to access any other document.
 
@@ -7,11 +7,60 @@ To view/update any document, first search the document and then click on the Vie
 
 # View Document
 
+All documents are divided into various levels such as Level 1 (Header), Level 2 (Line), Level 3, Level 4, etc.
+All documents have level 1 details, and many documents also have level 2 details. Header level details are shown in the first tab of the document (Basic Tab)
+
+<img src="/images/ScreenShots/document/levels/rikdata_documents_level_1_01.JPG" width="250"/>
+
+Line details are shown on various tabs; you need to scroll left, right to view the details.
+
+<img src="/images/ScreenShots/document/levels/rikdata_documents_level_2_01.JPG" width="250"/>
+
+A single document can have multiple line-level details (example, count classes, and count items for cycle count header). All those lines are shown in separate tabs.
+
+<img src="/images/ScreenShots/document/levels/rikdata_documents_level_2_02.JPG" width="250"/>
+
+Level 3, Level 4, etc., are shown as buttons on the corresponding records, and when you click on the button, the app fetches the data and shows it below the button.
+
+<img src="/images/ScreenShots/document/sap/production_order/rikdata_sap_production_order_12.JPG" width="250"/>
+
+<img src="/images/ScreenShots/document/sap/production_order/rikdata_sap_production_order_13.JPG" width="250"/>
+
+##### Level 1 Examples:
+PO Header, Sales Order Header, Work Order (Production Order in SAP), (AP/AR) Invoice, Cycle Count Header, etc 
+
+
+##### Level 2 Examples:
+PO Header Line (Items), Sales Order Line, Work Order Line/Items(Production Order in SAP), (AP/AR) Invoice Lines, Cycle Count Classes, etc 
+
+##### Level 3 Examples:
+<i>Oracle</i>
+
+* PO Header Shipment
+* Work Order Operation Items 
+
+<i>SAP</i>
+
+* PO Header Schedule Line
+* PO Pricing Element
+
+
+##### Level 4 Examples:
+<i>Oracle</i>
+
+* PO Distribution
+* Work Order Operation Item DFFs
+
+<i>SAP</i>
+
+* PO Order Item Subcontarcting components
+
+
 ## Header
 
 Each document has a header (the term is quite frequently used in both Oracle and SAP world, and it has the same meaning in OneApp). The header level information is always shown in the basic tab.
 
-<img src="/images/ScreenShots/document/Screenshot_20200823-114036.jpg" width="250"/>
+<img src="/images/ScreenShots/document/levels/rikdata_documents_level_1_02.JPG" width="250"/>
 
 If the document has other header level information (for example, DFF/EFFs in Oracle), then those details are shown in a separate tab.
 
@@ -22,19 +71,34 @@ The number of tabs on a document depends on various factors. So, scroll right on
 
 Several documents contain line-level information(such as Purchase Order, Work Order (Production Order in SAP), BOM, etc.). Line details are shown in a separate tab, and as one header can contain multiple lines, line details are shown as a list. You need to click on the expand button to view the details of a line.
 
-<img src="/images/ScreenShots/document/Screenshot_20200823-115128.jpg" width="250"/>
+<img src="/images/ScreenShots/document/levels/rikdata_documents_level_2_03.JPG" width="250"/>
 
 ## Level 3 Details
 
 Some lines might contain multiple details. Ex: The purchase order line in Oracle contains several shipments. Similarly, Operations on a work order contains material requirement. By default, the app does not fetch the details of level 3 records, but it shows a button. To view the details, click on the button, and the app will fetch all the required information.
 
-<img src="/images/ScreenShots/document/Screenshot_20200823-115244.jpg" width="250"/>
+<img src="/images/ScreenShots/document/levels/rikdata_documents_level_3_01.JPG" width="250"/>
 
  ## Level 4 Details
 
 Some level 3 records might contain multiple details. Ex: Purchase order shipments in Oracle contains several distributions. By default, the app does not fetch the details of level 4 records, but it shows a button. To view the details, click on the button, and the app will fetch all the required information.
 
-<img src="/images/ScreenShots/document/Screenshot_20200823-115244.jpg" width="250"/>
+<img src="/images/ScreenShots/document/levels/rikdata_documents_level_4_02.JPG" width="250"/>
+
+Example of a document with multiple lines, each line with multiple level-3 details (schedules), and each schedule with multiple level-4 details (distribution)
+
+<img src="/images/ScreenShots/document/levels/rikdata_documents_level_4_03.JPG" width="250"/>
+
+
+Another example of level 4 details
+DFFs on a material of a work order operation
+Level 1: Work Order
+Level 2: Operation
+Level 3: Material
+Level 4: DFF
+
+<img src="/images/ScreenShots/document/levels/rikdata_documents_level_4_01.JPG" width="250"/>
+
 
 <a class="btn btn-light float-right" href="#/navigation/" role="button">Navigation Menu</a>
 
@@ -60,7 +124,7 @@ To copy a document, click on the copy button on the search result screen.
 
 <img src="/images/ScreenShots/document/Screenshot_20201102-225841.jpg" width="250"/>
 
-The app will copy all the details of the selected dashboard and will take you to the view/edit form. Enter/Modify all the required information and click on save.
+The app will copy all the selected dashboard details and take you to the view/edit form. Enter/Modify all the required information and click on save.
 
 The copy button is visible only for those documents which are allowed to be created (Controlled by the POST / PUT check box in the navigation menu)
 
@@ -81,95 +145,16 @@ The copy button is visible only for those documents which are allowed to be dele
 
 ## Create a new document
 
-To create a document, click on the menu button (three dots ... on right side corner) on the search screen page and select "Create New".
+To create a document, click on the menu button (three dots ... on the right side corner) on the search screen page and select "Create New".
 
 <img src="/images/ScreenShots/document/Screenshot_20201102-225907.jpg" width="250"/>
 
 The app will take you to a new document form(same as the view/edit form). Enter all the information and click on save
 
-# SAP Examples
-The process of reviewing a document is the same both in SAP and Oracle. Below is an example of reviewing stock (onhand in Oracle) in a plant (inventory organization in Oracle), and you can follow the same steps to review any other document.
 
-#### Stock In SAP
+#### Update a document in SAP
 
-To review stock in a plant, navigate to the "Material Stock" search form from your dashboard/favorite.
-
-<img src="/images/ScreenShots/document/sap/stock/rikdata_sap_stock_01.JPG" width="250"/>
-
-Enter the product/plant details or any other criteria in the search form and click on the search button.
-
-<img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_02.JPG" width="250"/>
-<img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_03.JPG" width="250"/>
-
-
-Click on the expand icon against an item that you want to view.
-
-<img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_04.JPG" width="250"/>
-<img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_05.JPG" width="250"/>
-
-Click on the Menu against an item that you want to review and click on the view button.
-
-<img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_06.JPG" width="250"/>
-<img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_07.JPG" width="250"/>
-
-If any chart is defined for the Stock entity, then you can view the stock details in a chart.
-Click on the View Charts button on the search result list screen.
-
-<img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_08.JPG" width="250"/>
-
-If the chart is defined for the entity, then a new floating action button will be visible on the screen. Click on the button to view all the defined charts.
-
-<img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_09.JPG" width="250"/>
-
-Click on a chart to view the details.
-
-
-<img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_10.JPG" width="250"/>
-<img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_11.JPG" width="250"/>
-<img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_12.JPG" width="250"/>
-
-
-Click on the back button to navigate back to the search result screen.
-
-#### Product
-
-To review product details at the client level, navigate to the "Product" search form from your dashboard/favorite.
-
-<img src="/images/ScreenShots/document/sap/product/rikdata_sap_product_01.JPG" width="250"/>
-
-Enter the product/plant details or any other criteria in the search form and click on the search button.
-
-<img src="/images/ScreenShots/document/sap/product/rikdata_sap_product_02.JPG" width="250"/>
-<img src="/images/ScreenShots/document/sap/product/rikdata_sap_product_03.JPG" width="250"/>
-
-
-Click on the expand icon against an item that you want to view.
-
-<img src="/images/ScreenShots/document/sap/product/rikdata_sap_product_04.JPG" width="250"/>
-<img src="/images/ScreenShots/document/sap/product/rikdata_sap_product_05.JPG" width="250"/>
-
-Click on the Menu against an item that you want to review and click on the view button.
-
-<img src="/images/ScreenShots/document/sap/product/rikdata_sap_product_06.JPG" width="250"/>
-<img src="/images/ScreenShots/document/sap/product/rikdata_sap_product_07.JPG" width="250"/>
-
-Scroll on the top tab to review all the details of the product
-
-<img src="/images/ScreenShots/document/sap/product/rikdata_sap_product_08.JPG" width="250"/>
-<img src="/images/ScreenShots/document/sap/product/rikdata_sap_product_09.JPG" width="250"/>
-<img src="/images/ScreenShots/document/sap/product/rikdata_sap_product_10.JPG" width="250"/>
-<img src="/images/ScreenShots/document/sap/product/rikdata_sap_product_11.JPG" width="250"/>
-<img src="/images/ScreenShots/document/sap/product/rikdata_sap_product_12.JPG" width="250"/>
-<img src="/images/ScreenShots/document/sap/product/rikdata_sap_product_13.JPG" width="250"/>
-
-
-Click on the back button to navigate back to the search result screen.
-
-
-
-#### Update a document
-
-This is an example of updating a product description, but you can follow the same steps to update any data of any other document.
+This is an example of updating a product description, but you can follow the same steps to update any other document data.
 
 !> You can only update a document/data if it's available as per ODATA service
 

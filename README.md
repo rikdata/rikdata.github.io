@@ -11,6 +11,8 @@
 
 OneApp is a mobile application for creating, viewing, and updating various business-related documents and transactions. Though OneApp is primarily designed as a single mobile app for accessing all Oracle Cloud Application and SAP Hana S/4 (Cloud and On-Premise) modules, it can be used for any other PLM, Quality, MES business system. The default configuration allows users to use Oracle Cloud (2600+ functionalities) and all the SAP HANA s/4 features available via ODATA. 
 
+The user interface is also available in Windows & macOS for configuring various business processes and creating navigation menus, forms, queries, reports, and charts.
+
 <div class="alert alert-secondary" role="alert">
  You can check which functionalities are currently supported by these two products on their official documentation site.
  <ul><li>SAP: <a href="https://api.sap.com/">https://api.sap.com/</a> (Only ODATA APIs)</li>

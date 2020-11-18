@@ -15,6 +15,8 @@
   - [SAP Examples](/document/?id=sap-examples)
    - [Stock](/document/examples/sap/?id=stock-in-sap)
    - [Product](/document/examples/sap/?id=product)
+   - [Purchase Order](/document/examples/sap/?id=purchase-order)
+   - [Update Material](/document/examples/sap/?id=update-material)
 
 
 - Transactions
