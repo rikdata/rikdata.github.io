@@ -15,7 +15,7 @@ When you visit a search page for the first time, the app fetches all the related
 
 The list of values is cached for a session. So, suppose you visit another screen that needs the same list of values (Ex: Inventory Transaction screen that needs organization and sub inventory), the app will use the cache's values.
 
-## Enter Search Criteria
+### Enter Search Criteria
 
  <img src="/images/ScreenShots/search/Screenshot_20201102-151713.jpg" width="250"/>
 
@@ -29,7 +29,7 @@ All the text fields show a camera icon. You can click on the camera icon to scan
 <img src="/images/ScreenShots/search/Screenshot_20201102-151824.jpg" width="250"/>
 
 
-## Search Result
+### Search Result
 
  <img src="/images/ScreenShots/search/Screenshot_20201102-151830.jpg" width="250"/>
 
@@ -42,7 +42,7 @@ From the search result screen
 <img src="/images/ScreenShots/search/Screenshot_20201102-151913.jpg" width="250"/>
 
 
-## Save Search Result
+### Save Search Result
 
 <img src="/images/ScreenShots/search/Screenshot_20201102-151838.jpg" width="250"/>
 
@@ -51,7 +51,7 @@ To save a query (all entered criteria and search result), click on the save quer
 The app will automatically refresh the query result when you visit the saved query.
 You can use the saved query in tabs and dashboards.
 
-## View Charts
+### View Charts
 
 Click on the "view chart" button on the result page to view charts defined for the entity. If charts are defined for the searched entity, then the app will show the list of all charts in floating action button (click on the button at right bottom corner)
 
@@ -63,7 +63,7 @@ Click on the chart name, and the app will take you to the chart screen.
 
 <img src="/images/ScreenShots/search/Screenshot_20201102-192854.jpg" width="250"/>
 
-## Quick Search
+### Quick Search
 
 Currently, the quick search allows you to search for a navigation menu. If you use the default configuration, the app will create 1500+ navigation menus, and at the beginning, it might not be easy to find a specific navigation path.  So, you can use the quick search to search such menus. You can also add menus to your favourite for easy access.
 

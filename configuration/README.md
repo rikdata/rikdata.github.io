@@ -215,6 +215,28 @@ The app will take you to a new dashboard form(same as the view/edit form). Enter
 
 <img src="/images/ScreenShots/configuration/Screenshot_20201103-190850.jpg" width="250"/>
 
+## Update Entity For Blank Forms
+
+The default configuration of OneApp contains 16000+ forms. Though we have tested all the forms through an automated testing program, you might come across a form without any field/element.  This occurs when the program does not find any data in our test environment to auto-create an Entity. When you open such a form, the app will try to auto-create the fields depending on the data available on your instance. However, if no data is also available in your instance, the app will show you the below message.
+
+
+<img src="/images/ScreenShots/configuration/entity/rikdata_config_entity_01.JPG" width="250"/>
+
+To use such a form, you first need to create some data in your instance or connect the app to a test environment where data is available. When you open the same form in a different instance that contains any record the app will take a few seconds to create and load the form.
+
+<img src="/images/ScreenShots/configuration/entity/rikdata_config_entity_02.JPG" width="250"/>
+
+Next, you can save the new form format by searching the object and clicking on update entity on search result data.
+
+<img src="/images/ScreenShots/configuration/entity/rikdata_config_entity_03.JPG" width="250"/>
+<img src="/images/ScreenShots/configuration/entity/rikdata_config_entity_04.JPG" width="250"/>
+
+Now, if you log in to the original instance, the app will show you the form even if no data is created in that instance.
+
+<img src="/images/ScreenShots/configuration/entity/rikdata_config_entity_05.JPG" width="250"/>
+
+
+Next, export the configuration and share it with your users.
 
 
 ## List Of Values (Select Field)

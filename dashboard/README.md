@@ -25,7 +25,7 @@
 
 
 
-## Dashboard Contents
+### Dashboard Contents
 
  <img src="/images/ScreenShots/dashboard/Screenshot_20201102-132735.jpg" width="250"/>
 
@@ -38,7 +38,7 @@
   <img src="/images/ScreenShots/dashboard/Screenshot_20201102-132746.jpg" width="250"/>
 
 
-## Saved Queries In Dashboard
+### Saved Queries In Dashboard
 
 <img src="/images/ScreenShots/dashboard/Screenshot_20201102-132739.jpg" width="250"/>
 
@@ -50,7 +50,7 @@ specific work order from the dashboard result
 * You can delete a record
 * You can copy a record
 
-## Search Dashboards
+### Search Dashboards
 
 Click on the search icon on the "All Dashboard" list page, and the app will take you to the dashboard search screen.
 
@@ -70,7 +70,7 @@ The app will take you to the result screen.
 
 <img src="/images/ScreenShots/dashboard/Screenshot_20201102-132819.jpg" width="250"/>
 
-## View/Edit a Dashboard
+### View/Edit a Dashboard
 
 <img src="/images/ScreenShots/dashboard/Screenshot_20201102-132834.jpg" width="250"/>
 
@@ -81,7 +81,7 @@ Click on View / Fetch-View to view and update the details of a Dashboard.
 
 Review the details and make modifications as required. Click on the Save button at the top right corner to save the dashboard details.
 
-## Copy a Dashboard
+### Copy a Dashboard
 
 To copy a Dashboard, click on the copy button on the search result screen.
 
@@ -89,7 +89,7 @@ To copy a Dashboard, click on the copy button on the search result screen.
 
 The app will copy all the details of the selected dashboard and will take you to the view/edit form. Enter/Modify all the required information and click on save
 
-## Delete a Dashboard
+### Delete a Dashboard
 
 To delete a Dashboard, click on the delete button on the search result screen.
 
@@ -102,7 +102,7 @@ The app will show you a confirmation dialog box.
 Click on "Yes" to delete the dashboard. Click on "No" to cancel the action.
 
 
-## Create a new Dashboard
+### Create a new Dashboard
 
 To create a Dashboard, click on the menu button (three dots ... on right side corner) on the search screen page and select "Create New".
 
@@ -114,13 +114,13 @@ The app will take you to a new dashboard form(same as the view/edit form). Enter
 
 
 
-# Tab
+## Tab
 Each dashboard contains several tabs, and tab contains contents: Navigation Menus, Charts, and Query Results.
 So first, you need to define tabs and then assign them to dashboards.
 
 <img src="/images/ScreenShots/configuration/Screenshot_20201103-190057.jpg" width="250"/>
 
-## Search Tabs
+### Search Tabs
 
 Click on the tab icon on the configuration page to navigate to the search tabs screen.
 
@@ -134,7 +134,7 @@ The app will take you to the result screen.
 
 <img src="/images/ScreenShots/tabs/Screenshot_20201103-234547.jpg" width="250"/>
 
-## View/Edit a Tab
+### View/Edit a Tab
 
 <img src="/images/ScreenShots/tabs/Screenshot_20201103-234551.jpg" width="250"/>
 
@@ -145,7 +145,7 @@ Click on View / Fetch-View to view and update the details of a tab.
 
 Review the details and make modifications as required. Click on the Save button at the top right corner to save the tab details.
 
-## Copy a Tab
+### Copy a Tab
 
 To copy a Tab, click on the copy button on the search result screen.
 
@@ -159,7 +159,7 @@ Depending on the content type you select on the main tab, the app will show diff
 
 Enable the specific tab content (a query, or a chart, or several menus) you want to show on this tab
 
-## Delete a Tab
+### Delete a Tab
 
 To delete a tab, click on the delete button on the search result screen.
 
@@ -172,7 +172,7 @@ The app will show you a confirmation dialog box.
 Click on "Yes" to delete the dashboard. Click on "No" to cancel the action.
 
 
-## Create a new Tab
+### Create a new Tab
 
 To create a Dashboard, click on the menu button (three dots ... on right side corner) on the search screen page and select "Create New".
 
@@ -182,7 +182,7 @@ The app will take you to a new dashboard form(same as the view/edit form). Enter
 
 <img src="/images/ScreenShots/tabs/Screenshot_20201103-234559.jpg" width="250"/>
 
-## Menu List
+### Menu List
 
  You can click on any icon on the dashboard to view all the menus assigned to that module. 
  You can configure which menus should appear in which module and in what sequence by changing the navigation path details.
