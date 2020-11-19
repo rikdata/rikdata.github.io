@@ -105,7 +105,7 @@ Scroll on the top tab to review all the details of the product
 <img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_05.JPG" width="250"/>
 <img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_06.JPG" width="250"/>
 
-By default, the application fetches only top level information such as PO Header and Line details.
+By default, the application fetches only top-level information such as PO Header and Line details.
 
 <img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_07.JPG" width="250"/>
 <img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_08.JPG" width="250"/>
@@ -126,18 +126,69 @@ By default, the app does not fetch level 3 information (such as schedule line or
 <img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_13.JPG" width="250"/>
 <img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_14.JPG" width="250"/>
 
-Similarly, if the level 3 details contain any level 4 data (subcontracting components of schedule line), then the app will show a button for the same. Click on the button to view the details.
+Similarly, if the level 3 details contain any level 4 data (subcontracting components of schedule line), the app will show a button. Click on the button to view the details.
 
 <img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_15.JPG" width="250"/>
 <img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_16.JPG" width="250"/>
 
+Click on the back button to navigate back to the search result screen.
 
+
+#### Production Order
+
+Navigate to the production order search from your favorite/dashboard
+
+<img src="/images/ScreenShots/document/sap/production_order/rikdata_sap_production_order_01.JPG" width="300"/>
+<img src="/images/ScreenShots/document/sap/production_order/rikdata_sap_production_order_02.JPG" width="300"/>
+
+
+Enter the Plant/Production Order details or any other criteria in the search form and click on the search button.
+
+<img src="/images/ScreenShots/document/sap/production_order/rikdata_sap_production_order_03.JPG" width="300"/>
+
+Click on the expand icon against an item that you want to view.
+
+<img src="/images/ScreenShots/document/sap/production_order/rikdata_sap_production_order_05.JPG" width="300"/>
+
+Click on the Menu against an item that you want to review and click on the view button.
+
+<img src="/images/ScreenShots/document/sap/production_order/rikdata_sap_production_order_04.JPG" width="300"/>
+
+Scroll on the top tab to review all the details of the production order. The first tab shows basic header level information of the product.
+
+<img src="/images/ScreenShots/document/sap/production_order/rikdata_sap_production_order_06.JPG" width="300"/>
+
+To view all the components required for the production order, scroll to the second tab.
+
+<img src="/images/ScreenShots/document/sap/production_order/rikdata_sap_production_order_07.JPG" width="300"/>
+
+The next tab shows the details of the production order item.
+
+<img src="/images/ScreenShots/document/sap/production_order/rikdata_sap_production_order_08.JPG" width="300"/>
+
+By default, the application fetches only top-level information such as Production Order Header, Components, and Operations when you scroll to the corresponding tab.
+If the production order contains multiple operations, then the operations are shown in an expandable area. Click on an operation to view its details.
+
+<img src="/images/ScreenShots/document/sap/production_order/rikdata_sap_production_order_09.JPG" width="300"/>
+
+If the production order contains only one operation, then all the operation details are shown as a single list.
+
+<img src="/images/ScreenShots/document/sap/production_order/rikdata_sap_production_order_10.JPG" width="300"/>
+
+You can scroll up/down and left/right to view all the tabs & data.
+
+<img src="/images/ScreenShots/document/sap/production_order/rikdata_sap_production_order_11.JPG" width="300"/>
+
+Third, Fourth level details such as Production Order Status under the Production Order Component tab as shown as a button. To view the details, click on the button, and the app fetches all the information.
+
+<img src="/images/ScreenShots/document/sap/production_order/rikdata_sap_production_order_12.JPG" width="300"/>
+<img src="/images/ScreenShots/document/sap/production_order/rikdata_sap_production_order_13.JPG" width="300"/>
 
 Click on the back button to navigate back to the search result screen.
 
 #### Update a document
 
-This is an example of updating a product description, but you can follow the same steps to update any data of any other document.
+This is an example of updating a product description, but you can follow the same steps to update any other document data.
 
 !> You can only update a document/data if it's available as per ODATA service
 

@@ -148,8 +148,8 @@ Maximum allowed length of characters for the field. Not applicable for Select or
 Don't make any modifications to this field.
 
 #### Control Field
-If a field controls other fields on a form, then enter the name of the field in the control field.
-Ex: OrganizationCode controls sub inventories on the transaction form. So, we need to enter OrganizationCode in the control field. If we enter any value on the control field, then the app will do some checks and will update the control field with the required information. Don't make any modification to existing menu paths if you are not sure.
+If a field controls other fields on a form, enter the field's name in the control field.
+Ex: OrganizationCode controls sub inventories on the transaction form. So, we need to enter OrganizationCode in the control field. If we enter any value on the control field, the app will do internal validation and will update the control field with the required information. Don't make any modifications to existing menu paths if you are not sure.
 
 
 ## Search Menu Paths
@@ -175,7 +175,7 @@ The app will take you to the result screen.
 <img src="/images/ScreenShots/configuration/Screenshot_20201103-190808.jpg" width="250"/>
 
 Click on View / Fetch-View to view and update the details of a menu path.
-*There is no difference between View / Fetch-View, for a menu path, as all the data are stored locally. However, for documents and transaction (such as POs, WOs, Item., etc.) Fetch-View always fetches data from the server but View the first check if the data has been fetched for the current session. If it finds any existing data in the cache, then it shows the data.
+*There is no difference between View / Fetch-View, for a menu path, as all the data are stored locally. However, for documents and transactions (such as POs, WOs, Item., etc.) Fetch-View always fetches data from the server but View the first check if the data has been fetched for the current session. If it finds any existing data in the cache, then it shows the data.
 
 <img src="/images/ScreenShots/configuration/Screenshot_20201103-190816.jpg" width="250"/>
 
@@ -187,7 +187,7 @@ To copy a menu path, click on the copy button on the search result screen.
 
 <img src="/images/ScreenShots/configuration/Screenshot_20201103-190808.jpg" width="250"/>
 
-The app will copy all the details of the selected menu path and will take you to the view/edit form. Enter/Modify all the required information and click on save.
+The app will copy all the selected menu path details and take you to the view/edit form. Enter/Modify all the required information and click on save.
 
 !> Don't try to modify the entity definition field on the first tab directly. The value is derived on all the fields from the Entity Definition tab.
 
@@ -207,7 +207,7 @@ Click on "Yes" to delete the dashboard. Click on "No" to cancel the action.
 
 ## Create a new Menu Path
 
-To create a Dashboard, click on the menu button (three dots ... on right side corner) on the search screen page and select "Create New".
+To create a Dashboard, click on the menu button (three dots ... on the right side corner) on the search screen page and select "Create New".
 
 <img src="/images/ScreenShots/dashboard/Screenshot_20201102-132846.jpg" width="250"/>
 
@@ -215,14 +215,39 @@ The app will take you to a new dashboard form(same as the view/edit form). Enter
 
 <img src="/images/ScreenShots/configuration/Screenshot_20201103-190850.jpg" width="250"/>
 
-<a class="btn btn-light float-right" href="#/navigation/" role="button">Navigation Menu</a>
 
+
+## List Of Values (Select Field)
+
+<img src="/images/ScreenShots/configuration/lov/rikdata_config_lov_10.JPG" width="250"/>
+
+OneApp shows fields in various formats - text field, text area, date, date/time, list of values.
+The app shows the field depending on how it's defined on the ERP side. All the lists of values are shown as select values. However, as the select values are fetched from different REST/ODATA paths, the app caches the list of values wherever possible.
+
+<img src="/images/ScreenShots/configuration/lov/rikdata_config_lov_11.JPG" width="250"/>
+
+
+A list of values helps in data entry and constraints what value users can enter on a form. However, it also slows down the process as the app has to fetch data from different sources. That's the reason the app shows select/list of values for very limited fields (Ex: Inventory Organization, Business Units, Transaction Types, etc. in Oracle and Movement Type, Plant, etc. in Oracle). By default, around 50 entities are shown as list of values. However, you can enable LOV for any other form/field if that's important as per your business requirement.
+
+<img src="/images/ScreenShots/configuration/lov/rikdata_config_lov_01.JPG" width="250"/>
+
+You can enable any field to list values by choosing the field as selected in the menu definition. If you choose the field type as select, then you must enter the below fields.
+
+<img src="/images/ScreenShots/configuration/lov/rikdata_config_lov_02.JPG" width="250"/>
+
+* selectPathCode - PathCode of the menu that provides the list of values
+* selectPathCodeFieldName - Name of the field that user will see on the list of values. The value must be one of the fields fetched from selectPathCode
+* selectPathCodeFieldLabel - Label of the field that a user will see on the list of values. The value must be one of the fields fetched from selectPathCode
+
+<img src="/images/ScreenShots/configuration/lov/rikdata_config_lov_03.JPG" width="250"/>
+
+!> Unlike SAP, where MovementType is used only for the material transaction, Oracle uses the term TransactionType in several modules (OM, INV, AR) with different purposes. Thus, it's required to use separate selectPathCode for TransactionType and all such similar fields.
 
 # Charts
 
 <img src="/images/ScreenShots/dashboard/Screenshot_20201102-132746.jpg" width="250"/>
 
-You can view any search result data as charts and also show saved query result data as charts on your dashboard. To define a chart for an entity, navigate to that entity's search screen and click on the menu on the right top corner.
+You can view any search result data as charts and also show saved query result data as charts on your dashboard. To define a chart for an entity, navigate to that entity's search screen and click on the right top corner menu.
 
 <img src="/images/ScreenShots/configuration/Screenshot_20201103-190320.jpg" width="250"/>
 
@@ -315,4 +340,3 @@ Change any field value as required and click on the Save button.
 
 <a class="btn btn-light float-right" href="#/quickstart/" role="button">Getting Started</a>
 <a class="btn btn-light float-right" href="https://github.com/rikdata/rikdata.github.io/issues" role="button">Issue Log</a>
-

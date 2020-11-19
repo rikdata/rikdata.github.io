@@ -18,7 +18,7 @@
   - [Inventory](/transaction/?id=inventory-transactions)
   - [Manufacturing](/transaction/?id=manufacturing-transactions)
   - [Purchasing](/transaction/po/)
-  - [SAP](/transaction/sap/)
+  - [SAP Examples](/transaction/sap/)
 
 - Configuration
   - [Settings](/configuration/?id=settings) 

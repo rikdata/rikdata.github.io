@@ -16,6 +16,7 @@
    - [Stock](/document/examples/sap/?id=stock-in-sap)
    - [Product](/document/examples/sap/?id=product)
    - [Purchase Order](/document/examples/sap/?id=purchase-order)
+   - [production Order](/document/examples/sap/?id=production-order)
    - [Update Material](/document/examples/sap/?id=update-material)
 
 

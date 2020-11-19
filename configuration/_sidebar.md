@@ -28,6 +28,7 @@
    - [Copy Paths](/configuration/?id=copy-a-menu-path)
    - [Delete a path](/configuration/?id=delete-a-menu-path)
    - [Create a new path](/configuration/?id=create-a-new-menu-path)
+   - [Select - LOV](/configuration/?id=list-of-values-select-field)
   - [Charts](/configuration/?id=charts)
   - [Query](/configuration/?id=query)
   - [Configuring Sap](/configuration/sap/?id=configuring-sap)
