@@ -23,6 +23,7 @@
     - [Material Documents](/transaction/sap/?id=material-documents)
     - [PO 101](/transaction/sap/?id=receipt-for-po-101)
     - [Cost Center 201](/transaction/sap/?id=issue-for-cost-center-201)
+    - [Stock Transfer 349](/transaction/sap/?id=issue-for-cost-center-201)
 
 - Configuration
   - [Settings](/configuration/?id=settings) 
