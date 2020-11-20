@@ -360,5 +360,5 @@ Click on the delete button to delete the query. Click on the view button to view
 
 Change any field value as required and click on the Save button.
 
-<a class="btn btn-light float-right" href="#/quickstart/" role="button">Getting Started</a>
+<a class="btn btn-light float-right" href="#/configuration/sap/?id=configuring-sap" role="button">Configuring Sap</a>
 <a class="btn btn-light float-right" href="https://github.com/rikdata/rikdata.github.io/issues" role="button">Issue Log</a>

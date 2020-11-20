@@ -1,6 +1,6 @@
 <span class="top-message float-right">[:pencil2:Edit Document](https://github.com/rikdata/rikdata.github.io/edit/main/document/examples/sap/README.md)</span>
 # SAP Examples
-The process of reviewing a document is the same both in SAP and Oracle. Below are a few examples of reviewing and updating some documents such as stock (onhand in Oracle) in a plant (inventory organization in Oracle),  updating the description of a product (item), and reviewing a Purchase order details (header, line, schedule, subcontracting, etc.).
+The process of reviewing a document is the same both in SAP and Oracle. Below are a few examples of reviewing and updating some records such as stock (onhand in Oracle) in a plant (inventory organization in Oracle),  updating the description of a product (item), and reviewing a Purchase order details (header, line, schedule, subcontracting, etc.).
 You can follow the same steps to review any other document.
 
 #### Stock In SAP
@@ -183,6 +183,52 @@ Third, Fourth level details such as Production Order Status under the Production
 
 <img src="/images/ScreenShots/document/sap/production_order/rikdata_sap_production_order_12.JPG" width="300"/>
 <img src="/images/ScreenShots/document/sap/production_order/rikdata_sap_production_order_13.JPG" width="300"/>
+
+Click on the back button to navigate back to the search result screen.
+
+#### Billing Document
+
+To review a billing, navigate to the "Billing Document" search form from your dashboard/favorite.
+
+<img src="/images/ScreenShots/document/sap/billing/rikdata_sap_billing_01.JPG" width="250"/>
+
+Enter the billing document/category/sales organization or any other criteria in the search form and click on the search button.
+
+<img src="/images/ScreenShots/document/sap/billing/rikdata_sap_billing_02.JPG" width="250"/>
+<img src="/images/ScreenShots/document/sap/billing/rikdata_sap_billing_03.JPG" width="250"/>
+
+Click on the expand icon against an item that if you want to view header level information. Click on the Menu against an item that you want to review and click on the view button.
+
+<img src="/images/ScreenShots/document/sap/billing/rikdata_sap_billing_04.JPG" width="250"/>
+
+Scroll on the top tab to review all the details of the billing document
+
+<img src="/images/ScreenShots/document/sap/billing/rikdata_sap_billing_05.JPG" width="250"/>
+<img src="/images/ScreenShots/document/sap/billing/rikdata_sap_billing_06.JPG" width="250"/>
+
+
+Click on the back button to navigate back to the search result screen.
+
+#### Enterprise Project
+
+To review an Enterprise Project, navigate to the "Enterprise Project" search form from your dashboard/favorite.
+
+<img src="/images/ScreenShots/document/sap/project/rikdata_sap_project_01.JPG" width="250"/>
+
+Enter the company code/project/description or any other criteria in the search form and click on the search button.
+
+<img src="/images/ScreenShots/document/sap/project/rikdata_sap_project_02.JPG" width="250"/>
+<img src="/images/ScreenShots/document/sap/project/rikdata_sap_project_03.JPG" width="250"/>
+
+Click on the expand icon against an item that if you want to view header level information. Click on the Menu against an item that you want to review and click on the view button.
+
+<img src="/images/ScreenShots/document/sap/project/rikdata_sap_project_04.JPG" width="250"/>
+<img src="/images/ScreenShots/document/sap/project/rikdata_sap_project_05.JPG" width="250"/>
+
+Scroll on the top tab to review all the details of the enterprise project document
+
+<img src="/images/ScreenShots/document/sap/project/rikdata_sap_project_06.JPG" width="250"/>
+<img src="/images/ScreenShots/document/sap/project/rikdata_sap_project_07.JPG" width="250"/>
 
 Click on the back button to navigate back to the search result screen.
 

@@ -1,7 +1,5 @@
 <span class="top-message float-right">[:pencil2:Edit Document](https://github.com/rikdata/rikdata.github.io/edit/main/README.md)</span>
 
-# RikData
-
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
     <h1 class="display-4">OneApp for all business systems</h1>
@@ -52,4 +50,3 @@ It also allows users to
 * Create charts and reports as per business requirements
 
 <a class="btn btn-light float-right" href="#/quickstart/?id=one-time-configuration" role="button">Quick Start</a>
-

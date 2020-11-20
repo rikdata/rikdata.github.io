@@ -12,6 +12,7 @@
 - Documents
   - [View Document](/document/?id=view-document)
   - [Maintain Document](/document/?id=maintain-document)
+  - [Oracle Examples](/document/examples/oracle/)
   - [SAP Examples](/document/examples/sap/)
 
 - Transactions

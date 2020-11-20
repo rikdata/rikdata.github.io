@@ -12,12 +12,15 @@
 - Documents
   - [View Document](/document/?id=view-document)
   - [Maintain Document](/document/?id=maintain-document)
-  - [SAP Examples](/document/?id=sap-examples)
+  - [Oracle Examples](/document/examples/oracle/)
+  - [SAP Examples](/document/examples/sap/)
    - [Stock](/document/examples/sap/?id=stock-in-sap)
    - [Product](/document/examples/sap/?id=product)
    - [Purchase Order](/document/examples/sap/?id=purchase-order)
-   - [production Order](/document/examples/sap/?id=production-order)
+   - [Production Order](/document/examples/sap/?id=production-order)
    - [Update Material](/document/examples/sap/?id=update-material)
+   - [Billing Document](/document/examples/sap/?id=billing-document)
+   - [Enterprise Project](/document/examples/sap/?id=enterprise-project)
 
 
 - Transactions

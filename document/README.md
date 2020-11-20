@@ -179,4 +179,4 @@ You can review the changed data using the GUI.
 Click on the back button to navigate back to the search result screen.
 
 
-<a class="btn btn-light float-right" href="#/transaction/" role="button">Transaction</a>
+<a class="btn btn-light float-right" href="#/document/examples/oracle/" role="button">Oracle</a>
