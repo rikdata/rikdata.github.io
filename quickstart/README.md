@@ -69,23 +69,23 @@ If you have used the default configuration, then the app will show a few demo in
 You can run the application in demo mode to preview all the menus, forms and configure various entities without using any username/password.
 To use the app in demo mode, select the demo instance on the login screen.
 
-<img src="/images/ScreenShots/basic/demo/rikdata_demo_01.JPG" width="250"/>
+<img src="/images/ScreenShots/basic/demo/rikdata_demo_01.JPG" width="300"/>
 
 If you select the demo instance (or SAP sandbox instance), the app will remove the username and password fields. Click on the Sign-in button to login into the app in demo mode.
 
-<img src="/images/ScreenShots/basic/demo/rikdata_demo_02.JPG" width="250"/>
+<img src="/images/ScreenShots/basic/demo/rikdata_demo_02.JPG" width="300"/>
 
 The app will take you to your default dashboard. You can select one of the sedded SAP/Oracle dashboards as your default dashboard in the settings screen.
 
-<img src="/images/ScreenShots/basic/demo/rikdata_demo_03.JPG" width="250"/>
+<img src="/images/ScreenShots/basic/demo/rikdata_demo_03.JPG" width="300"/>
 
 You can click on any module icon to view all the menus/entities available in that module.
 
-<img src="/images/ScreenShots/basic/demo/rikdata_demo_04.JPG" width="250"/>
+<img src="/images/ScreenShots/basic/demo/rikdata_demo_04.JPG" width="300"/>
 
 You can click on any menu to navigate to the corresponding search form. In demo mode, you cant search any data as the app is not connected to any instance. SAP provides a sandbox instance where anyone can view data from a test environment. You can use that instance to view all SAP related functionality without using your own instance. Unfortunately, Oracle does not provide any such features. So, you need to have access to an instance to test OneApp features with Oracle Cloud Application.
 
-<img src="/images/ScreenShots/basic/demo/rikdata_demo_05.JPG" width="250"/>
+<img src="/images/ScreenShots/basic/demo/rikdata_demo_05.JPG" width="300"/>
 
 If you try to search any document in demo mode, the app will show you the above error message.
 
@@ -94,11 +94,11 @@ If you try to search any document in demo mode, the app will show you the above 
 
 Click on the plus sign on the login page, and the app will take you to the instance search screen.
 
- <img src="/images/ScreenShots/galaxys7/Screenshot_20201017-220348.jpg" width="250"/>
+ <img src="/images/ScreenShots/galaxys7/Screenshot_20201017-220348.jpg" width="300"/>
 
 You can also navigate to the instance screen by clicking on Application Instance on the User menu.
 
- <img src="/images/ScreenShots/basic/Screenshot_20201102-011158.jpg" width="250"/>
+ <img src="/images/ScreenShots/basic/Screenshot_20201102-011158.jpg" width="300"/>
  
 Click on the search button to search all the existing instances. If you want to search a specific instance, then enter the corresponding instance details in the search fields and then click on the search button.
 
@@ -106,16 +106,16 @@ You can select the result format - table or list before clicking on the search b
 
 The app will take you to the result screen.
 
- <img src="/images/ScreenShots/galaxys7/Screenshot_20201017-220355.jpg" width="250"/>
+ <img src="/images/ScreenShots/galaxys7/Screenshot_20201017-220355.jpg" width="300"/>
 
 ### View/Edit an Instance
 
- <img src="/images/ScreenShots/getting-started/Screenshot_20201102-112303.jpg" width="250"/>
+ <img src="/images/ScreenShots/getting-started/Screenshot_20201102-112303.jpg" width="300"/>
 
 Click on View / Fetch-View to view and update the details of an instance.
 *There is no difference between View / Fetch-View, for instance, as all the data are stored locally. However, for documents and transactions (such as POs, WOs, Item., etc.) Fetch-View always fetches data from the server but View the first check if the data has been fetched for the current session. If it finds any existing data in the cache, then it shows the data.
 
- <img src="/images/ScreenShots/getting-started/Screenshot_20201102-112343.jpg" width="250"/>
+ <img src="/images/ScreenShots/getting-started/Screenshot_20201102-112343.jpg" width="300"/>
 
 Review the details and make modifications as required. Click on the Save button at the top right corner to save the instance details. Click on the back buttons at the top to navigate back to the login screen to complete the login.
 
@@ -123,21 +123,21 @@ Review the details and make modifications as required. Click on the Save button 
 
 To copy an instance, click on the copy button on the search result screen.
 
- <img src="/images/ScreenShots/getting-started/Screenshot_20201102-112352.jpg" width="250"/>
+ <img src="/images/ScreenShots/getting-started/Screenshot_20201102-112352.jpg" width="300"/>
 
 The app will copy all the details of the selected instance and will take you to the view/edit form. Enter/Modify all the required information and click on save
 
- <img src="/images/ScreenShots/getting-started/Screenshot_20201102-112343.jpg" width="250"/>
+ <img src="/images/ScreenShots/getting-started/Screenshot_20201102-112343.jpg" width="300"/>
 
 ### Delete an Instance
 
 To delete an instance, click on the delete button on the search result screen.
 
- <img src="/images/ScreenShots/getting-started/Screenshot_20201102-112303.jpg" width="250"/>
+ <img src="/images/ScreenShots/getting-started/Screenshot_20201102-112303.jpg" width="300"/>
 
 The app will show you a confirmation dialog box.
 
- <img src="/images/ScreenShots/getting-started/Screenshot_20201102-112318.jpg" width="250"/>
+ <img src="/images/ScreenShots/getting-started/Screenshot_20201102-112318.jpg" width="300"/>
 
 Click on "Yes" to delete the instance. Click on "No" to cancel the action.
 
@@ -146,11 +146,11 @@ Click on "Yes" to delete the instance. Click on "No" to cancel the action.
 
 To create an instance, click on the menu button (three dots ... on the right side corner) on the search screen page and select "Create New".
 
- <img src="/images/ScreenShots/getting-started/Screenshot_20201102-112352.jpg" width="250"/>
+ <img src="/images/ScreenShots/getting-started/Screenshot_20201102-112352.jpg" width="300"/>
 
 The app will take you to a new instance form(same as the view/edit form). Enter all the information and click on save
 
- <img src="/images/ScreenShots/getting-started/Screenshot_20201102-112343.jpg" width="250"/>
+ <img src="/images/ScreenShots/getting-started/Screenshot_20201102-112343.jpg" width="300"/>
 
 ### SAP Sandbox
 
@@ -162,11 +162,11 @@ To use SAP Sandbox, navigate to https://api.sap.com/ and register. The API key i
 
 Click on "Show API Key" button to view the API key. Copy it, and enter it in API Key field on OneApp instance screen. The default configuration comes with one instance (hana1) with the snadbox hostname details. If you dont use that instance then enter the hostname. 
 
- <img src="/images/ScreenShots/basic/sap_sandbox/rikdata_sap_sandbox_02.JPG" width="250"/>
+ <img src="/images/ScreenShots/basic/sap_sandbox/rikdata_sap_sandbox_02.JPG" width="300"/>
 
 Next, select the sandbox instance on the login screen
 
- <img src="/images/ScreenShots/basic/sap_sandbox/rikdata_sap_sandbox_03.JPG" width="250"/>
+ <img src="/images/ScreenShots/basic/sap_sandbox/rikdata_sap_sandbox_03.JPG" width="300"/>
 
 
 !> SAP Sandbox only allows to view data. So, you can't create/update/delete any record using sandbox instance

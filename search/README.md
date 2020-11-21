@@ -1,6 +1,6 @@
 <span class="top-message float-right">[:pencil2:Edit Document](https://github.com/rikdata/rikdata.github.io/edit/main/search/README.md)</span>
 
-<img src="/images/ScreenShots/search/Screenshot_20201102-151649.jpg" width="250"/>
+<img src="/images/ScreenShots/search/Screenshot_20201102-151649.jpg" width="300"/>
  
 You can navigate to the search screen by clicking on any menu on your dashboard. From search screen
 * you can search documents (such as invoice, purchase order)
@@ -9,7 +9,7 @@ You can navigate to the search screen by clicking on any menu on your dashboard.
 * clear search result cache
 * update entity definition
 
-<img src="/images/ScreenShots/dashboard/Screenshot_20201102-132846.jpg" width="250"/>
+<img src="/images/ScreenShots/dashboard/Screenshot_20201102-132846.jpg" width="300"/>
 
 When you visit a search page for the first time, the app fetches all the related list of values from the server (Ex: when you visit sub inventory screen, the app will fetch a list of organizations). So, the app might take a couple of seconds to load and shows below screen until it fetches all the server data.
 
@@ -17,21 +17,21 @@ The list of values is cached for a session. So, suppose you visit another screen
 
 ### Enter Search Criteria
 
- <img src="/images/ScreenShots/search/Screenshot_20201102-151713.jpg" width="250"/>
+ <img src="/images/ScreenShots/search/Screenshot_20201102-151713.jpg" width="300"/>
 
 You can search using various keywords (such as %, *, =, =>, <=, <, >, etc ). Enter the keyword and corresponding field value before clicking on the search button
 
-<img src="/images/ScreenShots/search/Screenshot_20201102-151802.jpg" width="250"/>
+<img src="/images/ScreenShots/search/Screenshot_20201102-151802.jpg" width="300"/>
 
 Fields that have a list of values are shown as a select field. All the other fields are shown as text fields.
 All the text fields show a camera icon. You can click on the camera icon to scan (Barcode/Text) any field value.
 
-<img src="/images/ScreenShots/search/Screenshot_20201102-151824.jpg" width="250"/>
+<img src="/images/ScreenShots/search/Screenshot_20201102-151824.jpg" width="300"/>
 
 
 ### Search Result
 
- <img src="/images/ScreenShots/search/Screenshot_20201102-151830.jpg" width="250"/>
+ <img src="/images/ScreenShots/search/Screenshot_20201102-151830.jpg" width="300"/>
 
 From the search result screen
 * you can view documents (such as invoice, purchase order)
@@ -39,12 +39,12 @@ From the search result screen
 * you can create a transaction (such as issuing material to WO, completing move transaction)
 * save the search result and use it in charts
 
-<img src="/images/ScreenShots/search/Screenshot_20201102-151913.jpg" width="250"/>
+<img src="/images/ScreenShots/search/Screenshot_20201102-151913.jpg" width="300"/>
 
 
 ### Save Search Result
 
-<img src="/images/ScreenShots/search/Screenshot_20201102-151838.jpg" width="250"/>
+<img src="/images/ScreenShots/search/Screenshot_20201102-151838.jpg" width="300"/>
 
 To save a query (all entered criteria and search result), click on the save query button. The app will create a new saved query and will show you the name of the new saved query. You can later change the name, description, etc. of the query.
 
@@ -55,24 +55,24 @@ You can use the saved query in tabs and dashboards.
 
 Click on the "view chart" button on the result page to view charts defined for the entity. If charts are defined for the searched entity, then the app will show the list of all charts in floating action button (click on the button at right bottom corner)
 
-<img src="/images/ScreenShots/search/Screenshot_20201102-192836.jpg" width="250"/>
+<img src="/images/ScreenShots/search/Screenshot_20201102-192836.jpg" width="300"/>
 
-<img src="/images/ScreenShots/search/Screenshot_20201102-192845.jpg" width="250"/>
+<img src="/images/ScreenShots/search/Screenshot_20201102-192845.jpg" width="300"/>
  
 Click on the chart name, and the app will take you to the chart screen.
 
-<img src="/images/ScreenShots/search/Screenshot_20201102-192854.jpg" width="250"/>
+<img src="/images/ScreenShots/search/Screenshot_20201102-192854.jpg" width="300"/>
 
 ### Quick Search
 
 Currently, the quick search allows you to search for a navigation menu. If you use the default configuration, the app will create 1500+ navigation menus, and at the beginning, it might not be easy to find a specific navigation path.  So, you can use the quick search to search such menus. You can also add menus to your favourite for easy access.
 
-<img src="/images/ScreenShots/search/Screenshot_20201102-214800.jpg" width="250"/>
+<img src="/images/ScreenShots/search/Screenshot_20201102-214800.jpg" width="300"/>
 
 To access quick search, click on the search icon on the dashboard (Icon is shown on the right top corner). In the quick search screen, enter the value you want to search and click on the search icon next to it.
 
 When you enter more than three characters in the search field, the app will auto query the value and show the matched result.
 
-<img src="/images/ScreenShots/search/Screenshot_20201102-214814.jpg" width="250"/>
+<img src="/images/ScreenShots/search/Screenshot_20201102-214814.jpg" width="300"/>
 
 <a class="btn btn-light float-right" href="#/document/" role="button">Document</a>

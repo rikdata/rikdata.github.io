@@ -21,32 +21,32 @@ We create transactions in different ways in Oracle and SAP. Oracle's transaction
 * #### Search the document: 
 First, we search the document we want to transact. Ex: Purchase Order, Work Order, Cycle Count, or Sales Order, etc. For transactions that don't involve any documents (such as Miscellaneous issue/receipt in Oracle or 501/502/561 type of transactions in SAP), we first search the item we want to transact.
 
-<img src="/images/ScreenShots/transaction/SAP/initial/Search_SAP.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/SAP/initial/Search_Oracle.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/SAP/initial/Search_SAP.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/SAP/initial/Search_Oracle.JPG" width="300"/>
 
 
 
 * #### Select the transaction type:
 Depending on the criteria we enter in step1, the app will show different results. We need to select the document/item we want to transact and the transaction type (Ex: Material Issue to WO in Oracle)
 
-<img src="/images/ScreenShots/transaction/SAP/initial/Select_SAP.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/SAP/initial/Select_Oracle.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/SAP/initial/Select_SAP.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/SAP/initial/Select_Oracle.JPG" width="300"/>
 
 
 
 * ####  Review and Update the details: 
 The app will default various information as per our selection in step1, local settings, and the data available in the ERP. We need to review all the details and enter new details wherever applicable (Ex: Quantity, Serial Information, Sub Inventory in Oracle/Storage in SAP)
 
-<img src="/images/ScreenShots/transaction/SAP/initial/Review_SAP.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/SAP/initial/Review_Oracle.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/SAP/initial/Review_SAP.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/SAP/initial/Review_Oracle.JPG" width="300"/>
 
 
 
 * #### Save the transaction: 
 Finally, we click on the Save button. The app will validate all the information and will post it to the ERP system. If any error occurs in the ERP, the app will show the message returned from the ERP system to the user.
 
-<img src="/images/ScreenShots/transaction/SAP/initial/Save_SAP.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/SAP/initial/Save_Oracle.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/SAP/initial/Save_SAP.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/SAP/initial/Save_Oracle.JPG" width="300"/>
 
 
 Using OneApp, you can do almost all transactions available in Oracle & SAP, such as 
@@ -69,50 +69,50 @@ This guide covers the second approach as it's more convenient to do a transactio
 
 First, to do a miscellaneous issue/receipt transaction, navigate to the item search form from your dashboard/favorite.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213449.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213449.jpg" width="300"/>
 
 Enter the item details or any other criteria in the search form and click on the search button.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213512.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213512.jpg" width="300"/>
 
 If you don't enter any organization code/name/id, then the app will show the same item in all assigned organization.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213525.jpg" width="250"/>
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213559.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213525.jpg" width="300"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213559.jpg" width="300"/>
 
 Click on the Menu against an item that you want to transact and click on the select button.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213615.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213615.jpg" width="300"/>
 
 Next, select the transaction type (ex: Misc Issue / Receipt)
 
 !> Even though the app shows all transaction types on this screen. Don't use it for WIP/PO/SO related transactions as you might have to enter all the information manually. There are better ways to do PO Receipt and WIP Material Transactions by first searching the document.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213626.jpg" width="250"/>
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213634.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213626.jpg" width="300"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213634.jpg" width="300"/>
 
 The app will take you to a confirmation screen where you need to validate all information and enter some other information such as Quantity, Serial Number, Lot Number, etc.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213642.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213642.jpg" width="300"/>
 
 The inventory transaction screen will show several tabs. The first Tab (Basic tab) contains information about the completed transaction. So, you can ignore it while doing a new transaction. Scroll to the next tab that contains all transaction line details.
 
 !> You can transact multiple lines together for Work Orders and Purchase Orders but for misc. transactions, you can transact only one item at a time
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213653.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213653.jpg" width="300"/>
 
 Verify all the information, and enter all the other required details such as
 * Sub Inventory (Issue from Misc. Issue and Receipt for Misc. Receipt)
 * Locator - if sub inventory is locator control
 * Cost - if applicable
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213710.jpg" width="250"/>
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213719.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213710.jpg" width="300"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213719.jpg" width="300"/>
 
 Next, click on the Save button.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213729.jpg" width="250"/>
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213737.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213729.jpg" width="300"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213737.jpg" width="300"/>
 
 
 
@@ -129,40 +129,40 @@ Next, click on the Save button.
 
 To create a subinventory transfer, navigate to the "Items Search" form from your dashboard/favorite.
 
-<img src="/images/ScreenShots/transaction/subinventory_transfer/rikdata_subinv_transfer_01.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/subinventory_transfer/rikdata_subinv_transfer_01.JPG" width="300"/>
 
 Enter the item/organization details or any other criteria in the search form and click on the search button.
 
-<img src="/images/ScreenShots/transaction/subinventory_transfer/rikdata_subinv_transfer_02.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/subinventory_transfer/rikdata_subinv_transfer_03.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/subinventory_transfer/rikdata_subinv_transfer_02.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/subinventory_transfer/rikdata_subinv_transfer_03.JPG" width="300"/>
 
 
 Click on the Menu against an item that you want to transfer and click on the select button.
 
-<img src="/images/ScreenShots/transaction/subinventory_transfer/rikdata_subinv_transfer_04.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/subinventory_transfer/rikdata_subinv_transfer_05.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/subinventory_transfer/rikdata_subinv_transfer_04.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/subinventory_transfer/rikdata_subinv_transfer_05.JPG" width="300"/>
 
 Next, select the transaction type as "Subinventory Transfer."
 
 The app will fetch all the related information required to complete the Subinventory Transfer. It will take you to a confirmation screen where you need to validate all information and enter other required information such as From Subinventory, To Subinventory, Quantity, Serial, and Lot Infomation.
 
 
-<img src="/images/ScreenShots/transaction/subinventory_transfer/rikdata_subinv_transfer_06.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/subinventory_transfer/rikdata_subinv_transfer_07.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/subinventory_transfer/rikdata_subinv_transfer_08.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/subinventory_transfer/rikdata_subinv_transfer_09.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/subinventory_transfer/rikdata_subinv_transfer_10.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/subinventory_transfer/rikdata_subinv_transfer_06.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/subinventory_transfer/rikdata_subinv_transfer_07.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/subinventory_transfer/rikdata_subinv_transfer_08.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/subinventory_transfer/rikdata_subinv_transfer_09.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/subinventory_transfer/rikdata_subinv_transfer_10.JPG" width="300"/>
 
 
 Scroll up and down to view all the fields. You can configure the navigation menu for Inventory Transaction to control what fields should be shown to the user and in what sequence. You can also make fields mandatory and read-only depending on your business requirements.
 
 Next, click on the Save button. 
 
-<img src="/images/ScreenShots/transaction/subinventory_transfer/rikdata_subinv_transfer_11.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/subinventory_transfer/rikdata_subinv_transfer_11.JPG" width="300"/>
 
 You can review the details on the Oracle cloud.
 
-<img src="/images/ScreenShots/transaction/subinventory_transfer/rikdata_subinv_transfer_100.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/subinventory_transfer/rikdata_subinv_transfer_100.JPG" width="300"/>
 
 
 
@@ -171,29 +171,29 @@ You can review the details on the Oracle cloud.
 
 A pick wave is a batch of shipment lines that are pick released together based on certain business-related criteria. To create a pick, navigate to the sales order form from your dashboard/favorite.
 
-<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_01A.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_01A.JPG" width="300"/>
 
 Enter the order/customer details or any other criteria in the search form and click on the search button.
 
-<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_01.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_01.JPG" width="300"/>
 
 Click on the Menu against an item that you want to transact and click on the select button.
 
-<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_02.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_03.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_02.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_03.JPG" width="300"/>
 
 Next, select the transaction type as pick wave.
 
 The app will fetch all the related information required to complete the pick wave process and will take you to a confirmation screen where you need to validate all information and change any detail as required.
 
 
-<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_04.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_05.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_06.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_07.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_08.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_09.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_10.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_04.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_05.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_06.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_07.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_08.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_09.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/create_pick_wave/rikdata_create_pick_wave_10.JPG" width="300"/>
 
 Enable "CreateShipmentsFlag," and "PickReleaseFlag" if you want to pick release the orders.
 
@@ -214,26 +214,26 @@ In case of any error, the system will show you show the error message received f
 
 The Pick Transactions resource allows confirming picks on a pick slip. It allows capturing the quantity and inventory details like subinventory, locator, lot, and serial numbers along with the necessary exceptions. To confirm pick, navigate to the pick slip details search form from your dashboard/favorite.
 
-<img src="/images/ScreenShots/transaction/confirm_pick_wave/rikdata_confirm_pick_wave_01A.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/confirm_pick_wave/rikdata_confirm_pick_wave_01A.JPG" width="300"/>
 
 Enter the order/customer details or any other criteria in the search form and click on the search button.
 
-<img src="/images/ScreenShots/transaction/confirm_pick_wave/rikdata_confirm_pick_wave_01.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/confirm_pick_wave/rikdata_confirm_pick_wave_02.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/confirm_pick_wave/rikdata_confirm_pick_wave_01.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/confirm_pick_wave/rikdata_confirm_pick_wave_02.JPG" width="300"/>
 
 
 Click on the Menu against an item that you want to transact and click on the select button.
 
-<img src="/images/ScreenShots/transaction/confirm_pick_wave/rikdata_confirm_pick_wave_03.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/confirm_pick_wave/rikdata_confirm_pick_wave_04.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/confirm_pick_wave/rikdata_confirm_pick_wave_03.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/confirm_pick_wave/rikdata_confirm_pick_wave_04.JPG" width="300"/>
 
 Next, select the transaction type as pick transaction.
 
-<img src="/images/ScreenShots/transaction/confirm_pick_wave/rikdata_confirm_pick_wave_05.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/confirm_pick_wave/rikdata_confirm_pick_wave_05.JPG" width="300"/>
 
 The app will fetch all the related information required to complete the pick wave process and will take you to a confirmation screen where you need to validate all information and enter some other information such as Quantity, Subinventory,  etc.
 
-<img src="/images/ScreenShots/transaction/confirm_pick_wave/rikdata_confirm_pick_wave_07.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/confirm_pick_wave/rikdata_confirm_pick_wave_07.JPG" width="300"/>
 
 Scroll up and down to view all the fields. You can configure the navigation menu for Pickwave to control what fields should be shown to the user and in which sequence. You can also make fields mandatory and read-only depending on your business requirements.
 
@@ -249,41 +249,41 @@ Ship confirm is the process of confirming that items have shipped through a ship
 
 To do a ship confirm a transaction, navigate to the shipments search form from your dashboard/favorite.
 
-<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_01.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_01.JPG" width="300"/>
 
 Enter the shipment details or any other criteria in the search form and click on the search button.
 
-<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_02.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_03.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_02.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_03.JPG" width="300"/>
 
 
 Click on the Menu against an item that you want to transact and click on the select button.
 
-<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_04.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_05.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_04.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_05.JPG" width="300"/>
 
 Next, select the transaction type as the shipment transaction request.
 
-<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_06.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_06.JPG" width="300"/>
 
 The app will fetch all the related information required to complete the shipment process and will take you to a confirmation screen where you need to validate all information and enter some other information such as Action Code, Carrier, etc.
 
-<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_07.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_07.JPG" width="300"/>
 
 Scroll up and down to view all the fields. You can configure the navigation menu for shipment transactions to control what fields should be shown to the user and in which sequence. You can also make fields mandatory and read-only depending on your business requirements.
 
-<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_08.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_09.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_10.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_11.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_12.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_13.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_08.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_09.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_10.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_11.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_12.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_13.JPG" width="300"/>
 
 Next, click on the Save button.
 
 The system will complete the transaction and will show you the below message.
 
-<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_14.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/shipments/rikdata_shipment_14.JPG" width="300"/>
 
 
 
@@ -306,31 +306,31 @@ These aspects are important when inspecting receipt lines:
 
 To inspect incoming goods before delivery, navigate to the "Lines To Inspect" form from your dashboard/favorite.
 
-<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_01.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_01.JPG" width="300"/>
 
 Enter the item/organization details or any other criteria in the search form and click on the search button.
 
-<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_02.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_03.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_02.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_03.JPG" width="300"/>
 
 
 Click on the Menu against an item that you want to inspect and click on the select button.
 
-<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_04.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_05.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_04.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_05.JPG" width="300"/>
 
 Next, select the transaction type as "Receiving Receipt Transaction Request."
 
 The app will fetch all the related information required to complete the inspection process. It will take you to a confirmation screen where you need to validate all information and change any detail as needed.
 
 
-<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_06.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_07A.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_08.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_09.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_10.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_11.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_12.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_06.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_07A.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_08.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_09.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_10.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_11.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_12.JPG" width="300"/>
 
 
 Scroll up and down to view all the fields. You can configure the navigation menu for Receiving Receipt Request to control what fields should be shown to the user and in what sequence. You can also make fields mandatory and read-only depending on your business requirements.
@@ -342,25 +342,22 @@ Enter all the required fields, such as
 
 Next, click on the Save button. 
 
-<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_13.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_13.JPG" width="300"/>
 
 You can review the details on the Oracle cloud.
 
 <img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_100.JPG" width="750"/>
 
-
-
-
 ## Serial/Lot Number
 
 If an item is serial or lot controlled, then you need to enter the serial and lot details in the serial/lot tab. If you don't enter, the app will show below warning message, and won't submit the transaction to the server.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213842.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213842.jpg" width="300"/>
 
 To enter serial/lot number details, scroll to the serial number tab and enter/scan From Serial and To Serial numbers.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213903.jpg" width="250"/>
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-214018.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213903.jpg" width="300"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-214018.jpg" width="300"/>
 
 # Manufacturing Transactions
 
@@ -377,64 +374,64 @@ You can view and complete all work order related transactions using OneApp. The 
 
 To do a material transaction against a Work Order, first, navigate to the dispatch list form.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213000.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213000.jpg" width="300"/>
 
 You can navigate to the dispatch list form from your dashboard, favorite, or just by using a quick search.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-212954.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-212954.jpg" width="300"/>
 
 Enter the item or organization code or work order number in the search form and then click on the search button.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213017.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213017.jpg" width="300"/>
 
 The app will show all the available work orders with operation details. To view the work order details (such item, description, dates, etc.), you click on the expand button, and the app will show you all the details. You can also visit to the work order details form by clicking on the Fetch/View button, but that's not required to complete a transaction. If you do navigate to the work order details screen, then use the back button to navigate back to the current search result screen.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213017.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213017.jpg" width="300"/>
 
 Click on the Menu against an operation that you want to do a material transaction and click on the select button.
 
 Next, select "Material Transaction" in the transaction type list of values.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213023.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213023.jpg" width="300"/>
 
 The app will take you to a confirmation screen where you need to validate all information and enter some other information such as Quantity, Serial Number, Lot Number, etc.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213347.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213347.jpg" width="300"/>
 
 
 The transaction screen will show several tabs. The first Tab (Basic tab) contains information that is required to complete the material transaction. Source System Code and Source System Type are required to complete a material transaction using REST API, and thus the app will default the value from the navigation menu configuration. If required, you can manually change the value.
 
 !> You can change the default value of Source System Code and Source System Type in the menu path for material transactions
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213356.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213356.jpg" width="300"/>
 
 Click on the expand button to view the item details.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213403.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213403.jpg" width="300"/>
 
 Verify all the information, and enter all the other required details such as
 * Sub Inventory
 * Locator - if sub inventory is locator control
 * Quantity
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213411.jpg" width="250"/>
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213420.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213411.jpg" width="300"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213420.jpg" width="300"/>
 
 Next, click on the Save button.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213437.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213437.jpg" width="300"/>
 
 
 ### Serial/Lot Number
 
 If an item is serial or lot controlled, you need to enter the serial and lot details in the serial/lot tab. If you don't enter, the app will show below warning message, and won't submit the transaction to the server.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213842.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213842.jpg" width="300"/>
 
 To enter serial/lot number details, scroll to the serial number tab and enter/scan From Serial and To Serial numbers.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213903.jpg" width="250"/>
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-214018.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213903.jpg" width="300"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-214018.jpg" width="300"/>
 
 
 
@@ -442,15 +439,15 @@ To enter serial/lot number details, scroll to the serial number tab and enter/sc
 
 To do a resource transaction against a Work Order, first, navigate to the dispatch list form.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213000.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213000.jpg" width="300"/>
 
 You can navigate to the dispatch list form from your dashboard, favorite, or just by using a quick search.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-212954.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-212954.jpg" width="300"/>
 
 Enter the item or organization code or work order number in the search form and then click on the search button.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213017.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213017.jpg" width="300"/>
 
 The app will show all the available work orders with operation details. To view the work order details (such item, description, dates, etc.), you click on the expand button, and the app will show you all the details. You can also visit to the work order details form by clicking on the Fetch/View button, but that's not required to complete a transaction. If you do navigate to the work order details screen, then use the back button to navigate back to the current search result screen.
 
@@ -458,104 +455,104 @@ Click on the Menu against an operation that you want to do resource transactions
 
 Next, select "Resource Transaction" in the transaction type list of values.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213235.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213235.jpg" width="300"/>
 
 The app will take you to a confirmation screen where you need to validate all information and enter some other information such as Quantity, Unit of Measure, Resource, etc.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213259.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213259.jpg" width="300"/>
 
 
 The transaction screen will show several tabs. The first Tab (Basic tab) contains information that is required to complete the material transaction. Source System Code and Source System Type are required to complete a resource transaction using REST API, and thus the app will default the value from the navigation menu configuration. If required, you can manually change the value.
 
 !> You can change the default value of Source System Code and Source System Type in the menu path for material transactions
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213259.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213259.jpg" width="300"/>
 
 Click on the expand button to view the resource details.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213307.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213307.jpg" width="300"/>
 
 Verify all the information, and enter all the other required details
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213315.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213315.jpg" width="300"/>
 
 Next, click on the Save button.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213323.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213323.jpg" width="300"/>
 
 
 ## Operation Move
 
 To do an operation move transaction against a Work Order, first, navigate to the dispatch list form.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213000.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213000.jpg" width="300"/>
 
 You can navigate to the dispatch list form from your dashboard, favorite, or just by using a quick search.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-212954.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-212954.jpg" width="300"/>
 
 Enter the item or organization code or work order number in the search form and then click on the search button.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213017.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213017.jpg" width="300"/>
 
 The app will show all the available work orders with operation details. To view the work order details (such item, description, dates, etc.), you click on the expand button, and the app will show you all the details. You can also visit to the work order details form by clicking on the Fetch/View button, but that's not required to complete a transaction. If you do navigate to the work order details screen, then use the back button to navigate back to the current search result screen.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213017.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213017.jpg" width="300"/>
 
 Click on the Menu against an operation that you want to do move transaction and click on the select button.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213118.jpg" width="250"/>
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213144.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213118.jpg" width="300"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213144.jpg" width="300"/>
 
 Next, select "Operation Transaction" in the transaction type list of values.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213149.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213149.jpg" width="300"/>
 
 The app will take you to a confirmation screen where you need to validate all information and enter some other information such as To Dispatch code, reason code, etc.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213201.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213201.jpg" width="300"/>
 
 
 The transaction screen will show several tabs. The first Tab (Basic tab) contains information that is required to complete the operation transaction. Source System Code and Source System Type are required to complete a resource transaction using REST API, and thus the app will default the value from the navigation menu configuration. If required, you can manually change the value.
 
 !> You can change the default value of Source System Code and Source System Type in the menu path for operation transactions
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213211.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213211.jpg" width="300"/>
 
 Verify all the information, and enter all the other required details
 
 Next, click on the Save button.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213218.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213218.jpg" width="300"/>
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213223.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213223.jpg" width="300"/>
 
 
 ## Operation Start-Stop
 
 To do an operation start/stop transaction against a Work Order, first navigate to the dispatch list form.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213000.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213000.jpg" width="300"/>
 
 You can navigate to the dispatch list form from your dashboard, favorite, or just by using a quick search.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-212954.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-212954.jpg" width="300"/>
 
 Enter the item or organization code or work order number in the search form and then click on the search button.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213017.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213017.jpg" width="300"/>
 
 The app will show all the available work orders with operation details. To view the work order details (such item, description, dates, etc.), you click on the expand button, and the app will show you all the details. You can also visit to the work order details form by clicking on the Fetch/View button, but that's not required to complete a transaction. If you do navigate to the work order details screen, then use the back button to navigate back to the current search result screen.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213017.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213017.jpg" width="300"/>
 
 Click on the Menu against an operation that you want to start/stop and click on the select button.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213118.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213118.jpg" width="300"/>
 
 Next, select "Operation Start Stop" in the transaction type list of values.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213034.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213034.jpg" width="300"/>
 
 The app will take you to a confirmation screen where you need to validate all information and enter some other information such as Date, Time, etc.
 
@@ -566,43 +563,43 @@ The transaction screen will show several tabs. The first Tab (Basic tab) contain
 
 Verify all the information, and enter all the other required details
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213041.jpg" width="250"/>
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213052.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213041.jpg" width="300"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213052.jpg" width="300"/>
 
 Next, click on the Save button.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-213103.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-213103.jpg" width="300"/>
 
 
 # Review Onhand Balance
 
 After completing any transaction, you can review the onhand balance by navigating into the onhand screen.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-214653.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-214653.jpg" width="300"/>
 
 You can navigate to the onhand screen from your dashboard, favorite, or just by using a quick search.
 Enter the item and organization code in the search form and then click on the search button.
 
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-214727.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-214727.jpg" width="300"/>
 
 If you want to view only the onhand quantity details (such item, description, unit of measure, quantity, subinventory, etc.), then you click on the expand button, and the app will show you all the details.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-214738.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-214738.jpg" width="300"/>
 
 If you want to view the details such as Serial Number, Lot Number, etc., click on Menu (... three dots) and select View.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-214744.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-214744.jpg" width="300"/>
 
 The app will take you to the detailed form where you can view all the onhand details.
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-214754.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-214754.jpg" width="300"/>
 
 Scroll to the Serail or Lot tab to view the Serial and Lot Information
 
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-214906.jpg" width="250"/>
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-214920.jpg" width="250"/>
-<img src="/images/ScreenShots/transaction/Screenshot_20201017-214928.jpg" width="250"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-214906.jpg" width="300"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-214920.jpg" width="300"/>
+<img src="/images/ScreenShots/transaction/Screenshot_20201017-214928.jpg" width="300"/>
 
 
 <a class="btn btn-light float-right" href="#/transaction/po/" role="button">PO Related Transactions</a>

@@ -7,54 +7,54 @@ You can follow the same steps to review any other document.
 
 To review On-hand and Availability in an Organization, navigate the "Material Stock" search form from your dashboard/favorite.
 
-<img src="/images/ScreenShots/document/oracle/onhand/rikdata_oracle_onhand_01.jpg" width="250"/>
+<img src="/images/ScreenShots/document/oracle/onhand/rikdata_oracle_onhand_01.jpg" width="300"/>
 
 Enter the item/organization details or any other criteria in the search form and click on the search button.
 
-<img src="/images/ScreenShots/document/oracle/onhand/rikdata_oracle_onhand_02.jpg" width="250"/>
+<img src="/images/ScreenShots/document/oracle/onhand/rikdata_oracle_onhand_02.jpg" width="300"/>
 
 If you don't enter item/organization details, the app will show below error message as Oracle does not allow a search without an item number.
 
-<img src="/images/ScreenShots/document/oracle/onhand/rikdata_oracle_onhand_03.jpg" width="250"/>
+<img src="/images/ScreenShots/document/oracle/onhand/rikdata_oracle_onhand_03.jpg" width="300"/>
 
 If you enter the correct search criteria and click on the Search button, the app will fetch all the data from the Oracle cloud and take you to the below result screen.
 
-<img src="/images/ScreenShots/document/oracle/onhand/rikdata_oracle_onhand_04.jpg" width="250"/>
-<img src="/images/ScreenShots/document/oracle/onhand/rikdata_oracle_onhand_05.jpg" width="250"/>
-<img src="/images/ScreenShots/document/oracle/onhand/rikdata_oracle_onhand_06.jpg" width="250"/>
+<img src="/images/ScreenShots/document/oracle/onhand/rikdata_oracle_onhand_04.jpg" width="300"/>
+<img src="/images/ScreenShots/document/oracle/onhand/rikdata_oracle_onhand_05.jpg" width="300"/>
+<img src="/images/ScreenShots/document/oracle/onhand/rikdata_oracle_onhand_06.jpg" width="300"/>
 
 
 Click on the expand icon against an item that you want to view.
 
-<img src="/images/ScreenShots/document/oracle/onhand/rikdata_oracle_onhand_07.JPG" width="250"/>
+<img src="/images/ScreenShots/document/oracle/onhand/rikdata_oracle_onhand_07.JPG" width="300"/>
 
 Click on the Menu against an item that you want to review and click on the view button.
 
-<img src="/images/ScreenShots/document/oracle/onhand/rikdata_oracle_onhand_08.jpg" width="250"/>
-<img src="/images/ScreenShots/document/oracle/onhand/rikdata_oracle_onhand_09.jpg" width="250"/>
+<img src="/images/ScreenShots/document/oracle/onhand/rikdata_oracle_onhand_08.jpg" width="300"/>
+<img src="/images/ScreenShots/document/oracle/onhand/rikdata_oracle_onhand_09.jpg" width="300"/>
 
 Scroll left, right, up, and down view all the tabs and fields.
 
-<img src="/images/ScreenShots/document/oracle/onhand/rikdata_oracle_onhand_10.jpg" width="250"/>
+<img src="/images/ScreenShots/document/oracle/onhand/rikdata_oracle_onhand_10.jpg" width="300"/>
 
 If an item is serial controlled, then you can review the serial number details in the Serial Tab.
 
-<img src="/images/ScreenShots/document/oracle/onhand/rikdata_oracle_onhand_11.jpg" width="250"/>
-<img src="/images/ScreenShots/document/oracle/onhand/rikdata_oracle_onhand_12.jpg" width="250"/>
+<img src="/images/ScreenShots/document/oracle/onhand/rikdata_oracle_onhand_11.jpg" width="300"/>
+<img src="/images/ScreenShots/document/oracle/onhand/rikdata_oracle_onhand_12.jpg" width="300"/>
 
 
 If any chart is defined for the Stock entity, then you can view the on-hand details in a chart.
 Click on the View Charts button on the search result list screen.
 
-<img src="/images/ScreenShots/document/oracle/onhand/rikdata_oracle_onhand_13.jpg" width="250"/>
+<img src="/images/ScreenShots/document/oracle/onhand/rikdata_oracle_onhand_13.jpg" width="300"/>
 
 If the chart is defined for the entity, then a new floating action button will be visible on the screen. Click on the button to view all the defined charts.
 
 Click on a chart to view the details.
 
-<img src="/images/ScreenShots/document/oracle/onhand/rikdata_oracle_onhand_14.jpg" width="250"/>
-<img src="/images/ScreenShots/document/oracle/onhand/rikdata_oracle_onhand_15.jpg" width="250"/>
-<img src="/images/ScreenShots/document/oracle/onhand/rikdata_oracle_onhand_16.jpg" width="250"/>
+<img src="/images/ScreenShots/document/oracle/onhand/rikdata_oracle_onhand_14.jpg" width="300"/>
+<img src="/images/ScreenShots/document/oracle/onhand/rikdata_oracle_onhand_15.jpg" width="300"/>
+<img src="/images/ScreenShots/document/oracle/onhand/rikdata_oracle_onhand_16.jpg" width="300"/>
 
 Click on the back button to navigate back to the search result screen.
 
@@ -62,44 +62,44 @@ Click on the back button to navigate back to the search result screen.
 
 To review Item details in an organization, navigate to the "Item V" search form from your dashboard/favorite.
 
-<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_01.jpg" width="250"/>
+<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_01.jpg" width="300"/>
 
 Enter the item/organization details or any other criteria in the search form and click on the search button.
 
-<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_02.jpg" width="250"/>
+<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_02.jpg" width="300"/>
 
 If you don't enter item/organization details, the app will show below error message as Oracle does not allow a search without an item number.
 
-<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_03.jpg" width="250"/>
+<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_03.jpg" width="300"/>
 
 If you enter the correct search criteria and click on the Search button, the app will fetch all the data from the Oracle cloud and take you to the below result screen.
 
-<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_04.jpg" width="250"/>
-<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_05.jpg" width="250"/>
+<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_04.jpg" width="300"/>
+<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_05.jpg" width="300"/>
 
 Click on the expand icon against an item that you want to view.
 
-<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_06.jpg" width="250"/>
+<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_06.jpg" width="300"/>
 
 Click on the Menu against an item that you want to review and click on the view button.
 
-<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_07.jpg" width="250"/>
-<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_08.jpg" width="250"/>
+<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_07.jpg" width="300"/>
+<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_08.jpg" width="300"/>
 
 Scroll left, right, up, and down view all the tabs and fields.
 
-<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_09.jpg" width="250"/>
-<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_10.jpg" width="250"/>
-<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_11.jpg" width="250"/>
-<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_12.jpg" width="250"/>
-<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_13.jpg" width="250"/>
-<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_14.jpg" width="250"/>
-<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_15.jpg" width="250"/>
-<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_16.jpg" width="250"/>
-<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_17.jpg" width="250"/>
-<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_18.jpg" width="250"/>
-<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_19.jpg" width="250"/>
-<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_20.jpg" width="250"/>
+<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_09.jpg" width="300"/>
+<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_10.jpg" width="300"/>
+<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_11.jpg" width="300"/>
+<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_12.jpg" width="300"/>
+<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_13.jpg" width="300"/>
+<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_14.jpg" width="300"/>
+<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_15.jpg" width="300"/>
+<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_16.jpg" width="300"/>
+<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_17.jpg" width="300"/>
+<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_18.jpg" width="300"/>
+<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_19.jpg" width="300"/>
+<img src="/images/ScreenShots/document/oracle/item/rikdata_oracle_item_20.jpg" width="300"/>
 
 
 Click on the back button to navigate back to the search result screen.

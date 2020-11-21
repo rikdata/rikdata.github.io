@@ -30,21 +30,21 @@ Ex: After completing the first three steps, we need to assign the step 2 and ste
 ## Step 1: Decide the source document and configure the search menu
 Click on the Menu icon on the configuration page to navigate to the search menu path screen. You can also navigate to the menu paths from the user menu.
 
-<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_01A.JPG" width="250"/>
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_01A.JPG" width="300"/>
 
 Enter A_MatlStkInAcctMod in the path URL search field and click on the search button.
 
-<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_01.JPG" width="250"/>
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_01.JPG" width="300"/>
 
 You can select the result format - table or list before clicking on the search button—the value defaults from your settings.
 
 The app will take you to the result screen.
 
-<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_02.JPG" width="250"/>
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_02.JPG" width="300"/>
 
 To copy a menu path, click on the copy button on the search result screen.
 
-<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_03.JPG" width="250"/>
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_03.JPG" width="300"/>
 
 The app will copy all the selected menu path details and will take you to the view/edit form. You can enter/modify any information as per our business needs.
 
@@ -61,37 +61,37 @@ Save the new Menu
 #### Step2: Configure the POST transaction menu
 Click on the Menu icon on the configuration page to navigate to the search menu path screen. You can also navigate to the menu paths from the user menu.
 
-<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_01A.JPG" width="250"/>
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_01A.JPG" width="300"/>
 
 Enter A_MaterialDocumentHeader in the path URL search field and click on the search button.
 
-<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_06.JPG" width="250"/>
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_06.JPG" width="300"/>
 
 You can select the result format - table or list before clicking on the search button—the value defaults from your settings.
 
 The app will take you to the result screen.
 
-<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_07.JPG" width="250"/>
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_07.JPG" width="300"/>
 
 To copy a menu path, click on the copy button on the search result screen.
 
-<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_08.JPG" width="250"/>
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_08.JPG" width="300"/>
 
 The app will copy all the selected menu path details and take you to the view/edit form. Enter/modify any information as per your business need
 
-<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_08.JPG" width="250"/>
-<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_09.JPG" width="250"/>
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_08.JPG" width="300"/>
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_09.JPG" width="300"/>
 
 
 !>Always enter a unique code for copied paths so that the app can distinguish separate paths
 
-<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_10.JPG" width="250"/>
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_10.JPG" width="300"/>
 
 * Enter a path code (ex A_MaterialDocumentHeader_201 - you also need to assign this code to the post path code of step 1)
 * Edit the label to a more meaningful value as applicable for the transaction
 * Scroll down and enter a sequence and navigation group for the new Menu. The module name, navigation group, and sequence controls where the Menu will appear in the dashboard
 
-<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_11.JPG" width="250"/>
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_11.JPG" width="300"/>
 
 Save the new Menu
 
@@ -99,13 +99,13 @@ Save the new Menu
 Reopen the same path to view and modify the entity details 
 
 
-<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_12.JPG" width="250"/>
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_12.JPG" width="300"/>
 
 * Change the value of all the fields as required for the new transaction. 
 * Enter 03 as the default value for GoodsMovementCode and make it read-only so that users can't use this path to any other transaction
 
-<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_13.JPG" width="250"/>
-<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_14.JPG" width="250"/>
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_13.JPG" width="300"/>
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_14.JPG" width="300"/>
 
 Click on the Save button to confirm the changes.
 
@@ -115,21 +115,21 @@ Click on the Save button to confirm the changes.
 This step is required if the Menu used in step 2 also has dependent paths (Ex: Serial number for items).
 Click on the Menu icon on the configuration page to navigate to the search menu path screen. You can also navigate to the menu paths from the user menu.
 
-<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_01A.JPG" width="250"/>
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_01A.JPG" width="300"/>
 
 Enter A_MaterialDocumentHeader in the path URL search field and click on the search button.
 
-<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_15.JPG" width="250"/>
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_15.JPG" width="300"/>
 
 You can select the result format - table or list before clicking on the search button—the value defaults from your settings.
 
 The app will take you to the result screen.
 
-<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_16.JPG" width="250"/>
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_16.JPG" width="300"/>
 
 To copy a menu path, click on the copy button on the search result screen.
 
-<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_17.JPG" width="250"/>
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_17.JPG" width="300"/>
 
 The app will copy all the selected menu path details and take you to the view/edit form. Enter/modify any information as per your business need
 
@@ -140,21 +140,21 @@ The app will copy all the selected menu path details and take you to the view/ed
 * Edit the label to a more meaningful value as applicable for the transaction
 * Scroll down and enter a sequence and navigation group for the new Menu. The module name, navigation group, and sequence controls where the Menu will appear in the dashboard
 
-<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_18.JPG" width="250"/>
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_18.JPG" width="300"/>
 
 Save the new Menu
 
 Reopen the same path to view and modify the entity details 
 
-<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_19.JPG" width="250"/>
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_19.JPG" width="300"/>
 
-<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_20.JPG" width="250"/>
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_20.JPG" width="300"/>
 
 !> If the field that you want to use has a different name in the source document, then enter the source document name in the entity definition
 Ex: UOM name in A_MatlStkInAcctMod is different from A_MaterialDocumentItem_201. So, you need to enter the sourceFieldName as  "MaterialBaseUnit"  for "EntryUnit" field.
 
 
-<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_20B_source_field_name.JPG" width="250"/>
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_20B_source_field_name.JPG" width="300"/>
 
 
 * Change the value of all the fields as required for the new transaction. 
@@ -164,17 +164,17 @@ Ex: UOM name in A_MatlStkInAcctMod is different from A_MaterialDocumentItem_201.
 ## Step4: Assign POST and dependent menu details to search menu
 Click on the Menu icon on the configuration page to navigate to the search menu path screen. You can also navigate to the menu paths from the user menu.
 
-<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_01A.JPG" width="250"/>
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_01A.JPG" width="300"/>
 
 Enter A_MatlStkInAcctMod in the path URL search field and click on the search button.
 
-<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_21.JPG" width="250"/>
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_21.JPG" width="300"/>
 
 You can select the result format - table or list before clicking on the search button—the value defaults from your settings.
 
 The app will take you to the result screen.
 
-<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_22.JPG" width="250"/>
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_22.JPG" width="300"/>
 
 
 * Add the post path code and post path (A_MaterialDocumentHeader_201 & A_MaterialDocumentHeader)
@@ -185,23 +185,23 @@ Save the new Menu
 
 Navigate to the dashboard module and group where you have created the new Menu
 
-<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_30.JPG" width="250"/>
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_30.JPG" width="300"/>
 
 Click on the name of the new Menu. The app will take you to the search screen. Enter the product/plant details or any other criteria in the search form and click on the search button.
 
-<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_31.JPG" width="250"/>
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_31.JPG" width="300"/>
 
 Click on the Menu against an item that you want to transact and click on the select button.
 
-<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_32.JPG" width="250"/>
-<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_33.JPG" width="250"/>
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_32.JPG" width="300"/>
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_33.JPG" width="300"/>
 
 Next, select the transaction type as "Material Document Header."
 
 The app will fetch all the related information required to complete the document creation process. It will take you to a confirmation screen where you need to validate all information and change any detail as needed.
 
-<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_34.JPG" width="250"/>
-<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_35.JPG" width="250"/
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_34.JPG" width="300"/>
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_35.JPG" width="300"/
 
 Scroll up and down to view all the fields.
 
@@ -212,7 +212,7 @@ Review/enter/change below fields
 
 Next, click on the Save button. 
 
-<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_36.JPG" width="250"/>
+<img src="/images/ScreenShots/configuration/sap/new_menu2/rikdata_new_menu_36.JPG" width="300"/>
 
 The app will post the document to SAP and will show the returned message (document year, document number, transaction type, date, etc.)
 

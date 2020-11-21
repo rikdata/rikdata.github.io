@@ -23,6 +23,7 @@
    - [Receive](/transaction/po/?id=receiving-receipt)
    - [Inspect](/transaction/po/?id=inspect-receipts)
    - [Put Away](/transaction/po/?id=put-aways)
+   - [Review Errors](/transaction/po/?id=review-errors)
   - [SAP](/transaction/sap/)
 
 - Configuration

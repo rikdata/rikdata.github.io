@@ -18,38 +18,38 @@ You can also review interface errors and fix transactions in error
 
 To receive a purchase order (or any such document such as RMA, IO), navigate to the "Lines To Recieve" form from your dashboard/favorite.
 
-<img src="/images/ScreenShots/transaction/po/receive/rikdata_po_receive_01.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/receive/rikdata_po_receive_01.JPG" width="300"/>
 
 Enter the item/organization details or any other criteria in the search form and click on the search button.
 
-<img src="/images/ScreenShots/transaction/po/receive/rikdata_po_receive_02.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/po/receive/rikdata_po_receive_02A.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/receive/rikdata_po_receive_02.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/po/receive/rikdata_po_receive_02A.JPG" width="300"/>
 
 
 Click on the Menu against an item that you want to transact and click on the select button.
 
-<img src="/images/ScreenShots/transaction/po/receive/rikdata_po_receive_03.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/po/receive/rikdata_po_receive_04.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/receive/rikdata_po_receive_03.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/po/receive/rikdata_po_receive_04.JPG" width="300"/>
 
 Next, select the transaction type as "Receiving Receipt Request."
 
 The app will fetch all the related information required to complete the receiving receipt process. It will take you to a confirmation screen where you need to validate all information and change any detail as needed.
 
 
-<img src="/images/ScreenShots/transaction/po/receive/rikdata_po_receive_05.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/po/receive/rikdata_po_receive_06.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/receive/rikdata_po_receive_05.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/po/receive/rikdata_po_receive_06.JPG" width="300"/>
 
 
-Scroll up and down to view all the fields. You can configure the navigation menu for Receiving Receipt Request to control what fields should be shown to the user and in what sequence. You can also make fields mandatory and read-only depending on your business requirements.
+Scroll up and down to view all the fields. You can configure the navigation menu for Receiving Receipt Request to control what fields should be shown to the user and in what sequence. You can also make fields mandatory and read-only, depending on your business requirements.
 
-<img src="/images/ScreenShots/transaction/po/receive/rikdata_po_receive_07.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/receive/rikdata_po_receive_07.JPG" width="300"/>
 
 Enter all the required fields such as Quantity, Employee Name (System will default the employee name from settings)
 
 Next, click on the Save button. 
 
-<img src="/images/ScreenShots/transaction/po/receive/rikdata_po_receive_08.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/po/receive/rikdata_po_receive_10.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/receive/rikdata_po_receive_08.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/po/receive/rikdata_po_receive_10.JPG" width="300"/>
 
 You can review the details on the Oracle cloud.
 
@@ -61,20 +61,20 @@ You can review the details on the Oracle cloud.
 If any incorrect data is entered while receiving a document, Oracle will not be able to complete the receiving process. You can review all such transactions using the interface form.
 To review all such transactions, navigate to the "Receiving Receipt Transaction" form from your dashboard/favorite.
 
-<img src="/images/ScreenShots/transaction/po/receiving_error/rikdata_po_receive_01.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/receiving_error/rikdata_po_receive_01.JPG" width="300"/>
 
 Enter the document number/item/organization details or any other criteria in the search form and click on the search button.
 
-<img src="/images/ScreenShots/transaction/po/receiving_error/rikdata_po_receive_02.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/receiving_error/rikdata_po_receive_02.JPG" width="300"/>
 
 Click on the Menu against an item that you want to view the details and click on.
 
-<img src="/images/ScreenShots/transaction/po/receiving_error/rikdata_po_receive_03.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/po/receiving_error/rikdata_po_receive_03A.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/receiving_error/rikdata_po_receive_03.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/po/receiving_error/rikdata_po_receive_03A.JPG" width="300"/>
 
 The app will fetch all the information related to the selected transaction. It will take you to a detailed form screen where you can review all the transaction and error details.
 
-<img src="/images/ScreenShots/transaction/po/receiving_error/rikdata_po_receive_04.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/receiving_error/rikdata_po_receive_04.JPG" width="300"/>
 
 Scroll right to the Error tab to review transaction error details.
 
@@ -98,34 +98,34 @@ These aspects are important when inspecting receipt lines:
 
 To inspect incoming goods before delivery, navigate to the "Lines To Inspect" form from your dashboard/favorite.
 
-<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_01.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_01.JPG" width="300"/>
 
 Enter the item/organization details or any other criteria in the search form and click on the search button.
 
-<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_02.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_03.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_02.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_03.JPG" width="300"/>
 
 
 Click on the Menu against an item that you want to inspect and click on the select button.
 
-<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_04.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_05.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_04.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_05.JPG" width="300"/>
 
 Next, select the transaction type as "Receiving Receipt Transaction Request."
 
 The app will fetch all the related information required to complete the inspection process. It will take you to a confirmation screen where you need to validate all information and change any detail as needed.
 
 
-<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_06.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_07A.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_08.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_09.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_10.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_11.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_12.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_06.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_07A.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_08.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_09.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_10.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_11.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_12.JPG" width="300"/>
 
 
-Scroll up and down to view all the fields. You can configure the navigation menu for Receiving Receipt Request to control what fields should be shown to the user and in what sequence. You can also make fields mandatory and read-only depending on your business requirements.
+Scroll up and down to view all the fields. You can configure the navigation menu for Receiving Receipt Request to control what fields should be shown to the user and in what sequence. You can also make fields mandatory and read-only, depending on your business requirements.
 
 Enter all the required fields, such as 
 * Quantity
@@ -134,7 +134,7 @@ Enter all the required fields, such as
 
 Next, click on the Save button. 
 
-<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_13.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_13.JPG" width="300"/>
 
 You can review the details on the Oracle cloud.
 
@@ -160,18 +160,18 @@ Note: When you put away a line with Inventory as the destination, inventory is a
 
 To Put Away received/inspected incoming goods, navigate to the "Lines To PutAway" form from your dashboard/favorite.
 
-<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_01.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_01.JPG" width="300"/>
 
 Enter the item/organization details or any other criteria in the search form and click on the search button.
 
-<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_02.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_03.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_02.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_03.JPG" width="300"/>
 
 
 Click on the Menu against an item that you want to transact and click on the select button.
 
-<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_04.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_05.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_04.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_05.JPG" width="300"/>
 
 Next, select the transaction type as "Receiving Receipt Transaction Request."
 
@@ -182,55 +182,55 @@ Enter/change below fields
 * Transaction Type: Deliver
 * Transaction Date
 
-<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_06A.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_06B.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_08.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_11.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_12.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_13.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_06A.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_06B.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_08.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_11.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_12.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_13.JPG" width="300"/>
 
-Scroll up and down to view all the fields. You can configure the navigation menu for Receiving Receipt Transaction Request to control what fields should be shown to the user and in what sequence. You can also make fields mandatory and read-only depending on your business requirements.
+Scroll up and down to view all the fields. You can configure the navigation menu for Receiving Receipt Transaction Request to control what fields should be shown to the user and in what sequence. You can also make fields mandatory and read-only, depending on your business requirements.
 
-<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_14.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_15.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_14.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_15.JPG" width="300"/>
 
 Enter the lot and serial details if applicable.
 
 Next, click on the Save button. 
 
-<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_16.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_16.JPG" width="300"/>
 
 You can review the details on the Oracle cloud.
 <img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_100.JPG" width="750"/>
 <img src="/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_101.JPG" width="750"/>
 
 
-## Review Put Aways Errors
+## Review Errors
 
-If any incorrect data is entered while doing a put-away transaction, Oracle will not be able to complete the put-away process. You can review all such transactions using the interface form.
+If any incorrect data is entered while doing a receiving / put-away transaction, Oracle will not be able to complete the put-away process. You can review all such transactions using the interface form.
 To review all such transactions, navigate to the "Receiving Receipt Transaction" form from your dashboard/favorite.
 
-<img src="/images/ScreenShots/transaction/po/putaway_error/rikdata_po_putaway_error_04.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/putaway_error/rikdata_po_putaway_error_04.JPG" width="300"/>
 
 Enter the document number/item/organization details or any other criteria in the search form and click on the search button.
 
-<img src="/images/ScreenShots/transaction/po/putaway_error/rikdata_po_putaway_error_05.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/putaway_error/rikdata_po_putaway_error_05.JPG" width="300"/>
 
 Click on the Menu against an item that you want to view the details and click on.
 
-<img src="/images/ScreenShots/transaction/po/putaway_error/rikdata_po_putaway_error_06.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/po/putaway_error/rikdata_po_putaway_error_07.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/putaway_error/rikdata_po_putaway_error_06.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/po/putaway_error/rikdata_po_putaway_error_07.JPG" width="300"/>
 
 The app will fetch all the information related to the selected transaction. It will take you to a detailed form screen where you can review all the transaction and error details.
 
-<img src="/images/ScreenShots/transaction/po/putaway_error/rikdata_po_putaway_error_08.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/putaway_error/rikdata_po_putaway_error_08.JPG" width="300"/>
 
 Scroll right to the Error tab to review transaction error details.
 
-<img src="/images/ScreenShots/transaction/po/putaway_error/rikdata_po_putaway_error_09.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/po/putaway_error/rikdata_po_putaway_error_10.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/po/putaway_error/rikdata_po_putaway_error_11.JPG" width="250"/>
-<img src="/images/ScreenShots/transaction/po/putaway_error/rikdata_po_putaway_error_12.JPG" width="250"/>
+<img src="/images/ScreenShots/transaction/po/putaway_error/rikdata_po_putaway_error_09.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/po/putaway_error/rikdata_po_putaway_error_10.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/po/putaway_error/rikdata_po_putaway_error_11.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/po/putaway_error/rikdata_po_putaway_error_12.JPG" width="300"/>
 
 
 <a class="btn btn-light float-right" href="#/configuration/" role="button">Configuration</a>

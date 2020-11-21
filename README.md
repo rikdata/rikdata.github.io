@@ -26,13 +26,13 @@ You can use RikData One App with your internal MES/PLM and Quality management sy
 
 | Dashboard  | Search | Result |
 | ------------- | ------------- | ------------- |
-| <img src="/images/ScreenShots/basic/Screenshot_20201102-011149.jpg" width="250"/> | <img src="/images/ScreenShots/basic/Screenshot_20201102-011429.jpg" width="250"/>  | <img src="/images/ScreenShots/basic/Screenshot_20201102-011506.jpg" width="250"/>  |
+| <img src="/images/ScreenShots/basic/Screenshot_20201102-011149.jpg" width="300"/> | <img src="/images/ScreenShots/basic/Screenshot_20201102-011429.jpg" width="300"/>  | <img src="/images/ScreenShots/basic/Screenshot_20201102-011506.jpg" width="300"/>  |
 | Custom Dashboard  | Menu | Settings |
-| <img src="/images/ScreenShots/dashboard/Screenshot_20201102-132746.jpg" width="250"/> | <img src="/images/ScreenShots/basic/Screenshot_20201102-011412.jpg" width="250"/>  | <img src="/images/ScreenShots/basic/Screenshot_20201102-011220.jpg" width="250"/>  |
+| <img src="/images/ScreenShots/dashboard/Screenshot_20201102-132746.jpg" width="300"/> | <img src="/images/ScreenShots/basic/Screenshot_20201102-011412.jpg" width="300"/>  | <img src="/images/ScreenShots/basic/Screenshot_20201102-011220.jpg" width="300"/>  |
 | Qucik Menu  | Configuration | Configurable Forms |
-| <img src="/images/ScreenShots/basic/Screenshot_20201102-011158.jpg" width="250"/> | <img src="/images/ScreenShots/basic/Screenshot_20201102-011210.jpg" width="250"/>  | <img src="/images/ScreenShots/document/levels/rikdata_documents_level_4_01.JPG" width="250"/>  |
+| <img src="/images/ScreenShots/basic/Screenshot_20201102-011158.jpg" width="300"/> | <img src="/images/ScreenShots/basic/Screenshot_20201102-011210.jpg" width="300"/>  | <img src="/images/ScreenShots/document/levels/rikdata_documents_level_4_01.JPG" width="300"/>  |
 | Personalized Menus  | Reports  | Charts |
-| <img src="/images/ScreenShots/dashboard/rikdata_dashboard_05.JPG" width="250"/> | <img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_11.JPG" width="250"/>  | <img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_12.JPG" width="250"/>  |
+| <img src="/images/ScreenShots/dashboard/rikdata_dashboard_05.JPG" width="300"/> | <img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_11.JPG" width="300"/>  | <img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_12.JPG" width="300"/>  |
 
 <div class="card bg-light">
   <div class="card-body">
