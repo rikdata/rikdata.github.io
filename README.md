@@ -9,7 +9,7 @@
 
 OneApp is a mobile application for creating, viewing, and updating various business-related documents and transactions. Though OneApp is primarily designed as a single mobile app for accessing all Oracle Cloud Application and SAP Hana S/4 (Cloud and On-Premise) modules, it can be used for any other PLM, Quality, MES business system. The default configuration allows users to use Oracle Cloud (2600+ functionalities) and all the SAP HANA s/4 features available via ODATA. 
 
-The user interface is also available in Windows & macOS for configuring various business processes and creating navigation menus, forms, queries, reports, and charts.
+The user interface is also available in Windows & macOS to configure various business processes and create navigation menus, forms, queries, reports, and charts.
 
 <div class="card bg-light">
   <div class="card-body">
@@ -40,12 +40,13 @@ You can use RikData One App with your internal MES/PLM and Quality management sy
     <p class="card-text">Though Oracle and SAP are the two biggest ERP system providers, the design, architect, data structure, and functionality provided by these two products vary significantly in several business processes. For example, SAP still uses a single segment chart of account structure, whereas the Oracle chart of account structure can be up to 7/8 segments and 30/40 characters in many organizations. Thus the entire accounting structure, journal creation, and financial reporting process are different. 
 
 Though the organizational structure in both the products is still different, after the addition of the business unit concept in Oracle cloud, the functionality of three important entities is becoming similar.
-
 * Inventory Org in Oracle / Plant in SAP
 * Business Unit in Oracle/Company Code in SAP
 * Legal Entity in Oracle / Company in SAP 
 
-Another area in which the two product's structure is very different is Item Master (or Material Master). The Supplier and Customer details are still maintained in 2/3 levels in both the products with a similar number of attributes. SAP doesn't mandate any Item Master, and Item attributes can be maintained in the Plant/Storage Location level. Though Oracle allows maintaining few item Item attributes in the SubInventory level, it's not the same as maintaining a material master in the Storage Location level. The number of item attributes in SAP is almost four times that of Oracle (without considering any DFFs/EFFs), and that's because Oracle maintains certain processes and information (such as Cost Management data) differently. 
+Thus, the supply chain, planning, and manufacturing processes are becoming more similar. However, the process of APO is quite different from Planning Central / ASCP, and Oracle still doesn't support any planning process similar to DDMRP. The BOM structure is also quite different as Oracle uses two levels (Header and Line, no details) and doesn't have features similar to BOM Group.
+
+Another area in which the two product's structure is very different is Item Master (or Material Master). The Supplier and Customer details are still maintained in 2/3 levels in both the products with a similar number of attributes. SAP doesn't mandate any Item Master Organization, and Item attributes can be maintained in the Plant/Storage Location level. Though Oracle allows maintaining few item Item attributes in the SubInventory level, it's not the same as maintaining a material master in the Storage Location level. The number of item attributes in SAP is almost four times that of Oracle (without considering any DFFs/EFFs), and that's because Oracle maintains certain processes and information (such as Cost Management data) differently. 
 
 A document can track all physical and financial processes in SAP, and SAP maintains the relationship among all the documents. However, in Oracle, documents and transactions are different. 
 
