@@ -36,10 +36,10 @@ You can use RikData One App with your internal MES/PLM and Quality management sy
 
 <div class="card bg-light">
   <div class="card-body">
-    <h6 class="card-subtitle mb-2 text-muted">Mix of Oracle & SAP</h6>
+    <h6 class="card-subtitle mb-2 text-muted">OneApp Design Stack:  Best of Oracle & SAP</h6>
     <p class="card-text">Though Oracle and SAP are the two biggest ERP system providers, the design, architect, data structure, and functionality provided by these two products vary significantly in several business processes. For example, SAP still uses a single segment chart of account structure, whereas the Oracle chart of account structure can be up to 7/8 segments and 30/40 characters in many organizations. Thus the entire accounting structure, journal creation, and financial reporting process are different. 
 
-Though the organizational structure in both the products is still different, after the addition of the business unit concept in Oracle cloud, the functionality of three important entities is becoming similar.
+The organizational structure and hierarchy in both products are quite different. However, after the addition of the business unit concept in Oracle cloud, the functionality of three important entities is becoming similar.
 * Inventory Org in Oracle / Plant in SAP
 * Business Unit in Oracle/Company Code in SAP
 * Legal Entity in Oracle / Company in SAP 
@@ -48,13 +48,13 @@ Thus, the supply chain, planning, and manufacturing processes are becoming more 
 
 Another area in which the two product's structure is very different is Item Master (or Material Master). The Supplier and Customer details are still maintained in 2/3 levels in both the products with a similar number of attributes. SAP doesn't mandate any Item Master Organization, and Item attributes can be maintained in the Plant/Storage Location level. Though Oracle allows maintaining few item Item attributes in the SubInventory level, it's not the same as maintaining a material master in the Storage Location level. The number of item attributes in SAP is almost four times that of Oracle (without considering any DFFs/EFFs), and that's because Oracle maintains certain processes and information (such as Cost Management data) differently. 
 
-A document can track all physical and financial processes in SAP, and SAP maintains the relationship among all the documents. However, in Oracle, documents and transactions are different. 
+A document can track all physical and financial processes in SAP, and SAP maintains the relationship among all the documents. However, in Oracle, documents and transactions are different. The document access methods through REST/ODATA are also different: SAP allows to access header and line-level data independently. However, Oracle provides access to line and detailed documents through its parent document.
 
 The  Subledger accounting & costing process in Oracle is more flexible and complicated than what SAP provides. On the other hand, the material movement (inventory transaction in Oracle ) process is much better and flexible in SAP compared to Oracle. The list of differences is quite long. As OneApp is designed to be a single app that can be used by either ERP system, we have considered both SAP Hana S/4 and Oracle Cloud features while designing OneApp. So if you are not an expert on both systems,  some of the processes might look strange initially. But, as you spend more time, you will realize why certain procedures are different from your familiar ERP system.
   </div>
 </div>
 
-RikData allows users to configure all forms and fields: 
+OnrApp allows users to configure all forms and fields: 
 * Form Visibility: Which form is visible to which user. (Ex: A technician can only issue materials to a work order but can not edit the work order) 
 * Field Visibility: Which fields of a form is visible to which user(Ex: Buyers can view and edit purchasing related fields on item master and Planners can view and edit only planning-related fields on item master)
 * Field Sequence: The sequence of each field in a form (Ex: while doing a material transaction, the user will view item number before a unit of measure)

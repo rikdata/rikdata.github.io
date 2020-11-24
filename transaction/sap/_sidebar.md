@@ -24,11 +24,13 @@
     - [PO 101](/transaction/sap/?id=receipt-for-po-101)
     - [Productio 101](/transaction/sap/?id=receipt-for-production-order-101)
     - [Issue To Production 261](/transaction/sap/?id=issue-to-production-order-261)
-    - [Cancel Document](/transaction/sap/?id=cancel-document)
-    - [Cancel Document at Item Level](/transaction/sap/?id=cancel-document-at-item-level)
     - [Transfer Posting 311](/transaction/sap/?id=transfer-posting-311)
     - [Cost Center 201](/transaction/sap/?id=issue-for-cost-center-201)
     - [Stock Transfer 349](/transaction/sap/?id=issue-for-cost-center-201)
+    - [Create Physical Inventory](/transaction/sap/?id=createcopy-physical-inventory)
+    - [Count Physical Inventory](/transaction/sap/?id=count-physical-inventory)
+    - [Cancel Document](/transaction/sap/?id=cancel-document)
+    - [Cancel Document at Item Level](/transaction/sap/?id=cancel-document-at-item-level)
 
 - Configuration
   - [Settings](/configuration/?id=settings) 

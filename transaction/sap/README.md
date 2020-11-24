@@ -33,7 +33,7 @@ Click on the Menu against an item that you want to transact and click on the sel
 
 Next, select the transaction type as "MaterialDocumentHeader."
 
-The app will fetch all the related information required to complete the MIGO process. It will take you to a confirmation screen where you need to validate all information and change any detail as needed.
+The app will fetch all the related information required to complete the MIGO process. It will take you to a confirmation screen where you need to validate all information and change any detail as required.
 
 
 <img src="/images/ScreenShots/transaction/SAP/MIGO/rikdata_sap_migo_501_05.JPG" width="300"/>
@@ -287,6 +287,85 @@ You can review the details on the GUI.
 
 <img src="/images/ScreenShots/transaction/SAP/311/rikdata_sap_migo_311_21.JPG" width="750"/>
 <img src="/images/ScreenShots/transaction/SAP/311/rikdata_sap_migo_311_22.JPG" width="750"/>
+
+### Create/Copy Physical Inventory
+
+To create a Physical Inventory, navigate to the "Create Physical Inventory Doc" search form from your dashboard/favorite.
+
+<img src="/images/ScreenShots/transaction/SAP/Create_Physical_Inv/rikdata_sap_create_pi_14.JPG" width="300"/>
+
+Enter an existing document or any other information of an existing PI document in the search form and click on the search button.
+
+<img src="/images/ScreenShots/transaction/SAP/Create_Physical_Inv/rikdata_sap_create_pi_15.JPG" width="300"/>
+
+Click on the Menu against an item that you want to copy and click on the copy button.
+
+<img src="/images/ScreenShots/transaction/SAP/Create_Physical_Inv/rikdata_sap_create_pi_16.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/SAP/Create_Physical_Inv/rikdata_sap_create_pi_17.JPG" width="300"/>
+
+The app will fetch and copy all the document header and item information required to create a new physical document. You can configure which field values should be copied/ignored in the menu path settings. It will take you to a new screen where you need to validate all information and save the new document.
+
+<img src="/images/ScreenShots/transaction/SAP/Create_Physical_Inv/rikdata_sap_create_pi_19.JPG" width="300"/>
+
+Scroll up and down to view all the fields.
+
+<img src="/images/ScreenShots/transaction/SAP/Create_Physical_Inv/rikdata_sap_create_pi_18.JPG" width="300"/>
+
+To add a new line, click on the menu on any of the line records and select add new.
+
+<img src="/images/ScreenShots/transaction/SAP/Create_Physical_Inv/rikdata_sap_create_pi_19.JPG" width="300"/>
+
+
+Next, click on the Save button to create a new PI document. 
+
+<img src="/images/ScreenShots/transaction/SAP/Create_Physical_Inv/rikdata_sap_create_pi_20.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/SAP/Create_Physical_Inv/rikdata_sap_create_pi_21.JPG" width="300"/>
+
+
+The app will post the document to SAP and will show the returned message (document year, document number, transaction type, date, etc.)
+
+You can review the details on the GUI.
+
+<img src="/images/ScreenShots/transaction/SAP/Create_Physical_Inv/rikdata_sap_create_pi_10.JPG" width="750"/>
+<img src="/images/ScreenShots/transaction/SAP/Create_Physical_Inv/rikdata_sap_create_pi_11.JPG" width="750"/>
+
+
+### Count Physical Inventory
+
+To count a Physical Inventory, navigate to the "Count Physical Inventory Doc" search form from your dashboard/favorite.
+
+<img src="/images/ScreenShots/transaction/SAP/Count_Physical_Inv/rikdata_sap_count_pi_01.JPG" width="300"/>
+
+Enter a document number/plant or any other information of an existing PI document in the search form and click on the search button.
+
+<img src="/images/ScreenShots/transaction/SAP/Count_Physical_Inv/rikdata_sap_count_pi_02.JPG" width="300"/>
+
+To search only uncounted entries, switch off the "Physical Inventory Item is counted" button (You have to switch on and then off)
+
+<img src="/images/ScreenShots/transaction/SAP/Count_Physical_Inv/rikdata_sap_count_pi_03.JPG" width="300"/>
+<img src="/images/ScreenShots/transaction/SAP/Count_Physical_Inv/rikdata_sap_count_pi_04.JPG" width="300"/>
+
+Click on the Menu against an item that you want to count and click on the view button.
+
+<img src="/images/ScreenShots/transaction/SAP/Count_Physical_Inv/rikdata_sap_count_pi_05.JPG" width="300"/>
+
+The app will fetch the document header and item information required to confirm a count. You can configure which field values should be copied/ignored/hidden/required in the menu path settings. It will take you to a new screen where you need to validate all information and save the new document.
+
+The basic tab shows the item information. You can scroll to the Physical Inventory Document to view header level information.
+
+<img src="/images/ScreenShots/transaction/SAP/Count_Physical_Inv/rikdata_sap_count_pi_06.JPG" width="300"/>
+
+Scroll up and down to view all the fields. Next, click on the Save button to create a count. 
+
+<img src="/images/ScreenShots/transaction/SAP/Count_Physical_Inv/rikdata_sap_count_pi_07.JPG" width="300"/>
+
+The app will post the document to SAP and will show the returned message.
+
+You can review the details on the GUI.
+
+<img src="/images/ScreenShots/transaction/SAP/Count_Physical_Inv/rikdata_sap_count_pi_10.JPG" width="750"/>
+<img src="/images/ScreenShots/transaction/SAP/Count_Physical_Inv/rikdata_sap_count_pi_11.JPG" width="750"/>
+<img src="/images/ScreenShots/transaction/SAP/Count_Physical_Inv/rikdata_sap_count_pi_12.JPG" width="750"/>
 
 ### Cancel Document
 
