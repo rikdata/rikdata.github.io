@@ -1,5 +1,5 @@
 <span class="top-message float-right">[:pencil2:Edit Document](https://github.com/rikdata/rikdata.github.io/edit/main/README.md)</span>
-
+ <h3 class="d-block d-sm-block d-md-none">RikData OneApp</h3>
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
     <h1 class="display-4">OneApp for all business systems</h1>
