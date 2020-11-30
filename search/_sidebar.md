@@ -9,6 +9,7 @@
   - [Advanced Search](/search/)
     - [Search Criterias](/search/?id=enter-search-criterias)
     - [Search Results](/search/?id=search-result)
+    - [Next & Previous](/search/?id=next-amp-previous)
     - [Save Query](/search/?id=save-search-result)
     - [View Charts](/search/?id=view-charts)
   - [Quick Search](/search/?id=quick-search)

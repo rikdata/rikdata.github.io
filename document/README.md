@@ -5,7 +5,7 @@ All the documents are accessed and shown in the same manner. So, this guide cove
 
 To view/update any document, first search the document and then click on the View or Fetch and View button to open the document.
 
-# View Document
+## View Document
 
 All documents are divided into various levels such as Level 1 (Header), Level 2 (Line), Level 3, Level 4, etc.
 All documents have level 1 details, and many documents also have level 2 details. Header level details are shown in the first tab of the document (Basic Tab)
@@ -56,7 +56,7 @@ PO Header Line (Items), Sales Order Line, Work Order Line/Items(Production Order
 * PO Order Item Subcontarcting components
 
 
-## Header
+### Header
 
 Each document has a header (the term is quite frequently used in both Oracle and SAP world, and it has the same meaning in OneApp). The header level information is always shown in the basic tab.
 
@@ -67,19 +67,19 @@ If the document has other header level information (for example, DFF/EFFs in Ora
 The number of tabs on a document depends on various factors. So, scroll right on the tab region to view all the available tabs on a document.
 
 
-## Line
+### Line
 
 Several documents contain line-level information(such as Purchase Order, Work Order (Production Order in SAP), BOM, etc.). Line details are shown in a separate tab, and as one header can contain multiple lines, line details are shown as a list. You need to click on the expand button to view the details of a line.
 
 <img src="/images/ScreenShots/document/levels/rikdata_documents_level_2_03.JPG" width="300"/>
 
-## Level 3 Details
+### Level 3 Details
 
 Some lines might contain multiple details. Ex: The purchase order line in Oracle contains several shipments. Similarly, Operations on a work order contains material requirement. By default, the app does not fetch the details of level 3 records, but it shows a button. To view the details, click on the button, and the app will fetch all the required information.
 
 <img src="/images/ScreenShots/document/levels/rikdata_documents_level_3_01.JPG" width="300"/>
 
- ## Level 4 Details
+ ### Level 4 Details
 
 Some level 3 records might contain multiple details. Ex: Purchase order shipments in Oracle contains several distributions. By default, the app does not fetch the details of level 4 records, but it shows a button. To view the details, click on the button, and the app will fetch all the required information.
 
@@ -100,11 +100,9 @@ Level 4: DFF
 <img src="/images/ScreenShots/document/levels/rikdata_documents_level_4_01.JPG" width="300"/>
 
 
-<a class="btn btn-light float-right" href="#/navigation/" role="button">Navigation Menu</a>
+## Maintain Document
 
-# Maintain Document
-
-## Save a document
+### Save a document
 
 <img src="/images/ScreenShots/document/Screenshot_20201102-224213.jpg" width="300"/>
 
@@ -118,7 +116,7 @@ The system first validates all the entered information and then posts it to the 
 <img src="/images/ScreenShots/document/Screenshot_20201102-224226.jpg" width="300"/>
 
 
-## Copy a document
+### Copy a document
 
 To copy a document, click on the copy button on the search result screen.
 
@@ -128,7 +126,7 @@ The app will copy all the selected dashboard details and take you to the view/ed
 
 The copy button is visible only for those documents which are allowed to be created (Controlled by the POST / PUT check box in the navigation menu)
 
-## Delete a document
+### Delete a document
 
 To delete a document, click on the delete button on the search result screen.
 
@@ -143,13 +141,37 @@ Click on "Yes" to delete the document. Click on "No" to cancel the action.
 The copy button is visible only for those documents which are allowed to be deleted (Controlled by the DELETE check box in the navigation menu)
 
 
-## Create a new document
+### Create a new document
 
 To create a document, click on the menu button (three dots ... on the right side corner) on the search screen page and select "Create New".
 
 <img src="/images/ScreenShots/document/Screenshot_20201102-225907.jpg" width="300"/>
 
 The app will take you to a new document form(same as the view/edit form). Enter all the information and click on save
+
+### Document Action
+
+<img src="/images/ScreenShots/document/oracle/action/rikdata_oracle_document_action_01.jpg" width="300"/>
+
+Oracle allows several document actions through REST APIs and all the available actions for a document are shown in the action tab.
+
+Ex: For purchase order 
+* Communicate
+* Submit 
+* Renumber
+* Close PO
+
+For draft PO
+* Submit
+
+For Project Cost
+* Adjust Project Costs
+
+<img src="/images/ScreenShots/document/oracle/action/rikdata_oracle_document_action_02.jpg" width="300"/>
+
+Click on an action button to submit the action. The app will show you the response from Oracle cloud.
+
+<img src="/images/ScreenShots/document/oracle/action/rikdata_oracle_document_action_03.jpg" width="300"/>
 
 
 #### Update a document in SAP

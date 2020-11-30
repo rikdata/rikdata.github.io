@@ -20,6 +20,7 @@
    - [Copy a document](/document/?id=copy-a-document)
    - [Delete a document](/document/?id=delete-a-document)
    - [Create a new document](/document/?id=create-a-new-document)
+   - [Document Action](/document/?id=document-action)
   - [Oracle Examples](/document/examples/oracle/)
   - [SAP Examples](/document/examples/sap/)
 
