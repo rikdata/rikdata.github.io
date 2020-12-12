@@ -149,6 +149,6 @@
 <p>By email: contact@rikdata.com</p>
 </li>
 <li>
-<p>By visiting this page on our website: <a href="rikdata.com" rel="external nofollow noopener" target="_blank">rikdata.com</a></p>
+<p>By visiting this page on our website: <a href="http://rikdata.com/#/privacy/" rel="external nofollow noopener" target="_blank">rikdata.com/#/privacy/</a></p>
 </li>
 </ul>
