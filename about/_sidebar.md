@@ -7,8 +7,13 @@
   
 - Search
   - [Advanced Search](/search/)
+    - [Search Criterias](/search/?id=enter-search-criterias)
+    - [Search Results](/search/?id=search-result)
+    - [Next & Previous](/search/?id=next-amp-previous)
+    - [Save Query](/search/?id=save-search-result)
+    - [View Charts](/search/?id=view-charts)
   - [Quick Search](/search/?id=quick-search)
-  
+ 
 - Documents
   - [View Document](/document/?id=view-document)
   - [Maintain Document](/document/?id=maintain-document)
@@ -19,7 +24,6 @@
   - [Inventory](/transaction/?id=inventory-transactions)
   - [Manufacturing](/transaction/?id=manufacturing-transactions)
   - [Purchasing](/transaction/po/)
-  - [SAP Examples](/transaction/sap/)
 
 - Configuration
   - [Settings](/configuration/?id=settings) 
@@ -30,7 +34,4 @@
   - [Configuring Sap](/configuration/sap/?id=configuring-sap)
   - [Movement/Transaction Type](/configuration/sap/new_movement_type/)
 
-- About
-  - [Privacy](/privacy/)
-  - [About](/about/)
 
