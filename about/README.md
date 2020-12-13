@@ -1,1 +1,0 @@
-For any questions or suggestions, drop an email to contact@rikdata.com
