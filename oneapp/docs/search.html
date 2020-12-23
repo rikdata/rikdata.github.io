@@ -1,0 +1,167 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Search · RikData OneApp</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;span class=&quot;top-message float-right&quot;&gt;[Edit Document](https://github.com/rikdata/rikdata.github.io/edit/main/search/README.md)&lt;/span&gt;"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Search · RikData OneApp"/><meta property="og:type" content="website"/><meta property="og:url" content="https://rikdata.github.io/rikdata/"/><meta property="og:description" content="&lt;span class=&quot;top-message float-right&quot;&gt;[Edit Document](https://github.com/rikdata/rikdata.github.io/edit/main/search/README.md)&lt;/span&gt;"/><meta property="og:image" content="https://rikdata.github.io/rikdata/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://rikdata.github.io/rikdata/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/rikdata/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/rikdata/js/scrollSpy.js"></script><link rel="stylesheet" href="/rikdata/css/main.css"/><script src="/rikdata/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/rikdata/"><img class="logo" src="/rikdata/img/favicon.ico" alt="RikData OneApp"/><h2 class="headerTitleWithLogo">RikData OneApp</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/rikdata/docs/quickstart" target="_self">Docs</a></li><li class="siteNavGroupActive"><a href="/rikdata/docs/download" target="_self">Download</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Search</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Getting started</h3><ul class=""><li class="navListItem"><a class="navItem" href="/rikdata/docs/quickstart">Quickstart</a></li><li class="navListItem"><a class="navItem" href="/rikdata/docs/dashboard">Dashboard</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Search</h3><ul class=""><li class="navListItem navListItemActive"><a class="navItem" href="/rikdata/docs/search">Search</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Documents</h3><ul class=""><li class="navListItem"><a class="navItem" href="/rikdata/docs/document">Documents</a></li><li class="navListItem"><a class="navItem" href="/rikdata/docs/document-oracle">Oracle Documents</a></li><li class="navListItem"><a class="navItem" href="/rikdata/docs/document-sap">Sap Documents</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Transactions</h3><ul class=""><li class="navListItem"><a class="navItem" href="/rikdata/docs/transactions">Transactions</a></li><li class="navListItem"><a class="navItem" href="/rikdata/docs/purchasing-transactions">Purchasing Transactions</a></li><li class="navListItem"><a class="navItem" href="/rikdata/docs/sap-transactions">SAP Transactions</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Configuration</h3><ul class=""><li class="navListItem"><a class="navItem" href="/rikdata/docs/configuration">Configuration</a></li><li class="navListItem"><a class="navItem" href="/rikdata/docs/new_movement_type">Movement Type</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">About</h3><ul class=""><li class="navListItem"><a class="navItem" href="/rikdata/docs/privacy">Privacy</a></li><li class="navListItem"><a class="navItem" href="/rikdata/docs/download">Download</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">Search</h1></header><article><div><span><p><span class="top-message float-right"><a href="https://github.com/rikdata/rikdata.github.io/edit/main/search/README.md">Edit Document</a></span></p>
+<p><img src="/rikdata/images/ScreenShots/search/Screenshot_20201102-151649.jpg" width="300"/></p>
+<p>You can navigate to the search screen by clicking on any menu on your dashboard. From search screen</p>
+<ul>
+<li>you can search documents (such as invoice, purchase order)</li>
+<li>create a new document</li>
+<li>define a new chart</li>
+<li>clear search result cache</li>
+<li>update entity definition</li>
+</ul>
+<p><img src="/rikdata/images/ScreenShots/dashboard/Screenshot_20201102-132846.jpg" width="300"/></p>
+<p>When you visit a search page for the first time, the app fetches all the related list of values from the server (Ex: when you visit sub inventory screen, the app will fetch a list of organizations). So, the app might take a couple of seconds to load and shows below screen until it fetches all the server data.</p>
+<p>The list of values is cached for a session. So, suppose you visit another screen that needs the same list of values (Ex: Inventory Transaction screen that needs organization and sub inventory), the app will use the cache's values.</p>
+<h2><a class="anchor" aria-hidden="true" id="enter-search-criteria"></a><a href="#enter-search-criteria" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Enter Search Criteria</h2>
+<p><img src="/rikdata/images/ScreenShots/search/Screenshot_20201102-151713.jpg" width="300"/></p>
+<p>You can search using various keywords (such as %, *, =, =&gt;, &lt;=, &lt;, &gt;, etc ). Enter the keyword and corresponding field value before clicking on the search button</p>
+<p><img src="/rikdata/images/ScreenShots/search/Screenshot_20201102-151802.jpg" width="300"/></p>
+<p>Fields that have a list of values are shown as a select field. All the other fields are shown as text fields.
+All the text fields show a camera icon. You can click on the camera icon to scan (Barcode/Text) any field value.</p>
+<p><img src="/rikdata/images/ScreenShots/search/Screenshot_20201102-151824.jpg" width="300"/></p>
+<h2><a class="anchor" aria-hidden="true" id="search-result"></a><a href="#search-result" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Search Result</h2>
+<p><img src="/rikdata/images/ScreenShots/search/Screenshot_20201102-151830.jpg" width="300"/></p>
+<p>From the search result screen</p>
+<ul>
+<li>you can view documents (such as invoice, purchase order)</li>
+<li>delete a document</li>
+<li>you can create a transaction (such as issuing material to WO, completing move transaction)</li>
+<li>save the search result and use it in charts</li>
+</ul>
+<p><img src="/rikdata/images/ScreenShots/search/Screenshot_20201102-151913.jpg" width="300"/></p>
+<h2><a class="anchor" aria-hidden="true" id="next--previous"></a><a href="#next--previous" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Next &amp; Previous</h2>
+<p><img src="/rikdata/images/ScreenShots/search/pages/rikdata_search_page_01.jpg" width="300"/></p>
+<p>The search result screen shows data records per the value entered in the &quot;Per Page&quot; field in the search screen.
+Ex: If you enter 20 as per page in the search result screen, then the app will show 20 results on the search result screen
+If the number of records is more than the number of records shown on the search result screen, then the app will show a &quot;next button&quot; on the top right corner. Click on the next button to view the next set of results.</p>
+<p><img src="/rikdata/images/ScreenShots/search/pages/rikdata_search_page_02.jpg" width="300"/></p>
+<p>When you navigate from the first result screen, the app will show a back button. Click on the back button to navigate back to the previous set of results. The previous set of results are shown from the cache and thus appear fast. However, when you click on the Next button, the app might take a couple of seconds to fetch the data if the result set is not available in cache and fetched from the server.</p>
+<h2><a class="anchor" aria-hidden="true" id="save-search-result"></a><a href="#save-search-result" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Save Search Result</h2>
+<p><img src="/rikdata/images/ScreenShots/search/Screenshot_20201102-151838.jpg" width="300"/></p>
+<p>To save a query (all entered criteria and search result), click on the save query button. The app will create a new saved query and will show you the name of the new saved query. You can later change the name, description, etc., of the query.</p>
+<p>The app will automatically refresh the query result when you visit the saved query.
+You can use the saved query in tabs and dashboards.</p>
+<h2><a class="anchor" aria-hidden="true" id="view-charts"></a><a href="#view-charts" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>View Charts</h2>
+<p>Click on the &quot;view chart&quot; button on the result page to view charts defined for the entity. If charts are defined for the searched entity, then the app will show the list of all charts in floating action button (click on the button at right bottom corner)</p>
+<p><img src="/rikdata/images/ScreenShots/search/Screenshot_20201102-192836.jpg" width="300"/></p>
+<p><img src="/rikdata/images/ScreenShots/search/Screenshot_20201102-192845.jpg" width="300"/></p>
+<p>Click on the chart name, and the app will take you to the chart screen.</p>
+<p><img src="/rikdata/images/ScreenShots/search/Screenshot_20201102-192854.jpg" width="300"/></p>
+<h2><a class="anchor" aria-hidden="true" id="quick-search"></a><a href="#quick-search" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Quick Search</h2>
+<p>Currently, the quick search allows you to search for a navigation menu. If you use the default configuration, the app will create 1500+ navigation menus, and at the beginning, it might not be easy to find a specific navigation path.  So, you can use the quick search to search such menus. You can also add menus to your favorites for easy access.</p>
+<p><img src="/rikdata/images/ScreenShots/search/Screenshot_20201102-214800.jpg" width="300"/></p>
+<p>To access a quick search, click on the dashboard's search icon (Icon is visible on the right top corner). In the quick search screen, enter the value you want to search and click on the search icon next to it.</p>
+<p>When you enter more than three characters in the search field, the app will auto query the value and show the matched result.</p>
+<p><img src="/rikdata/images/ScreenShots/search/Screenshot_20201102-214814.jpg" width="300"/></p>
+<p><a class="btn btn-light float-right" href="#/document/" role="button">Document</a>
+<span class="top-message float-right"><a href="https://github.com/rikdata/rikdata.github.io/edit/main/search/README.md">:pencil2:Edit Document</a></span></p>
+<p><img src="/rikdata/images/ScreenShots/search/Screenshot_20201102-151649.jpg" width="300"/></p>
+<p>You can navigate to the search screen by clicking on any menu on your dashboard. From search screen</p>
+<ul>
+<li>you can search documents (such as invoice, purchase order)</li>
+<li>create a new document</li>
+<li>define a new chart</li>
+<li>clear search result cache</li>
+<li>update entity definition</li>
+</ul>
+<p><img src="/rikdata/images/ScreenShots/dashboard/Screenshot_20201102-132846.jpg" width="300"/></p>
+<p>When you visit a search page for the first time, the app fetches all the related list of values from the server (Ex: when you visit sub inventory screen, the app will fetch a list of organizations). So, the app might take a couple of seconds to load and shows below screen until it fetches all the server data.</p>
+<p>The list of values is cached for a session. So, suppose you visit another screen that needs the same list of values (Ex: Inventory Transaction screen that needs organization and sub inventory), the app will use the cache's values.</p>
+<h2><a class="anchor" aria-hidden="true" id="enter-search-criteria-1"></a><a href="#enter-search-criteria-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Enter Search Criteria</h2>
+<p><img src="/rikdata/images/ScreenShots/search/Screenshot_20201102-151713.jpg" width="300"/></p>
+<p>You can search using various keywords (such as %, *, =, =&gt;, &lt;=, &lt;, &gt;, etc ). Enter the keyword and corresponding field value before clicking on the search button</p>
+<p><img src="/rikdata/images/ScreenShots/search/Screenshot_20201102-151802.jpg" width="300"/></p>
+<p>Fields that have a list of values are shown as a select field. All the other fields are shown as text fields.
+All the text fields show a camera icon. You can click on the camera icon to scan (Barcode/Text) any field value.</p>
+<p><img src="/rikdata/images/ScreenShots/search/Screenshot_20201102-151824.jpg" width="300"/></p>
+<h2><a class="anchor" aria-hidden="true" id="search-result-1"></a><a href="#search-result-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Search Result</h2>
+<p><img src="/rikdata/images/ScreenShots/search/Screenshot_20201102-151830.jpg" width="300"/></p>
+<p>From the search result screen</p>
+<ul>
+<li>you can view documents (such as invoice, purchase order)</li>
+<li>delete a document</li>
+<li>you can create a transaction (such as issuing material to WO, completing move transaction)</li>
+<li>save the search result and use it in charts</li>
+</ul>
+<p><img src="/rikdata/images/ScreenShots/search/Screenshot_20201102-151913.jpg" width="300"/></p>
+<h2><a class="anchor" aria-hidden="true" id="next--previous-1"></a><a href="#next--previous-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Next &amp; Previous</h2>
+<p><img src="/rikdata/images/ScreenShots/search/pages/rikdata_search_page_01.jpg" width="300"/></p>
+<p>The search result screen shows data records per the value entered in the &quot;Per Page&quot; field in the search screen.
+Ex: If you enter 20 as per page in the search result screen, then the app will show 20 results on the search result screen
+If the number of records is more than the number of records shown on the search result screen, then the app will show a &quot;next button&quot; on the top right corner. Click on the next button to view the next set of results.</p>
+<p><img src="/rikdata/images/ScreenShots/search/pages/rikdata_search_page_02.jpg" width="300"/></p>
+<p>When you navigate from the first result screen, the app will show a back button. Click on the back button to navigate back to the previous set of results. The previous set of results are shown from the cache and thus appear fast. However, when you click on the Next button, the app might take a couple of seconds to fetch the data if the result set is fetched from the server.</p>
+<h2><a class="anchor" aria-hidden="true" id="save-search-result-1"></a><a href="#save-search-result-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Save Search Result</h2>
+<p><img src="/rikdata/images/ScreenShots/search/Screenshot_20201102-151838.jpg" width="300"/></p>
+<p>To save a query (all entered criteria and search result), click on the save query button. The app will create a new saved query and will show you the name of the new saved query. You can later change the name, description, etc., of the query.</p>
+<p>The app will automatically refresh the query result when you visit the saved query.
+You can use the saved query in tabs and dashboards.</p>
+<h2><a class="anchor" aria-hidden="true" id="view-charts-1"></a><a href="#view-charts-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>View Charts</h2>
+<p>Click on the &quot;view chart&quot; button on the result page to view charts defined for the entity. If charts are defined for the searched entity, then the app will show the list of all charts in floating action button (click on the button at right bottom corner)</p>
+<p><img src="/rikdata/images/ScreenShots/search/Screenshot_20201102-192836.jpg" width="300"/></p>
+<p><img src="/rikdata/images/ScreenShots/search/Screenshot_20201102-192845.jpg" width="300"/></p>
+<p>Click on the chart name, and the app will take you to the chart screen.</p>
+<p><img src="/rikdata/images/ScreenShots/search/Screenshot_20201102-192854.jpg" width="300"/></p>
+<h2><a class="anchor" aria-hidden="true" id="quick-search-1"></a><a href="#quick-search-1" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Quick Search</h2>
+<p>Currently, the quick search allows you to search for a navigation menu. If you use the default configuration, the app will create 1500+ navigation menus, and at the beginning, it might not be easy to find a specific navigation path.  So, you can use the quick search to search such menus. You can also add menus to your favorites for easy access.</p>
+<p><img src="/rikdata/images/ScreenShots/search/Screenshot_20201102-214800.jpg" width="300"/></p>
+<p>To access a quick search, click on the dashboard's search icon (Icon is visible on the right top corner). In the quick search screen, enter the value you want to search and click on the search icon next to it.</p>
+<p>When you enter more than three characters in the search field, the app will auto query the value and show the matched result.</p>
+<p><img src="/rikdata/images/ScreenShots/search/Screenshot_20201102-214814.jpg" width="300"/></p>
+<p><a class="btn btn-light float-right" href="#/document/" role="button">Document</a></p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/rikdata/docs/dashboard"><span class="arrow-prev">← </span><span>Dashboard</span></a><a class="docs-next button" href="/rikdata/docs/document"><span>Documents</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#enter-search-criteria">Enter Search Criteria</a></li><li><a href="#search-result">Search Result</a></li><li><a href="#next--previous">Next &amp; Previous</a></li><li><a href="#save-search-result">Save Search Result</a></li><li><a href="#view-charts">View Charts</a></li><li><a href="#quick-search">Quick Search</a></li><li><a href="#enter-search-criteria-1">Enter Search Criteria</a></li><li><a href="#search-result-1">Search Result</a></li><li><a href="#next--previous-1">Next &amp; Previous</a></li><li><a href="#save-search-result-1">Save Search Result</a></li><li><a href="#view-charts-1">View Charts</a></li><li><a href="#quick-search-1">Quick Search</a></li></ul></nav></div><footer class="nav-footer" id="footer"></footer></div></body></html>

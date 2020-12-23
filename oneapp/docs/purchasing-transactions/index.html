@@ -1,0 +1,212 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Purchasing Transactions · RikData OneApp</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="&lt;span class=&quot;top-message float-right&quot;&gt;[Edit Document](https://github.com/rikdata/rikdata.github.io/edit/main/transaction/po/README.md)&lt;/span&gt;"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Purchasing Transactions · RikData OneApp"/><meta property="og:type" content="website"/><meta property="og:url" content="https://rikdata.github.io/rikdata/"/><meta property="og:description" content="&lt;span class=&quot;top-message float-right&quot;&gt;[Edit Document](https://github.com/rikdata/rikdata.github.io/edit/main/transaction/po/README.md)&lt;/span&gt;"/><meta property="og:image" content="https://rikdata.github.io/rikdata/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://rikdata.github.io/rikdata/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/rikdata/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/rikdata/js/scrollSpy.js"></script><link rel="stylesheet" href="/rikdata/css/main.css"/><script src="/rikdata/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/rikdata/"><img class="logo" src="/rikdata/img/favicon.ico" alt="RikData OneApp"/><h2 class="headerTitleWithLogo">RikData OneApp</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/rikdata/docs/quickstart" target="_self">Docs</a></li><li class="siteNavGroupActive"><a href="/rikdata/docs/download" target="_self">Download</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Transactions</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Getting started</h3><ul class=""><li class="navListItem"><a class="navItem" href="/rikdata/docs/quickstart">Quickstart</a></li><li class="navListItem"><a class="navItem" href="/rikdata/docs/dashboard">Dashboard</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Search</h3><ul class=""><li class="navListItem"><a class="navItem" href="/rikdata/docs/search">Search</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Documents</h3><ul class=""><li class="navListItem"><a class="navItem" href="/rikdata/docs/document">Documents</a></li><li class="navListItem"><a class="navItem" href="/rikdata/docs/document-oracle">Oracle Documents</a></li><li class="navListItem"><a class="navItem" href="/rikdata/docs/document-sap">Sap Documents</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Transactions</h3><ul class=""><li class="navListItem"><a class="navItem" href="/rikdata/docs/transactions">Transactions</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/rikdata/docs/purchasing-transactions">Purchasing Transactions</a></li><li class="navListItem"><a class="navItem" href="/rikdata/docs/sap-transactions">SAP Transactions</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Configuration</h3><ul class=""><li class="navListItem"><a class="navItem" href="/rikdata/docs/configuration">Configuration</a></li><li class="navListItem"><a class="navItem" href="/rikdata/docs/new_movement_type">Movement Type</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">About</h3><ul class=""><li class="navListItem"><a class="navItem" href="/rikdata/docs/privacy">Privacy</a></li><li class="navListItem"><a class="navItem" href="/rikdata/docs/download">Download</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">Purchasing Transactions</h1></header><article><div><span><p><span class="top-message float-right"><a href="https://github.com/rikdata/rikdata.github.io/edit/main/transaction/po/README.md">Edit Document</a></span></p>
+<p>You can use OneApp to complete all PO related transactions:</p>
+<ul>
+<li>Receiving Receipt</li>
+<li>Inspect Receipts</li>
+<li>Put Aways
+You can also review interface errors and fix transactions in error</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="receiving-receipt"></a><a href="#receiving-receipt" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Receiving Receipt</h2>
+<div class="card bg-light">
+  <div class="card-body">
+    <h6 class="card-subtitle mb-2 text-muted">From Oracle Docs</h6>
+    <p class="card-text">The Receiving Receipt Requests resource manages receipts or advance shipment notice (ASN) request headers that are used to communicate with Oracle Fusion applications and process requests. The receipts can be created for all receiving documents, such as purchase orders, return material authorizations (RMAs), transfer orders, and in-transit shipments. Use this resource to interface an ASN or advance shipment billing notice (ASBN) against one or more purchase orders. If there are errors in processing, you can search for the error records and the source application can either make the necessary corrections and resubmit or delete the requests that have resulted in errors..</p>
+    <a href="https://docs.oracle.com/en/cloud/saas/supply-chain-management/20c/fasrp/api-inventory-management-receiving-receipt-requests.html" class="">Source</a>
+  </div>
+</div>
+<p>To receive a purchase order (or any such document such as RMA, IO), navigate to the &quot;Lines To Recieve&quot; form from your dashboard/favorite.</p>
+<p><img src="/rikdata/images/ScreenShots/transaction/po/receive/rikdata_po_receive_01.JPG" width="300"/></p>
+<p>Enter the item/organization details or any other criteria in the search form and click on the search button.</p>
+<p><img src="/rikdata/images/ScreenShots/transaction/po/receive/rikdata_po_receive_02.JPG" width="300"/>
+<img src="/rikdata/images/ScreenShots/transaction/po/receive/rikdata_po_receive_02A.JPG" width="300"/></p>
+<p>Click on the Menu against an item that you want to transact and click on the select button.</p>
+<p><img src="/rikdata/images/ScreenShots/transaction/po/receive/rikdata_po_receive_03.JPG" width="300"/>
+<img src="/rikdata/images/ScreenShots/transaction/po/receive/rikdata_po_receive_04.JPG" width="300"/></p>
+<p>Next, select the transaction type as &quot;Receiving Receipt Request.&quot;</p>
+<p>The app will fetch all the related information required to complete the receiving receipt process. It will take you to a confirmation screen where you need to validate all information and change any detail as needed.</p>
+<p><img src="/rikdata/images/ScreenShots/transaction/po/receive/rikdata_po_receive_05.JPG" width="300"/>
+<img src="/rikdata/images/ScreenShots/transaction/po/receive/rikdata_po_receive_06.JPG" width="300"/></p>
+<p>Scroll up and down to view all the fields. You can configure the navigation menu for Receiving Receipt Request to control what fields should be shown to the user and in what sequence. You can also make fields mandatory and read-only, depending on your business requirements.</p>
+<p><img src="/rikdata/images/ScreenShots/transaction/po/receive/rikdata_po_receive_07.JPG" width="300"/></p>
+<p>Enter all the required fields such as Quantity, Employee Name (System will default the employee name from settings)</p>
+<p>Next, click on the Save button.</p>
+<p><img src="/rikdata/images/ScreenShots/transaction/po/receive/rikdata_po_receive_08.JPG" width="300"/>
+<img src="/rikdata/images/ScreenShots/transaction/po/receive/rikdata_po_receive_10.JPG" width="300"/></p>
+<p>You can review the details on the Oracle cloud.</p>
+<p><img src="/rikdata/images/ScreenShots/transaction/po/receive/rikdata_po_receive_100.JPG" width="750"/></p>
+<h2><a class="anchor" aria-hidden="true" id="review-receiving-errors"></a><a href="#review-receiving-errors" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Review Receiving Errors</h2>
+<p>If any incorrect data is entered while receiving a document, Oracle will not be able to complete the receiving process. You can review all such transactions using the interface form.
+To review all such transactions, navigate to the &quot;Receiving Receipt Transaction&quot; form from your dashboard/favorite.</p>
+<p><img src="/rikdata/images/ScreenShots/transaction/po/receiving_error/rikdata_po_receive_01.JPG" width="300"/></p>
+<p>Enter the document number/item/organization details or any other criteria in the search form and click on the search button.</p>
+<p><img src="/rikdata/images/ScreenShots/transaction/po/receiving_error/rikdata_po_receive_02.JPG" width="300"/></p>
+<p>Click on the Menu against an item that you want to view the details and click on.</p>
+<p><img src="/rikdata/images/ScreenShots/transaction/po/receiving_error/rikdata_po_receive_03.JPG" width="300"/>
+<img src="/rikdata/images/ScreenShots/transaction/po/receiving_error/rikdata_po_receive_03A.JPG" width="300"/></p>
+<p>The app will fetch all the information related to the selected transaction. It will take you to a detailed form screen where you can review all the transaction and error details.</p>
+<p><img src="/rikdata/images/ScreenShots/transaction/po/receiving_error/rikdata_po_receive_04.JPG" width="300"/></p>
+<p>Scroll right to the Error tab to review transaction error details.</p>
+<h2><a class="anchor" aria-hidden="true" id="inspect-receipts"></a><a href="#inspect-receipts" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Inspect Receipts</h2>
+<div class="card bg-light">
+  <div class="card-body">
+    <h6 class="card-subtitle mb-2 text-muted">From Oracle Docs</h6>
+    <p class="card-text">Inspection is the process of accepting or rejecting goods from suppliers or customers before they're put away to their final destination.
+<p>These aspects are important when inspecting receipt lines:</p>
+<ul>
+<li>Inspection quality</li>
+<li>Inspection quantity</li>
+<li>Split line inspections</li>
+<li>Multiple or single line inspections</li>
+</ul>
+</p>
+    <a href="https://docs.oracle.com/en/cloud/saas/supply-chain-management/20d/famli/inspect-receipts.html#FAMLI191285" class="">Source</a>
+  </div>
+</div>
+<p>To inspect incoming goods before delivery, navigate to the &quot;Lines To Inspect&quot; form from your dashboard/favorite.</p>
+<p><img src="/rikdata/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_01.JPG" width="300"/></p>
+<p>Enter the item/organization details or any other criteria in the search form and click on the search button.</p>
+<p><img src="/rikdata/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_02.JPG" width="300"/>
+<img src="/rikdata/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_03.JPG" width="300"/></p>
+<p>Click on the Menu against an item that you want to inspect and click on the select button.</p>
+<p><img src="/rikdata/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_04.JPG" width="300"/>
+<img src="/rikdata/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_05.JPG" width="300"/></p>
+<p>Next, select the transaction type as &quot;Receiving Receipt Transaction Request.&quot;</p>
+<p>The app will fetch all the related information required to complete the inspection process. It will take you to a confirmation screen where you need to validate all information and change any detail as needed.</p>
+<p><img src="/rikdata/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_06.JPG" width="300"/>
+<img src="/rikdata/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_07A.JPG" width="300"/>
+<img src="/rikdata/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_08.JPG" width="300"/>
+<img src="/rikdata/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_09.JPG" width="300"/>
+<img src="/rikdata/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_10.JPG" width="300"/>
+<img src="/rikdata/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_11.JPG" width="300"/>
+<img src="/rikdata/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_12.JPG" width="300"/></p>
+<p>Scroll up and down to view all the fields. You can configure the navigation menu for Receiving Receipt Request to control what fields should be shown to the user and in what sequence. You can also make fields mandatory and read-only, depending on your business requirements.</p>
+<p>Enter all the required fields, such as</p>
+<ul>
+<li>Quantity</li>
+<li>Transaction Type: Accept / Reject</li>
+<li>Transaction Date</li>
+</ul>
+<p>Next, click on the Save button.</p>
+<p><img src="/rikdata/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_13.JPG" width="300"/></p>
+<p>You can review the details on the Oracle cloud.</p>
+<p><img src="/rikdata/images/ScreenShots/transaction/po/inspect/rikdata_po_inspect_100.JPG" width="750"/></p>
+<h2><a class="anchor" aria-hidden="true" id="put-aways"></a><a href="#put-aways" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Put Aways</h2>
+<div class="card bg-light">
+  <div class="card-body">
+    <h6 class="card-subtitle mb-2 text-muted">From Oracle Docs</h6>
+    <p class="card-text">Put Aways
+Putting away received lines is the process by which goods are moved to their final destination.
+These aspects are important when putting away received lines:
+<ul>
+<li>Lot and serial number information</li>
+<li>Inventory or expense destinations</li>
+</ul>
+<p>Note: When you put away a line with Inventory as the destination, inventory is automatically updated..</p>
+<a href="https://docs.oracle.com/en/cloud/saas/supply-chain-management/20d/famli/put-away-receipts.html#FAMLI136206" class="">Source</a></p>
+  </div>
+</div>
+<p>To Put Away received/inspected incoming goods, navigate to the &quot;Lines To PutAway&quot; form from your dashboard/favorite.</p>
+<p><img src="/rikdata/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_01.JPG" width="300"/></p>
+<p>Enter the item/organization details or any other criteria in the search form and click on the search button.</p>
+<p><img src="/rikdata/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_02.JPG" width="300"/>
+<img src="/rikdata/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_03.JPG" width="300"/></p>
+<p>Click on the Menu against an item that you want to transact and click on the select button.</p>
+<p><img src="/rikdata/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_04.JPG" width="300"/>
+<img src="/rikdata/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_05.JPG" width="300"/></p>
+<p>Next, select the transaction type as &quot;Receiving Receipt Transaction Request.&quot;</p>
+<p>The app will fetch all the related information required to complete the receiving receipt process. It will take you to a confirmation screen where you need to validate all information and change any detail as needed.</p>
+<p>Enter/change below fields</p>
+<ul>
+<li>Quantity</li>
+<li>Transaction Type: Deliver</li>
+<li>Transaction Date</li>
+</ul>
+<p><img src="/rikdata/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_06A.JPG" width="300"/>
+<img src="/rikdata/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_06B.JPG" width="300"/>
+<img src="/rikdata/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_08.JPG" width="300"/>
+<img src="/rikdata/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_11.JPG" width="300"/>
+<img src="/rikdata/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_12.JPG" width="300"/>
+<img src="/rikdata/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_13.JPG" width="300"/></p>
+<p>Scroll up and down to view all the fields. You can configure the navigation menu for Receiving Receipt Transaction Request to control what fields should be shown to the user and in what sequence. You can also make fields mandatory and read-only, depending on your business requirements.</p>
+<p><img src="/rikdata/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_14.JPG" width="300"/>
+<img src="/rikdata/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_15.JPG" width="300"/></p>
+<p>Enter the lot and serial details if applicable.</p>
+<p>Next, click on the Save button.</p>
+<p><img src="/rikdata/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_16.JPG" width="300"/></p>
+<p>You can review the details on the Oracle cloud.
+<img src="/rikdata/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_100.JPG" width="750"/>
+<img src="/rikdata/images/ScreenShots/transaction/po/putaway/rikdata_po_putaway_101.JPG" width="750"/></p>
+<h2><a class="anchor" aria-hidden="true" id="review-errors"></a><a href="#review-errors" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Review Errors</h2>
+<p>If any incorrect data is entered while doing a receiving / put-away transaction, Oracle will not be able to complete the put-away process. You can review all such transactions using the interface form.
+To review all such transactions, navigate to the &quot;Receiving Receipt Transaction&quot; form from your dashboard/favorite.</p>
+<p><img src="/rikdata/images/ScreenShots/transaction/po/putaway_error/rikdata_po_putaway_error_04.JPG" width="300"/></p>
+<p>Enter the document number/item/organization details or any other criteria in the search form and click on the search button.</p>
+<p><img src="/rikdata/images/ScreenShots/transaction/po/putaway_error/rikdata_po_putaway_error_05.JPG" width="300"/></p>
+<p>Click on the Menu against an item that you want to view the details and click on.</p>
+<p><img src="/rikdata/images/ScreenShots/transaction/po/putaway_error/rikdata_po_putaway_error_06.JPG" width="300"/>
+<img src="/rikdata/images/ScreenShots/transaction/po/putaway_error/rikdata_po_putaway_error_07.JPG" width="300"/></p>
+<p>The app will fetch all the information related to the selected transaction. It will take you to a detailed form screen where you can review all the transaction and error details.</p>
+<p><img src="/rikdata/images/ScreenShots/transaction/po/putaway_error/rikdata_po_putaway_error_08.JPG" width="300"/></p>
+<p>Scroll right to the Error tab to review transaction error details.</p>
+<p><img src="/rikdata/images/ScreenShots/transaction/po/putaway_error/rikdata_po_putaway_error_09.JPG" width="300"/>
+<img src="/rikdata/images/ScreenShots/transaction/po/putaway_error/rikdata_po_putaway_error_10.JPG" width="300"/>
+<img src="/rikdata/images/ScreenShots/transaction/po/putaway_error/rikdata_po_putaway_error_11.JPG" width="300"/>
+<img src="/rikdata/images/ScreenShots/transaction/po/putaway_error/rikdata_po_putaway_error_12.JPG" width="300"/></p>
+<p><a class="btn btn-light float-right" href="#/configuration/" role="button">Configuration</a></p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/rikdata/docs/transactions"><span class="arrow-prev">← </span><span>Transactions</span></a><a class="docs-next button" href="/rikdata/docs/sap-transactions"><span>SAP Transactions</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#receiving-receipt">Receiving Receipt</a></li><li><a href="#review-receiving-errors">Review Receiving Errors</a></li><li><a href="#inspect-receipts">Inspect Receipts</a></li><li><a href="#put-aways">Put Aways</a></li><li><a href="#review-errors">Review Errors</a></li></ul></nav></div><footer class="nav-footer" id="footer"></footer></div></body></html>
