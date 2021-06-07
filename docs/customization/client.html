@@ -1,0 +1,241 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Client Customization · RikData OneApp</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="OneApp is a flexible application, and you can map various business requirements using correct configurations. However, in case of any unique requirements, the application also provides well-structured JavaScript APIs that you can use to customize the application. You can customize the application either on the server side (an application that uses RikData Rest Builder) or on the client-side."/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Client Customization · RikData OneApp"/><meta property="og:type" content="website"/><meta property="og:url" content="https://rikdata.github.io/"/><meta property="og:description" content="OneApp is a flexible application, and you can map various business requirements using correct configurations. However, in case of any unique requirements, the application also provides well-structured JavaScript APIs that you can use to customize the application. You can customize the application either on the server side (an application that uses RikData Rest Builder) or on the client-side."/><meta property="og:image" content="https://rikdata.github.io/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://rikdata.github.io/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="https://unpkg.com/vanilla-back-to-top@7.1.14/dist/vanilla-back-to-top.min.js"></script><script>
+        document.addEventListener('DOMContentLoaded', function() {
+          addBackToTop(
+            {"zIndex":100,"id":"back-to-top","showWhenScrollTopIs":1,"onClickScrollTo":0,"scrollDuration":100,"diameter":48,"cornerOffset":20,"backgroundColor":"#465cab","textColor":"#fff"}
+          )
+        });
+        </script><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/favicon.ico" alt="RikData OneApp"/><h2 class="headerTitleWithLogo">RikData OneApp</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/docs/introduction" target="_self">Docs</a></li><li class="siteNavGroupActive"><a href="/docs/download" target="_self">Download</a></li><li class=""><a href="/docs/javadocs/" target="_self">JavaDocs</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Customization</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Getting started<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docs/introduction">Introduction</a></li><li class="navListItem"><a class="navItem" href="/docs/quickstart">Quickstart</a></li><li class="navListItem"><a class="navItem" href="/docs/dashboard">Dashboard</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Search<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docs/search">Search</a></li><li class="navListItem"><a class="navItem" href="/docs/search/display-type">Result Display Type</a></li><li class="navListItem"><a class="navItem" href="/docs/search/report">Report</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Documents<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docs/document">Documents</a></li><li class="navListItem"><a class="navItem" href="/docs/document-oracle">Oracle Documents</a></li><li class="navListItem"><a class="navItem" href="/docs/document-sap">Sap Documents</a></li><li class="navListItem"><a class="navItem" href="/docs/document-d365bc">Dynamics 365 BC</a></li><li class="navListItem"><a class="navItem" href="/docs/snow/document-snow">ServiceNow</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Transactions<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docs/transactions">Oracle Cloud Transactions</a></li><li class="navListItem"><a class="navItem" href="/docs/purchasing-transactions">Purchasing Transactions</a></li><li class="navListItem"><a class="navItem" href="/docs/transactions-ebs-r12">EBS R12 Transactions</a></li><li class="navListItem"><a class="navItem" href="/docs/sap-transactions">SAP Transactions</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Configuration<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docs/configuration">Configuration</a></li><li class="navListItem"><a class="navItem" href="/docs/new_movement_type">Movement Type</a></li><li class="navListItem"><a class="navItem" href="/docs/admin/go-rest-builder">GO-REST Builder</a></li><li class="navListItem"><a class="navItem" href="/docs/install-ebs-rest">EBS REST Application</a></li><li class="navListItem"><a class="navItem" href="/docs/ebs-reports">EBS Reports</a></li><li class="navListItem"><a class="navItem" href="/docs/related-data-in-tabs">Related Data In Tabs</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Customization<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docs/customization/server">Server</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/docs/customization/client">Client</a></li><li class="navListItem"><a class="navItem" href="/docs/customization/custom-application">Custom Application</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">About<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docs/privacy">Privacy</a></li><li class="navListItem"><a class="navItem" href="/docs/download">Download</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">Client Customization</h1></header><article><div><span><p>OneApp is a flexible application, and you can map various business requirements using correct configurations. However, in case of any unique requirements, the application also provides well-structured JavaScript APIs that you can use to customize the application. You can customize the application either on the server side (an application that uses RikData Rest Builder) or on the client-side.</p>
+<p>This document provides examples of how to customize the application on the client-side using JavaScript. You can use this approach to change the functionality of the Mobile/Desktop app. However, if you are using OneApp REST, try to use server-side customization as that provides more options and flexibility.</p>
+<p>On the client-side, the application provides eight connection/trigger points and 5 Global Methods.</p>
+<h2><a class="anchor" aria-hidden="true" id="triggersconnection-points"></a><a href="#triggersconnection-points" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Triggers/Connection Points</h2>
+<ul>
+<li>beforeGet : Called before Get requests</li>
+<li>afterGet : Called after Get requests</li>
+<li>beforePatch : Called before Patch requests</li>
+<li>afterPatch : Called after Patch requests</li>
+<li>beforePost : Called before Post requests</li>
+<li>afterPost : Called after Post requests</li>
+<li>beforeDelete : Called before Delete requests</li>
+<li>afterDelete : Called after Delete requests</li>
+</ul>
+<p>The function definitions use the underlying programming conventions, i.e., Golang on the server side and Dart on the client side. Thus beforeGet on the client side is BeforeGet on the server side. However, you can use beforeGet/BeforeGet on the client side.</p>
+<h2><a class="anchor" aria-hidden="true" id="global-methods"></a><a href="#global-methods" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Global Methods</h2>
+<ul>
+<li>consoleLog</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="rest"></a><a href="#rest" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>REST</h3>
+<p>Can be used for either internal or external application</p>
+<ul>
+<li>restGet</li>
+<li>restPost</li>
+<li>restPatch</li>
+<li>restDelete</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="return-data"></a><a href="#return-data" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Return Data</h3>
+<p>You can return three types of values from your custom function</p>
+<ul>
+<li><p>bool:</p>
+<ul>
+<li>true - proceed with the request</li>
+<li>false - stop the request</li>
+</ul></li>
+<li><p>object with rikProceedFlag and message elements:
+Use this approach to stop any action and show an error message to the user
+Ex :</p></li>
+</ul>
+<pre><code class="hljs">    <span class="hljs-built_in">let</span> retMessage = {
+      <span class="hljs-string">'rikProceedFlag'</span> : <span class="hljs-literal">false</span>,
+      <span class="hljs-string">'message'</span> : <span class="hljs-string">'No of free days must be less than 2'</span>
+    };
+    <span class="hljs-built_in">return</span> retMessage;
+
+</code></pre>
+<ul>
+<li>object: add the object data to the other form data and show it to the user</li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="javascript-config-url"></a><a href="#javascript-config-url" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>JavaScript Config URL</h2>
+<p>The config details must be available on a server from where all the users can access it. If users use VPN to access any application, the javascript file server must be accessible in the same network/VPN.</p>
+<p>The application fetches all the configuration details during the login process and uses them for all applicable entities and applications.</p>
+<p><img src="/images/ScreenShots/admin/customization/customization_01.png" width="400"/></p>
+<h2><a class="anchor" aria-hidden="true" id="examples"></a><a href="#examples" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Examples</h2>
+<h3><a class="anchor" aria-hidden="true" id="getrequest"></a><a href="#getrequest" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>getRequest</h3>
+<ol>
+<li>First, define a function to fetch data using the getRequest method</li>
+</ol>
+<pre><code class="hljs">    <span class="hljs-comment">// For illustration purpose, showing  all possible options</span>
+    <span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">getOrgDetails</span>(<span class="hljs-params">inputData</span>)</span>{
+    <span class="hljs-comment">//The rest URL can be the application URL or any external URLs</span>
+    <span class="hljs-keyword">let</span> host = <span class="hljs-string">'http://localhost:8085/api/ierp/Org(orgId=1)'</span>;
+
+    <span class="hljs-comment">//You can use any vanilla javascript objects/functions/logics</span>
+    <span class="hljs-keyword">if</span>(inputData[<span class="hljs-string">'WorkCenterInternalID'</span>] == <span class="hljs-string">'10000000'</span>){
+        host = <span class="hljs-string">'http://localhost:8085/api/ierp/Org(orgId=4)'</span>;
+    }
+    <span class="hljs-keyword">let</span> data2={<span class="hljs-attr">host</span>:host};
+    <span class="hljs-keyword">let</span> retData = <span class="hljs-keyword">await</span> getRequest(<span class="hljs-built_in">JSON</span>.stringify(data2));
+
+    <span class="hljs-keyword">return</span> retData;
+    }
+
+</code></pre>
+<ol start="2">
+<li>Add the above function to the main method specifying the function trigger point.</li>
+</ol>
+<pre><code class="hljs">
+function main() {
+  let allMethods = [
+    {
+<span class="hljs-symbol">      applicationCode:</span> <span class="hljs-string">"OracleCloud"</span>,
+<span class="hljs-symbol">      entityPath:</span> <span class="hljs-string">"user"</span>,
+<span class="hljs-symbol">      triggerPoint:</span> <span class="hljs-string">"beforeGet"</span>,
+<span class="hljs-symbol">      jsFilePath:</span> <span class="hljs-string">"http://localhost:8085/js/user.js"</span>,
+<span class="hljs-symbol">      jsMethodName:</span> <span class="hljs-string">"validatePassword"</span>,
+    },
+    {
+<span class="hljs-symbol">      applicationCode:</span> <span class="hljs-string">"OracleCloud"</span>,
+<span class="hljs-symbol">      entityPath:</span> <span class="hljs-string">"user"</span>,
+<span class="hljs-symbol">      triggerPoint:</span> <span class="hljs-string">"beforePost"</span>,
+<span class="hljs-symbol">      jsFilePath:</span> <span class="hljs-string">"http://localhost:8085/js/user.js"</span>,
+<span class="hljs-symbol">      jsMethodName:</span> <span class="hljs-string">"validatePassword"</span>,
+    },
+    {
+<span class="hljs-symbol">      applicationCode:</span> <span class="hljs-string">"SapHanaCloud"</span>,
+<span class="hljs-symbol">      entityPath:</span> <span class="hljs-string">"A_WorkCenterAllCapacity"</span>,
+<span class="hljs-symbol">      triggerPoint:</span> <span class="hljs-string">"afterGet"</span>,
+<span class="hljs-symbol">      jsFilePath:</span> <span class="hljs-string">"http://localhost:8085/mobile/sap.js"</span>,
+<span class="hljs-symbol">      jsMethodName:</span> <span class="hljs-string">"getOrgDetails"</span>,
+    },
+    {
+<span class="hljs-symbol">      applicationCode:</span> <span class="hljs-string">"OracleCloud"</span>,
+<span class="hljs-symbol">      entityPath:</span> <span class="hljs-string">"cycleCountDefinitions"</span>,
+<span class="hljs-symbol">      triggerPoint:</span> <span class="hljs-string">"afterGet"</span>,
+<span class="hljs-symbol">      jsFilePath:</span> <span class="hljs-string">"http://localhost:8085/mobile/sap.js"</span>,
+<span class="hljs-symbol">      jsMethodName:</span> <span class="hljs-string">"accessDenied"</span>,
+    },
+    {
+<span class="hljs-symbol">      applicationCode:</span> <span class="hljs-string">"TimeSheet"</span>,
+<span class="hljs-symbol">      entityPath:</span> <span class="hljs-string">"Activity"</span>,
+<span class="hljs-symbol">      triggerPoint:</span> <span class="hljs-string">"beforePost"</span>,
+<span class="hljs-symbol">      jsFilePath:</span> <span class="hljs-string">"http://localhost:8085/mobile/rent.js"</span>,
+<span class="hljs-symbol">      jsMethodName:</span> <span class="hljs-string">"validateTotalTime"</span>,
+    },
+    {
+<span class="hljs-symbol">      applicationCode:</span> <span class="hljs-string">"TimeSheet"</span>,
+<span class="hljs-symbol">      entityPath:</span> <span class="hljs-string">"Activity"</span>,
+<span class="hljs-symbol">      triggerPoint:</span> <span class="hljs-string">"beforePatch"</span>,
+<span class="hljs-symbol">      jsFilePath:</span> <span class="hljs-string">"http://localhost:8085/mobile/rent.js"</span>,
+<span class="hljs-symbol">      jsMethodName:</span> <span class="hljs-string">"validateTotalTime"</span>,
+    },
+    {
+<span class="hljs-symbol">      applicationCode:</span> <span class="hljs-string">"TimeSheet"</span>,
+<span class="hljs-symbol">      entityPath:</span> <span class="hljs-string">"Activity"</span>,
+<span class="hljs-symbol">      triggerPoint:</span> <span class="hljs-string">"beforeDelete"</span>,
+<span class="hljs-symbol">      jsFilePath:</span> <span class="hljs-string">"http://localhost:8085/mobile/rent.js"</span>,
+<span class="hljs-symbol">      jsMethodName:</span> <span class="hljs-string">"validateActivityDelete"</span>,
+    },
+  ];
+
+  return allMethods;
+}
+
+</code></pre>
+<ul>
+<li>entityPath : The entity name Ex: A_WorkCenterAllCapacity</li>
+<li>applicationCode : Application to which the javaScript functionality is applicable</li>
+<li>triggerPoint : The trigger/call point</li>
+<li>jsFilePath : JavaScript file path</li>
+<li>jsMethodName: Function that is called for the entityPath at the triggerPoint from the jsFilePath file</li>
+</ul>
+<p>Users must specify the JavaScript Config URL in the client.</p>
+<h3><a class="anchor" aria-hidden="true" id="validate-a-field"></a><a href="#validate-a-field" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Validate a field</h3>
+<pre><code class="hljs"><span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">accessDenied</span>(<span class="hljs-params">inputData</span>) </span>{
+ <span class="hljs-comment">//Business logic use inputData or data fetched using getRequest</span>
+ <span class="hljs-keyword">if</span>(inputData[<span class="hljs-string">'num'</span>] &gt; <span class="hljs-number">10</span> ){
+  <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;
+  }<span class="hljs-keyword">else</span>{
+       <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;
+  }
+}
+
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="validate-field-and-return-an-error"></a><a href="#validate-field-and-return-an-error" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Validate field and return an error</h3>
+<p>Below is an example of writing custom logic and returning a flag specifying to proceed or error message</p>
+<pre><code class="hljs"><span class="hljs-keyword">async</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">validateTotalTime</span>(<span class="hljs-params">inputData</span>) </span>{
+  <span class="hljs-keyword">let</span> freeDays = <span class="hljs-number">0</span>;
+  <span class="hljs-keyword">for</span> (key <span class="hljs-keyword">in</span> inputData) {
+    <span class="hljs-keyword">if</span>(key == <span class="hljs-string">'freeDays'</span>){
+      freeDays = <span class="hljs-built_in">parseInt</span>(inputData[key]);
+    }
+  }
+
+  log(<span class="hljs-string">"validateTotalTime in js_methods freeDays : "</span> + freeDays);
+
+  <span class="hljs-keyword">if</span>(freeDays &gt; <span class="hljs-number">3</span>){
+    <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;
+  }<span class="hljs-keyword">else</span>{
+    <span class="hljs-keyword">let</span> retMessage = {
+      <span class="hljs-string">'rikProceedFlag'</span> : <span class="hljs-literal">false</span>,
+      <span class="hljs-string">'message'</span> : <span class="hljs-string">'No of free days must be greater than 3'</span>
+    };
+    <span class="hljs-keyword">return</span> retMessage;
+  }
+}
+
+</code></pre>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/customization/server"><span class="arrow-prev">← </span><span>Server</span></a><a class="docs-next button" href="/docs/customization/custom-application"><span>Custom Application</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#triggersconnection-points">Triggers/Connection Points</a></li><li><a href="#global-methods">Global Methods</a><ul class="toc-headings"><li><a href="#rest">REST</a></li><li><a href="#return-data">Return Data</a></li></ul></li><li><a href="#javascript-config-url">JavaScript Config URL</a></li><li><a href="#examples">Examples</a><ul class="toc-headings"><li><a href="#getrequest">getRequest</a></li><li><a href="#validate-a-field">Validate a field</a></li><li><a href="#validate-field-and-return-an-error">Validate field and return an error</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="copyright">For any technical problem, raise an issue @<a class="light-link" href="https://github.com/rikdata/rikdata.github.io/issues/new"> GitHub</a></section><section class="copyright">Contact@rikdata.com | Copyright © 2021 RikData</section></footer></div></body></html>
