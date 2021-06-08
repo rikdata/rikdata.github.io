@@ -78,7 +78,7 @@
 <li>consoleLog</li>
 </ul>
 <h3><a class="anchor" aria-hidden="true" id="rest"></a><a href="#rest" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>REST</h3>
-<p>Can be used for either internal or external application</p>
+<p>Can be used for both internal and external applications</p>
 <ul>
 <li>restGet</li>
 <li>restPost</li>
@@ -86,7 +86,7 @@
 <li>restDelete</li>
 </ul>
 <h3><a class="anchor" aria-hidden="true" id="sql"></a><a href="#sql" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>SQL</h3>
-<p>Available only for internal application</p>
+<p>Available only for internal applications</p>
 <ul>
 <li>sqlSelect</li>
 <li>sqlInsert</li>
@@ -95,7 +95,7 @@
 </ul>
 <h2><a class="anchor" aria-hidden="true" id="examples"></a><a href="#examples" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Examples</h2>
 <h3><a class="anchor" aria-hidden="true" id="remove-fields-from-rest-result"></a><a href="#remove-fields-from-rest-result" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Remove fields from REST result</h3>
-<p>Several applications (such as Service now) show user passwords when you fetch user records using REST APIs. Though the passwords are encoded and not usable, you could probably want to remove them from the user interface. (This is just for illustration purposes. We can hide any field in the application just by configuration. No need to write any custom javascript code.)</p>
+<p>Several applications (such as ServiceNow) show user passwords when you fetch user records using REST APIs. Though the passwords are encoded and not usable, you probably want to remove them from the user interface. (This is just for illustration purposes. We can hide any field in the application just by configuration. No need to write any custom javascript code.)</p>
 <ol>
 <li>First, define a function to remove password from the REST result</li>
 </ol>
@@ -162,10 +162,11 @@
 <li><p>afterGet : The trigger/call point</p></li>
 <li><p>user/user.js : JavaScript file path</p></li>
 <li><p>removePassword: Function that is called for RdSecUser after Get Request from the user.js file</p></li>
-<li><p>*Put your main.js file assets\js\config folder relative to the application execution file</p></li>
+<li><p>*Put your main.js file in assets\js\config folder.</p></li>
 </ul>
+<p>Relative to the application execution file</p>
 <h3><a class="anchor" aria-hidden="true" id="validate-a-field"></a><a href="#validate-a-field" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Validate a field</h3>
-<p>Its standard practice to let a user enter the password field twice to update the password. To validate the user entered the same value in two fields, you can use a simple function like below.</p>
+<p>It's a standard practice to let a user enter the password field twice to update her/his password. To validate the user entered the same value in two fields, you can use a simple function like below.</p>
 <pre><code class="hljs">function validatePassword(<span class="hljs-keyword">data</span>) {
   <span class="hljs-keyword">try</span> {
     <span class="hljs-keyword">if</span> (<span class="hljs-keyword">data</span>[<span class="hljs-string">"password"</span>] === <span class="hljs-keyword">data</span>[<span class="hljs-string">"confirmPassword"</span>]) {
