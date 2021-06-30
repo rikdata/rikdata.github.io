@@ -1,0 +1,205 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>SAP Documents · RikData OneApp</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="The process of reviewing a document is the same both in SAP and Oracle. Below are a few examples of reviewing and updating some records such as stock (onhand in Oracle) in a plant (inventory organization in Oracle),  updating the description of a product (item), and reviewing a Purchase order details (header, line, schedule, subcontracting, etc.)."/><meta name="docsearch:language" content="en"/><meta property="og:title" content="SAP Documents · RikData OneApp"/><meta property="og:type" content="website"/><meta property="og:url" content="https://rikdata.github.io/"/><meta property="og:description" content="The process of reviewing a document is the same both in SAP and Oracle. Below are a few examples of reviewing and updating some records such as stock (onhand in Oracle) in a plant (inventory organization in Oracle),  updating the description of a product (item), and reviewing a Purchase order details (header, line, schedule, subcontracting, etc.)."/><meta property="og:image" content="https://rikdata.github.io/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://rikdata.github.io/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="https://unpkg.com/vanilla-back-to-top@7.1.14/dist/vanilla-back-to-top.min.js"></script><script>
+        document.addEventListener('DOMContentLoaded', function() {
+          addBackToTop(
+            {"zIndex":100,"id":"back-to-top","showWhenScrollTopIs":1,"onClickScrollTo":0,"scrollDuration":100,"diameter":48,"cornerOffset":20,"backgroundColor":"#465cab","textColor":"#fff"}
+          )
+        });
+        </script><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/favicon.ico" alt="RikData OneApp"/><h2 class="headerTitleWithLogo">RikData OneApp</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/docs/introduction" target="_self">Docs</a></li><li class="siteNavGroupActive"><a href="/docs/download" target="_self">Download</a></li><li class=""><a href="/docs/javadocs/" target="_self">JavaDocs</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>SAP</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Getting started<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docs/introduction">Introduction</a></li><li class="navListItem"><a class="navItem" href="/docs/quickstart">Quickstart</a></li><li class="navListItem"><a class="navItem" href="/docs/dashboard">Dashboard</a></li><li class="navListItem"><a class="navItem" href="/docs/search">Search</a></li><li class="navListItem"><a class="navItem" href="/docs/search/display-type">Result Display Type</a></li><li class="navListItem"><a class="navItem" href="/docs/search/report">Report</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Oracle<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docs/document">Documents</a></li><li class="navListItem"><a class="navItem" href="/docs/oracle/document-oracle">Oracle Cloud Documents</a></li><li class="navListItem"><a class="navItem" href="/docs/oracle/transactions">Oracle Cloud Transactions</a></li><li class="navListItem"><a class="navItem" href="/docs/oracle/purchasing-transactions">Purchasing Transactions</a></li><li class="navListItem"><a class="navItem" href="/docs/oracle/document-ebs-r12">EBS R12 Documents</a></li><li class="navListItem"><a class="navItem" href="/docs/oracle/transactions-ebs-r12">EBS R12 Transactions</a></li><li class="navListItem"><a class="navItem" href="/docs/oracle/ebs-reports">EBS Reports</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">SAP<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem navListItemActive"><a class="navItem" href="/docs/sap/document-sap">SAP Documents</a></li><li class="navListItem"><a class="navItem" href="/docs/sap/sap-transactions">SAP Transactions</a></li><li class="navListItem"><a class="navItem" href="/docs/sap/sap-config">SAP Config</a></li><li class="navListItem"><a class="navItem" href="/docs/sap/new_movement_type">Movement Type</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Other Applications<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docs/document-d365bc">Dynamics 365 BC</a></li><li class="navListItem"><a class="navItem" href="/docs/snow/document-snow">ServiceNow</a></li><li class="navListItem"><a class="navItem" href="/docs/sforce/document-sforce">Salesforce</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Configuration<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docs/admin/configuration">Configuration</a></li><li class="navListItem"><a class="navItem" href="/docs/admin/go-rest-builder">GO-REST Builder</a></li><li class="navListItem"><a class="navItem" href="/docs/install-ebs-rest">EBS REST Application</a></li><li class="navListItem"><a class="navItem" href="/docs/related-data-in-tabs">Related Data In Tabs</a></li><li class="navListItem"><a class="navItem" href="/docs/admin/input-type">Input Type</a></li><li class="navListItem"><a class="navItem" href="/docs/admin/default-config-ora-cloud">Oracle Cloud Default Config</a></li><li class="navListItem"><a class="navItem" href="/docs/admin/default-config-ora-ebs">Oracle EBS Default Config</a></li><li class="navListItem"><a class="navItem" href="/docs/admin/default-config-sap">SAP Default Config</a></li><li class="navListItem"><a class="navItem" href="/docs/admin/default-config-d365">D365 Default Config</a></li><li class="navListItem"><a class="navItem" href="/docs/admin/default-config-snow">ServiceNow Default Config</a></li><li class="navListItem"><a class="navItem" href="/docs/admin/default-config-sforce">Salesforce Default Config</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Customization<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docs/customization/server">Server</a></li><li class="navListItem"><a class="navItem" href="/docs/customization/client">Client</a></li><li class="navListItem"><a class="navItem" href="/docs/customization/custom-application">Custom Application</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">About<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docs/privacy">Privacy</a></li><li class="navListItem"><a class="navItem" href="/docs/download">Download</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">SAP Documents</h1></header><article><div><span><p>The process of reviewing a document is the same both in SAP and Oracle. Below are a few examples of reviewing and updating some records such as stock (onhand in Oracle) in a plant (inventory organization in Oracle),  updating the description of a product (item), and reviewing a Purchase order details (header, line, schedule, subcontracting, etc.).
+You can follow the same steps to review any other document.</p>
+<h2><a class="anchor" aria-hidden="true" id="stock-in-sap"></a><a href="#stock-in-sap" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Stock In SAP</h2>
+<p>To review stock in a plant, navigate to the &quot;Material Stock&quot; search form from your dashboard/favorite.</p>
+<p><img src="/images/ScreenShots/document/sap/stock/rikdata_sap_stock_01.JPG" width="350"/></p>
+<p>Enter the product/plant details or any other criteria in the search form and click on the search button.</p>
+<p><img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_02.JPG" width="350"/>
+<img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_03.JPG" width="350"/></p>
+<p>Click on the expand icon against an item that you want to view.</p>
+<p><img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_04.JPG" width="350"/>
+<img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_05.JPG" width="350"/></p>
+<p>Click on the Menu against an item that you want to review and click on the view button.</p>
+<p><img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_06.JPG" width="350"/>
+<img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_07.JPG" width="350"/></p>
+<p>If any chart is defined for the Stock entity, then you can view the stock details in a chart.
+Click on the View Charts button on the search result list screen.</p>
+<p><img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_08.JPG" width="350"/></p>
+<p>If the chart is defined for the entity, then a new floating action button will be visible on the screen. Click on the button to view all the defined charts.</p>
+<p><img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_09.JPG" width="350"/></p>
+<p>Click on a chart to view the details.</p>
+<p><img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_10.JPG" width="350"/>
+<img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_11.JPG" width="350"/>
+<img src="/images/ScreenShots/document/sap/stock2/rikdata_sap_stock_12.JPG" width="350"/></p>
+<p>Click on the back button to navigate back to the search result screen.</p>
+<h2><a class="anchor" aria-hidden="true" id="product"></a><a href="#product" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Product</h2>
+<p>To review product details at the client level, navigate to the &quot;Product&quot; search form from your dashboard/favorite.</p>
+<p><img src="/images/ScreenShots/document/sap/product/rikdata_sap_product_01.JPG" width="350"/></p>
+<p>Enter the product/plant details or any other criteria in the search form and click on the search button.</p>
+<p><img src="/images/ScreenShots/document/sap/product/rikdata_sap_product_02.JPG" width="350"/>
+<img src="/images/ScreenShots/document/sap/product/rikdata_sap_product_03.JPG" width="350"/></p>
+<p>Click on the expand icon against an item that you want to view.</p>
+<p><img src="/images/ScreenShots/document/sap/product/rikdata_sap_product_04.JPG" width="350"/>
+<img src="/images/ScreenShots/document/sap/product/rikdata_sap_product_05.JPG" width="350"/></p>
+<p>Click on the Menu against an item that you want to review and click on the view button.</p>
+<p><img src="/images/ScreenShots/document/sap/product/rikdata_sap_product_06.JPG" width="350"/>
+<img src="/images/ScreenShots/document/sap/product/rikdata_sap_product_07.JPG" width="350"/></p>
+<p>Scroll on the top tab to review all the details of the product</p>
+<p><img src="/images/ScreenShots/document/sap/product/rikdata_sap_product_08.JPG" width="350"/>
+<img src="/images/ScreenShots/document/sap/product/rikdata_sap_product_09.JPG" width="350"/>
+<img src="/images/ScreenShots/document/sap/product/rikdata_sap_product_10.JPG" width="350"/>
+<img src="/images/ScreenShots/document/sap/product/rikdata_sap_product_11.JPG" width="350"/>
+<img src="/images/ScreenShots/document/sap/product/rikdata_sap_product_12.JPG" width="350"/>
+<img src="/images/ScreenShots/document/sap/product/rikdata_sap_product_13.JPG" width="350"/></p>
+<p>Click on the back button to navigate back to the search result screen.</p>
+<h2><a class="anchor" aria-hidden="true" id="purchase-order"></a><a href="#purchase-order" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Purchase Order</h2>
+<p>Navigate to the purchase order search from your favorite/dashboard</p>
+<p><img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_01.JPG" width="350"/>
+<img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_01A.JPG" width="350"/></p>
+<p>Enter the Company Code/Purchase Order details or any other criteria in the search form and click on the search button.</p>
+<p><img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_02.JPG" width="350"/>
+<img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_03.JPG" width="350"/></p>
+<p>Click on the expand icon against an item that you want to view.</p>
+<p><img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_04Z.JPG" width="350"/></p>
+<p>Click on the Menu against an item that you want to review and click on the view button.</p>
+<p><img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_04.JPG" width="350"/></p>
+<p>Scroll on the top tab to review all the details of the product</p>
+<p><img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_05.JPG" width="350"/>
+<img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_06.JPG" width="350"/></p>
+<p>By default, the application fetches only top-level information such as PO Header and Line details.</p>
+<p><img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_07.JPG" width="350"/>
+<img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_08.JPG" width="350"/></p>
+<p>You can scroll up/down and left/right to view all the tabs &amp; data.</p>
+<p><img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_09.JPG" width="350"/>
+<img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_10.JPG" width="350"/></p>
+<p>Tabs that contain multiple records, such as PO lines with plant and material details, are shown in an expansion tile.
+You can click on any tile to view the details of that line.</p>
+<p><img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_11.JPG" width="350"/>
+<img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_12.JPG" width="350"/></p>
+<p>By default, the app does not fetch level 3 information (such as schedule line or account assignment). The app shows buttons to fetch the data from the Hana S/4 server. If you want to review any specific information, click on the corresponding button, and the app will show you the details below the button.</p>
+<p><img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_13.JPG" width="350"/>
+<img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_14.JPG" width="350"/></p>
+<p>Similarly, if the level 3 details contain any level 4 data (subcontracting components of schedule line), the app will show a button. Click on the button to view the details.</p>
+<p><img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_15.JPG" width="350"/>
+<img src="/images/ScreenShots/document/sap/po/rikdata_sap_po_16.JPG" width="350"/></p>
+<p>Click on the back button to navigate back to the search result screen.</p>
+<h2><a class="anchor" aria-hidden="true" id="production-order"></a><a href="#production-order" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Production Order</h2>
+<p>Navigate to the production order search from your favorite/dashboard</p>
+<p><img src="/images/ScreenShots/document/sap/production_order/rikdata_sap_production_order_01.JPG" width="350"/>
+<img src="/images/ScreenShots/document/sap/production_order/rikdata_sap_production_order_02.JPG" width="350"/></p>
+<p>Enter the Plant/Production Order details or any other criteria in the search form and click on the search button.</p>
+<p><img src="/images/ScreenShots/document/sap/production_order/rikdata_sap_production_order_03.JPG" width="350"/></p>
+<p>Click on the expand icon against an item that you want to view.</p>
+<p><img src="/images/ScreenShots/document/sap/production_order/rikdata_sap_production_order_05.JPG" width="350"/></p>
+<p>Click on the Menu against an item that you want to review and click on the view button.</p>
+<p><img src="/images/ScreenShots/document/sap/production_order/rikdata_sap_production_order_04.JPG" width="350"/></p>
+<p>Scroll on the top tab to review all the details of the production order. The first tab shows basic header level information of the product.</p>
+<p><img src="/images/ScreenShots/document/sap/production_order/rikdata_sap_production_order_06.JPG" width="350"/></p>
+<p>To view all the components required for the production order, scroll to the second tab.</p>
+<p><img src="/images/ScreenShots/document/sap/production_order/rikdata_sap_production_order_07.JPG" width="350"/></p>
+<p>The next tab shows the details of the production order item.</p>
+<p><img src="/images/ScreenShots/document/sap/production_order/rikdata_sap_production_order_08.JPG" width="350"/></p>
+<p>By default, the application fetches only top-level information such as Production Order Header, Components, and Operations when you scroll to the corresponding tab.
+If the production order contains multiple operations, then the operations are shown in an expandable area. Click on an operation to view its details.</p>
+<p><img src="/images/ScreenShots/document/sap/production_order/rikdata_sap_production_order_09.JPG" width="350"/></p>
+<p>If the production order contains only one operation, then all the operation details are shown as a single list.</p>
+<p><img src="/images/ScreenShots/document/sap/production_order/rikdata_sap_production_order_10.JPG" width="350"/></p>
+<p>You can scroll up/down and left/right to view all the tabs &amp; data.</p>
+<p><img src="/images/ScreenShots/document/sap/production_order/rikdata_sap_production_order_11.JPG" width="350"/></p>
+<p>Third, Fourth level details such as Production Order Status under the Production Order Component tab as shown as a button. To view the details, click on the button, and the app fetches all the information.</p>
+<p><img src="/images/ScreenShots/document/sap/production_order/rikdata_sap_production_order_12.JPG" width="350"/>
+<img src="/images/ScreenShots/document/sap/production_order/rikdata_sap_production_order_13.JPG" width="350"/></p>
+<p>Click on the back button to navigate back to the search result screen.</p>
+<h2><a class="anchor" aria-hidden="true" id="billing-document"></a><a href="#billing-document" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Billing Document</h2>
+<p>To review a billing, navigate to the &quot;Billing Document&quot; search form from your dashboard/favorite.</p>
+<p><img src="/images/ScreenShots/document/sap/billing/rikdata_sap_billing_01.JPG" width="350"/></p>
+<p>Enter the billing document/category/sales organization or any other criteria in the search form and click on the search button.</p>
+<p><img src="/images/ScreenShots/document/sap/billing/rikdata_sap_billing_02.JPG" width="350"/>
+<img src="/images/ScreenShots/document/sap/billing/rikdata_sap_billing_03.JPG" width="350"/></p>
+<p>Click on the expand icon against an item that if you want to view header level information. Click on the Menu against an item that you want to review and click on the view button.</p>
+<p><img src="/images/ScreenShots/document/sap/billing/rikdata_sap_billing_04.JPG" width="350"/></p>
+<p>Scroll on the top tab to review all the details of the billing document</p>
+<p><img src="/images/ScreenShots/document/sap/billing/rikdata_sap_billing_05.JPG" width="350"/>
+<img src="/images/ScreenShots/document/sap/billing/rikdata_sap_billing_06.JPG" width="350"/></p>
+<p>Click on the back button to navigate back to the search result screen.</p>
+<h2><a class="anchor" aria-hidden="true" id="enterprise-project"></a><a href="#enterprise-project" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Enterprise Project</h2>
+<p>To review an Enterprise Project, navigate to the &quot;Enterprise Project&quot; search form from your dashboard/favorite.</p>
+<p><img src="/images/ScreenShots/document/sap/project/rikdata_sap_project_01.JPG" width="350"/></p>
+<p>Enter the company code/project/description or any other criteria in the search form and click on the search button.</p>
+<p><img src="/images/ScreenShots/document/sap/project/rikdata_sap_project_02.JPG" width="350"/>
+<img src="/images/ScreenShots/document/sap/project/rikdata_sap_project_03.JPG" width="350"/></p>
+<p>Click on the expand icon against an item that if you want to view header level information. Click on the Menu against an item that you want to review and click on the view button.</p>
+<p><img src="/images/ScreenShots/document/sap/project/rikdata_sap_project_04.JPG" width="350"/>
+<img src="/images/ScreenShots/document/sap/project/rikdata_sap_project_05.JPG" width="350"/></p>
+<p>Scroll on the top tab to review all the details of the enterprise project document</p>
+<p><img src="/images/ScreenShots/document/sap/project/rikdata_sap_project_06.JPG" width="350"/>
+<img src="/images/ScreenShots/document/sap/project/rikdata_sap_project_07.JPG" width="350"/></p>
+<p>Click on the back button to navigate back to the search result screen.</p>
+<h2><a class="anchor" aria-hidden="true" id="update-a-document"></a><a href="#update-a-document" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Update a document</h2>
+<p>This is an example of updating a product description, but you can follow the same steps to update any other document data.</p>
+<blockquote>
+<p>You can only update a document/data if it's available as per ODATA service</p>
+</blockquote>
+<p><img src="/images/ScreenShots/document/sap/product_update/rikdata_sap_product_update_100.JPG" width="750"/></p>
+<p>Follow the steps described in <a href="#/document/?id=product">View Document</a> section to the open the product you want to update</p>
+<p><img src="/images/ScreenShots/document/sap/product_update/rikdata_sap_product_update_01.JPG" width="350"/>
+<img src="/images/ScreenShots/document/sap/product_update/rikdata_sap_product_update_02.JPG" width="350"/></p>
+<p>Change the description or any other field that is allowed to be changed, and click on the Save button.</p>
+<p><img src="/images/ScreenShots/document/sap/product_update/rikdata_sap_product_update_03.JPG" width="350"/></p>
+<p>Click on the back button to navigate back to the search result screen.</p>
+<p>You can review the changed data using the GUI.</p>
+<p><img src="/images/ScreenShots/document/sap/product_update/rikdata_sap_product_update_101.JPG" width="750"/></p>
+<p>Click on the back button to navigate back to the search result screen.</p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/oracle/ebs-reports"><span class="arrow-prev">← </span><span>EBS Reports</span></a><a class="docs-next button" href="/docs/sap/sap-transactions"><span>SAP Transactions</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#stock-in-sap">Stock In SAP</a></li><li><a href="#product">Product</a></li><li><a href="#purchase-order">Purchase Order</a></li><li><a href="#production-order">Production Order</a></li><li><a href="#billing-document">Billing Document</a></li><li><a href="#enterprise-project">Enterprise Project</a></li><li><a href="#update-a-document">Update a document</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="copyright">For any technical problem, raise an issue @<a class="light-link" href="https://github.com/rikdata/rikdata.github.io/issues/new"> GitHub</a></section><section class="copyright">Contact@rikdata.com | Copyright © 2021 RikData</section></footer></div></body></html>

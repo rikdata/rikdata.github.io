@@ -1,0 +1,2791 @@
+
+
+
+## ItemJournals
+	 * id
+	 * number
+	 * displayName
+	 * type
+	 * itemCategoryId
+	 * itemCategoryCode
+	 * blocked
+	 * gtin
+	 * inventory
+	 * unitPrice
+	 * priceIncludesTax
+	 * unitCost
+	 * taxGroupId
+	 * taxGroupCode
+	 * baseUnitOfMeasureId
+	 * baseUnitOfMeasureCode
+	 * lastModifiedDateTime
+
+## ItemLedgerEntries
+	 * Entry_No
+	 * Entry_Type
+	 * Item_No
+	 * Cross_Reference_No
+	 * Item_Reference_No
+	 * Lot_No
+	 * Item_Category_Code
+	 * Posting_Date
+	 * Expiration_Date
+	 * Warranty_Date
+	 * Document_Date
+	 * Document_No
+	 * Document_Type
+	 * Location_Code
+	 * Job_No
+	 * Job_Task_No
+	 * Open
+	 * Quantity
+	 * Unit_of_Measure_Code
+	 * Qty_per_Unit_of_Measure
+	 * Remaining_Quantity
+	 * Invoiced_Quantity
+	 * Dimension_Set_ID
+	 * Cost_Amount_Expected
+	 * Cost_Amount_Actual
+	 * Cost_Amount_Non_Invtbl
+	 * Purchase_Amount_Expected
+	 * Purchase_Amount_Actual
+	 * Sales_Amount_Expected
+	 * Sales_Amount_Actual
+	 * Item_Description
+	 * AuxiliaryIndex1
+
+## accounts
+	 * id
+	 * number
+	 * displayName
+	 * category
+	 * subCategory
+	 * blocked
+	 * accountType
+	 * directPosting
+	 * lastModifiedDateTime
+
+## accounts
+	 * id
+	 * number
+	 * displayName
+	 * category
+	 * subCategory
+	 * blocked
+	 * accountType
+	 * directPosting
+	 * lastModifiedDateTime
+
+## agedAccountsPayables
+	 * vendorId
+	 * vendorNumber
+	 * name
+	 * currencyCode
+	 * balanceDue
+	 * currentAmount
+	 * period1Amount
+	 * period2Amount
+	 * period3Amount
+	 * agedAsOfDate
+	 * periodLengthFilter
+
+## agedAccountsPayables
+	 * vendorId
+	 * vendorNumber
+	 * name
+	 * currencyCode
+	 * balanceDue
+	 * currentAmount
+	 * period1Amount
+	 * period2Amount
+	 * period3Amount
+	 * agedAsOfDate
+	 * periodLengthFilter
+
+## agedAccountsReceivables
+	 * customerId
+	 * customerNumber
+	 * name
+	 * currencyCode
+	 * balanceDue
+	 * currentAmount
+	 * period1Amount
+	 * period2Amount
+	 * period3Amount
+	 * agedAsOfDate
+	 * periodLengthFilter
+
+## agedAccountsReceivables
+	 * customerId
+	 * customerNumber
+	 * name
+	 * currencyCode
+	 * balanceDue
+	 * currentAmount
+	 * period1Amount
+	 * period2Amount
+	 * period3Amount
+	 * agedAsOfDate
+	 * periodLengthFilter
+
+## attachments
+	 * id
+	 * parentId
+	 * fileName
+	 * byteSize
+	 * attachmentContent
+	 * lastModifiedDateTime
+	 * parentType
+
+## attachments
+	 * id
+	 * parentId
+	 * fileName
+	 * byteSize
+	 * attachmentContent
+	 * lastModifiedDateTime
+	 * parentType
+
+## attachments
+	 * id
+	 * parentId
+	 * fileName
+	 * byteSize
+	 * attachmentContent
+	 * lastModifiedDateTime
+	 * parentType
+
+## attachments
+	 * id
+	 * parentId
+	 * fileName
+	 * byteSize
+	 * attachmentContent
+	 * lastModifiedDateTime
+	 * parentType
+
+## attachments
+	 * id
+	 * parentId
+	 * fileName
+	 * byteSize
+	 * attachmentContent
+	 * lastModifiedDateTime
+	 * parentType
+
+## attachments
+	 * id
+	 * parentId
+	 * fileName
+	 * byteSize
+	 * attachmentContent
+	 * lastModifiedDateTime
+	 * parentType
+
+## attachments
+	 * id
+	 * parentId
+	 * fileName
+	 * byteSize
+	 * attachmentContent
+	 * lastModifiedDateTime
+	 * parentType
+
+## attachments
+	 * id
+	 * parentId
+	 * fileName
+	 * byteSize
+	 * attachmentContent
+	 * lastModifiedDateTime
+	 * parentType
+
+## attachments
+	 * id
+	 * parentId
+	 * fileName
+	 * byteSize
+	 * attachmentContent
+	 * lastModifiedDateTime
+	 * parentType
+
+## attachments
+	 * id
+	 * parentId
+	 * fileName
+	 * byteSize
+	 * attachmentContent
+	 * lastModifiedDateTime
+	 * parentType
+
+## balanceSheets
+	 * id
+	 * lineNumber
+	 * display
+	 * balance
+	 * lineType
+	 * indentation
+	 * dateFilter
+
+## balanceSheets
+	 * id
+	 * lineNumber
+	 * display
+	 * balance
+	 * lineType
+	 * indentation
+	 * dateFilter
+
+## bankAccounts
+	 * id
+	 * number
+	 * displayName
+
+## bankAccounts
+	 * id
+	 * number
+	 * displayName
+
+## cashFlowStatements
+	 * id
+	 * lineNumber
+	 * display
+	 * netChange
+	 * lineType
+	 * indentation
+	 * dateFilter
+
+## cashFlowStatements
+	 * id
+	 * lineNumber
+	 * display
+	 * netChange
+	 * lineType
+	 * indentation
+	 * dateFilter
+
+## companies
+	 * id
+	 * systemVersion
+	 * name
+	 * displayName
+	 * businessProfileId
+	 * systemCreatedAt
+	 * systemCreatedBy
+	 * systemModifiedAt
+	 * systemModifiedBy
+
+## companyInformation
+	 * id
+	 * displayName
+	 * addressLine1
+	 * addressLine2
+	 * city
+	 * state
+	 * country
+	 * postalCode
+	 * phoneNumber
+	 * faxNumber
+	 * email
+	 * website
+	 * taxRegistrationNumber
+	 * currencyCode
+	 * currentFiscalYearStartDate
+	 * industry
+	 * picture
+	 * lastModifiedDateTime
+
+## companyInformation
+	 * id
+	 * displayName
+	 * addressLine1
+	 * addressLine2
+	 * city
+	 * state
+	 * country
+	 * postalCode
+	 * phoneNumber
+	 * faxNumber
+	 * email
+	 * website
+	 * taxRegistrationNumber
+	 * currencyCode
+	 * currentFiscalYearStartDate
+	 * industry
+	 * picture
+	 * lastModifiedDateTime
+
+## countriesRegions
+	 * id
+	 * code
+	 * displayName
+	 * addressFormat
+	 * lastModifiedDateTime
+
+## countriesRegions
+	 * id
+	 * code
+	 * displayName
+	 * addressFormat
+	 * lastModifiedDateTime
+
+## currencies
+	 * id
+	 * code
+	 * displayName
+	 * symbol
+	 * amountDecimalPlaces
+	 * amountRoundingPrecision
+	 * lastModifiedDateTime
+
+## currencies
+	 * id
+	 * code
+	 * displayName
+	 * symbol
+	 * amountDecimalPlaces
+	 * amountRoundingPrecision
+	 * lastModifiedDateTime
+
+## customerFinancialDetails
+	 * id
+	 * number
+	 * balance
+	 * totalSalesExcludingTax
+	 * overdueAmount
+
+## customerFinancialDetails
+	 * id
+	 * number
+	 * balance
+	 * totalSalesExcludingTax
+	 * overdueAmount
+
+## customerPaymentJournals
+	 * id
+	 * code
+	 * displayName
+	 * lastModifiedDateTime
+	 * balancingAccountId
+	 * balancingAccountNumber
+
+## customerPaymentJournals
+	 * id
+	 * code
+	 * displayName
+	 * lastModifiedDateTime
+	 * balancingAccountId
+	 * balancingAccountNumber
+
+## customerPayments
+	 * id
+	 * journalId
+	 * journalDisplayName
+	 * lineNumber
+	 * customerId
+	 * customerNumber
+	 * postingDate
+	 * documentNumber
+	 * externalDocumentNumber
+	 * amount
+	 * appliesToInvoiceId
+	 * appliesToInvoiceNumber
+	 * description
+	 * comment
+	 * lastModifiedDateTime
+
+## customerPayments
+	 * id
+	 * journalId
+	 * journalDisplayName
+	 * lineNumber
+	 * customerId
+	 * customerNumber
+	 * postingDate
+	 * documentNumber
+	 * externalDocumentNumber
+	 * amount
+	 * appliesToInvoiceId
+	 * appliesToInvoiceNumber
+	 * description
+	 * comment
+	 * lastModifiedDateTime
+
+## customerPayments
+	 * id
+	 * journalId
+	 * journalDisplayName
+	 * lineNumber
+	 * customerId
+	 * customerNumber
+	 * postingDate
+	 * documentNumber
+	 * externalDocumentNumber
+	 * amount
+	 * appliesToInvoiceId
+	 * appliesToInvoiceNumber
+	 * description
+	 * comment
+	 * lastModifiedDateTime
+
+## customerSales
+	 * customerId
+	 * customerNumber
+	 * name
+	 * totalSalesAmount
+	 * dateFilter_FilterOnly
+
+## customerSales
+	 * customerId
+	 * customerNumber
+	 * name
+	 * totalSalesAmount
+	 * dateFilter_FilterOnly
+
+## customers
+	 * id
+	 * number
+	 * displayName
+	 * type
+	 * addressLine1
+	 * addressLine2
+	 * city
+	 * state
+	 * country
+	 * postalCode
+	 * phoneNumber
+	 * email
+	 * website
+	 * taxLiable
+	 * taxAreaId
+	 * taxAreaDisplayName
+	 * taxRegistrationNumber
+	 * currencyId
+	 * currencyCode
+	 * paymentTermsId
+	 * shipmentMethodId
+	 * paymentMethodId
+	 * blocked
+	 * lastModifiedDateTime
+
+## customers
+	 * id
+	 * number
+	 * displayName
+	 * type
+	 * addressLine1
+	 * addressLine2
+	 * city
+	 * state
+	 * country
+	 * postalCode
+	 * phoneNumber
+	 * email
+	 * website
+	 * taxLiable
+	 * taxAreaId
+	 * taxAreaDisplayName
+	 * taxRegistrationNumber
+	 * currencyId
+	 * currencyCode
+	 * paymentTermsId
+	 * shipmentMethodId
+	 * paymentMethodId
+	 * blocked
+	 * lastModifiedDateTime
+
+## defaultDimensions
+	 * id
+	 * parentType
+	 * parentId
+	 * dimensionId
+	 * dimensionCode
+	 * dimensionValueId
+	 * dimensionValueCode
+	 * postingValidation
+
+## defaultDimensions
+	 * id
+	 * parentType
+	 * parentId
+	 * dimensionId
+	 * dimensionCode
+	 * dimensionValueId
+	 * dimensionValueCode
+	 * postingValidation
+
+## defaultDimensions
+	 * id
+	 * parentType
+	 * parentId
+	 * dimensionId
+	 * dimensionCode
+	 * dimensionValueId
+	 * dimensionValueCode
+	 * postingValidation
+
+## defaultDimensions
+	 * id
+	 * parentType
+	 * parentId
+	 * dimensionId
+	 * dimensionCode
+	 * dimensionValueId
+	 * dimensionValueCode
+	 * postingValidation
+
+## defaultDimensions
+	 * id
+	 * parentType
+	 * parentId
+	 * dimensionId
+	 * dimensionCode
+	 * dimensionValueId
+	 * dimensionValueCode
+	 * postingValidation
+
+## defaultDimensions
+	 * id
+	 * parentType
+	 * parentId
+	 * dimensionId
+	 * dimensionCode
+	 * dimensionValueId
+	 * dimensionValueCode
+	 * postingValidation
+
+## dimensionSetLines
+	 * id
+	 * code
+	 * parentId
+	 * parentType
+	 * displayName
+	 * valueId
+	 * valueCode
+	 * valueDisplayName
+
+## dimensionSetLines
+	 * id
+	 * code
+	 * parentId
+	 * parentType
+	 * displayName
+	 * valueId
+	 * valueCode
+	 * valueDisplayName
+
+## dimensionSetLines
+	 * id
+	 * code
+	 * parentId
+	 * parentType
+	 * displayName
+	 * valueId
+	 * valueCode
+	 * valueDisplayName
+
+## dimensionSetLines
+	 * id
+	 * code
+	 * parentId
+	 * parentType
+	 * displayName
+	 * valueId
+	 * valueCode
+	 * valueDisplayName
+
+## dimensionSetLines
+	 * id
+	 * code
+	 * parentId
+	 * parentType
+	 * displayName
+	 * valueId
+	 * valueCode
+	 * valueDisplayName
+
+## dimensionSetLines
+	 * id
+	 * code
+	 * parentId
+	 * parentType
+	 * displayName
+	 * valueId
+	 * valueCode
+	 * valueDisplayName
+
+## dimensionSetLines
+	 * id
+	 * code
+	 * parentId
+	 * parentType
+	 * displayName
+	 * valueId
+	 * valueCode
+	 * valueDisplayName
+
+## dimensionSetLines
+	 * id
+	 * code
+	 * parentId
+	 * parentType
+	 * displayName
+	 * valueId
+	 * valueCode
+	 * valueDisplayName
+
+## dimensionSetLines
+	 * id
+	 * code
+	 * parentId
+	 * parentType
+	 * displayName
+	 * valueId
+	 * valueCode
+	 * valueDisplayName
+
+## dimensionSetLines
+	 * id
+	 * code
+	 * parentId
+	 * parentType
+	 * displayName
+	 * valueId
+	 * valueCode
+	 * valueDisplayName
+
+## dimensionSetLines
+	 * id
+	 * code
+	 * parentId
+	 * parentType
+	 * displayName
+	 * valueId
+	 * valueCode
+	 * valueDisplayName
+
+## dimensionSetLines
+	 * id
+	 * code
+	 * parentId
+	 * parentType
+	 * displayName
+	 * valueId
+	 * valueCode
+	 * valueDisplayName
+
+## dimensionSetLines
+	 * id
+	 * code
+	 * parentId
+	 * parentType
+	 * displayName
+	 * valueId
+	 * valueCode
+	 * valueDisplayName
+
+## dimensionSetLines
+	 * id
+	 * code
+	 * parentId
+	 * parentType
+	 * displayName
+	 * valueId
+	 * valueCode
+	 * valueDisplayName
+
+## dimensionSetLines
+	 * id
+	 * code
+	 * parentId
+	 * parentType
+	 * displayName
+	 * valueId
+	 * valueCode
+	 * valueDisplayName
+
+## dimensionSetLines
+	 * id
+	 * code
+	 * parentId
+	 * parentType
+	 * displayName
+	 * valueId
+	 * valueCode
+	 * valueDisplayName
+
+## dimensionSetLines
+	 * id
+	 * code
+	 * parentId
+	 * parentType
+	 * displayName
+	 * valueId
+	 * valueCode
+	 * valueDisplayName
+
+## dimensionSetLines
+	 * id
+	 * code
+	 * parentId
+	 * parentType
+	 * displayName
+	 * valueId
+	 * valueCode
+	 * valueDisplayName
+
+## dimensionSetLines
+	 * id
+	 * code
+	 * parentId
+	 * parentType
+	 * displayName
+	 * valueId
+	 * valueCode
+	 * valueDisplayName
+
+## dimensionSetLines
+	 * id
+	 * code
+	 * parentId
+	 * parentType
+	 * displayName
+	 * valueId
+	 * valueCode
+	 * valueDisplayName
+
+## dimensionSetLines
+	 * id
+	 * code
+	 * parentId
+	 * parentType
+	 * displayName
+	 * valueId
+	 * valueCode
+	 * valueDisplayName
+
+## dimensionSetLines
+	 * id
+	 * code
+	 * parentId
+	 * parentType
+	 * displayName
+	 * valueId
+	 * valueCode
+	 * valueDisplayName
+
+## dimensionSetLines
+	 * id
+	 * code
+	 * parentId
+	 * parentType
+	 * displayName
+	 * valueId
+	 * valueCode
+	 * valueDisplayName
+
+## dimensionValues
+	 * id
+	 * code
+	 * dimensionId
+	 * displayName
+	 * lastModifiedDateTime
+
+## dimensionValues
+	 * id
+	 * code
+	 * dimensionId
+	 * displayName
+	 * lastModifiedDateTime
+
+## dimensionValues
+	 * id
+	 * code
+	 * dimensionId
+	 * displayName
+	 * lastModifiedDateTime
+
+## dimensions
+	 * id
+	 * code
+	 * displayName
+	 * lastModifiedDateTime
+
+## dimensions
+	 * id
+	 * code
+	 * displayName
+	 * lastModifiedDateTime
+
+## employees
+	 * id
+	 * number
+	 * displayName
+	 * givenName
+	 * middleName
+	 * surname
+	 * jobTitle
+	 * addressLine1
+	 * addressLine2
+	 * city
+	 * state
+	 * country
+	 * postalCode
+	 * phoneNumber
+	 * mobilePhone
+	 * email
+	 * personalEmail
+	 * employmentDate
+	 * terminationDate
+	 * status
+	 * birthDate
+	 * statisticsGroupCode
+	 * lastModifiedDateTime
+
+## employees
+	 * id
+	 * number
+	 * displayName
+	 * givenName
+	 * middleName
+	 * surname
+	 * jobTitle
+	 * addressLine1
+	 * addressLine2
+	 * city
+	 * state
+	 * country
+	 * postalCode
+	 * phoneNumber
+	 * mobilePhone
+	 * email
+	 * personalEmail
+	 * employmentDate
+	 * terminationDate
+	 * status
+	 * birthDate
+	 * statisticsGroupCode
+	 * lastModifiedDateTime
+
+## entityDefinitions
+	 * entityName
+	 * entitySetName
+	 * entityCaptions
+	 * entitySetCaptions
+	 * properties
+	 * actions
+	 * enumMembers
+
+## generalLedgerEntries
+	 * id
+	 * entryNumber
+	 * postingDate
+	 * documentNumber
+	 * documentType
+	 * accountId
+	 * accountNumber
+	 * description
+	 * debitAmount
+	 * creditAmount
+	 * lastModifiedDateTime
+
+## generalLedgerEntries
+	 * id
+	 * entryNumber
+	 * postingDate
+	 * documentNumber
+	 * documentType
+	 * accountId
+	 * accountNumber
+	 * description
+	 * debitAmount
+	 * creditAmount
+	 * lastModifiedDateTime
+
+## incomeStatements
+	 * id
+	 * lineNumber
+	 * display
+	 * netChange
+	 * lineType
+	 * indentation
+	 * dateFilter
+
+## incomeStatements
+	 * id
+	 * lineNumber
+	 * display
+	 * netChange
+	 * lineType
+	 * indentation
+	 * dateFilter
+
+## itemCategories
+	 * id
+	 * code
+	 * displayName
+	 * lastModifiedDateTime
+
+## itemCategories
+	 * id
+	 * code
+	 * displayName
+	 * lastModifiedDateTime
+
+## itemVariants
+	 * id
+	 * itemId
+	 * itemNumber
+	 * code
+	 * description
+
+## itemVariants
+	 * id
+	 * itemId
+	 * itemNumber
+	 * code
+	 * description
+
+## itemVariants
+	 * id
+	 * itemId
+	 * itemNumber
+	 * code
+	 * description
+
+## items
+	 * id
+	 * number
+	 * displayName
+	 * type
+	 * itemCategoryId
+	 * itemCategoryCode
+	 * blocked
+	 * gtin
+	 * inventory
+	 * unitPrice
+	 * priceIncludesTax
+	 * unitCost
+	 * taxGroupId
+	 * taxGroupCode
+	 * baseUnitOfMeasureId
+	 * baseUnitOfMeasureCode
+	 * lastModifiedDateTime
+
+## items
+	 * id
+	 * number
+	 * displayName
+	 * type
+	 * itemCategoryId
+	 * itemCategoryCode
+	 * blocked
+	 * gtin
+	 * inventory
+	 * unitPrice
+	 * priceIncludesTax
+	 * unitCost
+	 * taxGroupId
+	 * taxGroupCode
+	 * baseUnitOfMeasureId
+	 * baseUnitOfMeasureCode
+	 * lastModifiedDateTime
+
+## journalLines
+	 * id
+	 * journalId
+	 * journalDisplayName
+	 * lineNumber
+	 * accountType
+	 * accountId
+	 * accountNumber
+	 * postingDate
+	 * documentNumber
+	 * externalDocumentNumber
+	 * amount
+	 * description
+	 * comment
+	 * taxCode
+	 * balanceAccountType
+	 * balancingAccountId
+	 * balancingAccountNumber
+	 * lastModifiedDateTime
+
+## journalLines
+	 * id
+	 * journalId
+	 * journalDisplayName
+	 * lineNumber
+	 * accountType
+	 * accountId
+	 * accountNumber
+	 * postingDate
+	 * documentNumber
+	 * externalDocumentNumber
+	 * amount
+	 * description
+	 * comment
+	 * taxCode
+	 * balanceAccountType
+	 * balancingAccountId
+	 * balancingAccountNumber
+	 * lastModifiedDateTime
+
+## journalLines
+	 * id
+	 * journalId
+	 * journalDisplayName
+	 * lineNumber
+	 * accountType
+	 * accountId
+	 * accountNumber
+	 * postingDate
+	 * documentNumber
+	 * externalDocumentNumber
+	 * amount
+	 * description
+	 * comment
+	 * taxCode
+	 * balanceAccountType
+	 * balancingAccountId
+	 * balancingAccountNumber
+	 * lastModifiedDateTime
+
+## journals
+	 * id
+	 * code
+	 * displayName
+	 * lastModifiedDateTime
+	 * balancingAccountId
+	 * balancingAccountNumber
+
+## journals
+	 * id
+	 * code
+	 * displayName
+	 * lastModifiedDateTime
+	 * balancingAccountId
+	 * balancingAccountNumber
+
+## paymentMethods
+	 * id
+	 * code
+	 * displayName
+	 * lastModifiedDateTime
+
+## paymentMethods
+	 * id
+	 * code
+	 * displayName
+	 * lastModifiedDateTime
+
+## paymentTerms
+	 * id
+	 * code
+	 * displayName
+	 * dueDateCalculation
+	 * discountDateCalculation
+	 * discountPercent
+	 * calculateDiscountOnCreditMemos
+	 * lastModifiedDateTime
+
+## paymentTerms
+	 * id
+	 * code
+	 * displayName
+	 * dueDateCalculation
+	 * discountDateCalculation
+	 * discountPercent
+	 * calculateDiscountOnCreditMemos
+	 * lastModifiedDateTime
+
+## pdfDocument
+	 * id
+	 * parentId
+	 * parentType
+	 * pdfDocumentContent
+
+## pdfDocument
+	 * id
+	 * parentId
+	 * parentType
+	 * pdfDocumentContent
+
+## pdfDocument
+	 * id
+	 * parentId
+	 * parentType
+	 * pdfDocumentContent
+
+## pdfDocument
+	 * id
+	 * parentId
+	 * parentType
+	 * pdfDocumentContent
+
+## pdfDocument
+	 * id
+	 * parentId
+	 * parentType
+	 * pdfDocumentContent
+
+## pdfDocument
+	 * id
+	 * parentId
+	 * parentType
+	 * pdfDocumentContent
+
+## pictures
+	 * id
+	 * parentType
+	 * width
+	 * height
+	 * contentType
+	 * pictureContent
+
+## pictures
+	 * id
+	 * parentType
+	 * width
+	 * height
+	 * contentType
+	 * pictureContent
+
+## projects
+	 * id
+	 * number
+	 * displayName
+
+## projects
+	 * id
+	 * number
+	 * displayName
+
+## purchaseInvoiceLines
+	 * id
+	 * documentId
+	 * sequence
+	 * itemId
+	 * accountId
+	 * lineType
+	 * lineObjectNumber
+	 * description
+	 * unitOfMeasureId
+	 * unitOfMeasureCode
+	 * unitCost
+	 * quantity
+	 * discountAmount
+	 * discountPercent
+	 * discountAppliedBeforeTax
+	 * amountExcludingTax
+	 * taxCode
+	 * taxPercent
+	 * totalTaxAmount
+	 * amountIncludingTax
+	 * invoiceDiscountAllocation
+	 * netAmount
+	 * netTaxAmount
+	 * netAmountIncludingTax
+	 * expectedReceiptDate
+	 * itemVariantId
+
+## purchaseInvoiceLines
+	 * id
+	 * documentId
+	 * sequence
+	 * itemId
+	 * accountId
+	 * lineType
+	 * lineObjectNumber
+	 * description
+	 * unitOfMeasureId
+	 * unitOfMeasureCode
+	 * unitCost
+	 * quantity
+	 * discountAmount
+	 * discountPercent
+	 * discountAppliedBeforeTax
+	 * amountExcludingTax
+	 * taxCode
+	 * taxPercent
+	 * totalTaxAmount
+	 * amountIncludingTax
+	 * invoiceDiscountAllocation
+	 * netAmount
+	 * netTaxAmount
+	 * netAmountIncludingTax
+	 * expectedReceiptDate
+	 * itemVariantId
+
+## purchaseInvoiceLines
+	 * id
+	 * documentId
+	 * sequence
+	 * itemId
+	 * accountId
+	 * lineType
+	 * lineObjectNumber
+	 * description
+	 * unitOfMeasureId
+	 * unitOfMeasureCode
+	 * unitCost
+	 * quantity
+	 * discountAmount
+	 * discountPercent
+	 * discountAppliedBeforeTax
+	 * amountExcludingTax
+	 * taxCode
+	 * taxPercent
+	 * totalTaxAmount
+	 * amountIncludingTax
+	 * invoiceDiscountAllocation
+	 * netAmount
+	 * netTaxAmount
+	 * netAmountIncludingTax
+	 * expectedReceiptDate
+	 * itemVariantId
+
+## purchaseInvoices
+	 * id
+	 * number
+	 * invoiceDate
+	 * postingDate
+	 * dueDate
+	 * vendorInvoiceNumber
+	 * vendorId
+	 * vendorNumber
+	 * vendorName
+	 * payToName
+	 * payToContact
+	 * payToVendorId
+	 * payToVendorNumber
+	 * shipToName
+	 * shipToContact
+	 * buyFromAddressLine1
+	 * buyFromAddressLine2
+	 * buyFromCity
+	 * buyFromCountry
+	 * buyFromState
+	 * buyFromPostCode
+	 * shipToAddressLine1
+	 * shipToAddressLine2
+	 * shipToCity
+	 * shipToCountry
+	 * shipToState
+	 * shipToPostCode
+	 * payToAddressLine1
+	 * payToAddressLine2
+	 * payToCity
+	 * payToCountry
+	 * payToState
+	 * payToPostCode
+	 * currencyId
+	 * currencyCode
+	 * orderId
+	 * orderNumber
+	 * pricesIncludeTax
+	 * discountAmount
+	 * discountAppliedBeforeTax
+	 * totalAmountExcludingTax
+	 * totalTaxAmount
+	 * totalAmountIncludingTax
+	 * status
+	 * lastModifiedDateTime
+
+## purchaseInvoices
+	 * id
+	 * number
+	 * invoiceDate
+	 * postingDate
+	 * dueDate
+	 * vendorInvoiceNumber
+	 * vendorId
+	 * vendorNumber
+	 * vendorName
+	 * payToName
+	 * payToContact
+	 * payToVendorId
+	 * payToVendorNumber
+	 * shipToName
+	 * shipToContact
+	 * buyFromAddressLine1
+	 * buyFromAddressLine2
+	 * buyFromCity
+	 * buyFromCountry
+	 * buyFromState
+	 * buyFromPostCode
+	 * shipToAddressLine1
+	 * shipToAddressLine2
+	 * shipToCity
+	 * shipToCountry
+	 * shipToState
+	 * shipToPostCode
+	 * payToAddressLine1
+	 * payToAddressLine2
+	 * payToCity
+	 * payToCountry
+	 * payToState
+	 * payToPostCode
+	 * currencyId
+	 * currencyCode
+	 * orderId
+	 * orderNumber
+	 * pricesIncludeTax
+	 * discountAmount
+	 * discountAppliedBeforeTax
+	 * totalAmountExcludingTax
+	 * totalTaxAmount
+	 * totalAmountIncludingTax
+	 * status
+	 * lastModifiedDateTime
+
+## purchaseOrderLines
+	 * id
+	 * documentId
+	 * sequence
+	 * itemId
+	 * accountId
+	 * lineType
+	 * lineObjectNumber
+	 * description
+	 * unitOfMeasureId
+	 * unitOfMeasureCode
+	 * quantity
+	 * directUnitCost
+	 * discountAmount
+	 * discountPercent
+	 * discountAppliedBeforeTax
+	 * amountExcludingTax
+	 * taxCode
+	 * taxPercent
+	 * totalTaxAmount
+	 * amountIncludingTax
+	 * invoiceDiscountAllocation
+	 * netAmount
+	 * netTaxAmount
+	 * netAmountIncludingTax
+	 * expectedReceiptDate
+	 * receivedQuantity
+	 * invoicedQuantity
+	 * invoiceQuantity
+	 * receiveQuantity
+	 * itemVariantId
+
+## purchaseOrderLines
+	 * id
+	 * documentId
+	 * sequence
+	 * itemId
+	 * accountId
+	 * lineType
+	 * lineObjectNumber
+	 * description
+	 * unitOfMeasureId
+	 * unitOfMeasureCode
+	 * quantity
+	 * directUnitCost
+	 * discountAmount
+	 * discountPercent
+	 * discountAppliedBeforeTax
+	 * amountExcludingTax
+	 * taxCode
+	 * taxPercent
+	 * totalTaxAmount
+	 * amountIncludingTax
+	 * invoiceDiscountAllocation
+	 * netAmount
+	 * netTaxAmount
+	 * netAmountIncludingTax
+	 * expectedReceiptDate
+	 * receivedQuantity
+	 * invoicedQuantity
+	 * invoiceQuantity
+	 * receiveQuantity
+	 * itemVariantId
+
+## purchaseOrderLines
+	 * id
+	 * documentId
+	 * sequence
+	 * itemId
+	 * accountId
+	 * lineType
+	 * lineObjectNumber
+	 * description
+	 * unitOfMeasureId
+	 * unitOfMeasureCode
+	 * quantity
+	 * directUnitCost
+	 * discountAmount
+	 * discountPercent
+	 * discountAppliedBeforeTax
+	 * amountExcludingTax
+	 * taxCode
+	 * taxPercent
+	 * totalTaxAmount
+	 * amountIncludingTax
+	 * invoiceDiscountAllocation
+	 * netAmount
+	 * netTaxAmount
+	 * netAmountIncludingTax
+	 * expectedReceiptDate
+	 * receivedQuantity
+	 * invoicedQuantity
+	 * invoiceQuantity
+	 * receiveQuantity
+	 * itemVariantId
+
+## purchaseOrders
+	 * id
+	 * number
+	 * orderDate
+	 * postingDate
+	 * vendorId
+	 * vendorNumber
+	 * vendorName
+	 * payToName
+	 * payToVendorId
+	 * payToVendorNumber
+	 * shipToName
+	 * shipToContact
+	 * buyFromAddressLine1
+	 * buyFromAddressLine2
+	 * buyFromCity
+	 * buyFromCountry
+	 * buyFromState
+	 * buyFromPostCode
+	 * payToAddressLine1
+	 * payToAddressLine2
+	 * payToCity
+	 * payToCountry
+	 * payToState
+	 * payToPostCode
+	 * shipToAddressLine1
+	 * shipToAddressLine2
+	 * shipToCity
+	 * shipToCountry
+	 * shipToState
+	 * shipToPostCode
+	 * currencyId
+	 * currencyCode
+	 * pricesIncludeTax
+	 * paymentTermsId
+	 * shipmentMethodId
+	 * purchaser
+	 * requestedReceiptDate
+	 * discountAmount
+	 * discountAppliedBeforeTax
+	 * totalAmountExcludingTax
+	 * totalTaxAmount
+	 * totalAmountIncludingTax
+	 * fullyReceived
+	 * status
+	 * lastModifiedDateTime
+
+## purchaseOrders
+	 * id
+	 * number
+	 * orderDate
+	 * postingDate
+	 * vendorId
+	 * vendorNumber
+	 * vendorName
+	 * payToName
+	 * payToVendorId
+	 * payToVendorNumber
+	 * shipToName
+	 * shipToContact
+	 * buyFromAddressLine1
+	 * buyFromAddressLine2
+	 * buyFromCity
+	 * buyFromCountry
+	 * buyFromState
+	 * buyFromPostCode
+	 * payToAddressLine1
+	 * payToAddressLine2
+	 * payToCity
+	 * payToCountry
+	 * payToState
+	 * payToPostCode
+	 * shipToAddressLine1
+	 * shipToAddressLine2
+	 * shipToCity
+	 * shipToCountry
+	 * shipToState
+	 * shipToPostCode
+	 * currencyId
+	 * currencyCode
+	 * pricesIncludeTax
+	 * paymentTermsId
+	 * shipmentMethodId
+	 * purchaser
+	 * requestedReceiptDate
+	 * discountAmount
+	 * discountAppliedBeforeTax
+	 * totalAmountExcludingTax
+	 * totalTaxAmount
+	 * totalAmountIncludingTax
+	 * fullyReceived
+	 * status
+	 * lastModifiedDateTime
+
+## purchaseReceiptLines
+	 * id
+	 * documentId
+	 * sequence
+	 * lineType
+	 * lineObjectNumber
+	 * description
+	 * unitOfMeasureCode
+	 * unitCost
+	 * quantity
+	 * discountPercent
+	 * taxPercent
+	 * expectedReceiptDate
+
+## purchaseReceiptLines
+	 * id
+	 * documentId
+	 * sequence
+	 * lineType
+	 * lineObjectNumber
+	 * description
+	 * unitOfMeasureCode
+	 * unitCost
+	 * quantity
+	 * discountPercent
+	 * taxPercent
+	 * expectedReceiptDate
+
+## purchaseReceiptLines
+	 * id
+	 * documentId
+	 * sequence
+	 * lineType
+	 * lineObjectNumber
+	 * description
+	 * unitOfMeasureCode
+	 * unitCost
+	 * quantity
+	 * discountPercent
+	 * taxPercent
+	 * expectedReceiptDate
+
+## purchaseReceipts
+	 * id
+	 * number
+	 * invoiceDate
+	 * postingDate
+	 * dueDate
+	 * vendorNumber
+	 * vendorName
+	 * payToName
+	 * payToContact
+	 * payToVendorNumber
+	 * shipToName
+	 * shipToContact
+	 * buyFromAddressLine1
+	 * buyFromAddressLine2
+	 * buyFromCity
+	 * buyFromCountry
+	 * buyFromState
+	 * buyFromPostCode
+	 * shipToAddressLine1
+	 * shipToAddressLine2
+	 * shipToCity
+	 * shipToCountry
+	 * shipToState
+	 * shipToPostCode
+	 * payToAddressLine1
+	 * payToAddressLine2
+	 * payToCity
+	 * payToCountry
+	 * payToState
+	 * payToPostCode
+	 * currencyCode
+	 * lastModifiedDateTime
+
+## purchaseReceipts
+	 * id
+	 * number
+	 * invoiceDate
+	 * postingDate
+	 * dueDate
+	 * vendorNumber
+	 * vendorName
+	 * payToName
+	 * payToContact
+	 * payToVendorNumber
+	 * shipToName
+	 * shipToContact
+	 * buyFromAddressLine1
+	 * buyFromAddressLine2
+	 * buyFromCity
+	 * buyFromCountry
+	 * buyFromState
+	 * buyFromPostCode
+	 * shipToAddressLine1
+	 * shipToAddressLine2
+	 * shipToCity
+	 * shipToCountry
+	 * shipToState
+	 * shipToPostCode
+	 * payToAddressLine1
+	 * payToAddressLine2
+	 * payToCity
+	 * payToCountry
+	 * payToState
+	 * payToPostCode
+	 * currencyCode
+	 * lastModifiedDateTime
+
+## retainedEarningsStatements
+	 * id
+	 * lineNumber
+	 * display
+	 * netChange
+	 * lineType
+	 * indentation
+	 * dateFilter
+
+## retainedEarningsStatements
+	 * id
+	 * lineNumber
+	 * display
+	 * netChange
+	 * lineType
+	 * indentation
+	 * dateFilter
+
+## salesCreditMemoLines
+	 * id
+	 * documentId
+	 * sequence
+	 * itemId
+	 * accountId
+	 * lineType
+	 * lineObjectNumber
+	 * description
+	 * unitOfMeasureId
+	 * unitOfMeasureCode
+	 * unitPrice
+	 * quantity
+	 * discountAmount
+	 * discountPercent
+	 * discountAppliedBeforeTax
+	 * amountExcludingTax
+	 * taxCode
+	 * taxPercent
+	 * totalTaxAmount
+	 * amountIncludingTax
+	 * invoiceDiscountAllocation
+	 * netAmount
+	 * netTaxAmount
+	 * netAmountIncludingTax
+	 * shipmentDate
+	 * itemVariantId
+
+## salesCreditMemoLines
+	 * id
+	 * documentId
+	 * sequence
+	 * itemId
+	 * accountId
+	 * lineType
+	 * lineObjectNumber
+	 * description
+	 * unitOfMeasureId
+	 * unitOfMeasureCode
+	 * unitPrice
+	 * quantity
+	 * discountAmount
+	 * discountPercent
+	 * discountAppliedBeforeTax
+	 * amountExcludingTax
+	 * taxCode
+	 * taxPercent
+	 * totalTaxAmount
+	 * amountIncludingTax
+	 * invoiceDiscountAllocation
+	 * netAmount
+	 * netTaxAmount
+	 * netAmountIncludingTax
+	 * shipmentDate
+	 * itemVariantId
+
+## salesCreditMemoLines
+	 * id
+	 * documentId
+	 * sequence
+	 * itemId
+	 * accountId
+	 * lineType
+	 * lineObjectNumber
+	 * description
+	 * unitOfMeasureId
+	 * unitOfMeasureCode
+	 * unitPrice
+	 * quantity
+	 * discountAmount
+	 * discountPercent
+	 * discountAppliedBeforeTax
+	 * amountExcludingTax
+	 * taxCode
+	 * taxPercent
+	 * totalTaxAmount
+	 * amountIncludingTax
+	 * invoiceDiscountAllocation
+	 * netAmount
+	 * netTaxAmount
+	 * netAmountIncludingTax
+	 * shipmentDate
+	 * itemVariantId
+
+## salesCreditMemos
+	 * id
+	 * number
+	 * externalDocumentNumber
+	 * creditMemoDate
+	 * postingDate
+	 * dueDate
+	 * customerId
+	 * customerNumber
+	 * customerName
+	 * billToName
+	 * billToCustomerId
+	 * billToCustomerNumber
+	 * sellToAddressLine1
+	 * sellToAddressLine2
+	 * sellToCity
+	 * sellToCountry
+	 * sellToState
+	 * sellToPostCode
+	 * billToAddressLine1
+	 * billToAddressLine2
+	 * billToCity
+	 * billToCountry
+	 * billToState
+	 * billToPostCode
+	 * currencyId
+	 * currencyCode
+	 * paymentTermsId
+	 * shipmentMethodId
+	 * salesperson
+	 * pricesIncludeTax
+	 * discountAmount
+	 * discountAppliedBeforeTax
+	 * totalAmountExcludingTax
+	 * totalTaxAmount
+	 * totalAmountIncludingTax
+	 * status
+	 * lastModifiedDateTime
+	 * invoiceId
+	 * invoiceNumber
+	 * phoneNumber
+	 * email
+
+## salesCreditMemos
+	 * id
+	 * number
+	 * externalDocumentNumber
+	 * creditMemoDate
+	 * postingDate
+	 * dueDate
+	 * customerId
+	 * customerNumber
+	 * customerName
+	 * billToName
+	 * billToCustomerId
+	 * billToCustomerNumber
+	 * sellToAddressLine1
+	 * sellToAddressLine2
+	 * sellToCity
+	 * sellToCountry
+	 * sellToState
+	 * sellToPostCode
+	 * billToAddressLine1
+	 * billToAddressLine2
+	 * billToCity
+	 * billToCountry
+	 * billToState
+	 * billToPostCode
+	 * currencyId
+	 * currencyCode
+	 * paymentTermsId
+	 * shipmentMethodId
+	 * salesperson
+	 * pricesIncludeTax
+	 * discountAmount
+	 * discountAppliedBeforeTax
+	 * totalAmountExcludingTax
+	 * totalTaxAmount
+	 * totalAmountIncludingTax
+	 * status
+	 * lastModifiedDateTime
+	 * invoiceId
+	 * invoiceNumber
+	 * phoneNumber
+	 * email
+
+## salesInvoiceLines
+	 * id
+	 * documentId
+	 * sequence
+	 * itemId
+	 * accountId
+	 * lineType
+	 * lineObjectNumber
+	 * description
+	 * unitOfMeasureId
+	 * unitOfMeasureCode
+	 * unitPrice
+	 * quantity
+	 * discountAmount
+	 * discountPercent
+	 * discountAppliedBeforeTax
+	 * amountExcludingTax
+	 * taxCode
+	 * taxPercent
+	 * totalTaxAmount
+	 * amountIncludingTax
+	 * invoiceDiscountAllocation
+	 * netAmount
+	 * netTaxAmount
+	 * netAmountIncludingTax
+	 * shipmentDate
+	 * itemVariantId
+
+## salesInvoiceLines
+	 * id
+	 * documentId
+	 * sequence
+	 * itemId
+	 * accountId
+	 * lineType
+	 * lineObjectNumber
+	 * description
+	 * unitOfMeasureId
+	 * unitOfMeasureCode
+	 * unitPrice
+	 * quantity
+	 * discountAmount
+	 * discountPercent
+	 * discountAppliedBeforeTax
+	 * amountExcludingTax
+	 * taxCode
+	 * taxPercent
+	 * totalTaxAmount
+	 * amountIncludingTax
+	 * invoiceDiscountAllocation
+	 * netAmount
+	 * netTaxAmount
+	 * netAmountIncludingTax
+	 * shipmentDate
+	 * itemVariantId
+
+## salesInvoiceLines
+	 * id
+	 * documentId
+	 * sequence
+	 * itemId
+	 * accountId
+	 * lineType
+	 * lineObjectNumber
+	 * description
+	 * unitOfMeasureId
+	 * unitOfMeasureCode
+	 * unitPrice
+	 * quantity
+	 * discountAmount
+	 * discountPercent
+	 * discountAppliedBeforeTax
+	 * amountExcludingTax
+	 * taxCode
+	 * taxPercent
+	 * totalTaxAmount
+	 * amountIncludingTax
+	 * invoiceDiscountAllocation
+	 * netAmount
+	 * netTaxAmount
+	 * netAmountIncludingTax
+	 * shipmentDate
+	 * itemVariantId
+
+## salesInvoices
+	 * id
+	 * number
+	 * externalDocumentNumber
+	 * invoiceDate
+	 * postingDate
+	 * dueDate
+	 * customerPurchaseOrderReference
+	 * customerId
+	 * customerNumber
+	 * customerName
+	 * billToName
+	 * billToCustomerId
+	 * billToCustomerNumber
+	 * shipToName
+	 * shipToContact
+	 * sellToAddressLine1
+	 * sellToAddressLine2
+	 * sellToCity
+	 * sellToCountry
+	 * sellToState
+	 * sellToPostCode
+	 * billToAddressLine1
+	 * billToAddressLine2
+	 * billToCity
+	 * billToCountry
+	 * billToState
+	 * billToPostCode
+	 * shipToAddressLine1
+	 * shipToAddressLine2
+	 * shipToCity
+	 * shipToCountry
+	 * shipToState
+	 * shipToPostCode
+	 * currencyId
+	 * currencyCode
+	 * orderId
+	 * orderNumber
+	 * paymentTermsId
+	 * shipmentMethodId
+	 * salesperson
+	 * pricesIncludeTax
+	 * remainingAmount
+	 * discountAmount
+	 * discountAppliedBeforeTax
+	 * totalAmountExcludingTax
+	 * totalTaxAmount
+	 * totalAmountIncludingTax
+	 * status
+	 * lastModifiedDateTime
+	 * phoneNumber
+	 * email
+
+## salesInvoices
+	 * id
+	 * number
+	 * externalDocumentNumber
+	 * invoiceDate
+	 * postingDate
+	 * dueDate
+	 * customerPurchaseOrderReference
+	 * customerId
+	 * customerNumber
+	 * customerName
+	 * billToName
+	 * billToCustomerId
+	 * billToCustomerNumber
+	 * shipToName
+	 * shipToContact
+	 * sellToAddressLine1
+	 * sellToAddressLine2
+	 * sellToCity
+	 * sellToCountry
+	 * sellToState
+	 * sellToPostCode
+	 * billToAddressLine1
+	 * billToAddressLine2
+	 * billToCity
+	 * billToCountry
+	 * billToState
+	 * billToPostCode
+	 * shipToAddressLine1
+	 * shipToAddressLine2
+	 * shipToCity
+	 * shipToCountry
+	 * shipToState
+	 * shipToPostCode
+	 * currencyId
+	 * currencyCode
+	 * orderId
+	 * orderNumber
+	 * paymentTermsId
+	 * shipmentMethodId
+	 * salesperson
+	 * pricesIncludeTax
+	 * remainingAmount
+	 * discountAmount
+	 * discountAppliedBeforeTax
+	 * totalAmountExcludingTax
+	 * totalTaxAmount
+	 * totalAmountIncludingTax
+	 * status
+	 * lastModifiedDateTime
+	 * phoneNumber
+	 * email
+
+## salesOrderLines
+	 * id
+	 * documentId
+	 * sequence
+	 * itemId
+	 * accountId
+	 * lineType
+	 * lineObjectNumber
+	 * description
+	 * unitOfMeasureId
+	 * unitOfMeasureCode
+	 * quantity
+	 * unitPrice
+	 * discountAmount
+	 * discountPercent
+	 * discountAppliedBeforeTax
+	 * amountExcludingTax
+	 * taxCode
+	 * taxPercent
+	 * totalTaxAmount
+	 * amountIncludingTax
+	 * invoiceDiscountAllocation
+	 * netAmount
+	 * netTaxAmount
+	 * netAmountIncludingTax
+	 * shipmentDate
+	 * shippedQuantity
+	 * invoicedQuantity
+	 * invoiceQuantity
+	 * shipQuantity
+	 * itemVariantId
+
+## salesOrderLines
+	 * id
+	 * documentId
+	 * sequence
+	 * itemId
+	 * accountId
+	 * lineType
+	 * lineObjectNumber
+	 * description
+	 * unitOfMeasureId
+	 * unitOfMeasureCode
+	 * quantity
+	 * unitPrice
+	 * discountAmount
+	 * discountPercent
+	 * discountAppliedBeforeTax
+	 * amountExcludingTax
+	 * taxCode
+	 * taxPercent
+	 * totalTaxAmount
+	 * amountIncludingTax
+	 * invoiceDiscountAllocation
+	 * netAmount
+	 * netTaxAmount
+	 * netAmountIncludingTax
+	 * shipmentDate
+	 * shippedQuantity
+	 * invoicedQuantity
+	 * invoiceQuantity
+	 * shipQuantity
+	 * itemVariantId
+
+## salesOrderLines
+	 * id
+	 * documentId
+	 * sequence
+	 * itemId
+	 * accountId
+	 * lineType
+	 * lineObjectNumber
+	 * description
+	 * unitOfMeasureId
+	 * unitOfMeasureCode
+	 * quantity
+	 * unitPrice
+	 * discountAmount
+	 * discountPercent
+	 * discountAppliedBeforeTax
+	 * amountExcludingTax
+	 * taxCode
+	 * taxPercent
+	 * totalTaxAmount
+	 * amountIncludingTax
+	 * invoiceDiscountAllocation
+	 * netAmount
+	 * netTaxAmount
+	 * netAmountIncludingTax
+	 * shipmentDate
+	 * shippedQuantity
+	 * invoicedQuantity
+	 * invoiceQuantity
+	 * shipQuantity
+	 * itemVariantId
+
+## salesOrders
+	 * id
+	 * number
+	 * externalDocumentNumber
+	 * orderDate
+	 * postingDate
+	 * customerId
+	 * customerNumber
+	 * customerName
+	 * billToName
+	 * billToCustomerId
+	 * billToCustomerNumber
+	 * shipToName
+	 * shipToContact
+	 * sellToAddressLine1
+	 * sellToAddressLine2
+	 * sellToCity
+	 * sellToCountry
+	 * sellToState
+	 * sellToPostCode
+	 * billToAddressLine1
+	 * billToAddressLine2
+	 * billToCity
+	 * billToCountry
+	 * billToState
+	 * billToPostCode
+	 * shipToAddressLine1
+	 * shipToAddressLine2
+	 * shipToCity
+	 * shipToCountry
+	 * shipToState
+	 * shipToPostCode
+	 * currencyId
+	 * currencyCode
+	 * pricesIncludeTax
+	 * paymentTermsId
+	 * shipmentMethodId
+	 * salesperson
+	 * partialShipping
+	 * requestedDeliveryDate
+	 * discountAmount
+	 * discountAppliedBeforeTax
+	 * totalAmountExcludingTax
+	 * totalTaxAmount
+	 * totalAmountIncludingTax
+	 * fullyShipped
+	 * status
+	 * lastModifiedDateTime
+	 * phoneNumber
+	 * email
+
+## salesOrders
+	 * id
+	 * number
+	 * externalDocumentNumber
+	 * orderDate
+	 * postingDate
+	 * customerId
+	 * customerNumber
+	 * customerName
+	 * billToName
+	 * billToCustomerId
+	 * billToCustomerNumber
+	 * shipToName
+	 * shipToContact
+	 * sellToAddressLine1
+	 * sellToAddressLine2
+	 * sellToCity
+	 * sellToCountry
+	 * sellToState
+	 * sellToPostCode
+	 * billToAddressLine1
+	 * billToAddressLine2
+	 * billToCity
+	 * billToCountry
+	 * billToState
+	 * billToPostCode
+	 * shipToAddressLine1
+	 * shipToAddressLine2
+	 * shipToCity
+	 * shipToCountry
+	 * shipToState
+	 * shipToPostCode
+	 * currencyId
+	 * currencyCode
+	 * pricesIncludeTax
+	 * paymentTermsId
+	 * shipmentMethodId
+	 * salesperson
+	 * partialShipping
+	 * requestedDeliveryDate
+	 * discountAmount
+	 * discountAppliedBeforeTax
+	 * totalAmountExcludingTax
+	 * totalTaxAmount
+	 * totalAmountIncludingTax
+	 * fullyShipped
+	 * status
+	 * lastModifiedDateTime
+	 * phoneNumber
+	 * email
+
+## salesQuoteLines
+	 * id
+	 * documentId
+	 * sequence
+	 * itemId
+	 * accountId
+	 * lineType
+	 * lineObjectNumber
+	 * description
+	 * unitOfMeasureId
+	 * unitOfMeasureCode
+	 * unitPrice
+	 * quantity
+	 * discountAmount
+	 * discountPercent
+	 * discountAppliedBeforeTax
+	 * amountExcludingTax
+	 * taxCode
+	 * taxPercent
+	 * totalTaxAmount
+	 * amountIncludingTax
+	 * netAmount
+	 * netTaxAmount
+	 * netAmountIncludingTax
+	 * itemVariantId
+
+## salesQuoteLines
+	 * id
+	 * documentId
+	 * sequence
+	 * itemId
+	 * accountId
+	 * lineType
+	 * lineObjectNumber
+	 * description
+	 * unitOfMeasureId
+	 * unitOfMeasureCode
+	 * unitPrice
+	 * quantity
+	 * discountAmount
+	 * discountPercent
+	 * discountAppliedBeforeTax
+	 * amountExcludingTax
+	 * taxCode
+	 * taxPercent
+	 * totalTaxAmount
+	 * amountIncludingTax
+	 * netAmount
+	 * netTaxAmount
+	 * netAmountIncludingTax
+	 * itemVariantId
+
+## salesQuoteLines
+	 * id
+	 * documentId
+	 * sequence
+	 * itemId
+	 * accountId
+	 * lineType
+	 * lineObjectNumber
+	 * description
+	 * unitOfMeasureId
+	 * unitOfMeasureCode
+	 * unitPrice
+	 * quantity
+	 * discountAmount
+	 * discountPercent
+	 * discountAppliedBeforeTax
+	 * amountExcludingTax
+	 * taxCode
+	 * taxPercent
+	 * totalTaxAmount
+	 * amountIncludingTax
+	 * netAmount
+	 * netTaxAmount
+	 * netAmountIncludingTax
+	 * itemVariantId
+
+## salesQuotes
+	 * id
+	 * number
+	 * externalDocumentNumber
+	 * documentDate
+	 * postingDate
+	 * dueDate
+	 * customerId
+	 * customerNumber
+	 * customerName
+	 * billToName
+	 * billToCustomerId
+	 * billToCustomerNumber
+	 * shipToName
+	 * shipToContact
+	 * sellToAddressLine1
+	 * sellToAddressLine2
+	 * sellToCity
+	 * sellToCountry
+	 * sellToState
+	 * sellToPostCode
+	 * billToAddressLine1
+	 * billToAddressLine2
+	 * billToCity
+	 * billToCountry
+	 * billToState
+	 * billToPostCode
+	 * shipToAddressLine1
+	 * shipToAddressLine2
+	 * shipToCity
+	 * shipToCountry
+	 * shipToState
+	 * shipToPostCode
+	 * currencyId
+	 * currencyCode
+	 * paymentTermsId
+	 * shipmentMethodId
+	 * salesperson
+	 * discountAmount
+	 * totalAmountExcludingTax
+	 * totalTaxAmount
+	 * totalAmountIncludingTax
+	 * status
+	 * sentDate
+	 * validUntilDate
+	 * acceptedDate
+	 * lastModifiedDateTime
+	 * phoneNumber
+	 * email
+
+## salesQuotes
+	 * id
+	 * number
+	 * externalDocumentNumber
+	 * documentDate
+	 * postingDate
+	 * dueDate
+	 * customerId
+	 * customerNumber
+	 * customerName
+	 * billToName
+	 * billToCustomerId
+	 * billToCustomerNumber
+	 * shipToName
+	 * shipToContact
+	 * sellToAddressLine1
+	 * sellToAddressLine2
+	 * sellToCity
+	 * sellToCountry
+	 * sellToState
+	 * sellToPostCode
+	 * billToAddressLine1
+	 * billToAddressLine2
+	 * billToCity
+	 * billToCountry
+	 * billToState
+	 * billToPostCode
+	 * shipToAddressLine1
+	 * shipToAddressLine2
+	 * shipToCity
+	 * shipToCountry
+	 * shipToState
+	 * shipToPostCode
+	 * currencyId
+	 * currencyCode
+	 * paymentTermsId
+	 * shipmentMethodId
+	 * salesperson
+	 * discountAmount
+	 * totalAmountExcludingTax
+	 * totalTaxAmount
+	 * totalAmountIncludingTax
+	 * status
+	 * sentDate
+	 * validUntilDate
+	 * acceptedDate
+	 * lastModifiedDateTime
+	 * phoneNumber
+	 * email
+
+## salesShipmentLines
+	 * id
+	 * documentId
+	 * documentNo
+	 * sequence
+	 * lineType
+	 * lineObjectNumber
+	 * description
+	 * unitOfMeasureCode
+	 * unitPrice
+	 * quantity
+	 * discountPercent
+	 * taxPercent
+	 * shipmentDate
+
+## salesShipmentLines
+	 * id
+	 * documentId
+	 * documentNo
+	 * sequence
+	 * lineType
+	 * lineObjectNumber
+	 * description
+	 * unitOfMeasureCode
+	 * unitPrice
+	 * quantity
+	 * discountPercent
+	 * taxPercent
+	 * shipmentDate
+
+## salesShipmentLines
+	 * id
+	 * documentId
+	 * documentNo
+	 * sequence
+	 * lineType
+	 * lineObjectNumber
+	 * description
+	 * unitOfMeasureCode
+	 * unitPrice
+	 * quantity
+	 * discountPercent
+	 * taxPercent
+	 * shipmentDate
+
+## salesShipments
+	 * id
+	 * number
+	 * externalDocumentNumber
+	 * invoiceDate
+	 * postingDate
+	 * dueDate
+	 * customerPurchaseOrderReference
+	 * customerNumber
+	 * customerName
+	 * billToName
+	 * billToCustomerNumber
+	 * shipToName
+	 * shipToContact
+	 * sellToAddressLine1
+	 * sellToAddressLine2
+	 * sellToCity
+	 * sellToCountry
+	 * sellToState
+	 * sellToPostCode
+	 * billToAddressLine1
+	 * billToAddressLine2
+	 * billToCity
+	 * billToCountry
+	 * billToState
+	 * billToPostCode
+	 * shipToAddressLine1
+	 * shipToAddressLine2
+	 * shipToCity
+	 * shipToCountry
+	 * shipToState
+	 * shipToPostCode
+	 * currencyCode
+	 * orderNumber
+	 * paymentTermsCode
+	 * shipmentMethodCode
+	 * salesperson
+	 * pricesIncludeTax
+	 * lastModifiedDateTime
+	 * phoneNumber
+	 * email
+
+## salesShipments
+	 * id
+	 * number
+	 * externalDocumentNumber
+	 * invoiceDate
+	 * postingDate
+	 * dueDate
+	 * customerPurchaseOrderReference
+	 * customerNumber
+	 * customerName
+	 * billToName
+	 * billToCustomerNumber
+	 * shipToName
+	 * shipToContact
+	 * sellToAddressLine1
+	 * sellToAddressLine2
+	 * sellToCity
+	 * sellToCountry
+	 * sellToState
+	 * sellToPostCode
+	 * billToAddressLine1
+	 * billToAddressLine2
+	 * billToCity
+	 * billToCountry
+	 * billToState
+	 * billToPostCode
+	 * shipToAddressLine1
+	 * shipToAddressLine2
+	 * shipToCity
+	 * shipToCountry
+	 * shipToState
+	 * shipToPostCode
+	 * currencyCode
+	 * orderNumber
+	 * paymentTermsCode
+	 * shipmentMethodCode
+	 * salesperson
+	 * pricesIncludeTax
+	 * lastModifiedDateTime
+	 * phoneNumber
+	 * email
+
+## shipmentMethods
+	 * id
+	 * code
+	 * displayName
+	 * lastModifiedDateTime
+
+## shipmentMethods
+	 * id
+	 * code
+	 * displayName
+	 * lastModifiedDateTime
+
+## subscriptions
+	 * subscriptionId
+	 * notificationUrl
+	 * resource
+	 * userId
+	 * lastModifiedDateTime
+	 * clientState
+	 * expirationDateTime
+	 * systemCreatedAt
+	 * systemCreatedBy
+	 * systemModifiedAt
+	 * systemModifiedBy
+
+## taxAreas
+	 * id
+	 * code
+	 * displayName
+	 * taxType
+	 * lastModifiedDateTime
+
+## taxAreas
+	 * id
+	 * code
+	 * displayName
+	 * taxType
+	 * lastModifiedDateTime
+
+## taxGroups
+	 * id
+	 * code
+	 * displayName
+	 * taxType
+	 * lastModifiedDateTime
+
+## taxGroups
+	 * id
+	 * code
+	 * displayName
+	 * taxType
+	 * lastModifiedDateTime
+
+## timeRegistrationEntries
+	 * id
+	 * employeeId
+	 * employeeNumber
+	 * jobId
+	 * jobNumber
+	 * jobTaskNumber
+	 * absence
+	 * lineNumber
+	 * date
+	 * quantity
+	 * status
+	 * unitOfMeasureId
+	 * unitOfMeasureCode
+	 * lastModfiedDateTime
+
+## timeRegistrationEntries
+	 * id
+	 * employeeId
+	 * employeeNumber
+	 * jobId
+	 * jobNumber
+	 * jobTaskNumber
+	 * absence
+	 * lineNumber
+	 * date
+	 * quantity
+	 * status
+	 * unitOfMeasureId
+	 * unitOfMeasureCode
+	 * lastModfiedDateTime
+
+## timeRegistrationEntries
+	 * id
+	 * employeeId
+	 * employeeNumber
+	 * jobId
+	 * jobNumber
+	 * jobTaskNumber
+	 * absence
+	 * lineNumber
+	 * date
+	 * quantity
+	 * status
+	 * unitOfMeasureId
+	 * unitOfMeasureCode
+	 * lastModfiedDateTime
+
+## trialBalances
+	 * accountId
+	 * number
+	 * accountType
+	 * display
+	 * totalDebit
+	 * totalCredit
+	 * balanceAtDateDebit
+	 * balanceAtDateCredit
+	 * dateFilter
+
+## trialBalances
+	 * accountId
+	 * number
+	 * accountType
+	 * display
+	 * totalDebit
+	 * totalCredit
+	 * balanceAtDateDebit
+	 * balanceAtDateCredit
+	 * dateFilter
+
+## unitsOfMeasure
+	 * id
+	 * code
+	 * displayName
+	 * internationalStandardCode
+	 * symbol
+	 * lastModifiedDateTime
+
+## unitsOfMeasure
+	 * id
+	 * code
+	 * displayName
+	 * internationalStandardCode
+	 * symbol
+	 * lastModifiedDateTime
+
+## vendorPaymentJournals
+	 * id
+	 * code
+	 * displayName
+	 * balancingAccountId
+	 * balancingAccountNumber
+	 * lastModifiedDateTime
+
+## vendorPaymentJournals
+	 * id
+	 * code
+	 * displayName
+	 * balancingAccountId
+	 * balancingAccountNumber
+	 * lastModifiedDateTime
+
+## vendorPayments
+	 * id
+	 * journalId
+	 * journalDisplayName
+	 * lineNumber
+	 * vendorId
+	 * vendorNumber
+	 * postingDate
+	 * documentNumber
+	 * externalDocumentNumber
+	 * amount
+	 * appliesToInvoiceId
+	 * appliesToInvoiceNumber
+	 * description
+	 * comment
+	 * lastModifiedDateTime
+
+## vendorPayments
+	 * id
+	 * journalId
+	 * journalDisplayName
+	 * lineNumber
+	 * vendorId
+	 * vendorNumber
+	 * postingDate
+	 * documentNumber
+	 * externalDocumentNumber
+	 * amount
+	 * appliesToInvoiceId
+	 * appliesToInvoiceNumber
+	 * description
+	 * comment
+	 * lastModifiedDateTime
+
+## vendorPayments
+	 * id
+	 * journalId
+	 * journalDisplayName
+	 * lineNumber
+	 * vendorId
+	 * vendorNumber
+	 * postingDate
+	 * documentNumber
+	 * externalDocumentNumber
+	 * amount
+	 * appliesToInvoiceId
+	 * appliesToInvoiceNumber
+	 * description
+	 * comment
+	 * lastModifiedDateTime
+
+## vendorPurchases
+	 * vendorId
+	 * vendorNumber
+	 * name
+	 * totalPurchaseAmount
+	 * dateFilter_FilterOnly
+
+## vendorPurchases
+	 * vendorId
+	 * vendorNumber
+	 * name
+	 * totalPurchaseAmount
+	 * dateFilter_FilterOnly
+
+## vendors
+	 * id
+	 * number
+	 * displayName
+	 * addressLine1
+	 * addressLine2
+	 * city
+	 * state
+	 * country
+	 * postalCode
+	 * phoneNumber
+	 * email
+	 * website
+	 * taxRegistrationNumber
+	 * currencyId
+	 * currencyCode
+	 * irs1099Code
+	 * paymentTermsId
+	 * paymentMethodId
+	 * taxLiable
+	 * blocked
+	 * balance
+	 * lastModifiedDateTime
+
+## vendors
+	 * id
+	 * number
+	 * displayName
+	 * addressLine1
+	 * addressLine2
+	 * city
+	 * state
+	 * country
+	 * postalCode
+	 * phoneNumber
+	 * email
+	 * website
+	 * taxRegistrationNumber
+	 * currencyId
+	 * currencyCode
+	 * irs1099Code
+	 * paymentTermsId
+	 * paymentMethodId
+	 * taxLiable
+	 * blocked
+	 * balance
+	 * lastModifiedDateTime

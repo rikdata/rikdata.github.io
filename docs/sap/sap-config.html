@@ -1,0 +1,79 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>SAP Config · RikData OneApp</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="OneApp uses REST APIs for Oracle Cloud and ODATA for SAP. If you are using Oracle cloud, then by default, all the REST APIs should be enabled; if not, you can raise a support request in Metalink (Oracle Support). The same is true for the HANA S/4 cloud. However, if you are using S/4 on-premise, then you need to enable APIs that you want to use. This is a quick guide on enabling APIs for S/4."/><meta name="docsearch:language" content="en"/><meta property="og:title" content="SAP Config · RikData OneApp"/><meta property="og:type" content="website"/><meta property="og:url" content="https://rikdata.github.io/"/><meta property="og:description" content="OneApp uses REST APIs for Oracle Cloud and ODATA for SAP. If you are using Oracle cloud, then by default, all the REST APIs should be enabled; if not, you can raise a support request in Metalink (Oracle Support). The same is true for the HANA S/4 cloud. However, if you are using S/4 on-premise, then you need to enable APIs that you want to use. This is a quick guide on enabling APIs for S/4."/><meta property="og:image" content="https://rikdata.github.io/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://rikdata.github.io/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="https://unpkg.com/vanilla-back-to-top@7.1.14/dist/vanilla-back-to-top.min.js"></script><script>
+        document.addEventListener('DOMContentLoaded', function() {
+          addBackToTop(
+            {"zIndex":100,"id":"back-to-top","showWhenScrollTopIs":1,"onClickScrollTo":0,"scrollDuration":100,"diameter":48,"cornerOffset":20,"backgroundColor":"#465cab","textColor":"#fff"}
+          )
+        });
+        </script><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/favicon.ico" alt="RikData OneApp"/><h2 class="headerTitleWithLogo">RikData OneApp</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/docs/introduction" target="_self">Docs</a></li><li class="siteNavGroupActive"><a href="/docs/download" target="_self">Download</a></li><li class=""><a href="/docs/javadocs/" target="_self">JavaDocs</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>SAP</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Getting started<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docs/introduction">Introduction</a></li><li class="navListItem"><a class="navItem" href="/docs/quickstart">Quickstart</a></li><li class="navListItem"><a class="navItem" href="/docs/dashboard">Dashboard</a></li><li class="navListItem"><a class="navItem" href="/docs/search">Search</a></li><li class="navListItem"><a class="navItem" href="/docs/search/display-type">Result Display Type</a></li><li class="navListItem"><a class="navItem" href="/docs/search/report">Report</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Oracle<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docs/document">Documents</a></li><li class="navListItem"><a class="navItem" href="/docs/oracle/document-oracle">Oracle Cloud Documents</a></li><li class="navListItem"><a class="navItem" href="/docs/oracle/transactions">Oracle Cloud Transactions</a></li><li class="navListItem"><a class="navItem" href="/docs/oracle/purchasing-transactions">Purchasing Transactions</a></li><li class="navListItem"><a class="navItem" href="/docs/oracle/document-ebs-r12">EBS R12 Documents</a></li><li class="navListItem"><a class="navItem" href="/docs/oracle/transactions-ebs-r12">EBS R12 Transactions</a></li><li class="navListItem"><a class="navItem" href="/docs/oracle/ebs-reports">EBS Reports</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">SAP<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docs/sap/document-sap">SAP Documents</a></li><li class="navListItem"><a class="navItem" href="/docs/sap/sap-transactions">SAP Transactions</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/docs/sap/sap-config">SAP Config</a></li><li class="navListItem"><a class="navItem" href="/docs/sap/new_movement_type">Movement Type</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Other Applications<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docs/document-d365bc">Dynamics 365 BC</a></li><li class="navListItem"><a class="navItem" href="/docs/snow/document-snow">ServiceNow</a></li><li class="navListItem"><a class="navItem" href="/docs/sforce/document-sforce">Salesforce</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Configuration<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docs/admin/configuration">Configuration</a></li><li class="navListItem"><a class="navItem" href="/docs/admin/go-rest-builder">GO-REST Builder</a></li><li class="navListItem"><a class="navItem" href="/docs/install-ebs-rest">EBS REST Application</a></li><li class="navListItem"><a class="navItem" href="/docs/related-data-in-tabs">Related Data In Tabs</a></li><li class="navListItem"><a class="navItem" href="/docs/admin/input-type">Input Type</a></li><li class="navListItem"><a class="navItem" href="/docs/admin/default-config-ora-cloud">Oracle Cloud Default Config</a></li><li class="navListItem"><a class="navItem" href="/docs/admin/default-config-ora-ebs">Oracle EBS Default Config</a></li><li class="navListItem"><a class="navItem" href="/docs/admin/default-config-sap">SAP Default Config</a></li><li class="navListItem"><a class="navItem" href="/docs/admin/default-config-d365">D365 Default Config</a></li><li class="navListItem"><a class="navItem" href="/docs/admin/default-config-snow">ServiceNow Default Config</a></li><li class="navListItem"><a class="navItem" href="/docs/admin/default-config-sforce">Salesforce Default Config</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Customization<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docs/customization/server">Server</a></li><li class="navListItem"><a class="navItem" href="/docs/customization/client">Client</a></li><li class="navListItem"><a class="navItem" href="/docs/customization/custom-application">Custom Application</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">About<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docs/privacy">Privacy</a></li><li class="navListItem"><a class="navItem" href="/docs/download">Download</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">SAP Config</h1></header><article><div><span><p>OneApp uses REST APIs for Oracle Cloud and ODATA for SAP. If you are using Oracle cloud, then by default, all the REST APIs should be enabled; if not, you can raise a support request in Metalink (Oracle Support). The same is true for the HANA S/4 cloud. However, if you are using S/4 on-premise, then you need to enable APIs that you want to use. This is a quick guide on enabling APIs for S/4.</p>
+<p>Navigate to the &quot;Activate and Maintain Services&quot; form using /N/IWFND/MAINT_SERVICE t-code.</p>
+<p><img src="/images/ScreenShots/configuration/sap/rikdata_config_sap_01.JPG" width="750"/></p>
+<p>To check if a service is enabled or not, click on the Find button and search for the service name (Ex: API_PURCHASING_CATEGORY_SRV).</p>
+<p><img src="/images/ScreenShots/configuration/sap/rikdata_config_sap_02.JPG" width="750"/></p>
+<p>To enable a new service, click on the add service button. In the Add selected services form, enter the technical service name and the system alias. You can find the technical service name at <a href="https://api.sap.com/">https://api.sap.com/</a></p>
+<p><img src="/images/ScreenShots/configuration/sap/rikdata_config_sap_03.JPG" width="750"/></p>
+<p>Click on the Get Services button on the left top corner to search the service.</p>
+<p><img src="/images/ScreenShots/configuration/sap/rikdata_config_sap_04.JPG" width="750"/></p>
+<p>Select the backend service name and click on the add selected services button</p>
+<p><img src="/images/ScreenShots/configuration/sap/rikdata_config_sap_05.JPG" width="750"/></p>
+<p>In the add service screen, you have to assign a package. For testing purposes, you can assign $TMP by clicking on the Local Object button.</p>
+<p>Next, click on the continue button and then on the save button.</p>
+<p><img src="/images/ScreenShots/configuration/sap/rikdata_config_sap_05A.JPG" width="750"/></p>
+<p><img src="/images/ScreenShots/configuration/sap/rikdata_config_sap_06.JPG" width="750"/></p>
+<p><a class="btn btn-light float-right" href="https://github.com/rikdata/rikdata.github.io/issues" role="button">Issue Log</a></p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/sap/sap-transactions"><span class="arrow-prev">← </span><span>SAP Transactions</span></a><a class="docs-next button" href="/docs/sap/new_movement_type"><span>Movement Type</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="copyright">For any technical problem, raise an issue @<a class="light-link" href="https://github.com/rikdata/rikdata.github.io/issues/new"> GitHub</a></section><section class="copyright">Contact@rikdata.com | Copyright © 2021 RikData</section></footer></div></body></html>

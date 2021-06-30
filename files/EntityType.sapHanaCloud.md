@@ -1,0 +1,9015 @@
+
+
+
+## A_ActualCostRate
+	 * AccountingCostRateUUID
+	 * CompanyCode
+	 * CostCenter
+	 * ActivityType
+	 * Currency
+	 * ValidityStartFiscalYearPeriod
+	 * ValidityEndFiscalYearPeriod
+	 * CostRateFixedAmount
+	 * CostRateVarblAmount
+	 * CostRateScaleFactor
+	 * CostCtrActivityTypeQtyUnit
+	 * CostRateIsOverwriteMode
+
+## A_AddressEmailAddress
+	 * AddressID
+	 * Person
+	 * OrdinalNumber
+	 * IsDefaultEmailAddress
+	 * EmailAddress
+	 * SearchEmailAddress
+	 * AddressCommunicationRemarkText
+
+## A_AddressFaxNumber
+
+## A_AddressHomePageURL
+	 * AddressID
+	 * Person
+	 * OrdinalNumber
+	 * ValidityStartDate
+	 * IsDefaultURLAddress
+	 * SearchURLAddress
+	 * AddressCommunicationRemarkText
+	 * URLFieldLength
+	 * WebsiteURL
+
+## A_AddressPhoneNumber
+
+## A_BPContactToAddress
+
+## A_BPContactToFuncAndDept
+
+## A_BillingDocument
+	 * __metadata
+	 * BillingDocument
+	 * SDDocumentCategory
+	 * BillingDocumentCategory
+	 * BillingDocumentType
+	 * CreationDate
+	 * CreationTime
+	 * LastChangeDate
+	 * LastChangeDateTime
+	 * LogicalSystem
+	 * SalesOrganization
+	 * DistributionChannel
+	 * Division
+	 * BillingDocumentDate
+	 * BillingDocumentIsCancelled
+	 * CancelledBillingDocument
+	 * ForeignTrade
+	 * IsExportDelivery
+	 * BillingDocCombinationCriteria
+	 * ManualInvoiceMaintIsRelevant
+	 * IsIntrastatReportingRelevant
+	 * IsIntrastatReportingExcluded
+	 * TotalNetAmount
+	 * TransactionCurrency
+	 * StatisticsCurrency
+	 * TaxAmount
+	 * TotalGrossAmount
+	 * CustomerPriceGroup
+	 * PriceListType
+	 * TaxDepartureCountry
+	 * VATRegistration
+	 * VATRegistrationOrigin
+	 * VATRegistrationCountry
+	 * HierarchyTypePricing
+	 * CustomerTaxClassification1
+	 * CustomerTaxClassification2
+	 * CustomerTaxClassification3
+	 * CustomerTaxClassification4
+	 * CustomerTaxClassification5
+	 * CustomerTaxClassification6
+	 * CustomerTaxClassification7
+	 * CustomerTaxClassification8
+	 * CustomerTaxClassification9
+	 * IsEUTriangularDeal
+	 * SDPricingProcedure
+	 * ShippingCondition
+	 * IncotermsVersion
+	 * IncotermsClassification
+	 * IncotermsTransferLocation
+	 * IncotermsLocation1
+	 * IncotermsLocation2
+	 * PayerParty
+	 * ContractAccount
+	 * CustomerPaymentTerms
+	 * PaymentMethod
+	 * PaymentReference
+	 * FixedValueDate
+	 * AdditionalValueDays
+	 * SEPAMandate
+	 * CompanyCode
+	 * FiscalYear
+	 * AccountingDocument
+	 * CustomerAccountAssignmentGroup
+	 * AccountingExchangeRateIsSet
+	 * AbsltAccountingExchangeRate
+	 * AcctgExchangeRateIsIndrctQtan
+	 * ExchangeRateDate
+	 * ExchangeRateType
+	 * DocumentReferenceID
+	 * AssignmentReference
+	 * DunningArea
+	 * DunningBlockingReason
+	 * DunningKey
+	 * InternalFinancialDocument
+	 * IsRelevantForAccrual
+	 * SoldToParty
+	 * PartnerCompany
+	 * PurchaseOrderByCustomer
+	 * CustomerGroup
+	 * Country
+	 * CityCode
+	 * SalesDistrict
+	 * Region
+	 * County
+	 * CreditControlArea
+	 * CustomerRebateAgreement
+	 * SalesDocumentCondition
+	 * OverallSDProcessStatus
+	 * OverallBillingStatus
+	 * AccountingPostingStatus
+	 * AccountingTransferStatus
+	 * BillingIssueType
+	 * InvoiceListStatus
+	 * OvrlItmGeneralIncompletionSts
+	 * OverallPricingIncompletionSts
+	 * InvoiceClearingStatus
+	 * BillingDocumentListType
+	 * BillingDocumentListDate
+	 * to_Item
+	 * to_Partner
+	 * to_PricingElement
+	 * to_Text
+
+## A_BillingDocumentItem
+
+## A_BillingDocumentItemPartner
+	 * BillingDocument
+	 * BillingDocumentItem
+	 * PartnerFunction
+	 * Customer
+	 * Supplier
+	 * Personnel
+	 * ContactPerson
+	 * to_BillingDocument
+	 * to_BillingDocumentItem
+
+## A_BillingDocumentItemPrcgElmnt
+
+## A_BillingDocumentItemText
+
+## A_BillingDocumentPartner
+	 * BillingDocument
+	 * PartnerFunction
+	 * Customer
+	 * Supplier
+	 * Personnel
+	 * ContactPerson
+	 * to_BillingDocument
+
+## A_BillingDocumentPrcgElmnt
+
+## A_BillingDocumentText
+
+## A_BuPaAddressUsage
+
+## A_BuPaIdentification
+
+## A_BuPaIndustry
+	 * IndustrySector
+	 * IndustrySystemType
+	 * BusinessPartner
+	 * IsStandardIndustry
+	 * IndustryKeyDescription
+
+## A_BusSolnOrdFUPServiceContract
+	 * ServiceDocumentRelationUUID
+	 * ServiceDocRltnSequenceNumber
+	 * BusinessSolutionOrder
+	 * BusinessSolutionOrderUUID
+	 * ServiceContract
+
+## A_BusSolnOrdFUPServiceOrder
+	 * ServiceDocumentRelationUUID
+	 * ServiceDocRltnSequenceNumber
+	 * BusinessSolutionOrder
+	 * BusinessSolutionOrderUUID
+	 * ServiceOrder
+
+## A_BusSolnOrdItmFUPSalesOrder
+	 * ServiceDocumentItmRelationUUID
+	 * ServiceDocItmRltnSqncNumber
+	 * BusinessSolutionOrderUUID
+	 * BusinessSolutionOrder
+	 * BusinessSolutionOrderItem
+	 * SalesOrder
+	 * SalesOrderItem
+	 * ServiceDocSuccessorBusObjType
+	 * ServiceObjectType
+
+## A_BusSolnOrdItmFUPServiceOrder
+	 * ServiceDocumentItmRelationUUID
+	 * ServiceDocItmRltnSqncNumber
+	 * BusinessSolutionOrderUUID
+	 * BusinessSolutionOrder
+	 * BusinessSolutionOrderItem
+	 * ServiceOrder
+	 * ServiceOrderItem
+
+## A_BusSolnOrdItmFUPSrvcContr
+	 * ServiceDocumentItmRelationUUID
+	 * ServiceDocItmRltnSqncNumber
+	 * BusinessSolutionOrderUUID
+	 * BusinessSolutionOrder
+	 * BusinessSolutionOrderItem
+	 * ServiceContract
+	 * ServiceContractItem
+
+## A_BusSolnOrdItmReferenceObject
+	 * BusinessSolutionOrder
+	 * BusinessSolutionOrderItem
+	 * ReferenceProduct
+	 * ServiceRefFunctionalLocation
+	 * ServiceReferenceEquipment
+	 * SrvcRefObjIsMainObject
+
+## A_BusSolnOrdSrvcContractItem
+
+## A_BusSolnOrdSrvcPrtItem
+	 * BusinessSolutionOrder
+	 * BusinessSolutionOrderItem
+	 * ServiceDocumentItemCharUUID
+	 * BusinessSolutionOrderItemUUID
+	 * BusSolnOrdItmCategory
+	 * Product
+	 * Quantity
+	 * QuantityUnit
+	 * BusSolnOrdItmDescription
+	 * Language
+	 * BusSolnOrdItmExtReference
+	 * ItemOrderProbabilityInPercent
+	 * PaymentTerms
+	 * BillableControl
+	 * ServiceDocumentItemNetAmount
+	 * TransactionCurrency
+	 * BusSolnOrdItmIsCompleted
+	 * BusSolnOrdItmIsReleased
+	 * BusSolnOrdItmIsRejected
+	 * BusSolnOrdItmRjcnReason
+	 * BusSolnOrdItmRjcnReasonText
+	 * ReferenceServiceContract
+	 * ReferenceServiceContractItem
+	 * SrvcContrDetnIsSpprsd
+	 * SoldToParty
+	 * ShipToParty
+	 * BillToParty
+	 * PayerParty
+	 * PersonResponsible
+	 * ContactPerson
+	 * to_BusinessSolutionOrder
+	 * to_PriceElement
+	 * to_ReferenceObject
+	 * to_ServiceOrder
+	 * to_Text
+
+## A_BusSolnOrderExpenseItem
+	 * BusinessSolutionOrder
+	 * BusinessSolutionOrderItem
+	 * ServiceDocumentItemCharUUID
+	 * BusinessSolutionOrderItemUUID
+	 * BusSolnOrdItmCategory
+	 * Product
+	 * Quantity
+	 * QuantityUnit
+	 * BusSolnOrdItmDescription
+	 * Language
+	 * BusSolnOrdItmExtReference
+	 * ItemOrderProbabilityInPercent
+	 * PaymentTerms
+	 * BillableControl
+	 * ServiceDocumentItemNetAmount
+	 * TransactionCurrency
+	 * BusSolnOrdItmIsCompleted
+	 * BusSolnOrdItmIsReleased
+	 * BusSolnOrdItmIsRejected
+	 * BusSolnOrdItmRjcnReason
+	 * BusSolnOrdItmRjcnReasonText
+	 * ReferenceServiceContract
+	 * ReferenceServiceContractItem
+	 * SrvcContrDetnIsSpprsd
+	 * SoldToParty
+	 * ShipToParty
+	 * BillToParty
+	 * PayerParty
+	 * PersonResponsible
+	 * ContactPerson
+	 * to_BusinessSolutionOrder
+	 * to_PriceElement
+	 * to_ReferenceObject
+	 * to_ServiceOrder
+	 * to_Text
+
+## A_BusSolnOrderFUPSalesOrder
+	 * ServiceDocumentRelationUUID
+	 * ServiceDocRltnSequenceNumber
+	 * BusinessSolutionOrder
+	 * BusinessSolutionOrderUUID
+	 * SalesOrder
+
+## A_BusSolnOrderItemObjectList
+	 * BusinessSolutionOrder
+	 * BusinessSolutionOrderItem
+	 * Product
+	 * Equipment
+	 * ServiceRefFunctionalLocation
+
+## A_BusSolnOrderItemPriceElement
+
+## A_BusSolnOrderItemProductList
+	 * BusinessSolutionOrder
+	 * BusinessSolutionOrderItem
+	 * SrvcProductListProduct
+
+## A_BusSolnOrderItemScheduleLine
+	 * BusinessSolutionOrder
+	 * BusinessSolutionOrderItem
+	 * ScheduleLine
+	 * RequestedQuantity
+	 * RequestedDeliveryDateTime
+	 * ConfdOrderQtyByMatlAvailCheck
+	 * ConfirmedDeliveryDateTime
+	 * OrderQuantityUnit
+
+## A_BusSolnOrderSalesItem
+	 * BusinessSolutionOrder
+	 * BusinessSolutionOrderItem
+	 * BusinessSolutionOrderItemUUID
+	 * BusSolnOrdItmCategory
+	 * Product
+	 * Quantity
+	 * QuantityUnit
+	 * BusSolnOrdItmDescription
+	 * Language
+	 * BusSolnOrdItmExtReference
+	 * ItemOrderProbabilityInPercent
+	 * PaymentTerms
+	 * IncotermsPart1
+	 * IncotermsPart2
+	 * BusSolnOrdItmIsReleased
+	 * BusSolnOrdItmIsCompleted
+	 * BusSolnOrdItmIsRejected
+	 * BusSolnOrdItmRjcnReason
+	 * BusSolnOrdItmRjcnReasonText
+	 * SrvcDocItmDeliveryStatus
+	 * SrvcDocDeliveryStatusText
+	 * ServiceDocItemBillingStatus
+	 * BillingBlockReason
+	 * SoldToParty
+	 * ShipToParty
+	 * BillToParty
+	 * PayerParty
+	 * PersonResponsible
+	 * ContactPerson
+	 * DeliveryPriority
+	 * PartialDeliveryIsAllowed
+	 * OrderCombinationIsAllowed
+	 * DeliveryBlockReason
+	 * RequestedDeliveryUTCDateTime
+	 * ServiceDocumentItemNetAmount
+	 * TransactionCurrency
+	 * ProfitCenter
+	 * PurchaseOrderByCustomer
+	 * MaterialPricingGroup
+	 * ItemGrossWeight
+	 * ItemNetWeight
+	 * ItemWeightUnit
+	 * ItemVolume
+	 * ItemVolumeUnit
+	 * DeliveryGroup
+	 * to_BusinessSolutionOrder
+	 * to_PriceElement
+	 * to_SalesOrder
+	 * to_ScheduleLine
+	 * to_Text
+
+## A_BusSolnOrderServiceItem
+
+## A_BusSolutionOrderItemText
+
+## A_BusVolFldCombnSetTypeAssgmt
+	 * CndnContrType
+	 * BusVolFldCombnSet
+	 * BusVolFieldCombnType
+	 * BusVolFldCombnMinNrOfEntries
+	 * BusVolFldCombnMaxNrOfEntries
+	 * BusVolFldCombnGroup
+	 * BusVolFldCombnAllwdSign
+	 * BusVolFldCombnValdtyIsAllwd
+	 * to_BusVolFldCombnTypeFldAssgmt
+
+## A_BusinessArea
+	 * BusinessArea
+	 * to_Text
+
+## A_BusinessAreaText
+	 * BusinessArea
+	 * Language
+	 * BusinessAreaName
+	 * to_BusinessArea
+
+## A_BusinessPartner
+
+## A_BusinessPartnerAddress
+
+## A_BusinessPartnerBank
+
+## A_BusinessPartnerContact
+	 * RelationshipNumber
+	 * BusinessPartnerCompany
+	 * BusinessPartnerPerson
+	 * ValidityEndDate
+	 * ValidityStartDate
+	 * IsStandardRelationship
+	 * RelationshipCategory
+	 * to_ContactAddress
+	 * to_ContactRelationship
+
+## A_BusinessPartnerRole
+
+## A_BusinessPartnerTaxNumber
+
+## A_BusinessSolutionOrder
+
+## A_BusinessSolutionOrderText
+
+## A_CentralPurchaseContract
+
+## A_ChangeRecord
+	 * ChangeRecordUUID
+	 * ChangeRecord
+	 * ChangeRecordType
+	 * ChangeRecordStatus
+	 * ChangeNumber
+	 * CreatedByUser
+	 * CreationDateTime
+	 * LastChangedByUser
+	 * LastChangeDateTime
+	 * ChangeRecordLifecycleStatus
+	 * Partner
+	 * ChgRecordDescriptionText
+	 * ChangeRecordDetailDescription
+	 * ChgRecdExpectedCompletionDate
+	 * to_RefBit
+	 * to_RefBOM
+	 * to_RefDoc
+	 * to_RefMat
+	 * to_RefPSV
+
+## A_ChangeRecordReferenceBOM
+	 * ChangeRecordReferenceUUID
+	 * ChangeRecord
+	 * ChangeRecordUUID
+	 * ChangeRecordReferenceType
+	 * CreatedByUser
+	 * CreationDateTime
+	 * LastChangedByUser
+	 * LastChangeDateTime
+	 * Material
+	 * Plant
+	 * BillOfMaterialVariantUsage
+	 * BillOfMaterialVariant
+	 * ChangeRecordItemRelevance
+
+## A_ChangeRecordReferenceBit
+	 * ChangeRecordReferenceUUID
+	 * ChangeRecord
+	 * ChangeRecordUUID
+	 * ChangeRecordReferenceType
+	 * CreatedByUser
+	 * CreationDateTime
+	 * LastChangedByUser
+	 * LastChangeDateTime
+	 * BillOfMaterialItemNumber
+	 * BillOfMaterialComponent
+	 * Material
+	 * Plant
+	 * BillOfMaterialVariantUsage
+	 * BillOfMaterialVariant
+	 * ChangeRecordItemRelevance
+
+## A_ChangeRecordReferenceDoc
+	 * ChangeRecordReferenceUUID
+	 * ChangeRecord
+	 * ChangeRecordUUID
+	 * ChangeRecordReferenceType
+	 * CreatedByUser
+	 * CreationDateTime
+	 * LastChangedByUser
+	 * LastChangeDateTime
+	 * DocumentInfoRecord
+	 * DocumentType
+	 * DocumentPart
+	 * DocumentVersion
+	 * ChangeRecordItemRelevance
+	 * ExternalDocumentStatus
+
+## A_ChangeRecordReferenceMat
+	 * ChangeRecordReferenceUUID
+	 * ChangeRecord
+	 * ChangeRecordUUID
+	 * ChangeRecordReferenceType
+	 * CreatedByUser
+	 * CreationDateTime
+	 * LastChangedByUser
+	 * LastChangeDateTime
+	 * Material
+	 * MaterialType
+	 * BaseUnit
+	 * MaterialStatus
+	 * ChangeRecordItemRelevance
+
+## A_ChangeRecordReferencePSV
+	 * ChangeRecordReferenceUUID
+	 * ChangeRecordUUID
+	 * ChangeRecord
+	 * ChangeRecordReferenceType
+	 * CreatedByUser
+	 * CreationDateTime
+	 * LastChangedByUser
+	 * LastChangeDateTime
+	 * Material
+	 * Class
+	 * ProductStructureNodeName
+	 * ProdStrucNodeDescription
+	 * ProductStructureVariantName
+	 * ProdStrucVariantDescription
+	 * ProdStrucVariantChangeNumber
+	 * ChangeRecordItemRelevance
+	 * ChangeRecordRefObjectUUID
+
+## A_ChartOfAccounts
+	 * ChartOfAccounts
+	 * CorporateGroupChartOfAccounts
+	 * ChartOfAcctsIsBlocked
+	 * MaintenanceLanguage
+	 * to_Text
+
+## A_ChartOfAccountsText
+	 * ChartOfAccounts
+	 * Language
+	 * ChartOfAccountsName
+	 * to_ChartOfAccounts
+
+## A_ClfnCharacteristicForKeyDate
+
+## A_ClfnCharcDescForKeyDate
+	 * CharcInternalID
+	 * Language
+	 * CharcDescription
+	 * ChangeNumber
+	 * ValidityStartDate
+	 * ValidityEndDate
+	 * KeyDate
+	 * CharcLastChangedDateTime
+
+## A_ClfnCharcRefForKeyDate
+	 * CharcInternalID
+	 * CharcReferenceTable
+	 * CharcReferenceTableField
+	 * KeyDate
+	 * CharcLastChangedDateTime
+
+## A_ClfnCharcRstrcnForKeyDate
+	 * CharcInternalID
+	 * ClassType
+	 * KeyDate
+	 * CharcLastChangedDateTime
+
+## A_ClfnCharcValueDescForKeyDate
+	 * CharcInternalID
+	 * CharcValuePositionNumber
+	 * Language
+	 * CharcValueDescription
+	 * ChangeNumber
+	 * ValidityStartDate
+	 * ValidityEndDate
+	 * KeyDate
+	 * CharcLastChangedDateTime
+
+## A_ClfnCharcValueForKeyDate
+
+## A_ClfnClassCharcForKeyDate
+	 * ClassInternalID
+	 * CharcInternalID
+	 * CharcPositionNumber
+	 * Characteristic
+	 * AncestorClassInternalID
+	 * OriginalCharcInternalID
+	 * ChangeNumber
+	 * CharcIsPrintRelevant
+	 * CharcIsSearchRelevant
+	 * CharcIsDisplayRelevant
+	 * ValidityStartDate
+	 * ValidityEndDate
+	 * CharcIsProposalRelevant
+	 * KeyDate
+	 * ClassLastChangedDateTime
+
+## A_ClfnClassDescForKeyDate
+	 * ClassInternalID
+	 * Language
+	 * ClassDescription
+	 * KeyDate
+	 * ClassLastChangedDateTime
+
+## A_ClfnClassForKeyDate
+	 * ClassInternalID
+	 * ClassType
+	 * ClassTypeName
+	 * Class
+	 * ClassStatus
+	 * ClassStatusName
+	 * ClassGroup
+	 * ClassGroupName
+	 * ClassSearchAuthGrp
+	 * ClassClassfctnAuthGrp
+	 * ClassMaintAuthGrp
+	 * DocNumber
+	 * DocumentType
+	 * DocumentPart
+	 * DocumentVersion
+	 * SameClassfctnReaction
+	 * ClassStandardOrgName
+	 * ClassStandardNumber
+	 * ClassStandardStartDate
+	 * ClassStandardVersionStartDate
+	 * ClassStandardVersion
+	 * ClassStandardCharcTable
+	 * CreationDate
+	 * LastChangeDate
+	 * ClassIsLocal
+	 * ValidityStartDate
+	 * ValidityEndDate
+	 * ClassLastChangedDateTime
+	 * KeyDate
+
+## A_ClfnClassForKeyDate
+	 * ClassInternalID
+	 * ClassType
+	 * ClassTypeName
+	 * Class
+	 * ClassStatus
+	 * ClassStatusName
+	 * ClassGroup
+	 * ClassGroupName
+	 * ClassSearchAuthGrp
+	 * ClassClassfctnAuthGrp
+	 * ClassMaintAuthGrp
+	 * DocNumber
+	 * DocumentType
+	 * DocumentPart
+	 * DocumentVersion
+	 * SameClassfctnReaction
+	 * ClassStandardOrgName
+	 * ClassStandardNumber
+	 * ClassStandardStartDate
+	 * ClassStandardVersionStartDate
+	 * ClassStandardVersion
+	 * ClassStandardCharcTable
+	 * CreationDate
+	 * LastChangeDate
+	 * ClassIsLocal
+	 * ValidityStartDate
+	 * ValidityEndDate
+	 * ClassLastChangedDateTime
+	 * KeyDate
+	 * to_ClassCharacteristic
+	 * to_ClassDescription
+	 * to_ClassKeyword
+	 * to_ClassText
+
+## A_ClfnClassKeywordForKeyDate
+	 * ClassInternalID
+	 * Language
+	 * ClassKeywordPositionNumber
+	 * ClassKeywordText
+	 * KeyDate
+	 * ClassLastChangedDateTime
+
+## A_ClfnClassTextForKeyDate
+	 * ClassInternalID
+	 * Language
+	 * LongTextID
+	 * ClassText
+	 * KeyDate
+	 * ClassLastChangedDateTime
+
+## A_ClfnProduct
+
+## A_CndnContrType
+	 * CndnContrType
+	 * BusVolFldCombnSet
+	 * CndnContrTypeBlockUsage
+	 * CndnContrPartnerCat
+	 * CndnContrEligibleCat
+	 * CndnContrClassfctnType
+	 * CndnContrHasNoConditions
+	 * CndnContrSettlmtType
+	 * CndnContrChangeability
+	 * CndnContrPrtlSettlmtCat
+	 * to_BusVolFldCombnSetTypeAssgmt
+
+## A_CntrlPurContrDistrMessages
+	 * SequenceNumber
+	 * DistrResponseMessageUUID
+	 * PurchasingDocument
+	 * PurchasingDocumentCategory
+	 * ExtContractForPurg
+	 * LogicalSystem
+	 * SystemMessageType
+	 * SystemMessageIdentification
+	 * SystemMessageNumber
+	 * SystemMessageVariable1
+	 * SystemMessageVariable2
+	 * SystemMessageVariable3
+	 * SystemMessageVariable4
+	 * SystemMessageText
+
+## A_CntrlPurContrItmDistribution
+
+## A_CntrlPurContrVersionHistory
+
+## A_CntrlPurContractHeaderNotes
+	 * PurchasingDocumentNoteObjectID
+	 * PurchasingDocumentNoteType
+	 * PurchasingDocumentNoteLanguage
+	 * PurgDocNoteText
+
+## A_CntrlPurContractItemNotes
+	 * PurchasingDocumentNoteObjectID
+	 * PurchasingDocumentNoteType
+	 * PurchasingDocumentNoteLanguage
+	 * CentralPurchaseContract
+	 * PurgDocNoteText
+
+## A_CntrlPurchaseContractItem
+
+## A_CompanyCode
+
+## A_CostCenter
+
+## A_CostCenterActivityType
+
+## A_CostCenterActivityType
+
+## A_CostCenterActivityTypeText
+	 * ValidityEndDate
+	 * ControllingArea
+	 * CostCtrActivityType
+	 * Language
+	 * CostCtrActivityTypeName
+	 * CostCtrActivityTypeDesc
+	 * to_CostCenterActivityType
+
+## A_CostCenterActivityTypeText
+	 * ValidityEndDate
+	 * ControllingArea
+	 * CostCtrActivityType
+	 * Language
+	 * CostCtrActivityTypeName
+	 * CostCtrActivityTypeDesc
+	 * to_CostCenterActivityType
+
+## A_CostCenterText
+	 * CostCenter
+	 * ControllingArea
+	 * Language
+	 * ValidityEndDate
+	 * ValidityStartDate
+	 * CostCenterName
+	 * CostCenterDescription
+	 * to_CostCenter
+
+## A_Country
+
+## A_CountryText
+	 * Country
+	 * Language
+	 * CountryName
+	 * NationalityName
+	 * NationalityLongName
+	 * to_Country
+
+## A_CreditBlockedDeliveryDoc
+	 * DeliveryDocument
+	 * SDDocumentCategory
+	 * SalesOrganization
+	 * SalesOffice
+	 * ShippingPoint
+	 * CreationDate
+	 * CreatedByUser
+	 * LastChangedByUser
+	 * LastChangeDate
+	 * SoldToParty
+	 * CustomerCreditAccount
+	 * ControllingAreaCurrency
+	 * ReleasedCreditAmount
+	 * CreditBlockReleaseDate
+	 * NextShippingDate
+	 * CentralCreditChkTechErrSts
+	 * OverallSDProcessStatus
+	 * OverallGoodsMovementStatus
+	 * TotalCreditCheckStatus
+	 * FinDocCreditCheckStatus
+	 * CentralCreditCheckStatus
+
+## A_CreditBlockedSalesDocument
+
+## A_CreditMemoReqItemPartner
+	 * CreditMemoRequest
+	 * CreditMemoRequestItem
+	 * PartnerFunction
+	 * Customer
+	 * Supplier
+	 * Personnel
+	 * ContactPerson
+	 * to_CreditMemoRequest
+	 * to_CreditMemoRequestItem
+
+## A_CreditMemoReqItemPrcgElmnt
+
+## A_CreditMemoReqPartner
+	 * CreditMemoRequest
+	 * PartnerFunction
+	 * Customer
+	 * Supplier
+	 * Personnel
+	 * ContactPerson
+	 * to_CreditMemoRequest
+
+## A_CreditMemoReqPrcgElmnt
+
+## A_CreditMemoRequest
+
+## A_CreditMemoRequestItem
+
+## A_CustSalesPartnerFunc
+
+## A_Customer
+
+## A_CustomerCompany
+
+## A_CustomerCompanyText
+
+## A_CustomerDunning
+
+## A_CustomerGroup
+	 * CustomerGroup
+	 * to_Text
+
+## A_CustomerGroupText
+	 * CustomerGroup
+	 * Language
+	 * CustomerGroupName
+	 * to_CustomerGroup
+
+## A_CustomerMaterial
+
+## A_CustomerReturn
+
+## A_CustomerReturnItem
+
+## A_CustomerReturnItemPartner
+	 * CustomerReturn
+	 * CustomerReturnItem
+	 * PartnerFunction
+	 * Customer
+	 * Supplier
+	 * Personnel
+	 * ContactPerson
+	 * to_CustomerReturn
+	 * to_CustomerReturnItem
+
+## A_CustomerReturnItemPrcgElmnt
+
+## A_CustomerReturnPartner
+	 * CustomerReturn
+	 * PartnerFunction
+	 * Customer
+	 * Supplier
+	 * Personnel
+	 * ContactPerson
+	 * to_CustomerReturn
+
+## A_CustomerReturnPrcgElmnt
+
+## A_CustomerReturnProcessStep
+	 * RetsMgmtProcess
+	 * RetsMgmtProcessItem
+	 * RetsMgmtProcItmQtySplit
+	 * RetsMgmtProcessStep
+	 * ReturnsDocumentType
+	 * ReturnsDocument
+	 * ReturnsDocumentItem
+	 * ReturnsDocumentStatus
+	 * ReturnsDocumentApprovalStatus
+	 * ReturnsReferenceDocumentType
+	 * ReturnsReferenceDocument
+	 * ReturnsReferenceDocumentItem
+	 * RetsMgmtProcStepExecStatus
+	 * to_CustomerReturn
+	 * to_CustomerReturnItem
+
+## A_CustomerReturnScheduleLine
+	 * CustomerReturn
+	 * CustomerReturnItem
+	 * ScheduleLine
+	 * OrderQuantityUnit
+	 * ConfdOrderQtyByMatlAvailCheck
+	 * DeliveredQtyInOrderQtyUnit
+	 * OpenConfdDelivQtyInOrdQtyUnit
+	 * DelivBlockReasonForSchedLine
+	 * to_CustomerReturn
+	 * to_CustomerReturnItem
+
+## A_CustomerSalesArea
+
+## A_CustomerSalesAreaTax
+	 * Customer
+	 * SalesOrganization
+	 * DistributionChannel
+	 * Division
+	 * DepartureCountry
+	 * CustomerTaxCategory
+	 * CustomerTaxClassification
+
+## A_CustomerSalesAreaText
+
+## A_CustomerSupplierIndustry
+	 * Industry
+	 * to_Text
+
+## A_CustomerSupplierIndustryText
+	 * Language
+	 * Industry
+	 * IndustryKeyText
+	 * to_CustomerSupplierIndustry
+
+## A_CustomerTaxGrouping
+	 * Customer
+	 * CustomerTaxGroupingCode
+	 * CustTaxGrpExemptionCertificate
+	 * CustTaxGroupExemptionRate
+	 * CustTaxGroupExemptionStartDate
+	 * CustTaxGroupExemptionEndDate
+	 * CustTaxGroupSubjectedStartDate
+	 * CustTaxGroupSubjectedEndDate
+
+## A_CustomerText
+
+## A_CustomerWithHoldingTax
+
+## A_DebitMemoReqItemPartner
+	 * DebitMemoRequest
+	 * DebitMemoRequestItem
+	 * PartnerFunction
+	 * Customer
+	 * Supplier
+	 * Personnel
+	 * ContactPerson
+	 * to_DebitMemoRequest
+	 * to_DebitMemoRequestItem
+
+## A_DebitMemoReqItemPrcgElmnt
+
+## A_DebitMemoReqItemText
+
+## A_DebitMemoReqPartner
+	 * DebitMemoRequest
+	 * PartnerFunction
+	 * Customer
+	 * Supplier
+	 * Personnel
+	 * ContactPerson
+	 * to_DebitMemoRequest
+
+## A_DebitMemoReqPrcgElmnt
+
+## A_DebitMemoReqText
+
+## A_DebitMemoRequest
+
+## A_DebitMemoRequestItem
+
+## A_DelivSchedSoldToPartyDetn
+	 * Supplier
+	 * PartnerDescription
+	 * UnloadingPointName
+	 * SoldToParty
+
+## A_DocInfoRecdObjLinkBOM
+	 * DocumentInfoRecordDocType
+	 * DocumentInfoRecordDocNumber
+	 * DocumentInfoRecordDocVersion
+	 * DocumentInfoRecordDocPart
+	 * LinkedSAPObject
+	 * LinkedSAPObjectKey
+	 * DocObjectLinkCounter
+	 * to_DocInfoRecord
+
+## A_DocInfoRecdObjLinkChgRecd
+	 * DocumentInfoRecordDocType
+	 * DocumentInfoRecordDocNumber
+	 * DocumentInfoRecordDocVersion
+	 * DocumentInfoRecordDocPart
+	 * LinkedSAPObject
+	 * LinkedSAPObjectKey
+	 * DocObjectLinkCounter
+	 * to_DocInfoRecord
+
+## A_DocInfoRecdObjLinkProduct
+	 * DocumentInfoRecordDocType
+	 * DocumentInfoRecordDocNumber
+	 * DocumentInfoRecordDocVersion
+	 * DocumentInfoRecordDocPart
+	 * LinkedSAPObject
+	 * LinkedSAPObjectKey
+	 * DocObjectLinkCounter
+	 * ChangedDateTime
+	 * to_DocInfoRecord
+
+## A_DocumentInfoRecord
+
+## A_DocumentInfoRecordAttch
+	 * DocumentInfoRecordDocType
+	 * DocumentInfoRecordDocNumber
+	 * DocumentInfoRecordDocVersion
+	 * DocumentInfoRecordDocPart
+	 * DocumentInfoRecord
+	 * DocumentDescription
+	 * ExternalDocumentStatus
+	 * DocumentStatusName
+	 * DocInfoRecdIsMarkedForDeletion
+	 * DocumentInfoRecordToAttachmentNavigation
+
+## A_DocumentInfoRecordCharc
+	 * DocumentInfoRecordDocType
+	 * DocumentInfoRecordDocNumber
+	 * DocumentInfoRecordDocVersion
+	 * DocumentInfoRecordDocPart
+	 * CharcInternalID
+	 * ClassType
+	 * KeyDate
+	 * to_Valuation
+
+## A_DocumentInfoRecordCharcValue
+
+## A_DocumentInfoRecordClass
+	 * DocumentInfoRecordDocType
+	 * DocumentInfoRecordDocNumber
+	 * DocumentInfoRecordDocVersion
+	 * DocumentInfoRecordDocPart
+	 * ClassInternalID
+	 * KeyDate
+	 * ClassType
+	 * to_Characteristics
+
+## A_DocumentInfoRecordClassCharc
+	 * DocumentInfoRecordDocType
+	 * DocumentInfoRecordDocNumber
+	 * DocumentInfoRecordDocVersion
+	 * DocumentInfoRecordDocPart
+	 * ClassInternalID
+	 * CharcInternalID
+	 * KeyDate
+	 * ClassType
+
+## A_DocumentInfoRecordDesc
+	 * DocumentInfoRecordDocType
+	 * DocumentInfoRecordDocNumber
+	 * DocumentInfoRecordDocVersion
+	 * DocumentInfoRecordDocPart
+	 * Language
+	 * DocumentDescription
+	 * LongTextExists
+	 * DocInfoRecdShortText
+	 * ChangedDateTime
+	 * to_DocInfoRecord
+
+## A_DocumentInfoRecordDocStsVH
+	 * DocumentInfoRecordDocType
+	 * Language
+	 * ExternalDocumentStatus
+	 * InternalDocumentStatus
+	 * DocumentStatusName
+
+## A_EntProjElmntBlockFunc
+	 * ProjectElementUUID
+	 * ProjectUUID
+	 * EntProjTimeRecgIsBlkd
+	 * EntProjStaffExpensePostgIsBlkd
+	 * EntProjServicePostingIsBlkd
+	 * EntProjOtherExpensePostgIsBlkd
+	 * EntProjPurchasingIsBlkd
+
+## A_EntProjectElmntPublicSector
+	 * ProjectElementUUID
+	 * ProjectUUID
+	 * Fund
+	 * FundIsFixAssigned
+	 * FunctionalAreaIsFixAssigned
+	 * GrantID
+	 * GrantIsFixAssigned
+	 * SponsoredProgram
+	 * ProjectLastChangedDateTime
+	 * to_EnterpriseProjectElement
+
+## A_EntProjectPublicSector
+	 * ProjectUUID
+	 * Fund
+	 * FundIsFixAssigned
+	 * FunctionalAreaIsFixAssigned
+	 * GrantID
+	 * GrantIsFixAssigned
+	 * SponsoredProgram
+	 * ProjectLastChangedDateTime
+
+## A_EnterpriseProjBlkFunc
+	 * ProjectUUID
+	 * EntProjTimeRecgIsBlkd
+	 * EntProjStaffExpensePostgIsBlkd
+	 * EntProjServicePostingIsBlkd
+	 * EntProjOtherExpensePostgIsBlkd
+	 * EntProjPurchasingIsBlkd
+
+## A_EnterpriseProject
+	 * ProjectUUID
+	 * ProjectInternalID
+	 * Project
+	 * ProjectDescription
+	 * EnterpriseProjectType
+	 * PriorityCode
+	 * ProjectStartDate
+	 * ProjectEndDate
+	 * ProcessingStatus
+	 * ResponsibleCostCenter
+	 * ProfitCenter
+	 * ProjectManagerUUID
+	 * ProjectProfileCode
+	 * FunctionalArea
+	 * CompanyCode
+	 * ControllingArea
+	 * Plant
+	 * Location
+	 * TaxJurisdiction
+	 * ProjectCurrency
+	 * AvailabilityControlProfile
+	 * AvailabilityControlIsActive
+	 * FunctionalLocation
+	 * IsBillingRelevant
+	 * LastChangeDateTime
+	 * InvestmentProfile
+	 * to_EnterpriseProjectElement
+	 * to_EntProjBlkFunc
+	 * to_EntProjectPublicSector
+
+## A_EnterpriseProjectElement
+	 * ProjectElementUUID
+	 * ProjectElement
+	 * WBSElementInternalID
+	 * ProjectUUID
+	 * ProjectElementDescription
+	 * ParentObjectUUID
+	 * ProcessingStatus
+	 * SortingNumber
+	 * PlannedStartDate
+	 * PlannedEndDate
+	 * ResponsibleCostCenter
+	 * CompanyCode
+	 * ProfitCenter
+	 * FunctionalArea
+	 * ControllingArea
+	 * Plant
+	 * Location
+	 * TaxJurisdiction
+	 * FunctionalLocation
+	 * FactoryCalendar
+	 * CostingSheet
+	 * InvestmentProfile
+	 * WBSIsStatisticalWBSElement
+	 * CostCenter
+	 * WBSElementIsBillingElement
+	 * CreatedByUser
+	 * CreationDateTime
+	 * LastChangeDateTime
+	 * LastChangedByUser
+	 * ProjectLastChangedDateTime
+	 * to_EnterpriseProject
+	 * to_EntProjectElmntPublicSector
+	 * to_EntProjElmntBlkFunc
+	 * to_ParentProjElement
+	 * to_SubProjElement
+
+## A_GLAccountInChartOfAccounts
+	 * ChartOfAccounts
+	 * GLAccount
+	 * IsBalanceSheetAccount
+	 * GLAccountGroup
+	 * CorporateGroupAccount
+	 * ProfitLossAccountType
+	 * SampleGLAccount
+	 * AccountIsMarkedForDeletion
+	 * AccountIsBlockedForCreation
+	 * AccountIsBlockedForPosting
+	 * AccountIsBlockedForPlanning
+	 * PartnerCompany
+	 * FunctionalArea
+	 * CreationDate
+	 * CreatedByUser
+	 * LastChangeDateTime
+	 * GLAccountType
+	 * GLAccountExternal
+	 * IsProfitLossAccount
+	 * to_Text
+
+## A_GLAccountText
+	 * ChartOfAccounts
+	 * GLAccount
+	 * Language
+	 * GLAccountName
+	 * GLAccountLongName
+	 * LastChangeDateTime
+	 * to_GLAccountInChartOfAccounts
+
+## A_InspectionSpecification
+	 * InspectionSpecification
+	 * InspectionSpecificationVersion
+	 * InspectionSpecificationPlant
+	 * Plant
+	 * ValidityStartDate
+	 * InspectionSpecificationSrchTxt
+	 * InspSpecGlobalName
+	 * InspectionSpecificationStatus
+	 * InspSpecTransferType
+	 * InspSpecCreatedByUser
+	 * InspSpecCreationDate
+	 * InspSpecChangedByUser
+	 * InspSpecChangeDate
+	 * InspSpecIsQuantitative
+	 * InspSpecCharacteristicType
+	 * InspSpecIsMeasuredValueRqd
+	 * InspSpecIsSelectedSetRequired
+	 * InspSpecIsUpperLimitRequired
+	 * InspSpecIsLowerLimitRequired
+	 * InspSpecIsTargetValueInLimit
+	 * InspectionScope
+	 * InspSpecIsLongTermInspection
+	 * InspSpecRecordingType
+	 * InspResultIsDocumentationRqd
+	 * InspSpecCharcCategory
+	 * InspSpecIsDefectsRecgAutomatic
+	 * InspSpecIsSampleQtyAdditive
+	 * InspSpecIsDestructive
+	 * InspSpecResultCalculation
+	 * InspSpecIsSamplingProcedRqd
+	 * InspSpecIsScrapRelevant
+	 * InspSpecIsTestEquipmentRqd
+	 * InspSpecIsChgDocRequired
+	 * InspSpecIsControlChartUsed
+	 * InspSpecPrintControl
+	 * InspSpecImportanceCode
+	 * InspectorQualification
+	 * InspSpecInformationField1
+	 * InspSpecInformationField2
+	 * InspSpecInformationField3
+	 * QltyMstrDataAuthorizationGroup
+	 * InspToleranceSpecification
+	 * InspSpecDecimalPlaces
+	 * InspectionSpecificationUnit
+	 * InspSpecTargetValue
+	 * InspSpecHasTargetValue
+	 * InspSpecLowerLimit
+	 * InspSpecHasLowerLimit
+	 * InspSpecLowerPlausibilityLimit
+	 * InspSpecHasLowrPlausibilityLmt
+	 * InspSpecFirstLowerSpecLimit
+	 * InspSpecHasFirstLowerSpecLimit
+	 * InspSpecSecondLowerSpecLimit
+	 * InspSpecHasSecondLowrSpecLimit
+	 * InspSpecLowerSpecLimitChange
+	 * InspSpecHasLowrSpecLimitChange
+	 * InspSpecUpperLimit
+	 * InspSpecHasUpperLimit
+	 * InspSpecUpperPlausibilityLimit
+	 * InspSpecHasUprPlausibilityLmt
+	 * InspSpecFirstUpperSpecLimit
+	 * InspSpecHasFirstUpperSpecLimit
+	 * InspSpecSecondUpperSpecLimit
+	 * InspSpecHasSecondUprSpecLimit
+	 * InspSpecUpperSpecLimitChange
+	 * InspSpecHasUprSpecLimitChange
+	 * InspSpecToleranceChgValidFrom
+	 * InspSpecToleranceChgValidTo
+	 * InspSpecDefectCodeGrpRejection
+	 * InspSpecDefectCodeRejection
+	 * InspSpecDefectCodeGrpRjcnUpper
+	 * InspSpecDefectCodeRjcnUpper
+	 * InspSpecDefectCodeGrpRjcnLower
+	 * InspSpecDefectCodeRjcnLower
+	 * CharacteristicInternalID
+	 * DefectFractionEstimationProced
+
+## A_Ledger
+	 * Ledger
+	 * IsLeadingLedger
+	 * LedgerApplication
+	 * LedgerSubApplication
+	 * to_Text
+
+## A_LedgerText
+	 * Ledger
+	 * Language
+	 * LedgerName
+	 * to_Ledger
+
+## A_LegalCategory
+	 * LglCntntMCategory
+	 * LglCntntMCatType
+	 * LglCntntMCatIsSelect
+	 * LglCntntMCatIsMultiSelection
+	 * LglCntntMCatLevel
+	 * LglCntntMCatIsObsolete
+	 * LglCntntMCatModel
+	 * LglCntntMCategoryValue
+	 * LglCntntMChangedByUser
+	 * LglCntntMChangedUTCDateTime
+	 * LglCntntMCreatedByUser
+	 * LglCntntMCreatedUTCDateTime
+	 * LglCntntMParentCategory
+	 * LglCntntMRootCategory
+	 * to_LegalCategoryText
+
+## A_LegalCategoryText
+	 * LglCntntMCategory
+	 * Language
+	 * LglCntntMCategoryName
+
+## A_LegalDocument
+	 * LglCntntMDocumentUUID
+	 * LglCntntMDocument
+	 * LglCntntMDocumentLinkedObject
+	 * LglCntntMDocumentLinkedObjKey
+	 * LegalTransaction
+	 * LglCntntMDocContentType
+	 * LglCntntMLanguage
+	 * DocumentDescription
+	 * LglCntntMDocAccessLvl
+	 * LegalDocumentSource
+	 * LglCntntMChangedUTCDateTime
+	 * LglCntntMChangedByUser
+	 * LglCntntMCreatedUTCDateTime
+	 * LglCntntMCreatedByUser
+	 * InternalDocumentStatus
+	 * LglCntntMDocumentIsTopVersion
+	 * LglCntntMVirtualDocVersKey
+	 * LglCntntMDocAssemblyStatus
+	 * LglCntntMTmplID
+	 * LglCntntMDocType
+	 * LglCntntMDocLowTouchLevel
+	 * to_LglDocStamp
+
+## A_LegalTransaction
+	 * LegalTransactionUUID
+	 * LegalTransaction
+	 * LegalTransactionTitle
+	 * LglCntntMContext
+	 * LglCntntMContextUUID
+	 * LglCntntMLanguage
+	 * LglCntntMChangedByUser
+	 * LglCntntMChangedUTCDateTime
+	 * LglCntntMCreatedByUser
+	 * LglCntntMCreatedUTCDateTime
+	 * LegalTransactionHealth
+	 * LglCntntMProfile
+	 * LegalTransactionSource
+	 * IsEndOfPurposeBlocked
+	 * LglCntntMGovLaw
+	 * LglTransAccessLvl
+	 * LglCntntMMainOrgCoCode
+	 * LglCntntMMainOrgSalesOrg
+	 * LglCntntMMainOrgPurOrg
+	 * to_LglTransCategoryGroup
+	 * to_LglTransDate
+	 * to_LglTransEntity
+	 * to_LglTransExternalContact
+	 * to_LglTransInternalContact
+	 * to_LglTransLinkedObjects
+	 * to_LglTransRelationship
+
+## A_LglCntntMAccessLvl
+	 * LglCntntMAccessLvl
+	 * to_AccessLevelText
+
+## A_LglCntntMAccessLvlText
+	 * LglCntntMAccessLvl
+	 * Language
+	 * LglCntntMAccessLvlName
+
+## A_LglCntntMDocContentType
+	 * LglCntntMDocContentType
+	 * to_LglCntntMDocContentTypeText
+
+## A_LglCntntMDocContentTypeText
+	 * LglCntntMDocContentType
+	 * Language
+	 * LglCntntMDocContentTypeName
+
+## A_LglDocStamp
+	 * LglCntntMDocumentStampUUID
+	 * LglCntntMDocumentUUID
+	 * LglCntntMDocumentStamp
+	 * LglCntntMCreatedUTCDateTime
+	 * LglCntntMCreatedByUser
+
+## A_LglTransCategory
+	 * LegalTransactionCategoryUUID
+	 * LegalTransactionParCatUUID
+	 * LegalTransactionUUID
+	 * LglCntntMCategory
+	 * LglCntntMIsMandatory
+
+## A_LglTransCategoryGroup
+	 * LegalTransactionCatGroupUUID
+	 * LegalTransactionUUID
+	 * LglCntntMCatGroupTitle
+	 * LglCntntMIndex
+	 * to_LglTransParentCategory
+
+## A_LglTransDate
+	 * LegalTransactionDateUUID
+	 * LglCntntMDateType
+	 * LglCntntMFromDate
+	 * LglCntntMToDate
+	 * LegalTransactionMandatoryFlag
+	 * LegalTransactionUUID
+
+## A_LglTransEntity
+	 * LegalTransactionEntityUUID
+	 * LglCntntMRank
+	 * LglCntntMEntityType
+	 * LglCntntMEntity
+	 * LegalTransactionUUID
+	 * LegalTransactionMandatoryFlag
+	 * LglCntntMIsMainEntity
+
+## A_LglTransExternalContact
+	 * LegalTransactionExtCntctUUID
+	 * LglCntntMRank
+	 * LglCntntMExtCntctType
+	 * LglCntntMExtCntctBP
+	 * LegalTransactionMandatoryFlag
+	 * LegalTransactionUUID
+
+## A_LglTransInternalContact
+	 * LegalTransactionIntCntctUUID
+	 * LglCntntMRank
+	 * LglCntntMIntCntctType
+	 * LglCntntMIntCntctUser
+	 * LegalTransactionMandatoryFlag
+	 * LegalTransactionUUID
+
+## A_LglTransLinkedObjects
+	 * LegalTransactionLinkdObjUUID
+	 * LglCntntMLinkdObjType
+	 * LglCntntMLinkdObj
+	 * LegalTransactionMandatoryFlag
+	 * LegalTransactionUUID
+	 * LegalTransactionIsTriggerObj
+
+## A_LglTransParentCategory
+	 * LegalTransactionParCatUUID
+	 * LegalTransactionCatGroupUUID
+	 * LegalTransactionUUID
+	 * LglCntntMParentCategory
+	 * LglCntntMIsMandatory
+	 * LglCntntMIndex
+	 * to_LglTransCategoryGroup
+	 * to_LglTransCategory
+
+## A_LglTransRelationship
+	 * LegalTransactionRelshpUUID
+	 * LglCntntMRelshpType
+	 * RelshpLegalTransaction
+	 * LegalTransactionMandatoryFlag
+	 * LegalTransactionUUID
+	 * RelshpLegalTransactionUUID
+
+## A_MRPMaterial
+	 * Material
+	 * MRPPlant
+	 * MRPArea
+	 * MaterialName
+	 * PlantName
+	 * MRPAreaText
+	 * MRPAreaCategory
+	 * MRPAreaCategoryName
+	 * MaterialGroup
+	 * MaterialGroupName
+	 * MaterialIsMarkedForDeletion
+	 * PlntMatlIsMarkedForDeletion
+	 * CrossPlantStatus
+	 * CrossPlantStatusName
+	 * BaseUnit
+	 * UnitOfMeasureName
+	 * LowLevelCode
+	 * MaterialIsConfigurable
+	 * MaterialUsabilityProfile
+	 * MaterialUsabilityProfileName
+	 * MaterialABCClassification
+	 * MaterialABCClassificationDesc
+	 * PurchasingGroup
+	 * PurchasingGroupName
+	 * MaterialProcurementCategory
+	 * MaterialProcurementCatName
+	 * DependentRequirementsType
+	 * DependentRequirementsTypeName
+	 * MatlCompDiscontinuationType
+	 * MatlCompDscontnTypeName
+	 * EffectiveOutDate
+	 * MaterialType
+	 * MaterialTypeName
+	 * MRPGroup
+	 * MRPGroupName
+	 * MRPController
+	 * MRPControllerName
+	 * RangeOfCvrgPrflCode
+	 * SchedulingFloatProfile
+	 * ConfigurableProduct
+	 * ConfigurableProductName
+	 * ProcessingTime
+	 * SetupAndTeardownTime
+	 * TransitionTime
+	 * GoodsReceiptDuration
+	 * MaterialPlannedDeliveryDurn
+	 * MaterialPlannedProductionDurn
+	 * TotalReplenishmentLeadDuration
+	 * IsSafetyTime
+	 * MRPSafetyDuration
+	 * PerdPrflForSftyTme
+	 * ReorderThresholdQuantity
+	 * SafetyStockQuantity
+	 * LotSizingProcedure
+	 * MaterialLotSizingProcedureName
+	 * MinimumLotSizeQuantity
+	 * MaximumLotSizeQuantity
+	 * FixedLotSizeQuantity
+	 * MaterialMaxStockLevelQuantity
+	 * LotSizeIndependentCosts
+	 * Currency
+	 * StorageCostsPercentageCode
+	 * AssemblyScrapPercent
+	 * TaktTime
+	 * PurOrderQtyRoundingQty
+	 * RoundingProfile
+	 * PlanningStrategyGroup
+	 * DfltStorageLocationExtProcmt
+	 * MRPPlanningCalendar
+	 * RepetitiveManufacturingIsAllwd
+	 * RepetitiveManufacturingProfile
+	 * PlanningTimeFenceInDays
+	 * MRPType
+	 * MRPTypeName
+	 * MaterialProcurementProfile
+	 * MaterialProcurementProfileName
+	 * ProductionSupervisor
+	 * ProductionSupervisorName
+	 * MaterialBaseQuantity
+	 * ProductionInvtryManagedLoc
+	 * StorageLocationName
+	 * AuthorizationGroup
+
+## A_MaterialDocumentHeader
+	 * PostingDate
+	 * GoodsMovementCode
+	 * DocumentDate
+	 * MaterialDocument
+	 * __metadata
+	 * MaterialDocumentYear
+	 * InventoryTransactionType
+	 * CreationDate
+	 * CreationTime
+	 * CreatedByUser
+	 * MaterialDocumentHeaderText
+	 * ReferenceDocument
+	 * to_MaterialDocumentItem
+
+## A_MaterialDocumentHeader
+	 * PostingDate
+	 * GoodsMovementCode
+	 * DocumentDate
+	 * MaterialDocument
+	 * __metadata
+	 * MaterialDocumentYear
+	 * InventoryTransactionType
+	 * CreationDate
+	 * CreationTime
+	 * CreatedByUser
+	 * MaterialDocumentHeaderText
+	 * ReferenceDocument
+	 * to_MaterialDocumentItem
+
+## A_MaterialDocumentHeader
+	 * PostingDate
+	 * GoodsMovementCode
+	 * DocumentDate
+	 * MaterialDocument
+	 * __metadata
+	 * MaterialDocumentYear
+	 * InventoryTransactionType
+	 * CreationDate
+	 * CreationTime
+	 * CreatedByUser
+	 * MaterialDocumentHeaderText
+	 * ReferenceDocument
+	 * to_MaterialDocumentItem
+
+## A_MaterialDocumentHeader
+	 * PostingDate
+	 * GoodsMovementCode
+	 * DocumentDate
+	 * MaterialDocument
+	 * __metadata
+	 * MaterialDocumentYear
+	 * InventoryTransactionType
+	 * CreationDate
+	 * CreationTime
+	 * CreatedByUser
+	 * MaterialDocumentHeaderText
+	 * ReferenceDocument
+	 * to_MaterialDocumentItem
+
+## A_MaterialDocumentHeader
+	 * PostingDate
+	 * GoodsMovementCode
+	 * DocumentDate
+	 * MaterialDocument
+	 * __metadata
+	 * MaterialDocumentYear
+	 * InventoryTransactionType
+	 * CreationDate
+	 * CreationTime
+	 * CreatedByUser
+	 * MaterialDocumentHeaderText
+	 * ReferenceDocument
+	 * to_MaterialDocumentItem
+
+## A_MaterialDocumentHeader
+	 * PostingDate
+	 * GoodsMovementCode
+	 * DocumentDate
+	 * MaterialDocument
+	 * __metadata
+	 * MaterialDocumentYear
+	 * InventoryTransactionType
+	 * CreationDate
+	 * CreationTime
+	 * CreatedByUser
+	 * MaterialDocumentHeaderText
+	 * ReferenceDocument
+	 * to_MaterialDocumentItem
+
+## A_MaterialDocumentHeader
+	 * PostingDate
+	 * GoodsMovementCode
+	 * DocumentDate
+	 * MaterialDocument
+	 * __metadata
+	 * MaterialDocumentYear
+	 * InventoryTransactionType
+	 * CreationDate
+	 * CreationTime
+	 * CreatedByUser
+	 * MaterialDocumentHeaderText
+	 * ReferenceDocument
+	 * to_MaterialDocumentItem
+	 * PostingDatesss
+
+## A_MaterialDocumentHeader
+	 * PostingDate
+	 * GoodsMovementCode
+	 * DocumentDate
+	 * MaterialDocument
+	 * __metadata
+	 * MaterialDocumentYear
+	 * InventoryTransactionType
+	 * CreationDate
+	 * CreationTime
+	 * CreatedByUser
+	 * MaterialDocumentHeaderText
+	 * ReferenceDocument
+	 * to_MaterialDocumentItem
+
+## A_MaterialDocumentHeader
+	 * PostingDate
+	 * GoodsMovementCode
+	 * DocumentDate
+	 * MaterialDocument
+	 * __metadata
+	 * MaterialDocumentYear
+	 * InventoryTransactionType
+	 * CreationDate
+	 * CreationTime
+	 * CreatedByUser
+	 * MaterialDocumentHeaderText
+	 * ReferenceDocument
+	 * to_MaterialDocumentItem
+
+## A_MaterialDocumentHeader
+	 * PostingDate
+	 * GoodsMovementCode
+	 * DocumentDate
+	 * MaterialDocument
+	 * __metadata
+	 * MaterialDocumentYear
+	 * InventoryTransactionType
+	 * CreationDate
+	 * CreationTime
+	 * CreatedByUser
+	 * MaterialDocumentHeaderText
+	 * ReferenceDocument
+	 * to_MaterialDocumentItem
+
+## A_MaterialDocumentItem
+	 * Material
+	 * Plant
+	 * StorageLocation
+	 * GoodsMovementType
+	 * EntryUnit
+	 * QuantityInEntryUnit
+	 * ManufacturingOrder
+	 * ManufacturingOrderItem
+	 * GoodsMovementRefDocType
+	 * CostCenter
+	 * AccountAssignmentCategory
+	 * MaterialDocument
+	 * Customer
+	 * SalesOrder
+	 * SalesOrderItem
+	 * SalesOrderScheduleLine
+	 * PurchaseOrder
+	 * PurchaseOrderItem
+	 * WBSElement
+	 * MaterialDocumentYear
+	 * InventoryStockType
+	 * InventoryValuationType
+	 * GoodsMovementReasonCode
+	 * InventorySpecialStockType
+	 * MaterialDocumentItem
+	 * ControllingArea
+	 * CostObject
+	 * ProfitabilitySegment
+	 * ProfitCenter
+	 * GLAccount
+	 * FunctionalArea
+	 * MaterialBaseUnit
+	 * QuantityInBaseUnit
+	 * Batch
+	 * Supplier
+	 * CompanyCodeCurrency
+	 * GdsMvtExtAmtInCoCodeCrcy
+	 * SlsPrcAmtInclVATInCoCodeCrcy
+	 * FiscalYear
+	 * FiscalYearPeriod
+	 * FiscalYearVariant
+	 * IssgOrRcvgMaterial
+	 * IssgOrRcvgBatch
+	 * IssuingOrReceivingPlant
+	 * IssuingOrReceivingStorageLoc
+	 * to_SerialNumbers
+	 * IssgOrRcvgSpclStockInd
+	 * IssuingOrReceivingValType
+	 * IsCompletelyDelivered
+	 * MaterialDocumentItemText
+	 * UnloadingPointName
+	 * ShelfLifeExpirationDate
+	 * ManufactureDate
+	 * SerialNumbersAreCreatedAutomly
+	 * Reservation
+	 * ReservationItem
+	 * ReservationIsFinallyIssued
+	 * SpecialStockIdfgSalesOrder
+	 * SpecialStockIdfgSalesOrderItem
+	 * SpecialStockIdfgWBSElement
+	 * IsAutomaticallyCreated
+	 * MaterialDocumentLine
+	 * MaterialDocumentParentLine
+	 * HierarchyNodeLevel
+	 * GoodsMovementIsCancelled
+	 * ReversedMaterialDocumentYear
+	 * ReversedMaterialDocument
+	 * ReversedMaterialDocumentItem
+	 * to_MaterialDocumentHeader
+	 * IssuingOrReceivingStockType
+
+## A_MaterialDocumentItem
+	 * Material
+	 * Plant
+	 * StorageLocation
+	 * GoodsMovementType
+	 * EntryUnit
+	 * QuantityInEntryUnit
+	 * PurchaseOrder
+	 * PurchaseOrderItem
+	 * GoodsMovementRefDocType
+	 * InventoryStockType
+	 * InventorySpecialStockType
+	 * MaterialDocument
+	 * Customer
+	 * SalesOrder
+	 * SalesOrderItem
+	 * SalesOrderScheduleLine
+	 * AccountAssignmentCategory
+	 * MaterialDocumentItem
+	 * WBSElement
+	 * ManufacturingOrder
+	 * ManufacturingOrderItem
+	 * MaterialDocumentYear
+	 * GoodsMovementReasonCode
+	 * InventoryValuationType
+	 * CostCenter
+	 * ControllingArea
+	 * CostObject
+	 * ProfitabilitySegment
+	 * ProfitCenter
+	 * GLAccount
+	 * FunctionalArea
+	 * MaterialBaseUnit
+	 * QuantityInBaseUnit
+	 * Batch
+	 * Supplier
+	 * CompanyCodeCurrency
+	 * GdsMvtExtAmtInCoCodeCrcy
+	 * SlsPrcAmtInclVATInCoCodeCrcy
+	 * FiscalYear
+	 * FiscalYearPeriod
+	 * FiscalYearVariant
+	 * IssgOrRcvgMaterial
+	 * IssgOrRcvgBatch
+	 * IssuingOrReceivingPlant
+	 * IssuingOrReceivingStorageLoc
+	 * to_SerialNumbers
+	 * IssgOrRcvgSpclStockInd
+	 * IssuingOrReceivingValType
+	 * IsCompletelyDelivered
+	 * MaterialDocumentItemText
+	 * UnloadingPointName
+	 * ShelfLifeExpirationDate
+	 * ManufactureDate
+	 * SerialNumbersAreCreatedAutomly
+	 * Reservation
+	 * ReservationItem
+	 * ReservationIsFinallyIssued
+	 * SpecialStockIdfgSalesOrder
+	 * SpecialStockIdfgSalesOrderItem
+	 * SpecialStockIdfgWBSElement
+	 * IsAutomaticallyCreated
+	 * MaterialDocumentLine
+	 * MaterialDocumentParentLine
+	 * HierarchyNodeLevel
+	 * GoodsMovementIsCancelled
+	 * ReversedMaterialDocumentYear
+	 * ReversedMaterialDocument
+	 * ReversedMaterialDocumentItem
+	 * to_MaterialDocumentHeader
+	 * IssuingOrReceivingStockType
+
+## A_MaterialDocumentItem
+	 * Material
+	 * Plant
+	 * StorageLocation
+	 * GoodsMovementType
+	 * EntryUnit
+	 * QuantityInEntryUnit
+	 * AccountAssignmentCategory
+	 * MaterialDocumentItem
+	 * InventoryStockType
+	 * InventoryValuationType
+	 * InventorySpecialStockType
+	 * MaterialDocument
+	 * Customer
+	 * SalesOrder
+	 * SalesOrderItem
+	 * SalesOrderScheduleLine
+	 * PurchaseOrder
+	 * PurchaseOrderItem
+	 * WBSElement
+	 * ManufacturingOrder
+	 * ManufacturingOrderItem
+	 * GoodsMovementRefDocType
+	 * GoodsMovementReasonCode
+	 * MaterialDocumentYear
+	 * CostCenter
+	 * ControllingArea
+	 * CostObject
+	 * ProfitabilitySegment
+	 * ProfitCenter
+	 * GLAccount
+	 * FunctionalArea
+	 * MaterialBaseUnit
+	 * QuantityInBaseUnit
+	 * Batch
+	 * Supplier
+	 * CompanyCodeCurrency
+	 * GdsMvtExtAmtInCoCodeCrcy
+	 * SlsPrcAmtInclVATInCoCodeCrcy
+	 * FiscalYear
+	 * FiscalYearPeriod
+	 * FiscalYearVariant
+	 * IssgOrRcvgMaterial
+	 * IssgOrRcvgBatch
+	 * IssuingOrReceivingPlant
+	 * IssuingOrReceivingStorageLoc
+	 * to_SerialNumbers
+	 * IssgOrRcvgSpclStockInd
+	 * IssuingOrReceivingValType
+	 * IsCompletelyDelivered
+	 * MaterialDocumentItemText
+	 * UnloadingPointName
+	 * ShelfLifeExpirationDate
+	 * ManufactureDate
+	 * SerialNumbersAreCreatedAutomly
+	 * Reservation
+	 * ReservationItem
+	 * ReservationIsFinallyIssued
+	 * SpecialStockIdfgSalesOrder
+	 * SpecialStockIdfgSalesOrderItem
+	 * SpecialStockIdfgWBSElement
+	 * IsAutomaticallyCreated
+	 * MaterialDocumentLine
+	 * MaterialDocumentParentLine
+	 * HierarchyNodeLevel
+	 * GoodsMovementIsCancelled
+	 * ReversedMaterialDocumentYear
+	 * ReversedMaterialDocument
+	 * ReversedMaterialDocumentItem
+	 * to_MaterialDocumentHeader
+	 * IssuingOrReceivingStockType
+
+## A_MaterialDocumentItem
+	 * Material
+	 * Plant
+	 * StorageLocation
+	 * GoodsMovementType
+	 * EntryUnit
+	 * QuantityInEntryUnit
+	 * CostCenter
+	 * IssuingOrReceivingPlant
+	 * IssuingOrReceivingStorageLoc
+	 * IssgOrRcvgMaterial
+	 * AccountAssignmentCategory
+	 * MaterialDocument
+	 * Customer
+	 * SalesOrder
+	 * SalesOrderItem
+	 * SalesOrderScheduleLine
+	 * PurchaseOrder
+	 * PurchaseOrderItem
+	 * WBSElement
+	 * ManufacturingOrder
+	 * ManufacturingOrderItem
+	 * GoodsMovementRefDocType
+	 * GoodsMovementReasonCode
+	 * MaterialDocumentYear
+	 * MaterialDocumentItem
+	 * ControllingArea
+	 * CostObject
+	 * ProfitabilitySegment
+	 * ProfitCenter
+	 * GLAccount
+	 * FunctionalArea
+	 * MaterialBaseUnit
+	 * QuantityInBaseUnit
+	 * Batch
+	 * Supplier
+	 * CompanyCodeCurrency
+	 * GdsMvtExtAmtInCoCodeCrcy
+	 * SlsPrcAmtInclVATInCoCodeCrcy
+	 * FiscalYear
+	 * FiscalYearPeriod
+	 * FiscalYearVariant
+	 * InventoryStockType
+	 * IssgOrRcvgBatch
+	 * InventoryValuationType
+	 * InventorySpecialStockType
+	 * to_SerialNumbers
+	 * IssgOrRcvgSpclStockInd
+	 * IssuingOrReceivingValType
+	 * IsCompletelyDelivered
+	 * MaterialDocumentItemText
+	 * UnloadingPointName
+	 * ShelfLifeExpirationDate
+	 * ManufactureDate
+	 * SerialNumbersAreCreatedAutomly
+	 * Reservation
+	 * ReservationItem
+	 * ReservationIsFinallyIssued
+	 * SpecialStockIdfgSalesOrder
+	 * SpecialStockIdfgSalesOrderItem
+	 * SpecialStockIdfgWBSElement
+	 * IsAutomaticallyCreated
+	 * MaterialDocumentLine
+	 * MaterialDocumentParentLine
+	 * HierarchyNodeLevel
+	 * GoodsMovementIsCancelled
+	 * ReversedMaterialDocumentYear
+	 * ReversedMaterialDocument
+	 * ReversedMaterialDocumentItem
+	 * to_MaterialDocumentHeader
+	 * IssuingOrReceivingStockType
+
+## A_MaterialDocumentItem
+	 * Material
+	 * Plant
+	 * StorageLocation
+	 * GoodsMovementType
+	 * EntryUnit
+	 * QuantityInEntryUnit
+	 * ManufacturingOrder
+	 * ManufacturingOrderItem
+	 * GoodsMovementRefDocType
+	 * CostCenter
+	 * AccountAssignmentCategory
+	 * MaterialDocument
+	 * Customer
+	 * SalesOrder
+	 * SalesOrderItem
+	 * SalesOrderScheduleLine
+	 * PurchaseOrder
+	 * PurchaseOrderItem
+	 * WBSElement
+	 * MaterialDocumentYear
+	 * InventoryStockType
+	 * InventoryValuationType
+	 * GoodsMovementReasonCode
+	 * InventorySpecialStockType
+	 * MaterialDocumentItem
+	 * ControllingArea
+	 * CostObject
+	 * ProfitabilitySegment
+	 * ProfitCenter
+	 * GLAccount
+	 * FunctionalArea
+	 * MaterialBaseUnit
+	 * QuantityInBaseUnit
+	 * Batch
+	 * Supplier
+	 * CompanyCodeCurrency
+	 * GdsMvtExtAmtInCoCodeCrcy
+	 * SlsPrcAmtInclVATInCoCodeCrcy
+	 * FiscalYear
+	 * FiscalYearPeriod
+	 * FiscalYearVariant
+	 * IssgOrRcvgMaterial
+	 * IssgOrRcvgBatch
+	 * IssuingOrReceivingPlant
+	 * IssuingOrReceivingStorageLoc
+	 * to_SerialNumbers
+	 * IssgOrRcvgSpclStockInd
+	 * IssuingOrReceivingValType
+	 * IsCompletelyDelivered
+	 * MaterialDocumentItemText
+	 * UnloadingPointName
+	 * ShelfLifeExpirationDate
+	 * ManufactureDate
+	 * SerialNumbersAreCreatedAutomly
+	 * Reservation
+	 * ReservationItem
+	 * ReservationIsFinallyIssued
+	 * SpecialStockIdfgSalesOrder
+	 * SpecialStockIdfgSalesOrderItem
+	 * SpecialStockIdfgWBSElement
+	 * IsAutomaticallyCreated
+	 * MaterialDocumentLine
+	 * MaterialDocumentParentLine
+	 * HierarchyNodeLevel
+	 * GoodsMovementIsCancelled
+	 * ReversedMaterialDocumentYear
+	 * ReversedMaterialDocument
+	 * ReversedMaterialDocumentItem
+	 * to_MaterialDocumentHeader
+	 * IssuingOrReceivingStockType
+
+## A_MaterialDocumentItem
+	 * Material
+	 * Plant
+	 * StorageLocation
+	 * GoodsMovementType
+	 * EntryUnit
+	 * QuantityInEntryUnit
+	 * IssuingOrReceivingPlant
+	 * IssuingOrReceivingStorageLoc
+	 * IssgOrRcvgMaterial
+	 * CostCenter
+	 * AccountAssignmentCategory
+	 * MaterialDocument
+	 * Customer
+	 * SalesOrder
+	 * SalesOrderItem
+	 * SalesOrderScheduleLine
+	 * PurchaseOrder
+	 * PurchaseOrderItem
+	 * WBSElement
+	 * ManufacturingOrder
+	 * ManufacturingOrderItem
+	 * GoodsMovementRefDocType
+	 * GoodsMovementReasonCode
+	 * MaterialDocumentYear
+	 * MaterialDocumentItem
+	 * ControllingArea
+	 * CostObject
+	 * ProfitabilitySegment
+	 * ProfitCenter
+	 * GLAccount
+	 * FunctionalArea
+	 * MaterialBaseUnit
+	 * QuantityInBaseUnit
+	 * Batch
+	 * Supplier
+	 * CompanyCodeCurrency
+	 * GdsMvtExtAmtInCoCodeCrcy
+	 * SlsPrcAmtInclVATInCoCodeCrcy
+	 * FiscalYear
+	 * FiscalYearPeriod
+	 * FiscalYearVariant
+	 * InventoryStockType
+	 * IssgOrRcvgBatch
+	 * InventoryValuationType
+	 * InventorySpecialStockType
+	 * to_SerialNumbers
+	 * IssgOrRcvgSpclStockInd
+	 * IssuingOrReceivingValType
+	 * IsCompletelyDelivered
+	 * MaterialDocumentItemText
+	 * UnloadingPointName
+	 * ShelfLifeExpirationDate
+	 * ManufactureDate
+	 * SerialNumbersAreCreatedAutomly
+	 * Reservation
+	 * ReservationItem
+	 * ReservationIsFinallyIssued
+	 * SpecialStockIdfgSalesOrder
+	 * SpecialStockIdfgSalesOrderItem
+	 * SpecialStockIdfgWBSElement
+	 * IsAutomaticallyCreated
+	 * MaterialDocumentLine
+	 * MaterialDocumentParentLine
+	 * HierarchyNodeLevel
+	 * GoodsMovementIsCancelled
+	 * ReversedMaterialDocumentYear
+	 * ReversedMaterialDocument
+	 * ReversedMaterialDocumentItem
+	 * to_MaterialDocumentHeader
+	 * IssuingOrReceivingStockType
+
+## A_MaterialDocumentItem
+	 * Material
+	 * Plant
+	 * StorageLocation
+	 * GoodsMovementType
+	 * EntryUnit
+	 * QuantityInEntryUnit
+	 * ManufacturingOrder
+	 * ManufacturingOrderItem
+	 * GoodsMovementRefDocType
+	 * PurchaseOrder
+	 * PurchaseOrderItem
+	 * InventoryStockType
+	 * Customer
+	 * SalesOrder
+	 * SalesOrderItem
+	 * SalesOrderScheduleLine
+	 * AccountAssignmentCategory
+	 * MaterialDocumentItem
+	 * WBSElement
+	 * InventoryValuationType
+	 * InventorySpecialStockType
+	 * MaterialDocumentYear
+	 * GoodsMovementReasonCode
+	 * MaterialDocument
+	 * CostCenter
+	 * ControllingArea
+	 * CostObject
+	 * ProfitabilitySegment
+	 * ProfitCenter
+	 * GLAccount
+	 * FunctionalArea
+	 * MaterialBaseUnit
+	 * QuantityInBaseUnit
+	 * Batch
+	 * Supplier
+	 * CompanyCodeCurrency
+	 * GdsMvtExtAmtInCoCodeCrcy
+	 * SlsPrcAmtInclVATInCoCodeCrcy
+	 * FiscalYear
+	 * FiscalYearPeriod
+	 * FiscalYearVariant
+	 * IssgOrRcvgMaterial
+	 * IssgOrRcvgBatch
+	 * IssuingOrReceivingPlant
+	 * IssuingOrReceivingStorageLoc
+	 * to_SerialNumbers
+	 * IssgOrRcvgSpclStockInd
+	 * IssuingOrReceivingValType
+	 * IsCompletelyDelivered
+	 * MaterialDocumentItemText
+	 * UnloadingPointName
+	 * ShelfLifeExpirationDate
+	 * ManufactureDate
+	 * SerialNumbersAreCreatedAutomly
+	 * Reservation
+	 * ReservationItem
+	 * ReservationIsFinallyIssued
+	 * SpecialStockIdfgSalesOrder
+	 * SpecialStockIdfgSalesOrderItem
+	 * SpecialStockIdfgWBSElement
+	 * IsAutomaticallyCreated
+	 * MaterialDocumentLine
+	 * MaterialDocumentParentLine
+	 * HierarchyNodeLevel
+	 * GoodsMovementIsCancelled
+	 * ReversedMaterialDocumentYear
+	 * ReversedMaterialDocument
+	 * ReversedMaterialDocumentItem
+	 * to_MaterialDocumentHeader
+	 * IssuingOrReceivingStockType
+
+## A_MaterialDocumentItem
+	 * Material
+	 * Plant
+	 * StorageLocation
+	 * GoodsMovementType
+	 * EntryUnit
+	 * QuantityInEntryUnit
+	 * ManufacturingOrder
+	 * ManufacturingOrderItem
+	 * GoodsMovementRefDocType
+	 * CostCenter
+	 * InventorySpecialStockType
+	 * MaterialDocument
+	 * Customer
+	 * SalesOrder
+	 * SalesOrderItem
+	 * SalesOrderScheduleLine
+	 * PurchaseOrder
+	 * PurchaseOrderItem
+	 * WBSElement
+	 * MaterialDocumentYear
+	 * InventoryStockType
+	 * InventoryValuationType
+	 * GoodsMovementReasonCode
+	 * AccountAssignmentCategory
+	 * MaterialDocumentItem
+	 * ControllingArea
+	 * CostObject
+	 * ProfitabilitySegment
+	 * ProfitCenter
+	 * GLAccount
+	 * FunctionalArea
+	 * MaterialBaseUnit
+	 * QuantityInBaseUnit
+	 * Batch
+	 * Supplier
+	 * CompanyCodeCurrency
+	 * GdsMvtExtAmtInCoCodeCrcy
+	 * SlsPrcAmtInclVATInCoCodeCrcy
+	 * FiscalYear
+	 * FiscalYearPeriod
+	 * FiscalYearVariant
+	 * IssgOrRcvgMaterial
+	 * IssgOrRcvgBatch
+	 * IssuingOrReceivingPlant
+	 * IssuingOrReceivingStorageLoc
+	 * IssuingOrReceivingStockType
+	 * IssgOrRcvgSpclStockInd
+	 * IssuingOrReceivingValType
+	 * IsCompletelyDelivered
+	 * MaterialDocumentItemText
+	 * UnloadingPointName
+	 * ShelfLifeExpirationDate
+	 * ManufactureDate
+	 * SerialNumbersAreCreatedAutomly
+	 * Reservation
+	 * ReservationItem
+	 * ReservationIsFinallyIssued
+	 * SpecialStockIdfgSalesOrder
+	 * SpecialStockIdfgSalesOrderItem
+	 * SpecialStockIdfgWBSElement
+	 * IsAutomaticallyCreated
+	 * MaterialDocumentLine
+	 * MaterialDocumentParentLine
+	 * HierarchyNodeLevel
+	 * GoodsMovementIsCancelled
+	 * ReversedMaterialDocumentYear
+	 * ReversedMaterialDocument
+	 * ReversedMaterialDocumentItem
+	 * to_MaterialDocumentHeader
+	 * to_SerialNumbers
+
+## A_MaterialDocumentItem
+	 * Material
+	 * Plant
+	 * StorageLocation
+	 * GoodsMovementType
+	 * EntryUnit
+	 * QuantityInEntryUnit
+	 * MaterialDocumentYear
+	 * MaterialDocumentItem
+	 * InventoryStockType
+	 * InventoryValuationType
+	 * InventorySpecialStockType
+	 * MaterialDocument
+	 * Customer
+	 * SalesOrder
+	 * SalesOrderItem
+	 * SalesOrderScheduleLine
+	 * PurchaseOrder
+	 * PurchaseOrderItem
+	 * WBSElement
+	 * ManufacturingOrder
+	 * ManufacturingOrderItem
+	 * GoodsMovementRefDocType
+	 * GoodsMovementReasonCode
+	 * AccountAssignmentCategory
+	 * CostCenter
+	 * ControllingArea
+	 * CostObject
+	 * ProfitabilitySegment
+	 * ProfitCenter
+	 * GLAccount
+	 * FunctionalArea
+	 * MaterialBaseUnit
+	 * QuantityInBaseUnit
+	 * Batch
+	 * Supplier
+	 * CompanyCodeCurrency
+	 * GdsMvtExtAmtInCoCodeCrcy
+	 * SlsPrcAmtInclVATInCoCodeCrcy
+	 * FiscalYear
+	 * FiscalYearPeriod
+	 * FiscalYearVariant
+	 * IssgOrRcvgMaterial
+	 * IssgOrRcvgBatch
+	 * IssuingOrReceivingPlant
+	 * IssuingOrReceivingStorageLoc
+	 * IssuingOrReceivingStockType
+	 * IssgOrRcvgSpclStockInd
+	 * IssuingOrReceivingValType
+	 * IsCompletelyDelivered
+	 * MaterialDocumentItemText
+	 * UnloadingPointName
+	 * ShelfLifeExpirationDate
+	 * ManufactureDate
+	 * SerialNumbersAreCreatedAutomly
+	 * Reservation
+	 * ReservationItem
+	 * ReservationIsFinallyIssued
+	 * SpecialStockIdfgSalesOrder
+	 * SpecialStockIdfgSalesOrderItem
+	 * SpecialStockIdfgWBSElement
+	 * IsAutomaticallyCreated
+	 * MaterialDocumentLine
+	 * MaterialDocumentParentLine
+	 * HierarchyNodeLevel
+	 * GoodsMovementIsCancelled
+	 * ReversedMaterialDocumentYear
+	 * ReversedMaterialDocument
+	 * ReversedMaterialDocumentItem
+	 * to_MaterialDocumentHeader
+	 * to_SerialNumbers
+
+## A_MaterialDocumentItem
+	 * Material
+	 * Plant
+	 * StorageLocation
+	 * GoodsMovementType
+	 * EntryUnit
+	 * QuantityInEntryUnit
+	 * CostCenter
+	 * AccountAssignmentCategory
+	 * InventoryStockType
+	 * InventoryValuationType
+	 * InventorySpecialStockType
+	 * MaterialDocument
+	 * Customer
+	 * SalesOrder
+	 * SalesOrderItem
+	 * SalesOrderScheduleLine
+	 * PurchaseOrder
+	 * PurchaseOrderItem
+	 * WBSElement
+	 * ManufacturingOrder
+	 * ManufacturingOrderItem
+	 * GoodsMovementRefDocType
+	 * GoodsMovementReasonCode
+	 * MaterialDocumentYear
+	 * MaterialDocumentItem
+	 * ControllingArea
+	 * CostObject
+	 * ProfitabilitySegment
+	 * ProfitCenter
+	 * GLAccount
+	 * FunctionalArea
+	 * MaterialBaseUnit
+	 * QuantityInBaseUnit
+	 * Batch
+	 * Supplier
+	 * CompanyCodeCurrency
+	 * GdsMvtExtAmtInCoCodeCrcy
+	 * SlsPrcAmtInclVATInCoCodeCrcy
+	 * FiscalYear
+	 * FiscalYearPeriod
+	 * FiscalYearVariant
+	 * IssgOrRcvgMaterial
+	 * IssgOrRcvgBatch
+	 * IssuingOrReceivingPlant
+	 * IssuingOrReceivingStorageLoc
+	 * to_SerialNumbers
+	 * IssgOrRcvgSpclStockInd
+	 * IssuingOrReceivingValType
+	 * IsCompletelyDelivered
+	 * MaterialDocumentItemText
+	 * UnloadingPointName
+	 * ShelfLifeExpirationDate
+	 * ManufactureDate
+	 * SerialNumbersAreCreatedAutomly
+	 * Reservation
+	 * ReservationItem
+	 * ReservationIsFinallyIssued
+	 * SpecialStockIdfgSalesOrder
+	 * SpecialStockIdfgSalesOrderItem
+	 * SpecialStockIdfgWBSElement
+	 * IsAutomaticallyCreated
+	 * MaterialDocumentLine
+	 * MaterialDocumentParentLine
+	 * HierarchyNodeLevel
+	 * GoodsMovementIsCancelled
+	 * ReversedMaterialDocumentYear
+	 * ReversedMaterialDocument
+	 * ReversedMaterialDocumentItem
+	 * to_MaterialDocumentHeader
+	 * IssuingOrReceivingStockType
+
+## A_MaterialStock
+	 * Material
+	 * MaterialBaseUnit
+	 * to_MatlStkInAcctMod
+
+## A_MaterialStock
+	 * Material
+	 * MaterialBaseUnit
+	 * to_MatlStkInAcctMod
+
+## A_MatlStkInAcctMod
+	 * Material
+	 * Plant
+	 * StorageLocation
+	 * Batch
+	 * Supplier
+	 * Customer
+	 * WBSElementInternalID
+	 * SDDocument
+	 * SDDocumentItem
+	 * InventorySpecialStockType
+	 * InventoryStockType
+	 * MaterialBaseUnit
+	 * MatlWrhsStkQtyInMatlBaseUnit
+	 * to_MaterialStock
+
+## A_MatlStkInAcctMod
+	 * Material
+	 * Plant
+	 * StorageLocation
+	 * Batch
+	 * Supplier
+	 * Customer
+	 * WBSElementInternalID
+	 * SDDocument
+	 * SDDocumentItem
+	 * InventorySpecialStockType
+	 * InventoryStockType
+	 * MaterialBaseUnit
+	 * MatlWrhsStkQtyInMatlBaseUnit
+	 * to_MaterialStock
+
+## A_MatlStkInAcctMod
+	 * Material
+	 * Plant
+	 * StorageLocation
+	 * Batch
+	 * Supplier
+	 * Customer
+	 * WBSElementInternalID
+	 * SDDocument
+	 * SDDocumentItem
+	 * InventorySpecialStockType
+	 * InventoryStockType
+	 * MaterialBaseUnit
+	 * MatlWrhsStkQtyInMatlBaseUnit
+	 * to_MaterialStock
+
+## A_MatlStkInAcctMod
+	 * Material
+	 * Plant
+	 * StorageLocation
+	 * Batch
+	 * Supplier
+	 * Customer
+	 * WBSElementInternalID
+	 * SDDocument
+	 * SDDocumentItem
+	 * InventorySpecialStockType
+	 * InventoryStockType
+	 * MaterialBaseUnit
+	 * MatlWrhsStkQtyInMatlBaseUnit
+	 * to_MaterialStock
+
+## A_POSubcontractingComponent
+	 * PurchaseOrder
+	 * PurchaseOrderItem
+	 * ScheduleLine
+	 * ReservationItem
+	 * RecordType
+	 * Material
+	 * BOMItemDescription
+	 * RequiredQuantity
+	 * BaseUnit
+	 * RequirementDate
+	 * QuantityInEntryUnit
+	 * EntryUnit
+	 * WithdrawnQuantity
+	 * Plant
+	 * Batch
+
+## A_PartnerCompany
+	 * PartnerCompany
+	 * CompanyName
+	 * Language
+
+## A_PhysInventoryDocHeader
+	 * PhysicalInventoryDocument
+	 * Plant
+	 * PhysicalInventoryCountStatus
+	 * StorageLocation
+	 * FiscalYear
+	 * InventoryTransactionType
+	 * InventorySpecialStockType
+	 * DocumentDate
+	 * PhysInventoryPlannedCountDate
+	 * PhysicalInventoryLastCountDate
+	 * PostingDate
+	 * FiscalPeriod
+	 * CreatedByUser
+	 * PostingIsBlockedForPhysInvtry
+	 * PhysInvtryAdjustmentPostingSts
+	 * PhysInvtryDeletionStatus
+	 * PhysInvtryDocHasQtySnapshot
+	 * PhysicalInventoryGroupType
+	 * PhysicalInventoryGroup
+	 * PhysicalInventoryNumber
+	 * PhysInventoryReferenceNumber
+	 * PhysicalInventoryDocumentDesc
+	 * PhysicalInventoryType
+	 * LastChangeDateTime
+	 * to_PhysicalInventoryDocumentItem
+
+## A_PhysInventoryDocHeader
+	 * PhysicalInventoryDocument
+	 * PhysicalInventoryCountStatus
+	 * FiscalYear
+	 * InventoryTransactionType
+	 * Plant
+	 * StorageLocation
+	 * InventorySpecialStockType
+	 * DocumentDate
+	 * PhysInventoryPlannedCountDate
+	 * PhysicalInventoryLastCountDate
+	 * PostingDate
+	 * FiscalPeriod
+	 * CreatedByUser
+	 * PostingIsBlockedForPhysInvtry
+	 * PhysInvtryAdjustmentPostingSts
+	 * PhysInvtryDeletionStatus
+	 * PhysInvtryDocHasQtySnapshot
+	 * PhysicalInventoryGroupType
+	 * PhysicalInventoryGroup
+	 * PhysicalInventoryNumber
+	 * PhysInventoryReferenceNumber
+	 * PhysicalInventoryDocumentDesc
+	 * PhysicalInventoryType
+	 * LastChangeDateTime
+	 * to_PhysicalInventoryDocumentItem
+
+## A_PhysInventoryDocHeader
+	 * PhysicalInventoryDocument
+	 * Plant
+	 * PhysicalInventoryCountStatus
+	 * StorageLocation
+	 * FiscalYear
+	 * InventoryTransactionType
+	 * InventorySpecialStockType
+	 * DocumentDate
+	 * PhysInventoryPlannedCountDate
+	 * PhysicalInventoryLastCountDate
+	 * PostingDate
+	 * FiscalPeriod
+	 * CreatedByUser
+	 * PostingIsBlockedForPhysInvtry
+	 * PhysInvtryAdjustmentPostingSts
+	 * PhysInvtryDeletionStatus
+	 * PhysInvtryDocHasQtySnapshot
+	 * PhysicalInventoryGroupType
+	 * PhysicalInventoryGroup
+	 * PhysicalInventoryNumber
+	 * PhysInventoryReferenceNumber
+	 * PhysicalInventoryDocumentDesc
+	 * PhysicalInventoryType
+	 * LastChangeDateTime
+	 * to_PhysicalInventoryDocumentItem
+
+## A_PhysInventoryDocItem
+	 * PhysicalInventoryDocument
+	 * PhysicalInventoryDocumentItem
+	 * PhysicalInventoryItemIsCounted
+	 * Plant
+	 * StorageLocation
+	 * Material
+	 * UnitOfEntry
+	 * QuantityInUnitOfEntry
+	 * FiscalYear
+	 * MaterialDocument
+	 * MaterialDocumentYear
+	 * PhysInventoryReferenceNumber
+	 * MaterialBaseUnit
+	 * Quantity
+	 * CountedByUser
+	 * LastChangeDate
+	 * InventorySpecialStockType
+	 * PhysicalInventoryLastCountDate
+	 * AdjustmentPostingMadeByUser
+	 * PostingDate
+	 * Batch
+	 * PhysInvtryDifferenceIsPosted
+	 * PhysInvtryItemIsRecounted
+	 * PhysInvtryItemIsDeleted
+	 * IsHandledInAltvUnitOfMsr
+	 * CycleCountType
+	 * IsValueOnlyMaterial
+	 * SalesOrderItem
+	 * Supplier
+	 * Customer
+	 * to_PhysicalInventoryDocument
+	 * PhysInvtryRecountDocument
+	 * PhysicalInventoryItemIsZero
+	 * ReasonForPhysInvtryDifference
+	 * WBSElement
+	 * BookQtyBfrCountInMatlBaseUnit
+	 * LastChangeUser
+	 * PhysicalInventoryStockType
+	 * SalesOrder
+	 * Currency
+	 * DifferenceAmountInCoCodeCrcy
+	 * EnteredSlsAmtInCoCodeCrcy
+	 * SlsPriceAmountInCoCodeCrcy
+	 * PhysInvtryCtAmtInCoCodeCrcy
+	 * BookQtyAmountInCoCodeCrcy
+	 * LastChangeDateTime
+	 * MaterialDocumentItem
+
+## A_PhysInventoryDocItem
+	 * PhysicalInventoryDocument
+	 * Plant
+	 * PhysicalInventoryCountStatus
+	 * StorageLocation
+	 * FiscalYear
+	 * InventoryTransactionType
+	 * InventorySpecialStockType
+	 * DocumentDate
+	 * PhysInventoryPlannedCountDate
+	 * PhysicalInventoryLastCountDate
+	 * PostingDate
+	 * FiscalPeriod
+	 * CreatedByUser
+	 * PostingIsBlockedForPhysInvtry
+	 * PhysInvtryAdjustmentPostingSts
+	 * PhysInvtryDeletionStatus
+	 * PhysInvtryDocHasQtySnapshot
+	 * PhysicalInventoryGroupType
+	 * PhysicalInventoryGroup
+	 * PhysicalInventoryNumber
+	 * PhysInventoryReferenceNumber
+	 * PhysicalInventoryDocumentDesc
+	 * PhysicalInventoryType
+	 * LastChangeDateTime
+	 * to_PhysicalInventoryDocumentItem
+
+## A_PhysInventoryDocItem
+	 * PhysicalInventoryDocument
+	 * PhysicalInventoryDocumentItem
+	 * PhysicalInventoryItemIsCounted
+	 * Plant
+	 * StorageLocation
+	 * Material
+	 * UnitOfEntry
+	 * QuantityInUnitOfEntry
+	 * FiscalYear
+	 * MaterialDocument
+	 * MaterialDocumentYear
+	 * PhysInventoryReferenceNumber
+	 * MaterialBaseUnit
+	 * Quantity
+	 * InventorySpecialStockType
+	 * LastChangeDate
+	 * CountedByUser
+	 * PhysicalInventoryLastCountDate
+	 * AdjustmentPostingMadeByUser
+	 * PostingDate
+	 * Batch
+	 * PhysInvtryDifferenceIsPosted
+	 * PhysInvtryItemIsRecounted
+	 * PhysInvtryItemIsDeleted
+	 * IsHandledInAltvUnitOfMsr
+	 * CycleCountType
+	 * IsValueOnlyMaterial
+	 * SalesOrderItem
+	 * Supplier
+	 * Customer
+	 * MaterialDocumentItem
+	 * PhysInvtryRecountDocument
+	 * PhysicalInventoryItemIsZero
+	 * ReasonForPhysInvtryDifference
+	 * WBSElement
+	 * BookQtyBfrCountInMatlBaseUnit
+	 * LastChangeUser
+	 * PhysicalInventoryStockType
+	 * SalesOrder
+	 * Currency
+	 * DifferenceAmountInCoCodeCrcy
+	 * EnteredSlsAmtInCoCodeCrcy
+	 * SlsPriceAmountInCoCodeCrcy
+	 * PhysInvtryCtAmtInCoCodeCrcy
+	 * BookQtyAmountInCoCodeCrcy
+	 * LastChangeDateTime
+	 * to_PhysicalInventoryDocument
+
+## A_PhysInventoryDocItem
+	 * PhysicalInventoryDocument
+	 * PhysicalInventoryDocumentItem
+	 * PhysicalInventoryItemIsCounted
+	 * Plant
+	 * StorageLocation
+	 * Material
+	 * UnitOfEntry
+	 * QuantityInUnitOfEntry
+	 * FiscalYear
+	 * MaterialDocument
+	 * MaterialDocumentYear
+	 * PhysInventoryReferenceNumber
+	 * MaterialBaseUnit
+	 * Quantity
+	 * InventorySpecialStockType
+	 * LastChangeDate
+	 * CountedByUser
+	 * PhysicalInventoryLastCountDate
+	 * AdjustmentPostingMadeByUser
+	 * PostingDate
+	 * Batch
+	 * PhysInvtryDifferenceIsPosted
+	 * PhysInvtryItemIsRecounted
+	 * PhysInvtryItemIsDeleted
+	 * IsHandledInAltvUnitOfMsr
+	 * CycleCountType
+	 * IsValueOnlyMaterial
+	 * SalesOrderItem
+	 * Supplier
+	 * Customer
+	 * MaterialDocumentItem
+	 * PhysInvtryRecountDocument
+	 * PhysicalInventoryItemIsZero
+	 * ReasonForPhysInvtryDifference
+	 * WBSElement
+	 * BookQtyBfrCountInMatlBaseUnit
+	 * LastChangeUser
+	 * PhysicalInventoryStockType
+	 * SalesOrder
+	 * Currency
+	 * DifferenceAmountInCoCodeCrcy
+	 * EnteredSlsAmtInCoCodeCrcy
+	 * SlsPriceAmountInCoCodeCrcy
+	 * PhysInvtryCtAmtInCoCodeCrcy
+	 * BookQtyAmountInCoCodeCrcy
+	 * LastChangeDateTime
+	 * to_PhysicalInventoryDocument
+
+## A_PlanCostRate
+	 * AccountingCostRateUUID
+	 * CompanyCode
+	 * CostCenter
+	 * ActivityType
+	 * ValidityStartFiscalYearPeriod
+	 * ValidityEndFiscalYearPeriod
+	 * Currency
+	 * CostRateFixedAmount
+	 * CostRateVarblAmount
+	 * CostRateScaleFactor
+	 * CostCtrActivityTypeQtyUnit
+	 * CostRateIsOverwriteMode
+
+## A_PlannedOrder
+	 * PlannedOrder
+	 * PlannedOrderType
+	 * PlannedOrderProfile
+	 * Material
+	 * MaterialName
+	 * ProductionPlant
+	 * MRPPlant
+	 * MRPArea
+	 * ProductionVersion
+	 * MaterialProcurementCategory
+	 * MaterialProcurementType
+	 * StorageLocation
+	 * BaseUnit
+	 * TotalQuantity
+	 * PlndOrderPlannedScrapQty
+	 * GoodsReceiptQty
+	 * IssuedQuantity
+	 * PlndOrderPlannedStartDate
+	 * PlndOrderPlannedStartTime
+	 * PlndOrderPlannedEndDate
+	 * PlndOrderPlannedEndTime
+	 * PlannedOrderOpeningDate
+	 * LastChangeDateTime
+	 * ProductionStartDate
+	 * ProductionEndDate
+	 * SalesOrder
+	 * SalesOrderItem
+	 * Customer
+	 * WBSElementInternalID
+	 * WBSElement
+	 * WBSDescription
+	 * AccountAssignmentCategory
+	 * Reservation
+	 * MRPController
+	 * ProductionSupervisor
+	 * PurchasingGroup
+	 * PurchasingOrganization
+	 * FixedSupplier
+	 * PurchasingDocument
+	 * PurchasingDocumentItem
+	 * QuotaArrangement
+	 * QuotaArrangementItem
+	 * SupplierName
+	 * PlannedOrderIsFirm
+	 * PlannedOrderIsConvertible
+	 * PlannedOrderBOMIsFixed
+	 * PlannedOrderCapacityIsDsptchd
+	 * CapacityRequirement
+	 * CapacityRequirementOrigin
+	 * BillOfOperationsType
+	 * BillOfOperationsGroup
+	 * BillOfOperations
+	 * LastScheduledDate
+	 * ScheduledBasicEndDate
+	 * ScheduledBasicEndTime
+	 * ScheduledBasicStartDate
+	 * ScheduledBasicStartTime
+	 * SchedulingType
+	 * to_PlannedOrderCapacity
+	 * to_PlannedOrderComponent
+
+## A_PlannedOrderCapacity
+	 * CapacityRequirement
+	 * CapacityRequirementItem
+	 * CapacityRqmtItemCapacity
+	 * PlannedOrder
+	 * PlannedOrderType
+	 * Sequence
+	 * Operation
+	 * SubOperation
+	 * WorkCenter
+	 * CapacityCategoryCode
+	 * Capacity
+	 * MRPController
+	 * MRPPlant
+	 * OperationLatestStartDate
+	 * OperationLatestStartTime
+	 * OperationLatestEndDate
+	 * OperationLatestEndTime
+	 * OperationEarliestStartDate
+	 * OperationEarliestStartTime
+	 * OperationEarliestEndDate
+	 * OperationEarliestEndTime
+	 * OpLtstSchedldProcgStrtDte
+	 * OpLtstSchedldProcgStrtTme
+	 * OpLtstSchedldTrdwnStrtDte
+	 * OpLtstSchedldTrdwnStrtTme
+	 * ScheduledBasicEndTime
+	 * ScheduledBasicStartTime
+	 * CapacityRequirementUnit
+	 * UnitOfMeasureISOCode
+	 * ScheduledCapReqOpSegSetupDurn
+	 * RemainingCapReqOpSegSetupDurn
+	 * ScheduledCapReqOpSegProcgDurn
+	 * RemainingCapReqOpSegProcgDurn
+	 * ScheduledCapReqOpSegTrdwnDurn
+	 * RemainingCapReqOpSegTrdwnDurn
+	 * WrkCntrHasLeadingCap
+	 * OperationText
+	 * LastChangeDateTime
+
+## A_PlannedOrderComponent
+
+## A_PrftCtrCompanyCodeAssignment
+	 * ControllingArea
+	 * ProfitCenter
+	 * CompanyCode
+
+## A_ProcessOrder
+	 * ProcessOrder
+	 * ProductionPlant
+	 * OrderInternalBillOfOperations
+	 * OrderIsCreated
+	 * OrderIsReleased
+	 * OrderIsPrinted
+	 * OrderIsConfirmed
+	 * OrderIsPartiallyConfirmed
+	 * OrderIsDelivered
+	 * OrderIsDeleted
+	 * OrderIsPreCosted
+	 * SettlementRuleIsCreated
+	 * OrderIsPartiallyReleased
+	 * OrderIsLocked
+	 * OrderIsTechnicallyCompleted
+	 * OrderIsClosed
+	 * OrderIsPartiallyDelivered
+	 * OrderIsMarkedForDeletion
+	 * SettlementRuleIsCrtedManually
+	 * OrderIsScheduled
+	 * OrderHasGeneratedOperations
+	 * OrderIsToBeHandledInBatches
+	 * MaterialAvailyIsNotChecked
+	 * Material
+	 * MaterialName
+	 * ProductionUnit
+	 * TotalQuantity
+	 * ManufacturingOrderType
+	 * MRPArea
+	 * ManufacturingObject
+	 * Plant
+	 * MfgOrderConfirmedYieldQty
+	 * MfgOrderPlannedStartDate
+	 * MfgOrderPlannedStartTime
+	 * MfgOrderPlannedEndDate
+	 * MfgOrderPlannedEndTime
+	 * MfgOrderScheduledStartDate
+	 * MfgOrderScheduledStartTime
+	 * MfgOrderScheduledEndDate
+	 * MfgOrderScheduledEndTime
+	 * SalesOrder
+	 * SalesOrderItem
+	 * PlannedOrder
+	 * CustomerName
+	 * WBSElement
+	 * WBSElementInternalID
+	 * WBSDescription
+	 * CompanyCode
+	 * FunctionalArea
+	 * PlannedCostsCostingVariant
+	 * ActualCostsCostingVariant
+	 * UserID
+	 * ProductionVersion
+	 * MRPController
+	 * ProductionSupervisor
+	 * ManufacturingOrderCategory
+	 * BusinessArea
+	 * MfgOrderPlannedScrapQty
+	 * ProfitCenter
+	 * ManufacturingOrderImportance
+	 * OrderSequenceNumber
+	 * MfgOrderCreationDate
+	 * MfgOrderCreationTime
+	 * MfgOrderActualReleaseDate
+	 * GoodsRecipientName
+	 * MaterialGoodsReceiptDuration
+	 * InventoryUsabilityCode
+	 * UnloadingPointName
+	 * QuantityDistributionKey
+	 * StockSegment
+	 * StorageLocation
+	 * LastChangeDateTime
+	 * BasicSchedulingType
+	 * to_ProcessOrderComponent
+	 * to_ProcessOrderItem
+	 * to_ProcessOrderOperation
+	 * to_ProcessOrderStatus
+
+## A_ProcessOrderComponent
+
+## A_ProcessOrderComponent_2
+
+## A_ProcessOrderItem
+	 * ManufacturingOrder
+	 * ManufacturingOrderItem
+	 * ManufacturingOrderCategory
+	 * ManufacturingOrderType
+	 * ProductionPlant
+	 * Material
+	 * MRPPlant
+	 * MfgOrderItemActualDeliveryDate
+	 * MfgOrderItemPlannedTotalQty
+	 * MfgOrderItemPlannedScrapQty
+	 * MfgOrderItemGoodsReceiptQty
+	 * MfgOrderItemActualDeviationQty
+	 * ProductionUnit
+	 * MRPArea
+	 * StorageLocation
+	 * MfgOrderItemPlndDeliveryDate
+	 * GoodsRecipientName
+	 * MaterialGoodsReceiptDuration
+	 * InventoryUsabilityCode
+	 * UnloadingPointName
+	 * QuantityDistributionKey
+	 * StockSegment
+	 * Batch
+
+## A_ProcessOrderItem_2
+
+## A_ProcessOrderOperation
+	 * OrderInternalBillOfOperations
+	 * OrderIntBillOfOperationsItem
+	 * ManufacturingOrder
+	 * ManufacturingOrderOperation
+	 * MfgOrderOperationIsPhase
+	 * ManufacturingOrderSequence
+	 * MfgOrderSequenceText
+	 * MfgOrderOperationText
+	 * ManufacturingOrderType
+	 * BusinessProcessEntryUnit
+	 * ManufacturingOrderCategory
+	 * WorkCenterTypeCode
+	 * WorkCenter
+	 * OpErlstSchedldExecStrtDte
+	 * OpErlstSchedldExecStrtTme
+	 * OpErlstSchedldExecEndDte
+	 * OpErlstSchedldExecEndTme
+	 * OpActualExecutionStartDate
+	 * OpActualExecutionStartTime
+	 * OpActualExecutionEndDate
+	 * OpActualExecutionEndTime
+	 * OperationUnit
+	 * OpPlannedTotalQuantity
+	 * ErlstSchedldExecDurnInWorkdays
+	 * OpActualExecutionDays
+	 * OpTotalConfirmedYieldQty
+	 * WorkCenterInternalID
+	 * LastChangeDateTime
+	 * ManufacturingOrderSubOperation
+	 * OperationControlProfile
+
+## A_ProcessOrderOperation_2
+	 * OrderInternalBillOfOperations
+	 * OrderIntBillOfOperationsItem
+	 * ManufacturingOrder
+	 * ManufacturingOrderSequence
+	 * MfgOrderSequenceText
+	 * ManufacturingOrderOperation
+	 * ManufacturingOrderSubOperation
+	 * ManufacturingOrderCategory
+	 * ManufacturingOrderType
+	 * MfgOrderOperationText
+	 * OperationIsCreated
+	 * OperationIsReleased
+	 * OperationIsPrinted
+	 * OperationIsConfirmed
+	 * OperationIsPartiallyConfirmed
+	 * OperationIsDeleted
+	 * OperationIsTechlyCompleted
+	 * OperationIsClosed
+	 * OperationIsScheduled
+	 * OperationIsPartiallyDelivered
+	 * OperationIsDelivered
+	 * ProductionPlant
+	 * WorkCenterInternalID
+	 * WorkCenterTypeCode
+	 * WorkCenter
+	 * OperationControlProfile
+	 * OpErlstSchedldExecStrtDte
+	 * OpErlstSchedldExecStrtTme
+	 * OpErlstSchedldExecEndDte
+	 * OpErlstSchedldExecEndTme
+	 * OpActualExecutionStartDate
+	 * OpActualExecutionStartTime
+	 * OpActualExecutionEndDate
+	 * OpActualExecutionEndTime
+	 * ErlstSchedldExecDurnInWorkdays
+	 * OpActualExecutionDays
+	 * OperationUnit
+	 * OpPlannedTotalQuantity
+	 * OpTotalConfirmedYieldQty
+	 * LastChangeDateTime
+
+## A_ProcessOrderProdnRsceTools_2
+	 * OrderInternalBillOfOperations
+	 * MfgOrderOpProdnRsceToolIntID
+	 * ProdnRsceToolCategory
+	 * ProdnRsceToolCategoryName
+	 * ManufacturingOrder
+	 * ManufacturingOrderCategory
+	 * ManufacturingOrderType
+	 * ProductionPlant
+	 * EarliestSchedldUsageStartDate
+	 * EarliestSchedldUsageStartTime
+	 * EarliestSchedldUsageEndDate
+	 * EarliestSchedldUsageEndTime
+	 * LatestSchedldUsageStartDate
+	 * LatestSchedldUsageStartTime
+	 * LatestSchedldUsageEndDate
+	 * LatestSchedldUsageEndTime
+	 * PlannedProdnRsceToolQtyUnit
+	 * PlannedTotalProdnRsceToolQty
+	 * ConfirmedProdnRsceToolQtyUnit
+	 * ConfirmedProdnRsceToolQty
+	 * ProdnRsceToolUsageQuantityUnit
+	 * ProdnRsceToolUsageQuantity
+
+## A_ProcessOrderStatus
+	 * ManufacturingOrder
+	 * StatusCode
+	 * IsUserStatus
+	 * StatusShortName
+	 * StatusName
+
+## A_ProcessOrderStatus_2
+	 * ManufacturingOrder
+	 * StatusCode
+	 * IsUserStatus
+	 * StatusShortName
+	 * StatusName
+
+## A_ProcessOrder_2
+	 * ManufacturingOrder
+	 * ManufacturingOrderCategory
+	 * ManufacturingOrderType
+	 * ManufacturingOrderImportance
+	 * OrderIsCreated
+	 * OrderIsReleased
+	 * OrderIsPrinted
+	 * OrderIsConfirmed
+	 * OrderIsPartiallyConfirmed
+	 * OrderIsDelivered
+	 * OrderIsDeleted
+	 * OrderIsPreCosted
+	 * SettlementRuleIsCreated
+	 * OrderIsPartiallyReleased
+	 * OrderIsLocked
+	 * OrderIsTechnicallyCompleted
+	 * OrderIsClosed
+	 * OrderIsPartiallyDelivered
+	 * OrderIsMarkedForDeletion
+	 * SettlementRuleIsCrtedManually
+	 * OrderIsScheduled
+	 * OrderHasGeneratedOperations
+	 * OrderIsToBeHandledInBatches
+	 * MaterialAvailyIsNotChecked
+	 * MfgOrderCreationDate
+	 * MfgOrderCreationTime
+	 * LastChangeDateTime
+	 * Material
+	 * StorageLocation
+	 * GoodsRecipientName
+	 * UnloadingPointName
+	 * InventoryUsabilityCode
+	 * MaterialGoodsReceiptDuration
+	 * QuantityDistributionKey
+	 * StockSegment
+	 * OrderInternalBillOfOperations
+	 * ProductionPlant
+	 * Plant
+	 * MRPArea
+	 * MRPController
+	 * ProductionSupervisor
+	 * ProductionVersion
+	 * PlannedOrder
+	 * SalesOrder
+	 * SalesOrderItem
+	 * BasicSchedulingType
+	 * ManufacturingObject
+	 * ProductConfiguration
+	 * OrderSequenceNumber
+	 * BusinessArea
+	 * CompanyCode
+	 * ProfitCenter
+	 * ActualCostsCostingVariant
+	 * PlannedCostsCostingVariant
+	 * FunctionalArea
+	 * MfgOrderPlannedStartDate
+	 * MfgOrderPlannedStartTime
+	 * MfgOrderPlannedEndDate
+	 * MfgOrderPlannedEndTime
+	 * MfgOrderScheduledStartDate
+	 * MfgOrderScheduledStartTime
+	 * MfgOrderScheduledEndDate
+	 * MfgOrderScheduledEndTime
+	 * MfgOrderActualReleaseDate
+	 * ProductionUnit
+	 * TotalQuantity
+	 * MfgOrderPlannedScrapQty
+	 * MfgOrderConfirmedYieldQty
+	 * CustomerName
+	 * WBSElementExternalID
+	 * OrderLongText
+	 * to_ProcessOrderComponent
+	 * to_ProcessOrderItem
+	 * to_ProcessOrderOperation
+	 * to_ProcessOrderStatus
+	 * to_ProcessProdnRsceTools
+
+## A_ProdAllocCharcMetaData
+	 * CharacteristicsMetaDataUUID
+	 * CharacteristicsMetaDataUUID_Text
+	 * ProductAllocationObjectUUID
+	 * ProductAllocationObject
+	 * ProdAllocOrdinalNumberValue
+	 * to_ProdAllocationObjectTP
+
+## A_ProdAllocCharcValCombn
+	 * CharcValueCombinationUUID
+	 * ProductAllocationObjectUUID
+	 * ProductAllocationObject
+	 * ProdAllocCharc01
+	 * ProdAllocCharc02
+	 * ProdAllocCharc03
+	 * ProdAllocCharc04
+	 * ProdAllocCharc05
+	 * ProdAllocCharc06
+	 * ProdAllocCharc07
+	 * ProdAllocCharc08
+	 * ProdAllocCharc09
+	 * ProdAllocCharc10
+	 * ProdAllocCharcConstraintStatus
+	 * ProdAllocationActivationStatus
+	 * CharcValAuthznGroup
+	 * to_ProdAllocationObjectTP
+	 * to_ProdAllocObjTimeSeriesTP
+
+## A_ProdAllocObjTimeSeries
+	 * ProdAllocationTimeSeriesUUID
+	 * ProductAllocationObjectUUID
+	 * CharcValueCombinationUUID
+	 * ProdAllocPerdStartUTCDateTime
+	 * ProdAllocPeriodStartTimeZone
+	 * ProdAllocPeriodEndUTCDateTime
+	 * ProdAllocPeriodEndTimeZone
+	 * ProductAllocationQuantity
+	 * ProductAllocationQuantityUnit
+	 * to_ProdAllocCharcValCombnTP
+	 * to_ProdAllocationObjectTP
+
+## A_ProdAllocSequenceT
+	 * ProductAllocationSequenceUUID
+	 * Language
+	 * ProductAllocationSequenceDesc
+	 * to_ProdAllocationSequenceTP
+
+## A_ProdAllocSqncAssgmt
+	 * ProdAllocSqncAssignmentUUID
+	 * ProductAllocationSequenceUUID
+	 * ProductAllocationSequence
+	 * Material
+	 * Plant
+	 * ValidityStartUTCDateTime
+	 * ValidityStartTimeZone
+	 * ValidityEndUTCDateTime
+	 * ValidityEndTimeZone
+	 * to_ProdAllocationSequenceTP
+
+## A_ProdAllocationObject
+	 * ProductAllocationObjectUUID
+	 * ProductAllocationObject
+	 * ProductAllocationObject_Text
+	 * ProductAllocationPeriodType
+	 * ProdAllocationPeriodTimeZone
+	 * FactoryCalendar
+	 * ProdAllocCheckDateTimeType
+	 * ProductAllocationQuantityUnit
+	 * CollectiveAllocationType
+	 * CreationDateTime
+	 * CreatedByUser
+	 * LastChangeDateTime
+	 * LastChangedByUser
+	 * to_ProdAllocationObjectTTP
+	 * to_ProdAllocCharcMetaDataTP
+	 * to_ProdAllocCharcValCombnTP
+
+## A_ProdAllocationObjectT
+	 * ProductAllocationObjectUUID
+	 * Language
+	 * ProdAllocObjectDescription
+	 * to_ProdAllocationObjectTP
+
+## A_ProdAllocationSequence
+	 * ProductAllocationSequenceUUID
+	 * ProductAllocationSequence
+	 * ProductAllocationSequence_Text
+	 * ProdAllocSqncConsumptionUnit
+	 * CreationDateTime
+	 * CreatedByUser
+	 * LastChangeDateTime
+	 * LastChangedByUser
+	 * to_ProdAllocSequenceTTP
+	 * to_ProdAllocSqncAssgmtTP
+
+## A_Product
+	 * ANPCode
+	 * Product
+	 * ProductType
+	 * CrossPlantStatus
+	 * CrossPlantStatusValidityDate
+	 * CreationDate
+	 * CreatedByUser
+	 * LastChangeDate
+	 * LastChangedByUser
+	 * LastChangeDateTime
+	 * IsMarkedForDeletion
+	 * ProductOldID
+	 * GrossWeight
+	 * PurchaseOrderQuantityUnit
+	 * SourceOfSupply
+	 * WeightUnit
+	 * NetWeight
+	 * CountryOfOrigin
+	 * CompetitorID
+	 * ProductGroup
+	 * BaseUnit
+	 * ItemCategoryGroup
+	 * ProductHierarchy
+	 * Division
+	 * VarblPurOrdUnitIsActive
+	 * VolumeUnit
+	 * MaterialVolume
+	 * __metadata
+	 * Brand
+	 * ProcurementRule
+	 * ValidityStartDate
+	 * LowLevelCode
+	 * ProdNoInGenProdInPrepackProd
+	 * SerialIdentifierAssgmtProfile
+	 * SizeOrDimensionText
+	 * IndustryStandardName
+	 * ProductStandardID
+	 * InternationalArticleNumberCat
+	 * ProductIsConfigurable
+	 * IsBatchManagementRequired
+	 * ExternalProductGroup
+	 * CrossPlantConfigurableProduct
+	 * SerialNoExplicitnessLevel
+	 * ProductManufacturerNumber
+	 * ManufacturerNumber
+	 * ManufacturerPartProfile
+	 * QltyMgmtInProcmtIsActive
+	 * ChangeNumber
+	 * MaterialRevisionLevel
+	 * HandlingIndicator
+	 * WarehouseProductGroup
+	 * WarehouseStorageCondition
+	 * StandardHandlingUnitType
+	 * to_Valuation
+	 * AdjustmentProfile
+	 * PreferredUnitOfMeasure
+	 * IsPilferable
+	 * IsRelevantForHzdsSubstances
+	 * QuarantinePeriod
+	 * TimeUnitForQuarantinePeriod
+	 * QualityInspectionGroup
+	 * AuthorizationGroup
+	 * HandlingUnitType
+	 * HasVariableTareWeight
+	 * MaximumPackagingLength
+	 * MaximumPackagingWidth
+	 * MaximumPackagingHeight
+	 * UnitForMaxPackagingDimensions
+	 * to_Description
+	 * to_Plant
+	 * to_ProductBasicText
+	 * to_ProductInspectionText
+	 * to_ProductProcurement
+	 * to_ProductPurchaseText
+	 * to_ProductQualityMgmt
+	 * to_ProductSales
+	 * to_ProductSalesTax
+	 * to_ProductStorage
+	 * to_ProductUnitsOfMeasure
+	 * to_SalesDelivery
+	 * SerialNumberProfile
+
+## A_Product
+	 * ANPCode
+	 * Product
+	 * ProductType
+	 * CrossPlantStatus
+	 * CrossPlantStatusValidityDate
+	 * CreationDate
+	 * CreatedByUser
+	 * LastChangeDate
+	 * LastChangedByUser
+	 * LastChangeDateTime
+	 * IsMarkedForDeletion
+	 * ProductOldID
+	 * GrossWeight
+	 * PurchaseOrderQuantityUnit
+	 * SourceOfSupply
+	 * WeightUnit
+	 * NetWeight
+	 * CountryOfOrigin
+	 * CompetitorID
+	 * ProductGroup
+	 * BaseUnit
+	 * ItemCategoryGroup
+	 * ProductHierarchy
+	 * Division
+	 * VarblPurOrdUnitIsActive
+	 * VolumeUnit
+	 * MaterialVolume
+	 * __metadata
+	 * Brand
+	 * ProcurementRule
+	 * ValidityStartDate
+	 * LowLevelCode
+	 * ProdNoInGenProdInPrepackProd
+	 * SerialIdentifierAssgmtProfile
+	 * SizeOrDimensionText
+	 * IndustryStandardName
+	 * ProductStandardID
+	 * InternationalArticleNumberCat
+	 * ProductIsConfigurable
+	 * IsBatchManagementRequired
+	 * ExternalProductGroup
+	 * CrossPlantConfigurableProduct
+	 * SerialNoExplicitnessLevel
+	 * ProductManufacturerNumber
+	 * ManufacturerNumber
+	 * ManufacturerPartProfile
+	 * QltyMgmtInProcmtIsActive
+	 * ChangeNumber
+	 * MaterialRevisionLevel
+	 * HandlingIndicator
+	 * WarehouseProductGroup
+	 * WarehouseStorageCondition
+	 * StandardHandlingUnitType
+	 * to_Valuation
+	 * AdjustmentProfile
+	 * PreferredUnitOfMeasure
+	 * IsPilferable
+	 * IsRelevantForHzdsSubstances
+	 * QuarantinePeriod
+	 * TimeUnitForQuarantinePeriod
+	 * QualityInspectionGroup
+	 * AuthorizationGroup
+	 * HandlingUnitType
+	 * HasVariableTareWeight
+	 * MaximumPackagingLength
+	 * MaximumPackagingWidth
+	 * MaximumPackagingHeight
+	 * UnitForMaxPackagingDimensions
+	 * to_Description
+	 * to_Plant
+	 * to_ProductBasicText
+	 * to_ProductInspectionText
+	 * to_ProductProcurement
+	 * to_ProductPurchaseText
+	 * to_ProductQualityMgmt
+	 * to_ProductSales
+	 * to_ProductSalesTax
+	 * to_ProductStorage
+	 * to_ProductUnitsOfMeasure
+	 * to_SalesDelivery
+	 * SerialNumberProfile
+
+## A_Product
+	 * __metadata
+	 * Product
+	 * ProductType
+	 * CrossPlantStatus
+	 * CrossPlantStatusValidityDate
+	 * CreationDate
+	 * CreatedByUser
+	 * LastChangeDate
+	 * LastChangedByUser
+	 * LastChangeDateTime
+	 * IsMarkedForDeletion
+	 * ProductOldID
+	 * GrossWeight
+	 * PurchaseOrderQuantityUnit
+	 * SourceOfSupply
+	 * WeightUnit
+	 * NetWeight
+	 * CountryOfOrigin
+	 * CompetitorID
+	 * ProductGroup
+	 * BaseUnit
+	 * ItemCategoryGroup
+	 * ProductHierarchy
+	 * Division
+	 * VarblPurOrdUnitIsActive
+	 * VolumeUnit
+	 * MaterialVolume
+	 * ANPCode
+	 * Brand
+	 * ProcurementRule
+	 * ValidityStartDate
+	 * LowLevelCode
+	 * ProdNoInGenProdInPrepackProd
+	 * SerialIdentifierAssgmtProfile
+	 * SizeOrDimensionText
+	 * IndustryStandardName
+	 * ProductStandardID
+	 * InternationalArticleNumberCat
+	 * ProductIsConfigurable
+	 * IsBatchManagementRequired
+	 * ExternalProductGroup
+	 * CrossPlantConfigurableProduct
+	 * SerialNoExplicitnessLevel
+	 * ProductManufacturerNumber
+	 * ManufacturerNumber
+	 * ManufacturerPartProfile
+	 * QltyMgmtInProcmtIsActive
+	 * ChangeNumber
+	 * MaterialRevisionLevel
+	 * HandlingIndicator
+	 * WarehouseProductGroup
+	 * WarehouseStorageCondition
+	 * StandardHandlingUnitType
+	 * SerialNumberProfile
+	 * AdjustmentProfile
+	 * PreferredUnitOfMeasure
+	 * IsPilferable
+	 * IsRelevantForHzdsSubstances
+	 * QuarantinePeriod
+	 * TimeUnitForQuarantinePeriod
+	 * QualityInspectionGroup
+	 * AuthorizationGroup
+	 * HandlingUnitType
+	 * HasVariableTareWeight
+	 * MaximumPackagingLength
+	 * MaximumPackagingWidth
+	 * MaximumPackagingHeight
+	 * UnitForMaxPackagingDimensions
+	 * to_Description
+	 * to_Plant
+	 * to_ProductBasicText
+	 * to_ProductInspectionText
+	 * to_ProductProcurement
+	 * to_ProductPurchaseText
+	 * to_ProductQualityMgmt
+	 * to_ProductSales
+	 * to_ProductSalesTax
+	 * to_ProductStorage
+	 * to_ProductUnitsOfMeasure
+	 * to_SalesDelivery
+	 * to_Valuation
+
+## A_ProductBasicText
+	 * Product
+	 * Language
+	 * LongText
+
+## A_ProductCharc
+	 * Product
+	 * CharcInternalID
+	 * ClassType
+	 * KeyDate
+	 * ChangeNumber
+	 * to_Valuation
+
+## A_ProductCharcValue
+	 * __metadata
+	 * Product
+	 * ClassType
+	 * CharcInternalID
+	 * CharcValuePositionNumber
+	 * KeyDate
+	 * ChangeNumber
+	 * CharcValueDependency
+	 * CharcValue
+	 * CharcFromNumericValue
+	 * CharcFromNumericValueUnit
+	 * CharcToNumericValue
+	 * CharcToNumericValueUnit
+	 * CharcFromDecimalValue
+	 * CharcToDecimalValue
+	 * CharcFromAmount
+	 * CharcToAmount
+	 * Currency
+	 * CharcFromDate
+	 * CharcToDate
+	 * CharcFromTime
+	 * CharcToTime
+	 * CharacteristicAuthor
+	 * CharcMaintAuthGrp
+
+## A_ProductClass
+	 * Product
+	 * ClassInternalID
+	 * KeyDate
+	 * ChangeNumber
+	 * ClassType
+	 * to_Characteristics
+	 * to_ClassDetails
+
+## A_ProductClassCharc
+	 * Product
+	 * ClassInternalID
+	 * CharcInternalID
+	 * KeyDate
+	 * ChangeNumber
+	 * ClassType
+	 * to_Valuation
+
+## A_ProductDescription
+	 * Product
+	 * Language
+	 * ProductDescription
+
+## A_ProductDescription
+	 * Product
+	 * Language
+	 * ProductDescription
+
+## A_ProductInspectionText
+	 * Product
+	 * Language
+	 * LongText
+
+## A_ProductMLAccount
+	 * Product
+	 * ValuationArea
+	 * ValuationType
+	 * CurrencyRole
+	 * Currency
+	 * ProductPriceControl
+	 * PriceUnitQty
+	 * MovingAveragePrice
+	 * StandardPrice
+
+## A_ProductMLPrices
+	 * Product
+	 * ValuationArea
+	 * ValuationType
+	 * CurrencyRole
+	 * Currency
+	 * FuturePrice
+	 * FuturePriceValidityStartDate
+	 * PlannedPrice
+
+## A_ProductPlant
+
+## A_ProductPlant
+
+## A_ProductPlantCosting
+	 * Product
+	 * Plant
+	 * IsCoProduct
+	 * CostingLotSize
+	 * VarianceKey
+	 * BaseUnit
+	 * TaskListGroupCounter
+	 * TaskListGroup
+	 * TaskListType
+	 * CostingProductionVersion
+	 * IsFixedPriceCoProduct
+	 * CostingSpecialProcurementType
+	 * SourceBOMAlternative
+	 * ProductBOMUsage
+	 * ProductIsCostingRelevant
+
+## A_ProductPlantForecasting
+	 * Product
+	 * Plant
+	 * ConsumptionRefUsageEndDate
+	 * ConsumptionQtyMultiplier
+	 * ConsumptionReferenceProduct
+	 * ConsumptionReferencePlant
+
+## A_ProductPlantIntlTrd
+	 * Product
+	 * Plant
+	 * CountryOfOrigin
+	 * RegionOfOrigin
+	 * ConsumptionTaxCtrlCode
+	 * ProductCASNumber
+	 * ProdIntlTradeClassification
+	 * ExportAndImportProductGroup
+
+## A_ProductPlantMRPArea
+
+## A_ProductPlantProcurement
+
+## A_ProductPlantProcurement
+
+## A_ProductPlantQualityMgmt
+	 * Product
+	 * Plant
+	 * MaximumStoragePeriod
+	 * QualityMgmtCtrlKey
+	 * MatlQualityAuthorizationGroup
+	 * HasPostToInspectionStock
+	 * InspLotDocumentationIsRequired
+	 * SuplrQualityManagementSystem
+	 * RecrrgInspIntervalTimeInDays
+	 * ProductQualityCertificateType
+
+## A_ProductPlantSales
+	 * Product
+	 * Plant
+	 * LoadingGroup
+	 * ReplacementPartType
+	 * CapPlanningQuantityInBaseUoM
+	 * ProductShippingProcessingTime
+	 * WrkCentersShipgSetupTimeInDays
+	 * AvailabilityCheckType
+	 * BaseUnit
+
+## A_ProductPlantStorage
+	 * Product
+	 * Plant
+	 * InventoryForCycleCountInd
+	 * ProvisioningServiceLevel
+	 * CycleCountingIndicatorIsFixed
+	 * ProdMaximumStoragePeriodUnit
+	 * WrhsMgmtPtwyAndStkRemovalStrgy
+
+## A_ProductPlantText
+	 * Product
+	 * Plant
+	 * LongText
+
+## A_ProductProcurement
+	 * Product
+	 * PurchaseOrderQuantityUnit
+	 * VarblPurOrdUnitStatus
+	 * PurchasingAcknProfile
+
+## A_ProductPurchaseText
+	 * Product
+	 * Language
+	 * LongText
+
+## A_ProductQualityMgmt
+
+## A_ProductSales
+	 * Product
+	 * SalesStatus
+	 * SalesStatusValidityDate
+	 * TaxClassification
+	 * TransportationGroup
+
+## A_ProductSalesDelivery
+
+## A_ProductSalesDelivery
+
+## A_ProductSalesTax
+	 * Product
+	 * Country
+	 * TaxCategory
+	 * TaxClassification
+
+## A_ProductSalesTax
+	 * Product
+	 * Country
+	 * TaxCategory
+	 * TaxClassification
+
+## A_ProductSalesText
+
+## A_ProductStorage
+	 * Product
+	 * StorageConditions
+	 * TemperatureConditionInd
+	 * HazardousMaterialNumber
+	 * NmbrOfGROrGISlipsToPrintQty
+	 * LabelType
+	 * LabelForm
+	 * MinRemainingShelfLife
+	 * ExpirationDate
+	 * ShelfLifeExpirationDatePeriod
+	 * TotalShelfLife
+	 * BaseUnit
+
+## A_ProductStorageLocation
+
+## A_ProductStorageLocation
+
+## A_ProductSupplyPlanning
+
+## A_ProductSupplyPlanning
+	 * Product
+	 * Plant
+	 * FixedLotSizeQuantity
+	 * MaximumLotSizeQuantity
+	 * MinimumLotSizeQuantity
+	 * LotSizeRoundingQuantity
+	 * LotSizingProcedure
+	 * MRPType
+	 * MRPResponsible
+	 * SafetyStockQuantity
+	 * MinimumSafetyStockQuantity
+	 * PlanningTimeFence
+	 * ABCIndicator
+	 * MaximumStockQuantity
+	 * ReorderThresholdQuantity
+	 * PlannedDeliveryDurationInDays
+	 * SafetyDuration
+	 * PlanningStrategyGroup
+	 * TotalReplenishmentLeadTime
+	 * ProcurementType
+	 * ProcurementSubType
+	 * AssemblyScrapPercent
+	 * AvailabilityCheckType
+	 * GoodsReceiptDuration
+	 * MRPGroup
+	 * BaseUnit
+
+## A_ProductUnitsOfMeasure
+
+## A_ProductUnitsOfMeasureEAN
+	 * Product
+	 * AlternativeUnit
+	 * ConsecutiveNumber
+	 * ProductStandardID
+	 * InternationalArticleNumberCat
+	 * IsMainGlobalTradeItemNumber
+
+## A_ProductValuation
+	 * Product
+	 * ValuationArea
+	 * ValuationType
+	 * ValuationClass
+	 * PriceDeterminationControl
+	 * StandardPrice
+	 * PriceUnitQty
+	 * InventoryValuationProcedure
+	 * IsMarkedForDeletion
+	 * MovingAveragePrice
+	 * ValuationCategory
+	 * ProductUsageType
+	 * ProductOriginType
+	 * IsProducedInhouse
+	 * ProdCostEstNumber
+	 * ProjectStockValuationClass
+	 * ValuationClassSalesOrderStock
+	 * PlannedPrice1InCoCodeCrcy
+	 * PlannedPrice2InCoCodeCrcy
+	 * PlannedPrice3InCoCodeCrcy
+	 * FuturePlndPrice1ValdtyDate
+	 * FuturePlndPrice2ValdtyDate
+	 * FuturePlndPrice3ValdtyDate
+	 * TaxBasedPricesPriceUnitQty
+	 * PriceLastChangeDate
+	 * PlannedPrice
+	 * PrevInvtryPriceInCoCodeCrcy
+	 * Currency
+	 * BaseUnit
+	 * to_MLAccount
+	 * to_MLPrices
+	 * to_ValuationAccount
+	 * to_ValuationCosting
+
+## A_ProductValuationAccount
+
+## A_ProductValuationCosting
+	 * Product
+	 * ValuationArea
+	 * ValuationType
+	 * IsMaterialCostedWithQtyStruc
+	 * IsMaterialRelatedOrigin
+	 * CostOriginGroup
+	 * CostingOverheadGroup
+
+## A_ProductWorkScheduling
+
+## A_ProductWorkScheduling
+	 * Product
+	 * Plant
+	 * MaterialBaseQuantity
+	 * UnlimitedOverDelivIsAllowed
+	 * OverDelivToleranceLimit
+	 * UnderDelivToleranceLimit
+	 * ProductionInvtryManagedLoc
+	 * BaseUnit
+
+## A_ProductionOrder
+	 * ProductionOrder
+	 * ProductionPlant
+	 * OrderInternalBillOfOperations
+	 * OrderIsCreated
+	 * OrderIsReleased
+	 * OrderIsPrinted
+	 * OrderIsConfirmed
+	 * OrderIsPartiallyConfirmed
+	 * OrderIsDelivered
+	 * OrderIsDeleted
+	 * OrderIsPreCosted
+	 * SettlementRuleIsCreated
+	 * OrderIsPartiallyReleased
+	 * OrderIsLocked
+	 * OrderIsTechnicallyCompleted
+	 * OrderIsClosed
+	 * OrderIsPartiallyDelivered
+	 * OrderIsMarkedForDeletion
+	 * SettlementRuleIsCrtedManually
+	 * OrderIsScheduled
+	 * OrderHasGeneratedOperations
+	 * OrderIsToBeHandledInBatches
+	 * MaterialAvailyIsNotChecked
+	 * Material
+	 * MaterialName
+	 * ProductionUnit
+	 * TotalQuantity
+	 * ManufacturingOrderType
+	 * MRPArea
+	 * ManufacturingObject
+	 * Plant
+	 * MfgOrderConfirmedYieldQty
+	 * MfgOrderPlannedStartDate
+	 * MfgOrderPlannedStartTime
+	 * MfgOrderPlannedEndDate
+	 * MfgOrderPlannedEndTime
+	 * MfgOrderScheduledStartDate
+	 * MfgOrderScheduledStartTime
+	 * MfgOrderScheduledEndDate
+	 * MfgOrderScheduledEndTime
+	 * SalesOrder
+	 * SalesOrderItem
+	 * PlannedOrder
+	 * CustomerName
+	 * WBSElement
+	 * WBSElementInternalID
+	 * WBSDescription
+	 * CompanyCode
+	 * FunctionalArea
+	 * PlannedCostsCostingVariant
+	 * ActualCostsCostingVariant
+	 * UserID
+	 * ProductionVersion
+	 * MRPController
+	 * ProductionSupervisor
+	 * ManufacturingOrderCategory
+	 * BusinessArea
+	 * MfgOrderPlannedScrapQty
+	 * ProfitCenter
+	 * ManufacturingOrderImportance
+	 * OrderSequenceNumber
+	 * MfgOrderCreationDate
+	 * MfgOrderCreationTime
+	 * MfgOrderActualReleaseDate
+	 * GoodsRecipientName
+	 * MaterialGoodsReceiptDuration
+	 * InventoryUsabilityCode
+	 * UnloadingPointName
+	 * QuantityDistributionKey
+	 * StockSegment
+	 * StorageLocation
+	 * LastChangeDateTime
+	 * BasicSchedulingType
+	 * to_ProductionOrderComponent
+	 * to_ProductionOrderItem
+	 * to_ProductionOrderOperation
+	 * to_ProductionOrderStatus
+	 * to_ProductionRsceTools
+
+## A_ProductionOrderComponent
+	 * Reservation
+	 * ReservationItem
+	 * BillOfMaterialItemNumber
+	 * BOMItemDescription
+	 * Material
+	 * Plant
+	 * ProductionPlant
+	 * MatlCompRequirementDate
+	 * BaseUnit
+	 * RequiredQuantity
+	 * WithdrawnQuantity
+	 * BOMItem
+	 * StorageLocation
+	 * SupplyArea
+	 * ManufacturingOrderSequence
+	 * ManufacturingOrder
+	 * ManufacturingOrderOperation
+	 * ManufacturingOrderCategory
+	 * ManufacturingOrderType
+	 * OrderInternalBillOfOperations
+	 * BOMItemText2
+	 * BOMItemCategory
+	 * BillOfMaterialCategory
+	 * SortField
+	 * GoodsRecipientName
+	 * UnloadingPointName
+	 * Batch
+	 * BatchSplitType
+
+## A_ProductionOrderComponent
+	 * Reservation
+	 * ReservationItem
+	 * BillOfMaterialItemNumber
+	 * BOMItemDescription
+	 * Material
+	 * Plant
+	 * ProductionPlant
+	 * MatlCompRequirementDate
+	 * BaseUnit
+	 * RequiredQuantity
+	 * WithdrawnQuantity
+	 * BOMItem
+	 * StorageLocation
+	 * SupplyArea
+	 * ManufacturingOrderSequence
+	 * ManufacturingOrder
+	 * ManufacturingOrderOperation
+	 * ManufacturingOrderCategory
+	 * ManufacturingOrderType
+	 * OrderInternalBillOfOperations
+	 * BOMItemText2
+	 * BOMItemCategory
+	 * BillOfMaterialCategory
+	 * SortField
+	 * GoodsRecipientName
+	 * UnloadingPointName
+	 * Batch
+	 * BatchSplitType
+
+## A_ProductionOrderComponent_2
+
+## A_ProductionOrderItem
+	 * ManufacturingOrder
+	 * ManufacturingOrderItem
+	 * ManufacturingOrderCategory
+	 * ManufacturingOrderType
+	 * ProductionPlant
+	 * Material
+	 * MRPPlant
+	 * MfgOrderItemActualDeliveryDate
+	 * MfgOrderItemPlannedTotalQty
+	 * MfgOrderItemPlannedScrapQty
+	 * MfgOrderItemGoodsReceiptQty
+	 * MfgOrderItemActualDeviationQty
+	 * ProductionUnit
+	 * MRPArea
+	 * StorageLocation
+	 * MfgOrderItemPlndDeliveryDate
+	 * GoodsRecipientName
+	 * MaterialGoodsReceiptDuration
+	 * InventoryUsabilityCode
+	 * UnloadingPointName
+	 * QuantityDistributionKey
+	 * StockSegment
+	 * Batch
+
+## A_ProductionOrderItem
+	 * ManufacturingOrder
+	 * ManufacturingOrderItem
+	 * ManufacturingOrderCategory
+	 * ManufacturingOrderType
+	 * ProductionPlant
+	 * Material
+	 * MRPPlant
+	 * MfgOrderItemActualDeliveryDate
+	 * MfgOrderItemPlannedTotalQty
+	 * MfgOrderItemPlannedScrapQty
+	 * MfgOrderItemGoodsReceiptQty
+	 * MfgOrderItemActualDeviationQty
+	 * ProductionUnit
+	 * MRPArea
+	 * StorageLocation
+	 * MfgOrderItemPlndDeliveryDate
+	 * GoodsRecipientName
+	 * MaterialGoodsReceiptDuration
+	 * InventoryUsabilityCode
+	 * UnloadingPointName
+	 * QuantityDistributionKey
+	 * StockSegment
+	 * Batch
+
+## A_ProductionOrderItem_2
+
+## A_ProductionOrderOperation
+	 * OrderInternalBillOfOperations
+	 * OrderIntBillOfOperationsItem
+	 * ManufacturingOrder
+	 * ManufacturingOrderOperation
+	 * MfgOrderOperationIsPhase
+	 * ManufacturingOrderSequence
+	 * MfgOrderSequenceText
+	 * MfgOrderOperationText
+	 * ManufacturingOrderType
+	 * BusinessProcessEntryUnit
+	 * ManufacturingOrderCategory
+	 * WorkCenterTypeCode
+	 * WorkCenter
+	 * OpErlstSchedldExecStrtDte
+	 * OpErlstSchedldExecStrtTme
+	 * OpErlstSchedldExecEndDte
+	 * OpErlstSchedldExecEndTme
+	 * OpActualExecutionStartDate
+	 * OpActualExecutionStartTime
+	 * OpActualExecutionEndDate
+	 * OpActualExecutionEndTime
+	 * OperationUnit
+	 * OpPlannedTotalQuantity
+	 * ErlstSchedldExecDurnInWorkdays
+	 * OpActualExecutionDays
+	 * OpTotalConfirmedYieldQty
+	 * WorkCenterInternalID
+	 * LastChangeDateTime
+
+## A_ProductionOrderOperation_2
+	 * OrderInternalBillOfOperations
+	 * OrderIntBillOfOperationsItem
+	 * ManufacturingOrder
+	 * ManufacturingOrderSequence
+	 * MfgOrderSequenceText
+	 * ManufacturingOrderOperation
+	 * ManufacturingOrderSubOperation
+	 * ManufacturingOrderCategory
+	 * ManufacturingOrderType
+	 * MfgOrderOperationText
+	 * OperationIsCreated
+	 * OperationIsReleased
+	 * OperationIsPrinted
+	 * OperationIsConfirmed
+	 * OperationIsPartiallyConfirmed
+	 * OperationIsDeleted
+	 * OperationIsTechlyCompleted
+	 * OperationIsClosed
+	 * OperationIsScheduled
+	 * OperationIsPartiallyDelivered
+	 * OperationIsDelivered
+	 * ProductionPlant
+	 * WorkCenterInternalID
+	 * WorkCenterTypeCode
+	 * WorkCenter
+	 * OperationControlProfile
+	 * OpErlstSchedldExecStrtDte
+	 * OpErlstSchedldExecStrtTme
+	 * OpErlstSchedldExecEndDte
+	 * OpErlstSchedldExecEndTme
+	 * OpActualExecutionStartDate
+	 * OpActualExecutionStartTime
+	 * OpActualExecutionEndDate
+	 * OpActualExecutionEndTime
+	 * ErlstSchedldExecDurnInWorkdays
+	 * OpActualExecutionDays
+	 * OperationUnit
+	 * OpPlannedTotalQuantity
+	 * OpTotalConfirmedYieldQty
+	 * LastChangeDateTime
+
+## A_ProductionOrderStatus
+	 * ManufacturingOrder
+	 * StatusCode
+	 * IsUserStatus
+	 * StatusShortName
+	 * StatusName
+
+## A_ProductionOrderStatus_2
+	 * ManufacturingOrder
+	 * StatusCode
+	 * IsUserStatus
+	 * StatusShortName
+	 * StatusName
+
+## A_ProductionOrder_2
+	 * ManufacturingOrder
+	 * ManufacturingOrderCategory
+	 * ManufacturingOrderType
+	 * ManufacturingOrderImportance
+	 * OrderIsCreated
+	 * OrderIsReleased
+	 * OrderIsPrinted
+	 * OrderIsConfirmed
+	 * OrderIsPartiallyConfirmed
+	 * OrderIsDelivered
+	 * OrderIsDeleted
+	 * OrderIsPreCosted
+	 * SettlementRuleIsCreated
+	 * OrderIsPartiallyReleased
+	 * OrderIsLocked
+	 * OrderIsTechnicallyCompleted
+	 * OrderIsClosed
+	 * OrderIsPartiallyDelivered
+	 * OrderIsMarkedForDeletion
+	 * SettlementRuleIsCrtedManually
+	 * OrderIsScheduled
+	 * OrderHasGeneratedOperations
+	 * OrderIsToBeHandledInBatches
+	 * MaterialAvailyIsNotChecked
+	 * MfgOrderCreationDate
+	 * MfgOrderCreationTime
+	 * LastChangeDateTime
+	 * Material
+	 * StorageLocation
+	 * GoodsRecipientName
+	 * UnloadingPointName
+	 * InventoryUsabilityCode
+	 * MaterialGoodsReceiptDuration
+	 * QuantityDistributionKey
+	 * StockSegment
+	 * OrderInternalBillOfOperations
+	 * ProductionPlant
+	 * Plant
+	 * MRPArea
+	 * MRPController
+	 * ProductionSupervisor
+	 * ProductionVersion
+	 * PlannedOrder
+	 * SalesOrder
+	 * SalesOrderItem
+	 * BasicSchedulingType
+	 * ManufacturingObject
+	 * ProductConfiguration
+	 * OrderSequenceNumber
+	 * BusinessArea
+	 * CompanyCode
+	 * ProfitCenter
+	 * ActualCostsCostingVariant
+	 * PlannedCostsCostingVariant
+	 * FunctionalArea
+	 * MfgOrderPlannedStartDate
+	 * MfgOrderPlannedStartTime
+	 * MfgOrderPlannedEndDate
+	 * MfgOrderPlannedEndTime
+	 * MfgOrderScheduledStartDate
+	 * MfgOrderScheduledStartTime
+	 * MfgOrderScheduledEndDate
+	 * MfgOrderScheduledEndTime
+	 * MfgOrderActualReleaseDate
+	 * ProductionUnit
+	 * TotalQuantity
+	 * MfgOrderPlannedScrapQty
+	 * MfgOrderConfirmedYieldQty
+	 * CustomerName
+	 * WBSElementExternalID
+	 * OrderLongText
+	 * to_ProductionOrderComponent
+	 * to_ProductionOrderItem
+	 * to_ProductionOrderOperation
+	 * to_ProductionOrderStatus
+	 * to_ProductionRsceTools
+
+## A_ProductionRsceTools
+	 * OrderInternalBillOfOperations
+	 * MfgOrderOpProdnRsceToolIntID
+	 * ManufacturingOrder
+	 * ProdnRsceToolCategory
+	 * ProdnRsceToolCategoryName
+	 * PlannedProdnRsceToolQtyUnit
+	 * PlannedTotalProdnRsceToolQty
+	 * ConfirmedProdnRsceToolQtyUnit
+	 * ConfirmedProdnRsceToolQty
+	 * ProdnRsceToolUsageQuantityUnit
+	 * ProdnRsceToolUsageQuantity
+	 * EarliestSchedldUsageStartDate
+	 * EarliestSchedldUsageStartTime
+	 * EarliestSchedldUsageEndDate
+	 * EarliestSchedldUsageEndTime
+	 * LatestSchedldUsageStartDate
+	 * LatestSchedldUsageStartTime
+	 * LatestSchedldUsageEndDate
+	 * LatestSchedldUsageEndTime
+	 * ManufacturingOrderType
+	 * ManufacturingOrderCategory
+	 * ProductionPlant
+
+## A_ProductionRsceTools_2
+	 * OrderInternalBillOfOperations
+	 * MfgOrderOpProdnRsceToolIntID
+	 * ProdnRsceToolCategory
+	 * ProdnRsceToolCategoryName
+	 * ManufacturingOrder
+	 * ManufacturingOrderCategory
+	 * ManufacturingOrderType
+	 * ProductionPlant
+	 * EarliestSchedldUsageStartDate
+	 * EarliestSchedldUsageStartTime
+	 * EarliestSchedldUsageEndDate
+	 * EarliestSchedldUsageEndTime
+	 * LatestSchedldUsageStartDate
+	 * LatestSchedldUsageStartTime
+	 * LatestSchedldUsageEndDate
+	 * LatestSchedldUsageEndTime
+	 * PlannedProdnRsceToolQtyUnit
+	 * PlannedTotalProdnRsceToolQty
+	 * ConfirmedProdnRsceToolQtyUnit
+	 * ConfirmedProdnRsceToolQty
+	 * ProdnRsceToolUsageQuantityUnit
+	 * ProdnRsceToolUsageQuantity
+
+## A_ProductionSupplyArea
+	 * __metadata
+	 * ProductionSupplyArea
+	 * Plant
+	 * StorageLocation
+	 * ProductionSupplyAreaRespPerson
+	 * UnloadingPointName
+	 * FactoryCalendar
+	 * ShiftGrouping
+	 * ShiftSequence
+	 * PullIntervalInWorkdays
+	 * PullIntervalInMinutes
+	 * UnloadingWarehouseStagingArea
+	 * ProductionSupplyAreaAddressID
+	 * LastChangeDateTime
+	 * to_ProductionSupplyAreaAddress
+	 * to_ProductionSupplyAreaText
+
+## A_ProductionSupplyAreaAddress
+
+## A_ProductionSupplyAreaText
+	 * ProductionSupplyArea
+	 * Plant
+	 * Language
+	 * ProductionSupplyAreaName
+	 * LastChangeDateTime
+
+## A_ProfitCenter
+	 * ControllingArea
+	 * ProfitCenter
+	 * ValidityEndDate
+	 * ProfitCtrResponsiblePersonName
+	 * CompanyCode
+	 * ProfitCtrResponsibleUser
+	 * ValidityStartDate
+	 * Department
+	 * ProfitCenterStandardHierarchy
+	 * Segment
+	 * ProfitCenterIsBlocked
+	 * FormulaPlanningTemplate
+	 * FormOfAddress
+	 * AddressName
+	 * AdditionalName
+	 * ProfitCenterAddrName3
+	 * ProfitCenterAddrName4
+	 * StreetAddressName
+	 * POBox
+	 * CityName
+	 * PostalCode
+	 * District
+	 * Country
+	 * Region
+	 * TaxJurisdiction
+	 * Language
+	 * PhoneNumber1
+	 * PhoneNumber2
+	 * TeleboxNumber
+	 * TelexNumber
+	 * FaxNumber
+	 * DataCommunicationPhoneNumber
+	 * ProfitCenterPrinterName
+	 * ProfitCenterCreatedByUser
+	 * ProfitCenterCreationDate
+	 * to_PrftCtrCompanyCodeAssignment
+	 * to_Text
+
+## A_ProfitCenterText
+	 * Language
+	 * ControllingArea
+	 * ProfitCenter
+	 * ValidityEndDate
+	 * ValidityStartDate
+	 * ProfitCenterName
+	 * ProfitCenterLongName
+	 * to_ProfitCenter
+
+## A_PurContrItemCondition
+
+## A_PurCtrAccount
+	 * AccountAssignment
+	 * PurchaseContractItem
+	 * PurchaseContract
+	 * IsDeleted
+	 * Quantity
+	 * OrderQuantityUnit
+	 * MultipleAcctAssgmtDistrPercent
+	 * PurgDocNetAmount
+	 * DocumentCurrency
+	 * GLAccount
+	 * BusinessArea
+	 * CostCenter
+	 * SalesOrder
+	 * SalesOrderItem
+	 * SalesOrderScheduleLine
+	 * MasterFixedAsset
+	 * FixedAsset
+	 * OrderID
+	 * GoodsRecipientName
+	 * UnloadingPointName
+	 * ControllingArea
+	 * CostObject
+	 * ProfitCenter
+	 * ProjectNetwork
+	 * RealEstateObject
+	 * PartnerAccountNumber
+	 * CommitmentItem
+	 * JointVentureRecoveryCode
+	 * FundsCenter
+	 * FunctionalArea
+	 * SettlementReferenceDate
+	 * TaxCode
+	 * TaxJurisdiction
+	 * NonDeductibleInputTaxAmount
+	 * CostCtrActivityType
+	 * BusinessProcess
+	 * EarmarkedFundsDocument
+	 * GrantID
+	 * BudgetPeriod
+	 * WBSElement
+
+## A_PurCtrAddress
+
+## A_PurCtrPartners
+
+## A_PurInfoRecdPrcgCndn
+
+## A_PurInfoRecdPrcgCndnValidity
+	 * ConditionRecord
+	 * ConditionValidityEndDate
+	 * ConditionValidityStartDate
+	 * ConditionApplication
+	 * ConditionType
+	 * PurgDocOrderQuantityUnit
+	 * PurchasingOrganization
+	 * PurchasingInfoRecordCategory
+	 * PurchasingInfoRecord
+	 * Supplier
+	 * MaterialGroup
+	 * Material
+	 * Plant
+	 * to_PurgInfoRecd
+	 * to_PurgInfoRecdOrgPlantData
+	 * to_PurInfoRecdPrcgCndn
+
+## A_PurInfoRecdSuplmntPrcgCndn
+
+## A_PurOrdAccountAssignment
+	 * PurchaseOrder
+	 * PurchaseOrderItem
+	 * AccountAssignmentNumber
+	 * IsDeleted
+	 * PurchaseOrderQuantityUnit
+	 * Quantity
+	 * MultipleAcctAssgmtDistrPercent
+	 * DocumentCurrency
+	 * PurgDocNetAmount
+	 * GLAccount
+	 * BusinessArea
+	 * CostCenter
+	 * SalesOrder
+	 * SalesOrderItem
+	 * SalesOrderScheduleLine
+	 * MasterFixedAsset
+	 * FixedAsset
+	 * GoodsRecipientName
+	 * UnloadingPointName
+	 * ControllingArea
+	 * CostObject
+	 * OrderID
+	 * ProfitCenter
+	 * WBSElementInternalID
+	 * WBSElement
+	 * WBSElementExternalID
+	 * ProjectNetwork
+	 * RealEstateObject
+	 * PartnerAccountNumber
+	 * CommitmentItem
+	 * JointVentureRecoveryCode
+	 * FundsCenter
+	 * Fund
+	 * FunctionalArea
+	 * SettlementReferenceDate
+	 * TaxCode
+	 * TaxJurisdiction
+	 * CostCtrActivityType
+	 * BusinessProcess
+	 * EarmarkedFundsDocument
+	 * GrantID
+	 * BudgetPeriod
+
+## A_PurOrdPricingElement
+
+## A_PurReqAddDelivery
+
+## A_PurReqnAcctAssgmt
+	 * PurchaseRequisition
+	 * PurchaseRequisitionItem
+	 * PurchaseReqnAcctAssgmtNumber
+	 * CostCenter
+	 * MasterFixedAsset
+	 * ProjectNetwork
+	 * BaseUnit
+	 * Quantity
+	 * MultipleAcctAssgmtDistrPercent
+	 * PurReqnItemCurrency
+	 * PurReqnNetAmount
+	 * IsDeleted
+	 * CostElement
+	 * GLAccount
+	 * BusinessArea
+	 * SDDocument
+	 * SalesOrder
+	 * SalesDocumentItem
+	 * SalesOrderItem
+	 * ScheduleLine
+	 * SalesOrderScheduleLine
+	 * FixedAsset
+	 * ProcessOrder
+	 * OrderID
+	 * UnloadingPointName
+	 * ControllingArea
+	 * CostObject
+	 * ProfitabilitySegment
+	 * ProfitCenter
+	 * ProjectNetworkInternalID
+	 * CommitmentItem
+	 * FundsCenter
+	 * Fund
+	 * FunctionalArea
+	 * CreationDate
+	 * GoodsRecipientName
+	 * RealEstateObject
+	 * NetworkActivityInternalID
+	 * PartnerAccountNumber
+	 * JointVentureRecoveryCode
+	 * SettlementReferenceDate
+	 * OrderInternalID
+	 * OrderIntBillOfOperationsItem
+	 * EarmarkedFundsDocument
+	 * CostCtrActivityType
+	 * BusinessProcess
+	 * GrantID
+	 * ValidityDate
+	 * ChartOfAccounts
+	 * WBSElement
+	 * PurchaseRequisitionType
+	 * Plant
+	 * PurchasingOrganization
+	 * PurchasingGroup
+
+## A_PurchaseContract
+
+## A_PurchaseContractItem
+
+## A_PurchaseOrder
+	 * PurchasingProcessingStatus
+	 * CashDiscount2Percent
+	 * CompanyCode
+	 * PurchaseOrderType
+	 * PurchasingDocumentDeletionCode
+	 * PurchaseOrder
+	 * CreatedByUser
+	 * CreationDate
+	 * LastChangeDateTime
+	 * Supplier
+	 * PurchaseOrderSubtype
+	 * Language
+	 * PaymentTerms
+	 * CashDiscount1Days
+	 * CashDiscount2Days
+	 * NetPaymentDays
+	 * CashDiscount1Percent
+	 * __metadata
+	 * PurchasingOrganization
+	 * PurchasingDocumentOrigin
+	 * PurchasingGroup
+	 * PurchaseOrderDate
+	 * DocumentCurrency
+	 * ExchangeRate
+	 * ExchangeRateIsFixed
+	 * ValidityStartDate
+	 * ValidityEndDate
+	 * SupplierQuotationExternalID
+	 * SupplierRespSalesPersonName
+	 * SupplierPhoneNumber
+	 * SupplyingSupplier
+	 * SupplyingPlant
+	 * IncotermsClassification
+	 * CorrespncExternalReference
+	 * CorrespncInternalReference
+	 * to_PurchaseOrderItem
+	 * ReleaseIsNotCompleted
+	 * PurchasingCompletenessStatus
+	 * IncotermsVersion
+	 * IncotermsLocation1
+	 * IncotermsLocation2
+	 * ManualSupplierAddressID
+	 * IsEndOfPurposeBlocked
+	 * AddressCityName
+	 * AddressFaxNumber
+	 * AddressHouseNumber
+	 * AddressName
+	 * AddressPostalCode
+	 * AddressStreetName
+	 * AddressPhoneNumber
+	 * AddressRegion
+	 * AddressCountry
+	 * AddressCorrespondenceLanguage
+	 * InvoicingParty
+
+## A_PurchaseOrder
+	 * PurchasingOrganization
+	 * CompanyCode
+	 * PurchaseOrderType
+	 * PurchasingDocumentDeletionCode
+	 * PurchasingProcessingStatus
+	 * CreatedByUser
+	 * CreationDate
+	 * LastChangeDateTime
+	 * Supplier
+	 * PurchaseOrderSubtype
+	 * Language
+	 * PaymentTerms
+	 * CashDiscount1Days
+	 * CashDiscount2Days
+	 * NetPaymentDays
+	 * CashDiscount1Percent
+	 * CashDiscount2Percent
+	 * PurchaseOrder
+	 * PurchasingDocumentOrigin
+	 * PurchasingGroup
+	 * PurchaseOrderDate
+	 * DocumentCurrency
+	 * ExchangeRate
+	 * ExchangeRateIsFixed
+	 * ValidityStartDate
+	 * ValidityEndDate
+	 * SupplierQuotationExternalID
+	 * SupplierRespSalesPersonName
+	 * SupplierPhoneNumber
+	 * SupplyingSupplier
+	 * SupplyingPlant
+	 * IncotermsClassification
+	 * CorrespncExternalReference
+	 * CorrespncInternalReference
+	 * InvoicingParty
+	 * to_PurchaseOrderNote
+	 * PurchasingCompletenessStatus
+	 * IncotermsVersion
+	 * IncotermsLocation1
+	 * IncotermsLocation2
+	 * ManualSupplierAddressID
+	 * IsEndOfPurposeBlocked
+	 * AddressCityName
+	 * AddressFaxNumber
+	 * AddressHouseNumber
+	 * AddressName
+	 * AddressPostalCode
+	 * AddressStreetName
+	 * AddressPhoneNumber
+	 * AddressRegion
+	 * AddressCountry
+	 * AddressCorrespondenceLanguage
+	 * to_PurchaseOrderItem
+	 * ReleaseIsNotCompleted
+	 * PurchaseOrderCopy
+
+## A_PurchaseOrder
+	 * PurchasingOrganization
+	 * CompanyCode
+	 * PurchaseOrderType
+	 * PurchasingDocumentDeletionCode
+	 * PurchasingProcessingStatus
+	 * CreatedByUser
+	 * CreationDate
+	 * LastChangeDateTime
+	 * Supplier
+	 * PurchaseOrderSubtype
+	 * Language
+	 * PaymentTerms
+	 * CashDiscount1Days
+	 * CashDiscount2Days
+	 * NetPaymentDays
+	 * CashDiscount1Percent
+	 * CashDiscount2Percent
+	 * PurchaseOrder
+	 * PurchasingDocumentOrigin
+	 * PurchasingGroup
+	 * PurchaseOrderDate
+	 * DocumentCurrency
+	 * ExchangeRate
+	 * ExchangeRateIsFixed
+	 * ValidityStartDate
+	 * ValidityEndDate
+	 * SupplierQuotationExternalID
+	 * SupplierRespSalesPersonName
+	 * SupplierPhoneNumber
+	 * SupplyingSupplier
+	 * SupplyingPlant
+	 * IncotermsClassification
+	 * CorrespncExternalReference
+	 * CorrespncInternalReference
+	 * InvoicingParty
+	 * to_PurchaseOrderNote
+	 * PurchasingCompletenessStatus
+	 * IncotermsVersion
+	 * IncotermsLocation1
+	 * IncotermsLocation2
+	 * ManualSupplierAddressID
+	 * IsEndOfPurposeBlocked
+	 * AddressCityName
+	 * AddressFaxNumber
+	 * AddressHouseNumber
+	 * AddressName
+	 * AddressPostalCode
+	 * AddressStreetName
+	 * AddressPhoneNumber
+	 * AddressRegion
+	 * AddressCountry
+	 * AddressCorrespondenceLanguage
+	 * to_PurchaseOrderItem
+	 * ReleaseIsNotCompleted
+
+## A_PurchaseOrderItem
+	 * __metadata
+	 * PurchaseOrder
+	 * PurchaseOrderItem
+	 * PurchasingDocumentDeletionCode
+	 * PurchaseOrderItemText
+	 * Plant
+	 * StorageLocation
+	 * MaterialGroup
+	 * PurchasingInfoRecord
+	 * SupplierMaterialNumber
+	 * OrderQuantity
+	 * PurchaseOrderQuantityUnit
+	 * OrderPriceUnit
+	 * OrderPriceUnitToOrderUnitNmrtr
+	 * OrdPriceUnitToOrderUnitDnmntr
+	 * DocumentCurrency
+	 * NetPriceAmount
+	 * NetPriceQuantity
+	 * TaxCode
+	 * PriceIsToBePrinted
+	 * OverdelivTolrtdLmtRatioInPct
+	 * UnlimitedOverdeliveryIsAllowed
+	 * UnderdelivTolrtdLmtRatioInPct
+	 * ValuationType
+	 * IsCompletelyDelivered
+	 * IsFinallyInvoiced
+	 * PurchaseOrderItemCategory
+	 * AccountAssignmentCategory
+	 * MultipleAcctAssgmtDistribution
+	 * PartialInvoiceDistribution
+	 * GoodsReceiptIsExpected
+	 * GoodsReceiptIsNonValuated
+	 * InvoiceIsExpected
+	 * InvoiceIsGoodsReceiptBased
+	 * PurchaseContract
+	 * PurchaseContractItem
+	 * Customer
+	 * ItemNetWeight
+	 * ItemWeightUnit
+	 * TaxJurisdiction
+	 * PricingDateControl
+	 * ItemVolume
+	 * ItemVolumeUnit
+	 * SupplierConfirmationControlKey
+	 * IncotermsClassification
+	 * IncotermsTransferLocation
+	 * EvaldRcptSettlmtIsAllowed
+	 * PurchaseRequisition
+	 * PurchaseRequisitionItem
+	 * IsReturnsItem
+	 * RequisitionerName
+	 * ServicePackage
+	 * EarmarkedFunds
+	 * EarmarkedFundsDocument
+	 * EarmarkedFundsItem
+	 * EarmarkedFundsDocumentItem
+	 * IncotermsLocation1
+	 * IncotermsLocation2
+	 * Material
+	 * InternationalArticleNumber
+	 * ManufacturerMaterial
+	 * ServicePerformer
+	 * ProductType
+	 * ExpectedOverallLimitAmount
+	 * OverallLimitAmount
+	 * DeliveryAddressID
+	 * DeliveryAddressName
+	 * DeliveryAddressStreetName
+	 * DeliveryAddressHouseNumber
+	 * DeliveryAddressCityName
+	 * DeliveryAddressPostalCode
+	 * DeliveryAddressRegion
+	 * DeliveryAddressCountry
+	 * DownPaymentType
+	 * DownPaymentPercentageOfTotAmt
+	 * DownPaymentAmount
+	 * DownPaymentDueDate
+	 * BR_MaterialUsage
+	 * BR_MaterialOrigin
+	 * BR_CFOPCategory
+	 * BR_IsProducedInHouse
+	 * ConsumptionTaxCtrlCode
+	 * StockSegment
+	 * RequirementSegment
+	 * to_AccountAssignment
+	 * to_PurchaseOrderPricingElement
+	 * to_ScheduleLine
+
+## A_PurchaseOrderItem
+	 * __metadata
+	 * PurchaseOrder
+	 * PurchaseOrderItem
+	 * PurchasingDocumentDeletionCode
+	 * PurchaseOrderItemText
+	 * Plant
+	 * StorageLocation
+	 * MaterialGroup
+	 * PurchasingInfoRecord
+	 * SupplierMaterialNumber
+	 * OrderQuantity
+	 * PurchaseOrderQuantityUnit
+	 * OrderPriceUnit
+	 * OrderPriceUnitToOrderUnitNmrtr
+	 * OrdPriceUnitToOrderUnitDnmntr
+	 * DocumentCurrency
+	 * NetPriceAmount
+	 * NetPriceQuantity
+	 * TaxCode
+	 * PriceIsToBePrinted
+	 * OverdelivTolrtdLmtRatioInPct
+	 * UnlimitedOverdeliveryIsAllowed
+	 * UnderdelivTolrtdLmtRatioInPct
+	 * ValuationType
+	 * IsCompletelyDelivered
+	 * IsFinallyInvoiced
+	 * PurchaseOrderItemCategory
+	 * AccountAssignmentCategory
+	 * MultipleAcctAssgmtDistribution
+	 * PartialInvoiceDistribution
+	 * GoodsReceiptIsExpected
+	 * GoodsReceiptIsNonValuated
+	 * InvoiceIsExpected
+	 * InvoiceIsGoodsReceiptBased
+	 * PurchaseContract
+	 * PurchaseContractItem
+	 * Customer
+	 * ItemNetWeight
+	 * ItemWeightUnit
+	 * TaxJurisdiction
+	 * PricingDateControl
+	 * ItemVolume
+	 * ItemVolumeUnit
+	 * SupplierConfirmationControlKey
+	 * IncotermsClassification
+	 * IncotermsTransferLocation
+	 * EvaldRcptSettlmtIsAllowed
+	 * PurchaseRequisition
+	 * PurchaseRequisitionItem
+	 * IsReturnsItem
+	 * RequisitionerName
+	 * ServicePackage
+	 * EarmarkedFunds
+	 * EarmarkedFundsDocument
+	 * EarmarkedFundsItem
+	 * EarmarkedFundsDocumentItem
+	 * IncotermsLocation1
+	 * IncotermsLocation2
+	 * Material
+	 * InternationalArticleNumber
+	 * ManufacturerMaterial
+	 * ServicePerformer
+	 * ProductType
+	 * ExpectedOverallLimitAmount
+	 * OverallLimitAmount
+	 * DeliveryAddressID
+	 * DeliveryAddressName
+	 * DeliveryAddressStreetName
+	 * DeliveryAddressHouseNumber
+	 * DeliveryAddressCityName
+	 * DeliveryAddressPostalCode
+	 * DeliveryAddressRegion
+	 * DeliveryAddressCountry
+	 * DownPaymentType
+	 * DownPaymentPercentageOfTotAmt
+	 * DownPaymentAmount
+	 * DownPaymentDueDate
+	 * BR_MaterialUsage
+	 * BR_MaterialOrigin
+	 * BR_CFOPCategory
+	 * BR_IsProducedInHouse
+	 * ConsumptionTaxCtrlCode
+	 * StockSegment
+	 * RequirementSegment
+	 * to_AccountAssignment
+	 * to_PurchaseOrderPricingElement
+	 * to_ScheduleLine
+
+## A_PurchaseOrderItemNote
+
+## A_PurchaseOrderNote
+
+## A_PurchaseOrderScheduleLine
+
+## A_PurchaseReqnItemText
+
+## A_PurchaseRequisitionHeader
+	 * PurchaseRequisition
+	 * PurchaseRequisitionType
+	 * PurReqnDescription
+	 * SourceDetermination
+	 * PurReqnDoOnlyValidation
+	 * to_PurchaseReqnItem
+
+## A_PurchaseRequisitionItem
+
+## A_PurchasingInfoRecord
+
+## A_PurchasingQuotaArrangement
+	 * QuotaArrangement
+	 * Material
+	 * Plant
+	 * ValidityEndDate
+	 * ValidityStartDate
+	 * CreationDate
+	 * CreatedByUser
+	 * MinQtyForSpltQuota
+	 * LastChangeDateTime
+	 * UserDescription
+	 * MaterialBaseUnit
+	 * to_PurgQuotaArrangementItem
+
+## A_PurchasingSource
+
+## A_PurgCat
+	 * PurgCatUUID
+	 * PurchasingCategory
+	 * PurgCatName
+	 * CreationDateTime
+	 * CreatedByUser
+	 * LastChangeDateTime
+	 * LastChangedByUser
+	 * Language
+	 * PurgCatIsInactive
+	 * PurgCatTranslationOvrlStatus
+	 * to_PurgCatDescription
+	 * to_PurgCatMaterialGroup
+	 * to_PurgCatMember
+	 * to_PurgCatPlannedSpend
+	 * to_PurgCatPurchaserResponsible
+	 * to_PurgCatSupplier
+	 * to_PurgCatTranslationStatus
+
+## A_PurgCatDescription
+	 * PurgCatDescriptionUUID
+	 * Language
+	 * PurgCatUUID
+	 * PurgCatDescription
+
+## A_PurgCatMaterialGroup
+	 * PurCatMaterialGroupUUID
+	 * PurgCatUUID
+	 * MaterialGroup
+
+## A_PurgCatMember
+	 * PurgCatPartyUUID
+	 * PurgCatUUID
+	 * UserID
+	 * EmailAddress
+
+## A_PurgCatPlannedSpend
+
+## A_PurgCatPurchaserResponsible
+	 * PurgCatPartyUUID
+	 * PurgCatUUID
+	 * UserID
+	 * EmailAddress
+
+## A_PurgCatSupplier
+	 * PurgCatPartyUUID
+	 * PurgCatUUID
+	 * BusinessPartner
+
+## A_PurgCatTranslationStatus
+	 * PurgCatTranslationUUID
+	 * PurgCatUUID
+	 * PurgCatTranslationTgtLang
+	 * PurgCatTranslationTgtLangSts
+
+## A_PurgInfoRecdOrgPlantData
+
+## A_PurgPrcgCndnRecdSuplmnt
+
+## A_PurgPrcgCndnRecdValidity
+
+## A_PurgPrcgCndnRecordScale
+
+## A_PurgPrcgCndnTypeText
+	 * Language
+	 * ConditionUsage
+	 * ConditionApplication
+	 * ConditionType
+	 * ConditionTypeName
+	 * to_PurgPricingConditionType
+
+## A_PurgPrcgCndnTypeText
+	 * Language
+	 * ConditionUsage
+	 * ConditionApplication
+	 * ConditionType
+	 * ConditionTypeName
+	 * to_PurgPricingConditionType
+
+## A_PurgPrcgConditionRecord
+
+## A_PurgPrcgProcedItemText
+	 * Language
+	 * ConditionUsage
+	 * ConditionApplication
+	 * PricingProcedure
+	 * PricingProcedureStep
+	 * PricingProcedureCounter
+	 * ConditionTypeName
+	 * to_PurgPricingProcedure
+
+## A_PurgPricingConditionType
+	 * ConditionUsage
+	 * ConditionApplication
+	 * ConditionType
+	 * to_Text
+
+## A_PurgPricingConditionType
+	 * ConditionUsage
+	 * ConditionApplication
+	 * ConditionType
+	 * to_Text
+
+## A_PurgPricingProcedure
+	 * ConditionUsage
+	 * ConditionApplication
+	 * PricingProcedure
+	 * to_PurgPricingProcedureItem
+	 * to_Text
+
+## A_PurgPricingProcedureItem
+	 * ConditionUsage
+	 * ConditionApplication
+	 * PricingProcedure
+	 * PricingProcedureStep
+	 * PricingProcedureCounter
+	 * ConditionType
+	 * PrcgProcedItemFromRefStep
+	 * PrcgProcedItemToRefStep
+	 * ConditionIsManuallyDtmnd
+	 * PrcgProcedItemSubtotal
+	 * ConditionIsForStatistics
+	 * AccountKeyForGLAccount
+	 * AcctKeyForAccrualsGLAccount
+	 * PricingProcedureItemPrintType
+	 * ConditionIsMandatory
+	 * CndnIsAcctDetnRelevant
+	 * to_PurgPricingConditionType
+	 * to_PurgPricingProcedure
+	 * to_Text
+
+## A_PurgPricingProcedureText
+	 * Language
+	 * ConditionUsage
+	 * ConditionApplication
+	 * PricingProcedure
+	 * PricingProcedureName
+	 * to_PurgPricingProcedure
+
+## A_PurgQuotaArrangementItem
+
+## A_RecProcEquipRqmtCharc
+	 * RecipeProcessEquipRqmtUUID
+	 * CharcInternalID
+	 * ClassType
+	 * KeyDate
+	 * to_Valuation
+
+## A_RecProcEquipRqmtCharcValue
+
+## A_RecProcEquipRqmtClass
+	 * RecipeProcessEquipRqmtUUID
+	 * ClassInternalID
+	 * KeyDate
+	 * ClassType
+	 * ClassClassfctnAuthGrp
+	 * to_Characteristics
+
+## A_RecProcEquipRqmtClassCharc
+	 * RecipeProcessEquipRqmtUUID
+	 * ClassInternalID
+	 * CharcInternalID
+	 * KeyDate
+	 * ClassType
+	 * to_Valuation
+
+## A_RecProcParamValCharc
+	 * RecipeProcessParamValUUID
+	 * CharcInternalID
+	 * ClassType
+	 * KeyDate
+	 * to_Valuation
+
+## A_RecProcParamValCharcValue
+
+## A_RecProcParamValClass
+	 * RecipeProcessParamValUUID
+	 * ClassInternalID
+	 * KeyDate
+	 * ClassType
+	 * to_Characteristics
+
+## A_RecProcParamValClassCharc
+	 * RecipeProcessParamValUUID
+	 * ClassInternalID
+	 * CharcInternalID
+	 * KeyDate
+	 * ClassType
+	 * to_Valuation
+
+## A_Recipe
+	 * RecipeUUID
+	 * RecipeUUID_Text
+	 * RecipeUniqueID
+	 * Recipe
+	 * RecipePrimaryOutputInternalID
+	 * RecipePrimaryOutput
+	 * RecipeAlternativeNumber
+	 * RecipeVersionNumber
+	 * RecipeType
+	 * RecipePurpose
+	 * RecipeStatus
+	 * RecipeStatusSchema
+	 * RecipeAuthorizationGroup
+	 * RcpFmlaUUID
+	 * RecipeProcessUUID
+	 * RecipeValidityStartDate
+	 * RecipeValidityEndDate
+	 * RecipeValidityMinQuantity
+	 * RecipeValidityMaxQuantity
+	 * RecipeValidityUnit
+	 * Plant
+	 * RecipeCreatedByUser
+	 * RecipeLastChangedByUser
+	 * RecipeCreationDateTime
+	 * RecipeLastChangeDateTime
+	 * RecipeIsDeleted
+	 * RecipeIsArchived
+	 * RecipePrimOutpAuthznGrp
+	 * RecipePrimOutpSpecType
+	 * to_Characteristics
+	 * to_Classification
+	 * to_FormulaItem
+	 * to_RecipeProcessElement
+	 * to_RecipeProcessEquipRqmt
+	 * to_RecipeProcessParamValue
+	 * to_RecipeText
+
+## A_RecipeCharc
+	 * RecipeUUID
+	 * CharcInternalID
+	 * ClassType
+	 * KeyDate
+	 * to_Valuation
+
+## A_RecipeCharcValue
+
+## A_RecipeClass
+	 * RecipeUUID
+	 * ClassInternalID
+	 * KeyDate
+	 * ClassType
+	 * to_Characteristics
+
+## A_RecipeClassCharc
+	 * RecipeUUID
+	 * ClassInternalID
+	 * CharcInternalID
+	 * KeyDate
+	 * ClassType
+	 * to_Valuation
+
+## A_RecipeFormulaItem
+	 * RcpFmlaItemUUID
+	 * RcpFmlaUUID
+	 * RcpFmlaItemPosition
+	 * RcpFmlaItemType
+	 * SpecificationInternalID
+	 * Specification
+	 * Material
+	 * RcpFmlaItemComponentType
+	 * RcpFmlaItemLowerLimit
+	 * RcpFmlaItemUpperLimit
+	 * RcpFmlaItemQuantity
+	 * RcpFmlaItemUnit
+	 * RcpFmlaItemExceptionCode
+	 * RcpFmlaItemScrapInPercent
+	 * RcpFmlaItemOverrunInPercent
+	 * RcpFmlaItemQuantityInKilogram
+	 * RcpFmlaItemIsSelectedForCalc
+	 * RcpFmlaItemExplosionRecipeUUID
+	 * RcpFmlaItemIsBalancingItem
+	 * RecipeFmlaItemAltvIsUsed
+	 * RecipeUUID
+	 * SpecificationType
+	 * SpecificationAuthznGroup
+	 * RecipeProcessElementUUID
+	 * RecipeProcessStageUUID
+	 * RecipeProcessOperationUUID
+	 * RecipeProcessActionUUID
+	 * RecipeProcessStagePosNmbr
+	 * RecipeProcessOperationPosNmbr
+	 * RecipeProcessActionPosNmbr
+	 * RecipeLastChangeDateTime
+	 * Recipe
+	 * RcpFmlaItemAlternativeItemPos
+	 * to_ExplosionRecipe
+	 * to_Recipe
+	 * to_RecipeProcessElement
+
+## A_RecipeProcessElement
+	 * RecipeProcessElementUUID
+	 * RecipeProcessUUID
+	 * RecipeProcessElementType
+	 * RecipeProcessElementParentUUID
+	 * RecipeProcessElementPosNmbr
+	 * RecipeLastChangeDateTime
+	 * RecipeUUID
+	 * Recipe
+	 * RecipeProcessStagePosNmbr
+	 * RecipeProcessOperationPosNmbr
+	 * RecipeProcessActionPosNmbr
+	 * to_FormulaItem
+	 * to_Recipe
+	 * to_RecipeProcessElementChild
+	 * to_RecipeProcessElementParent
+	 * to_RecipeProcessElementText
+	 * to_RecipeProcessEquipRqmt
+	 * to_RecipeProcessParamValue
+
+## A_RecipeProcessElementText
+	 * RecipeProcessElementUUID
+	 * Language
+	 * RecipeProcessUUID
+	 * RecipeProcessElementDesc
+	 * RecipeLastChangeDateTime
+	 * RecipeUUID
+	 * Recipe
+	 * RecipeProcessStagePosNmbr
+	 * RecipeProcessOperationPosNmbr
+	 * RecipeProcessActionPosNmbr
+	 * to_RecipeProcessElement
+
+## A_RecipeProcessEquipRqmt
+	 * RecipeProcessEquipRqmtUUID
+	 * RecipeProcessUUID
+	 * RecipeProcessElementUUID
+	 * RecipeProcessEquipRqmtPosNmbr
+	 * RecipeProcEquipRqmtIsPrimRsce
+	 * RecipeLastChangeDateTime
+	 * RecipeUUID
+	 * Recipe
+	 * RecipeProcessStagePosNmbr
+	 * RecipeProcessOperationPosNmbr
+	 * RecipeProcessActionPosNmbr
+	 * to_Recipe
+	 * to_RecipeProcessElement
+	 * to_RecipeProcessEquipRqmtText
+	 * to_RecipeProcessParamValue
+	 * to_RecProcEquipRqmtCharc
+	 * to_RecProcEquipRqmtClass
+
+## A_RecipeProcessEquipRqmtText
+	 * RecipeProcessEquipRqmtUUID
+	 * Language
+	 * RecipeProcessUUID
+	 * RecipeProcessEquipRqmtDesc
+	 * RecipeLastChangeDateTime
+	 * RecipeUUID
+	 * Recipe
+	 * RecipeProcessEquipRqmtPosNmbr
+	 * RecipeProcessStagePosNmbr
+	 * RecipeProcessOperationPosNmbr
+	 * RecipeProcessActionPosNmbr
+	 * to_RecipeProcessEquipRqmt
+
+## A_RecipeProcessParam
+	 * RecipeProcessParamUUID
+	 * RecipeProcessParam
+	 * RecipeProcessParamUnit
+	 * RecipeProcessParamUnitIsFxd
+	 * RecipeProcessParamTgtVal
+	 * RecipeProcessParamTgtValIsFxd
+	 * RecipeProcessParamMinVal
+	 * RecipeProcessParamMinValIsFxd
+	 * RecipeProcessParamMaxVal
+	 * RecipeProcessParamMaxValIsFxd
+	 * RecipeProcessParamDecPlaces
+	 * RecipeProcessParamGroup
+	 * RecipeProcessParamClass
+	 * RecipeProcessParamIsObsolete
+	 * RecipeProcessParamIsDeleted
+	 * to_RecipeProcessParamDesc
+
+## A_RecipeProcessParamText
+	 * RecipeProcessParamUUID
+	 * Language
+	 * RecipeProcessParamDesc
+
+## A_RecipeProcessParamValue
+	 * RecipeProcessParamValUUID
+	 * RecipeProcessUUID
+	 * RecipeProcessElementUUID
+	 * RecipeProcessParamUUID
+	 * RecipeProcessEquipRqmtUUID
+	 * RecipeProcessParamUnit
+	 * RecipeProcessParamTgtVal
+	 * RecipeProcessParamMinVal
+	 * RecipeProcessParamMaxVal
+	 * RecipeProcessParamSqncNmbr
+	 * RecipeLastChangeDateTime
+	 * RecipeUUID
+	 * Recipe
+	 * RecipeProcessParam
+	 * RecipeProcessEquipRqmtPosNmbr
+	 * RecipeProcessStagePosNmbr
+	 * RecipeProcessOperationPosNmbr
+	 * RecipeProcessActionPosNmbr
+	 * to_Recipe
+	 * to_RecipeProcessElement
+	 * to_RecipeProcessEquipRqmt
+	 * to_RecipeProcessParam
+	 * to_RecipeProcessParamValueTxt
+	 * to_RecProcParamValCharc
+	 * to_RecProcParamValClass
+
+## A_RecipeProcessParamValueTxt
+	 * RecipeProcessParamValUUID
+	 * Language
+	 * RecipeProcessUUID
+	 * RecipeProcessParamValueDesc
+	 * RecipeLastChangeDateTime
+	 * RecipeUUID
+	 * Recipe
+	 * RecipeProcessEquipRqmtPosNmbr
+	 * RecipeProcessStagePosNmbr
+	 * RecipeProcessOperationPosNmbr
+	 * RecipeProcessActionPosNmbr
+	 * RecipeProcessParamSqncNmbr
+	 * to_RecipeProcessParamValue
+
+## A_RecipeText
+	 * RecipeUUID
+	 * Language
+	 * RecipeDescription
+	 * RecipeLastChangeDateTime
+	 * Recipe
+	 * to_Recipe
+
+## A_RequestForQuotation
+
+## A_RequestForQuotationBidder
+	 * RequestForQuotation
+	 * PartnerCounter
+	 * PartnerFunction
+	 * Supplier
+
+## A_RequestForQuotationItem
+
+## A_RetroBillingUsageText
+	 * RetroBillingUsage
+	 * Language
+	 * RetroBillingUsageDesc
+
+## A_SDDocumentReason
+	 * SDDocumentReason
+	 * RetroBillingUsage
+	 * SelfBillingValueItem
+	 * to_RetroBillingUsageText
+	 * to_SDDocumentReasonText
+	 * to_SelfBillingValueItemText
+
+## A_SDDocumentReasonText
+	 * SDDocumentReason
+	 * Language
+	 * SDDocumentReasonText
+
+## A_SalesContract
+
+## A_SalesContractItem
+
+## A_SalesContractItemPartner
+	 * SalesContract
+	 * SalesContractItem
+	 * PartnerFunction
+	 * Customer
+	 * Supplier
+	 * Personnel
+	 * ContactPerson
+	 * to_SalesContract
+	 * to_SalesContractItem
+
+## A_SalesContractItemPrcgElmnt
+
+## A_SalesContractPartner
+	 * SalesContract
+	 * PartnerFunction
+	 * Customer
+	 * Supplier
+	 * Personnel
+	 * ContactPerson
+	 * to_SalesContract
+
+## A_SalesContractPrcgElmnt
+
+## A_SalesDocumentRjcnReason
+	 * SalesDocumentRjcnReason
+	 * SalesDocumentRjcnReason_Text
+
+## A_SalesDocumentRjcnReason
+	 * SalesDocumentRjcnReason
+	 * SalesDocumentRjcnReason_Text
+
+## A_SalesInquiry
+
+## A_SalesInquiryItem
+
+## A_SalesInquiryItemPartner
+	 * SalesInquiry
+	 * SalesInquiryItem
+	 * PartnerFunction
+	 * Customer
+	 * Supplier
+	 * Personnel
+	 * ContactPerson
+	 * to_SalesInquiry
+	 * to_SalesInquiryItem
+
+## A_SalesInquiryItemPrcgElmnt
+
+## A_SalesInquiryPartner
+	 * SalesInquiry
+	 * PartnerFunction
+	 * Customer
+	 * Supplier
+	 * Personnel
+	 * ContactPerson
+	 * to_SalesInquiry
+
+## A_SalesInquiryPrcgElmnt
+
+## A_SalesOrder
+
+## A_SalesOrderHeaderPartner
+	 * SalesOrder
+	 * PartnerFunction
+	 * Customer
+	 * Supplier
+	 * Personnel
+	 * ContactPerson
+	 * to_SalesOrder
+
+## A_SalesOrderHeaderPrElement
+
+## A_SalesOrderItem
+
+## A_SalesOrderItemPartner
+	 * SalesOrder
+	 * SalesOrderItem
+	 * PartnerFunction
+	 * Customer
+	 * Supplier
+	 * Personnel
+	 * ContactPerson
+	 * to_SalesOrder
+	 * to_SalesOrderItem
+
+## A_SalesOrderItemPrElement
+
+## A_SalesOrderItemText
+
+## A_SalesOrderScheduleLine
+	 * SalesOrder
+	 * SalesOrderItem
+	 * ScheduleLine
+	 * RequestedDeliveryDate
+	 * ConfirmedDeliveryDate
+	 * OrderQuantityUnit
+	 * OrderQuantitySAPUnit
+	 * OrderQuantityISOUnit
+	 * ScheduleLineOrderQuantity
+	 * ConfdOrderQtyByMatlAvailCheck
+	 * DeliveredQtyInOrderQtyUnit
+	 * OpenConfdDelivQtyInOrdQtyUnit
+	 * CorrectedQtyInOrderQtyUnit
+	 * DelivBlockReasonForSchedLine
+
+## A_SalesOrderSimulation
+
+## A_SalesOrderText
+
+## A_SalesOrderWithoutCharge
+
+## A_SalesOrderWithoutChargeItem
+
+## A_SalesQuotation
+
+## A_SalesQuotationItem
+
+## A_SalesQuotationItemPartner
+	 * SalesQuotation
+	 * SalesQuotationItem
+	 * PartnerFunction
+	 * Customer
+	 * Supplier
+	 * Personnel
+	 * ContactPerson
+	 * to_SalesQuotation
+	 * to_SalesQuotationItem
+
+## A_SalesQuotationItemPrcgElmnt
+
+## A_SalesQuotationItemText
+
+## A_SalesQuotationPartner
+	 * SalesQuotation
+	 * PartnerFunction
+	 * Customer
+	 * Supplier
+	 * Personnel
+	 * ContactPerson
+	 * to_SalesQuotation
+
+## A_SalesQuotationPrcgElmnt
+
+## A_SalesQuotationText
+
+## A_SalesSchedgAgrmt
+
+## A_SalesSchedgAgrmtDelivSched
+
+## A_SalesSchedgAgrmtItem
+
+## A_SalesSchedgAgrmtItemPartner
+	 * SalesSchedulingAgreement
+	 * SalesSchedulingAgreementItem
+	 * PartnerFunction
+	 * Customer
+	 * Supplier
+	 * Personnel
+	 * AddressID
+	 * ContactPerson
+	 * to_SalesSchedgAgrmt
+	 * to_SalesSchedgAgrmtItem
+
+## A_SalesSchedgAgrmtItemText
+
+## A_SalesSchedgAgrmtItmPrcgElmnt
+
+## A_SalesSchedgAgrmtPartner
+	 * SalesSchedulingAgreement
+	 * PartnerFunction
+	 * Customer
+	 * Supplier
+	 * Personnel
+	 * AddressID
+	 * ContactPerson
+	 * to_SalesSchedgAgrmt
+
+## A_SalesSchedgAgrmtPrcgElement
+
+## A_SalesSchedgAgrmtSchedLine
+	 * SalesSchedulingAgreement
+	 * SalesSchedulingAgreementItem
+	 * ScheduleLine
+	 * SchedulingAgreementReleaseType
+	 * ScheduleLineCategory
+	 * OrderQuantityUnit
+	 * SalesDelivDateCategory
+	 * RequestedDeliveryDate
+	 * RequestedDeliveryTime
+	 * ScheduleLineOrderQuantity
+	 * CorrectedQtyInOrderQtyUnit
+	 * ScheduleLineOpenQuantity
+	 * ConfdOrderQtyByMatlAvailCheck
+	 * ProductAvailabilityDate
+	 * ProductAvailabilityTime
+	 * DelivBlockReasonForSchedLine
+	 * TransportationPlanningDate
+	 * TransportationPlanningTime
+	 * GoodsIssueDate
+	 * LoadingDate
+	 * GoodsIssueTime
+	 * LoadingTime
+	 * GoodsMovementType
+	 * CustEngineeringChgStatus
+	 * to_SalesSchedgAgrmtDelivSched
+	 * to_SalesSchedgAgrmt
+	 * to_SalesSchedgAgrmtItem
+
+## A_SalesSchedgAgrmtText
+
+## A_SchAgrmtAcCnt
+	 * AccountAssignmentNumber
+	 * SchedulingAgreementItem
+	 * SchedulingAgreement
+	 * CostCenter
+	 * MasterFixedAsset
+	 * ProjectNetwork
+	 * OrderQuantityUnit
+	 * Quantity
+	 * MultipleAcctAssgmtDistrPercent
+	 * DocumentCurrency
+	 * PurgDocNetAmount
+	 * IsDeleted
+	 * GLAccount
+	 * BusinessArea
+	 * SalesOrder
+	 * SalesOrderItem
+	 * SalesOrderScheduleLine
+	 * FixedAsset
+	 * OrderID
+	 * UnloadingPointName
+	 * ControllingArea
+	 * CostObject
+	 * ProfitabilitySegment
+	 * ProfitCenter
+	 * WBSElement
+	 * ProjectNetworkInternalID
+	 * CommitmentItem
+	 * FundsCenter
+	 * FunctionalArea
+	 * GoodsRecipientName
+	 * IsFinallyInvoiced
+	 * RealEstateObject
+	 * NetworkActivityInternalID
+	 * PartnerAccountNumber
+	 * JointVentureRecoveryCode
+	 * SettlementReferenceDate
+	 * OrderInternalID
+	 * TaxCode
+	 * TaxJurisdiction
+	 * CostCtrActivityType
+	 * BusinessProcess
+	 * GrantID
+	 * BudgetPeriod
+	 * EarmarkedFundsDocument
+	 * ValidityDate
+
+## A_SchAgrmtHeader
+
+## A_SchAgrmtItem
+
+## A_SchAgrmtPartner
+
+## A_SchAgrmtSchLine
+
+## A_SchedgAgrmtDeliveryAddress
+
+## A_SchedgAgrmtHdrNotes
+
+## A_SchedgAgrmtItmNotes
+
+## A_SchedgAgrmtSubcontrgComp
+	 * SchedulingAgreement
+	 * SchedulingAgreementItem
+	 * ScheduleLine
+	 * ReservationItem
+	 * RecordType
+	 * Reservation
+	 * Material
+	 * RequirementDate
+	 * RequirementTime
+	 * Plant
+	 * QuantityInEntryUnit
+	 * EntryUnit
+
+## A_Segment
+	 * Segment
+	 * to_Text
+
+## A_SegmentText
+	 * Language
+	 * Segment
+	 * SegmentName
+	 * to_Segment
+
+## A_SelfBillingValueItemText
+	 * SelfBillingValueItem
+	 * Language
+	 * SelfBillingValueItemDesc
+
+## A_SerialNumberMaterialDocument
+	 * Material
+	 * SerialNumber
+	 * MaterialDocument
+	 * MaterialDocumentItem
+	 * MaterialDocumentYear
+
+## A_ServiceConfItemPriceElement
+
+## A_ServiceConfItmRefObject
+	 * ServiceConfirmation
+	 * ServiceConfirmationItem
+	 * ServiceReferenceEquipment
+	 * ServiceRefFunctionalLocation
+	 * SrvcRefObjIsMainObject
+
+## A_ServiceConfPersonResp
+	 * ServiceConfirmation
+	 * PersonResponsible
+
+## A_ServiceConfPriceElement
+
+## A_ServiceConfRefObject
+	 * ServiceConfirmation
+	 * ServiceReferenceEquipment
+	 * ServiceRefFunctionalLocation
+	 * SrvcRefObjIsMainObject
+
+## A_ServiceConfirmation
+
+## A_ServiceConfirmationItem
+	 * ServiceConfirmation
+	 * ServiceConfirmationItem
+	 * ServiceConfirmationItemUUID
+	 * ServiceConfItemDescription
+	 * ServiceObjectType
+	 * ServiceDocumentItemObjectType
+	 * Language
+	 * Product
+	 * Quantity
+	 * QuantityUnit
+	 * ActualServiceDuration
+	 * ActualServiceDurationUnit
+	 * ServiceConfItemCategory
+	 * ServiceConfItemIsCompleted
+	 * ExecutingServiceEmployee
+	 * ServicePerformer
+	 * BillableControl
+	 * ReferenceServiceOrder
+	 * ReferenceServiceOrderItem
+	 * TimeSheetOvertimeCategory
+	 * ParentServiceConfItem
+	 * ActualServiceStartDateTime
+	 * ActualServiceEndDateTime
+	 * RespyMgmtServiceTeam
+	 * RespyMgmtServiceTeamName
+	 * RespyMgmtGlobalTeamID
+	 * to_PricingElement
+	 * to_ReferenceObject
+	 * to_ServiceConfirmation
+	 * to_Text
+
+## A_ServiceConfirmationItemText
+
+## A_ServiceConfirmationText
+
+## A_ServiceContrItemObjectList
+	 * ServiceContract
+	 * ServiceContractItem
+	 * ServiceRefObjectSequenceNumber
+	 * Product
+	 * Equipment
+	 * ServiceRefFunctionalLocation
+	 * to_ServiceContractItem
+
+## A_ServiceContrItmReleasedOrder
+	 * ServiceDocumentItmRelationUUID
+	 * ServiceDocItmRltnSqncNumber
+	 * ServiceContract
+	 * ServiceContractItem
+	 * ServiceOrder
+	 * ServiceOrderItem
+	 * to_ServiceContractItem
+
+## A_ServiceContract
+
+## A_ServiceContractItem
+	 * ServiceContract
+	 * ServiceContractItem
+	 * ServiceContractItemCategory
+	 * Product
+	 * Quantity
+	 * QuantityUnit
+	 * ServiceContractItemDescription
+	 * Language
+	 * ServiceContractItemIsReleased
+	 * ServiceContractItemIsCompleted
+	 * ServiceContractItemCanclnParty
+	 * ServiceContractItmCanclnReason
+	 * ServiceContractItemCanclnDate
+	 * ServiceContrItemStartDateTime
+	 * ServiceContrItemEndDateTime
+	 * BillingBlockReason
+	 * ShipToParty
+	 * PersonResponsible
+	 * BillToParty
+	 * PayerParty
+	 * ContactPerson
+	 * ReferenceServiceContractItem
+	 * ReferenceServiceQtanItem
+	 * SrvcContrItemRnwlDuration
+	 * SrvcContrItemRnwlDurationUnit
+	 * SrvcContrItemExtensionDuration
+	 * SrvcContrItemExtnDurationUnit
+	 * SrvcTransChangeProcess
+	 * SrvcTransChangeProcessType
+	 * SrvcTransChgProcSourceTransID
+	 * SrvcTransChgProcSourceItemID
+	 * SrvcTransChgProcSourceItemUUID
+	 * ProfitCenter
+	 * to_ObjectList
+	 * to_ReleasedOrder
+	 * to_ServiceContract
+
+## A_ServiceContractText
+
+## A_ServiceCostRate
+	 * AccountingCostRateUUID
+	 * CompanyCode
+	 * ReceivingCompanyCode
+	 * IsIntercompanyRate
+	 * CostCenter
+	 * TimeSheetOvertimeCategory
+	 * ActivityType
+	 * ServiceCostLevel
+	 * PersonnelNumber
+	 * WorkItem
+	 * WBSElementExternalID
+	 * ValidityStartFiscalYearPeriod
+	 * ValidityEndFiscalYearPeriod
+	 * Currency
+	 * CostRateVarblAmount
+	 * CostRateScaleFactor
+	 * CostCtrActivityTypeQtyUnit
+	 * CostRateIsOverwriteMode
+
+## A_ServiceEntrySheet
+	 * ServiceEntrySheet
+	 * ApprovalDateTime
+	 * ApprovalStatus
+	 * CreatedByUser
+	 * CreationDateTime
+	 * PurchasingOrganization
+	 * PurchasingGroup
+	 * IsEndOfPurposeBlocked
+	 * Currency
+	 * IsDeleted
+	 * LastChangeDateTime
+	 * LastChangedByUser
+	 * MaterialDocument
+	 * MaterialDocumentYear
+	 * OriginObjectType
+	 * PurchaseOrder
+	 * ResponsiblePerson
+	 * ServiceEntrySheetName
+	 * ServiceEntrySheetUUID
+	 * Supplier
+	 * PurgDocExternalSystem
+	 * PurgDocExternalReference
+	 * ExternalRevisionDateTime
+	 * PostingDate
+	 * to_ServiceEntrySheetItem
+
+## A_ServiceEntrySheetItem
+
+## A_ServiceOrder
+
+## A_ServiceOrderConfirmation
+	 * ServiceOrder
+	 * ServiceConfirmation
+
+## A_ServiceOrderDefect
+	 * ServiceOrder
+	 * SrvcDocTypeDefectCodeProfType
+	 * ServiceDefectSequence
+	 * SrvcDocTypeDefectCodeProfile
+	 * ServiceDefectCodeCatalog
+	 * ServiceDefectCodeGroup
+	 * ServiceDefectCode
+	 * ServiceDefectSchema
+	 * ServiceDefectCategory
+
+## A_ServiceOrderItem
+	 * ServiceOrder
+	 * ServiceOrderItem
+	 * ServiceOrderItemUUID
+	 * ServiceOrderItemDescription
+	 * ServiceObjectType
+	 * ServiceDocumentItemObjectType
+	 * Language
+	 * Product
+	 * Quantity
+	 * QuantityUnit
+	 * ServiceDuration
+	 * ServiceDurationUnit
+	 * ServiceOrderItemCategory
+	 * ServiceOrdItemRejectionReason
+	 * BillableControl
+	 * SoldToParty
+	 * ShipToParty
+	 * BillToParty
+	 * PayerParty
+	 * PersonResponsible
+	 * ExecutingServiceEmployee
+	 * ServicePerformer
+	 * ServiceOrderItemIsReleased
+	 * ServiceOrderItemIsCompleted
+	 * ServiceOrderItemIsRejected
+	 * ReferenceServiceContract
+	 * ReferenceServiceContractItem
+	 * ReferenceServiceRequest
+	 * ReferenceServiceRequestItem
+	 * TimeSheetOvertimeCategory
+	 * ParentServiceOrderItem
+	 * RespyMgmtServiceTeam
+	 * RespyMgmtServiceTeamName
+	 * RespyMgmtGlobalTeamID
+	 * PlannedServiceStartDateTime
+	 * PlannedServiceEndDateTime
+	 * SrvcContrDetnIsSpprsd
+	 * ReferenceServiceOrderItem
+	 * ProfitCenter
+	 * to_Confirmation
+	 * to_PricingElement
+	 * to_ReferenceObject
+	 * to_ServiceOrder
+	 * to_Text
+
+## A_ServiceOrderItemConfirmation
+	 * ServiceOrder
+	 * ServiceOrderItem
+	 * ServiceConfirmation
+	 * ServiceConfirmationItem
+
+## A_ServiceOrderItemPriceElement
+
+## A_ServiceOrderItemRefObject
+	 * ServiceOrder
+	 * ServiceOrderItem
+	 * ServiceReferenceEquipment
+	 * ServiceRefFunctionalLocation
+	 * SrvcRefObjIsMainObject
+
+## A_ServiceOrderItemText
+
+## A_ServiceOrderPersonResp
+	 * ServiceOrder
+	 * PersonResponsible
+
+## A_ServiceOrderPriceElement
+
+## A_ServiceOrderRefObject
+	 * ServiceOrder
+	 * ServiceReferenceEquipment
+	 * ServiceRefFunctionalLocation
+	 * SrvcRefObjIsMainObject
+
+## A_ServiceOrderText
+
+## A_ServiceQtanItemPriceElement
+
+## A_ServiceQtanItemRefObject
+	 * ServiceQuotation
+	 * ServiceQuotationItem
+	 * ServiceReferenceEquipment
+	 * ServiceRefFunctionalLocation
+	 * SrvcRefObjIsMainObject
+	 * to_ServiceQuotation
+
+## A_ServiceQtanPersonResp
+	 * ServiceQuotation
+	 * PersonResponsible
+
+## A_ServiceQtanPriceElement
+
+## A_ServiceQtanRefObject
+	 * ServiceQuotation
+	 * ServiceReferenceEquipment
+	 * ServiceRefFunctionalLocation
+	 * SrvcRefObjIsMainObject
+
+## A_ServiceQuotation
+
+## A_ServiceQuotationItem
+	 * ServiceQuotation
+	 * ServiceQuotationItem
+	 * ServiceDocItemCategory
+	 * ServiceQuotationItemUUID
+	 * ServiceQtanItemDescription
+	 * Language
+	 * Product
+	 * QuantityUnit
+	 * Quantity
+	 * ServiceDuration
+	 * ServiceDurationUnit
+	 * ServiceQtanItemExtReference
+	 * SoldToParty
+	 * ShipToParty
+	 * PersonResponsible
+	 * ServicePerformer
+	 * ServiceQuotationItemIsAccepted
+	 * ServiceQuotationItemIsRejected
+	 * TimeSheetOvertimeCategory
+	 * ReferenceServiceContract
+	 * ReferenceServiceContractItem
+	 * ServiceQtanSuccessorOrder
+	 * ServiceQtanSuccessorOrderItem
+	 * ParentServiceQuotationItem
+	 * RespyMgmtServiceTeamName
+	 * RespyMgmtGlobalTeamID
+	 * to_PricingElement
+	 * to_ReferenceObject
+	 * to_ServiceQuotation
+	 * to_Text
+
+## A_ServiceQuotationItemText
+
+## A_ServiceQuotationText
+
+## A_SitnDataContext
+	 * SitnDataContextID
+	 * SitnInstceActivityID
+	 * SitnInstanceID
+	 * CreationDateTime
+	 * SitnInstceAnchorObjectKey
+	 * SitnInstceTriggerObjectKey
+	 * SitnInstceStatus
+	 * SitnInstceActyType
+	 * SitnDefinitionID
+	 * SitnDefTemplateID
+	 * SitnActionID
+	 * SitnDataContext
+
+## A_SitnInstance
+	 * SitnInstanceID
+	 * SitnDefinitionID
+	 * SitnInstceAnchorObjectKey
+	 * SitnInstceTriggerObjectKey
+	 * SitnInstceStatus
+	 * SitnInstceStage
+	 * CreationDateTime
+	 * SitnDefAnchorObject
+	 * SitnDefTemplateID
+
+## A_SlsOrdPaymentPlanItemDetails
+	 * SalesOrder
+	 * PaymentPlanItem
+	 * PaymentPlan
+	 * ElectronicPaymentType
+	 * ElectronicPayment
+	 * EPaytValidityStartDate
+	 * EPaytValidityEndDate
+	 * ElectronicPaymentHolderName
+	 * AuthorizedAmountInAuthznCrcy
+	 * AuthorizationCurrency
+	 * AuthorizationByDigitalPaytSrvc
+	 * AuthorizationByAcquirer
+	 * AuthorizationDate
+	 * AuthorizationTime
+	 * AuthorizationStatusName
+	 * EPaytByDigitalPaymentSrvc
+	 * ElectronicPaymentCallStatus
+	 * EPaytAuthorizationResult
+	 * EPaytToBeAuthorizedAmount
+	 * EPaytAuthorizationIsExpired
+	 * EPaytAmountIsChanged
+	 * PreauthorizationIsRequested
+	 * PaymentServiceProvider
+	 * PaymentByPaymentServicePrvdr
+	 * TransactionByPaytSrvcPrvdr
+	 * MerchantByClearingHouse
+	 * MaximumToBeAuthorizedAmount
+	 * PaytPlnForAuthorizationItem
+	 * PaytPlnItmForAuthorizationItem
+	 * to_SalesOrder
+
+## A_SlsOrdWthoutChrgItmPartner
+	 * SalesOrderWithoutCharge
+	 * SalesOrderWithoutChargeItem
+	 * PartnerFunction
+	 * Customer
+	 * Supplier
+	 * Personnel
+	 * ContactPerson
+	 * to_Item
+	 * to_SalesOrderWithoutCharge
+
+## A_SlsOrdWthoutChrgPartner
+	 * SalesOrderWithoutCharge
+	 * PartnerFunction
+	 * Customer
+	 * Supplier
+	 * Personnel
+	 * ContactPerson
+	 * to_SalesOrderWithoutCharge
+
+## A_SlsOrdWthoutChrgSchedLine
+	 * SalesOrderWithoutCharge
+	 * SalesOrderWithoutChargeItem
+	 * ScheduleLine
+	 * OrderQuantityUnit
+	 * ConfdOrderQtyByMatlAvailCheck
+	 * DeliveredQtyInOrderQtyUnit
+	 * OpenConfdDelivQtyInOrdQtyUnit
+	 * DelivBlockReasonForSchedLine
+	 * to_Item
+	 * to_SalesOrderWithoutCharge
+
+## A_SlsPrcgCndnRecdSuplmnt
+
+## A_SlsPrcgCndnRecdValidity
+
+## A_SlsPrcgCndnRecordScale
+
+## A_SlsPrcgCndnTypeText
+	 * Language
+	 * ConditionUsage
+	 * ConditionApplication
+	 * ConditionType
+	 * ConditionTypeName
+	 * to_SlsPricingConditionType
+
+## A_SlsPrcgCndnTypeText
+	 * Language
+	 * ConditionUsage
+	 * ConditionApplication
+	 * ConditionType
+	 * ConditionTypeName
+	 * to_SlsPricingConditionType
+
+## A_SlsPrcgConditionFunctionText
+	 * Language
+	 * ConditionUsage
+	 * ConditionApplication
+	 * PricingConditionFunction
+	 * PricingConditionFunctionText
+
+## A_SlsPrcgConditionRecord
+
+## A_SlsPrcgProcedItemText
+	 * Language
+	 * ConditionUsage
+	 * ConditionApplication
+	 * PricingProcedure
+	 * PricingProcedureStep
+	 * PricingProcedureCounter
+	 * ConditionTypeName
+	 * to_SalesPricingProcedureItem
+
+## A_SlsPricingConditionType
+	 * ConditionUsage
+	 * ConditionApplication
+	 * ConditionType
+	 * to_Text
+
+## A_SlsPricingConditionType
+	 * ConditionUsage
+	 * ConditionApplication
+	 * ConditionType
+	 * to_Text
+
+## A_SlsPricingProcedure
+	 * ConditionUsage
+	 * ConditionApplication
+	 * PricingProcedure
+	 * to_SalesPricingProcedureItem
+	 * to_Text
+
+## A_SlsPricingProcedureItem
+	 * ConditionUsage
+	 * ConditionApplication
+	 * PricingProcedure
+	 * PricingProcedureStep
+	 * PricingProcedureCounter
+	 * ConditionType
+	 * PrcgProcedItemFromRefStep
+	 * PrcgProcedItemToRefStep
+	 * ConditionIsManuallyDtmnd
+	 * PrcgProcedItemSubtotal
+	 * ConditionIsForStatistics
+	 * AccountKeyForGLAccount
+	 * AcctKeyForAccrualsGLAccount
+	 * PricingProcedureItemPrintType
+	 * ConditionIsMandatory
+	 * CndnIsAcctDetnRelevant
+	 * to_SalesPricingProcedure
+	 * to_SlsPricingConditionType
+	 * to_Text
+
+## A_SlsPricingProcedureText
+	 * Language
+	 * ConditionUsage
+	 * ConditionApplication
+	 * PricingProcedure
+	 * PricingProcedureName
+	 * to_SalesPricingProcedure
+
+## A_SrvcEntrShtAcctAssignment
+	 * ServiceEntrySheet
+	 * ServiceEntrySheetItem
+	 * AccountAssignment
+	 * AccountAssignmentUUID
+	 * PurchasingOrganization
+	 * PurchasingGroup
+	 * Plant
+	 * BusinessArea
+	 * CommitmentItem
+	 * ControllingArea
+	 * CostCenter
+	 * CostObject
+	 * CreatedByUser
+	 * CreationDateTime
+	 * EarmarkedFundsDocument
+	 * FixedAsset
+	 * FunctionalArea
+	 * Fund
+	 * FundsCenter
+	 * GLAccount
+	 * IsDeleted
+	 * LastChangeDateTime
+	 * LastChangedByUser
+	 * MasterFixedAsset
+	 * MultipleAcctAssgmtDistrPercent
+	 * NetworkActivityInternalID
+	 * OrderID
+	 * PartnerAccountNumber
+	 * ProfitCenter
+	 * ProfitabilitySegment
+	 * ProjectNetwork
+	 * ProjectNetworkInternalID
+	 * Quantity
+	 * QuantityUnit
+	 * RealEstateObject
+	 * RefDocAccountAssignment
+	 * SalesOrder
+	 * SalesOrderItem
+	 * SalesOrderScheduleLine
+	 * ServiceEntrySheetItemUUID
+	 * ServiceEntrySheetUUID
+	 * WBSElementInternalID
+	 * WBSElement
+	 * ServiceDocumentType
+	 * ServiceDocument
+	 * ServiceDocumentItem
+	 * Currency
+	 * NetAmount
+
+## A_StatisticalKeyFigure
+	 * StatisticalKeyFigure
+	 * ControllingArea
+	 * StstcKeyFigQuantityUnit
+	 * StstcKeyFigCategory
+	 * to_Text
+
+## A_StatisticalKeyFigureText
+	 * Language
+	 * ControllingArea
+	 * StatisticalKeyFigure
+	 * StatisticalKeyFigureName
+	 * to_StatisticalKeyFigure
+
+## A_SuplrActyDescription
+	 * SuplrActyUUID
+	 * Language
+	 * SuplrActyDescription
+
+## A_SuplrActyParticipant
+	 * SuplrActyPartyUUID
+	 * SuplrActyUUID
+	 * UserID
+
+## A_SuplrActyPurchaserResp
+	 * SuplrActyPartyUUID
+	 * SuplrActyUUID
+	 * UserID
+
+## A_SuplrActySupplier
+	 * SuplrActyPartyUUID
+	 * SuplrActyUUID
+	 * BusinessPartner
+
+## A_SuplrActyTskActyReference
+	 * SuplrActyTaskReferenceUUID
+	 * SuplrActyTaskUUID
+	 * SuplrActyUUID
+	 * SupplierActivity
+
+## A_SuplrActyTskCommText
+	 * SuplrActyTaskUUID
+	 * Language
+	 * SuplrActyTskCommunicationText
+
+## A_SuplrActyTskDescription
+	 * SuplrActyTaskUUID
+	 * Language
+	 * SuplrActyTskDescription
+
+## A_SuplrActyTskMessageText
+	 * SuplrActyTaskUUID
+	 * Language
+	 * SuplrActyTskMessageText
+
+## A_SuplrActyTskProcessor
+	 * SuplrActyTaskPartyUUID
+	 * SuplrActyTaskUUID
+	 * UserID
+	 * EmailAddress
+
+## A_SuplrActyTskPurchaserResp
+	 * SuplrActyTaskPartyUUID
+	 * SuplrActyTaskUUID
+	 * UserID
+	 * EmailAddress
+
+## A_SuplrActyTskSupplier
+	 * SuplrActyTaskPartyUUID
+	 * SuplrActyTaskUUID
+	 * BusinessPartner
+
+## A_SuplrEvalRspAppraiser
+	 * SuplrEvalRspPartyUUID
+	 * SuplrEvalRspUUID
+	 * UserID
+
+## A_SuplrEvalRspExplText
+	 * SuplrEvalReqUUID
+	 * Language
+	 * SuplrEvalRspExplanationText
+
+## A_SuplrEvalRspExternalName
+	 * SuplrEvalRspUUID
+	 * Language
+	 * SuplrEvalReqExternalNameUUID
+	 * SuplrEvalReqExternalName
+
+## A_SuplrEvalRspIntroduction
+	 * SuplrEvalReqUUID
+	 * Language
+	 * SuplrEvalRspIntroductionText
+
+## A_SuplrEvalRspLanguage
+	 * SuplrEvalRspLanguageUUID
+	 * SuplrEvalRspQuestionnaireUUID
+	 * SuplrEvalRspUUID
+	 * IsMasterLanguage
+	 * IsSelectedLanguage
+	 * Language
+
+## A_SuplrEvalRspPurchaserResp
+	 * SuplrEvalRspPartyUUID
+	 * SuplrEvalRspUUID
+	 * UserID
+
+## A_SuplrEvalRspQuestion
+	 * SuplrEvalRspQuestionUUID
+	 * SuplrEvalRspUUID
+	 * SuplrEvalRspBrnchgQuestionUUID
+	 * SuplrEvalRspSectionUUID
+	 * SuplrEvalRspBrnchgQstnValnUUID
+	 * SuplrEvalReqQuestionUUID
+	 * SupplierEvalQuestion
+	 * SupplierEvalRequestQuestion
+	 * QuestionName
+	 * IsDisqualifyingQuestion
+	 * IsMandatoryQuestion
+	 * IsQuestionCommentEnabled
+	 * NumberOfResponses
+	 * SLCPreferredAnswer
+	 * SLCQuestionAttachmentOption
+	 * SuplrEvalOrdinalNumber
+	 * SuplrEvalRspBrnchgQuestion
+	 * SuplrEvalRspBrnchgQuestionValn
+	 * SLCQuestionType
+	 * WeightingFactor
+	 * MinimalScore
+	 * TargetScore
+	 * to_SuplrEvalRspExplText
+	 * to_SuplrEvalRspQuestionText
+
+## A_SuplrEvalRspQuestionText
+	 * SuplrEvalReqUUID
+	 * Language
+	 * SuplrEvalRspQuestionText
+
+## A_SuplrEvalRspRootQnaire
+	 * SuplrEvalRspQuestionnaireUUID
+	 * SuplrEvalRspUUID
+	 * CalculatedScore
+	 * IsScoringRelevant
+	 * MinimalScore
+	 * NumberOfResponses
+	 * SuplrEvalOrdinalNumber
+	 * TargetScore
+	 * WeightingFactor
+	 * to_SuplrEvalRspStrucQnaire
+
+## A_SuplrEvalRspSection
+	 * SuplrEvalRspSectionUUID
+	 * SuplrEvalRspUUID
+	 * SuplrEvalRspQuestionnaireUUID
+	 * SuplrEvalReqSectionUUID
+	 * SupplierEvalResponseSection
+	 * SupplierEvalResponseSctnAltv
+	 * QuestionnaireSectionName
+	 * WeightingFactor
+	 * MinimalScore
+	 * TargetScore
+	 * CalculatedScore
+	 * NumberOfResponses
+	 * to_SuplrEvalRspQuestion
+	 * to_SuplrEvalRspSectionText
+
+## A_SuplrEvalRspSectionText
+	 * SuplrEvalReqUUID
+	 * Language
+	 * SuplrEvalRspSectionText
+
+## A_SuplrEvalRspStrucQnaire
+	 * SuplrEvalRspQuestionnaireUUID
+	 * SuplrEvalRspRootQnaireUUID
+	 * SuplrEvalRspUUID
+	 * QuestionnaireName
+	 * CalculatedScore
+	 * IsScoringRelevant
+	 * MinimalScore
+	 * NumberOfResponses
+	 * SuplrEvalOrdinalNumber
+	 * TargetScore
+	 * WeightingFactor
+	 * to_SuplrEvalRspSection
+
+## A_SuplrEvalRspSupplier
+	 * SuplrEvalRspPartyUUID
+	 * SuplrEvalRspUUID
+	 * BusinessPartner
+
+## A_SuplrEvalSccrdPurchaserResp
+	 * SuplrEvalScorecardPtyUUID
+	 * SuplrEvalScorecardUUID
+	 * UserID
+
+## A_SuplrEvalSccrdQuestion
+	 * SuplrEvalSccrdQuestionUUID
+	 * SuplrEvalSccrdUUID
+	 * SuplrEvalSccrdSectionUUID
+	 * SuplrEvalReqQuestionUUID
+	 * SupplierEvalQuestion
+	 * SupplierEvalRequestQuestion
+	 * QuestionName
+	 * SLCQuestionType
+	 * WeightingFactor
+	 * MinimalScore
+	 * TargetScore
+
+## A_SuplrEvalSccrdSection
+	 * SuplrEvalSccrdSectionUUID
+	 * SuplrEvalSccrdUUID
+	 * SuplrEvalRspQuestionnaireUUID
+	 * SupplierEvalScorecardSection
+	 * SupplierEvalScorecardSctnAltv
+	 * QuestionnaireSectionName
+	 * WeightingFactor
+	 * MinimalScore
+	 * TargetScore
+	 * CalculatedScore
+	 * NumberOfResponses
+	 * to_SuplrEvalSccrdQuestion
+	 * to_SuplrEvalSccrdStrucQnaire
+	 * to_SupplierEvalScorecard
+
+## A_SuplrEvalSccrdStrucQnaire
+	 * SuplrEvalScorecardQnaireUUID
+	 * QuestionnaireName
+	 * SupplierEvalScorecardQnaire
+	 * SuplrEvalScorecardRtQnaireUUID
+	 * MinimalScore
+	 * TargetScore
+	 * CalculatedScore
+	 * NumberOfResponses
+	 * WeightingFactor
+	 * SuplrEvalOrdinalNumber
+	 * to_SuplrEvalSccrdSection
+	 * to_SuplrEvalScorecardRootQnaire
+
+## A_SuplrEvalSccrdSupplier
+	 * SuplrEvalScorecardPtyUUID
+	 * SuplrEvalScorecardUUID
+	 * BusinessPartner
+
+## A_SuplrEvalScorecard
+	 * SuplrEvalScorecardUUID
+	 * SupplierEvalScorecard
+	 * SuplrEvalScorecardName
+	 * to_SuplrEvalSccrdPurchaserResp
+	 * to_SuplrEvalScorecardRootQnaire
+	 * to_Supplier
+
+## A_SuplrEvalScorecardRootQnaire
+	 * SuplrEvalScorecardQnaireUUID
+	 * SuplrEvalScorecardUUID
+	 * MinimalScore
+	 * TargetScore
+	 * CalculatedScore
+	 * NumberOfResponses
+	 * WeightingFactor
+	 * SuplrEvalOrdinalNumber
+	 * to_SuplrEvalSccrdStrucQnaire
+	 * to_SupplierEvalScorecard
+
+## A_SuplrInvcHeaderWhldgTax
+
+## A_SuplrInvcItemAcctAssgmt
+
+## A_SuplrInvcItemPurOrdRef
+
+## A_Supplier
+
+## A_SupplierActivity
+	 * SuplrActyUUID
+	 * SupplierActivity
+	 * PurgCatUUID
+	 * SuplrActyName
+	 * StartDate
+	 * EndDate
+	 * SuplrActyPriority
+	 * SuplrActyType
+	 * CreatedByUser
+	 * CreationDateTime
+	 * LastChangedByUser
+	 * LastChangeDateTime
+	 * SuplrActyLifecycleStatus
+	 * Language
+	 * to_SuplrActyDescription
+	 * to_SuplrActyParticipant
+	 * to_SuplrActyPurchaserResp
+	 * to_SuplrActySupplier
+
+## A_SupplierActivityTask
+	 * SuplrActyTaskUUID
+	 * SupplierActivityTask
+	 * SuplrActyTaskName
+	 * CreationDateTime
+	 * CreatedByUser
+	 * LastChangedByUser
+	 * EndDate
+	 * Language
+	 * SuplrActyTaskPriority
+	 * SuplrActyTaskLifecycleStatus
+	 * to_SuplrActyTskActyReference
+	 * to_SuplrActyTskCommText
+	 * to_SuplrActyTskDescription
+	 * to_SuplrActyTskMessageText
+	 * to_SuplrActyTskProcessor
+	 * to_SuplrActyTskPurchaserResp
+	 * to_SuplrActyTskSupplier
+
+## A_SupplierCompany
+
+## A_SupplierCompanyText
+
+## A_SupplierDunning
+
+## A_SupplierEvaluationResponse
+	 * SuplrEvalRspUUID
+	 * SuplrEvalReqUUID
+	 * PurgCatUUID
+	 * SupplierEvalResponse
+	 * SuplrEvalRspName
+	 * Language
+	 * CreatedByUser
+	 * LastChangedByUser
+	 * SuplrEvalStartDate
+	 * SuplrEvalEndDate
+	 * SuplrEvalDeadlineDate
+	 * LastChangeDateTime
+	 * SuplrEvalSubmissionDateTime
+	 * CreationDateTime
+	 * SuplrEvalRspLifecycleStatus
+	 * to_SuplrEvalRspAppraiser
+	 * to_SuplrEvalRspExternalName
+	 * to_SuplrEvalRspIntroduction
+	 * to_SuplrEvalRspLanguage
+	 * to_SuplrEvalRspPurchaserResp
+	 * to_SuplrEvalRspRootQnaire
+	 * to_SuplrEvalRspSupplier
+
+## A_SupplierInvoice
+
+## A_SupplierInvoiceItemGLAcct
+
+## A_SupplierInvoiceTax
+	 * SupplierInvoice
+	 * FiscalYear
+	 * TaxCode
+	 * SupplierInvoiceTaxCounter
+	 * DocumentCurrency
+	 * TaxAmount
+	 * TaxBaseAmountInTransCrcy
+	 * TaxJurisdiction
+	 * TaxCountry
+
+## A_SupplierPartnerFunc
+
+## A_SupplierPurchasingOrg
+
+## A_SupplierPurchasingOrgText
+
+## A_SupplierQuotation
+
+## A_SupplierQuotationItem
+
+## A_SupplierText
+
+## A_SupplierWithHoldingTax
+
+## A_WorkCenterAllCapacity
+	 * WorkCenterInternalID
+	 * WorkCenterTypeCode
+	 * CapacityInternalID
+	 * CapacityCategoryAllocation
+	 * WorkCenter
+	 * WorkCenterDesc
+	 * Plant
+	 * WorkCenterCategoryCode
+	 * WorkCenterResponsible
+	 * SupplyArea
+	 * WorkCenterUsage
+	 * WorkCenterResponsibleName
+	 * CapacityCategoryCode
+	 * to_WorkCenterInterval
+	 * to_WorkCenterQueuingOp
+	 * to_WorkCenterTodayOp
+
+## A_WorkCenterAllCapacity_2
+	 * WorkCenterInternalID
+	 * WorkCenterTypeCode
+	 * CapacityCategoryAllocation
+	 * Plant
+	 * WorkCenterCategoryCode
+	 * WorkCenter
+	 * CapacityInternalID
+	 * SetupCapRequirementFormula
+	 * ProcgCapRequirementFormula
+	 * TeardownCapRequirementFormula
+	 * OtherCapRequirementFormula
+	 * WorkCenterLastChangeDateTime
+	 * to_Capacity
+	 * to_WorkCenterQueuingOp
+	 * to_WorkCenterTodayOp
+
+## A_WorkCenterCapDayOp
+	 * Plant
+	 * MRPController
+	 * WorkCenter
+	 * CapacityInternalID
+	 * CapacityRequirement
+	 * Material
+	 * OrderID
+	 * Operation
+	 * WorkCenterDesc
+	 * WorkCenterResponsible
+	 * WorkCenterCategoryCode
+	 * WorkCenterInternalID
+	 * CapacityRequirementOrigin
+	 * CapacityRequirementUnit
+	 * OrderType
+	 * OrderTypeName
+	 * OrderPlannedTotalQty
+	 * BaseUnit
+	 * ProductionVersion
+	 * OperationPlanningStatusText
+	 * OperationPlanningStatusCode
+	 * OperationLatestStartDate
+	 * OperationLatestStartTime
+	 * OperationLatestEndDate
+	 * OperationLatestEndTime
+	 * OrderStatusText
+	 * OrderStatusCode
+	 * OrderFirmingStatusText
+	 * OpLtstSchedldProcgStrtDte
+	 * OpLtstSchedldProcgStrtTme
+	 * OpLtstSchedldTrdwnStrtDte
+	 * OpLtstSchedldTrdwnStrtTme
+	 * RemainingCapReqOpSegSetupDurn
+	 * RemainingCapReqOpSegProcgDurn
+	 * RemainingCapReqOpSegTrdwnDurn
+	 * CapacityRequirementsAreDtmnd
+	 * OrderInternalID
+
+## A_WorkCenterCapPplineOp
+	 * Plant
+	 * MRPController
+	 * WorkCenter
+	 * CapacityInternalID
+	 * CapacityRequirement
+	 * Material
+	 * OrderID
+	 * Operation
+	 * WorkCenterDesc
+	 * WorkCenterResponsible
+	 * WorkCenterCategoryCode
+	 * WorkCenterInternalID
+	 * CapacityRequirementOrigin
+	 * CapacityRequirementUnit
+	 * OrderType
+	 * OrderTypeName
+	 * OrderCategory
+	 * OrderCategoryName
+	 * BaseUnit
+	 * OrderPlannedTotalQty
+	 * ProductionVersion
+	 * OperationPlanningStatusCode
+	 * OperationPlanningStatusText
+	 * OperationLatestStartDate
+	 * OperationLatestStartTime
+	 * OperationLatestEndDate
+	 * OperationLatestEndTime
+	 * OrderStatusCode
+	 * OrderStatusText
+	 * OrderStatusShortText
+	 * OrderFirmingStatusCode
+	 * OrderFirmingStatusText
+	 * OpLtstSchedldProcgStrtDte
+	 * OpLtstSchedldProcgStrtTme
+	 * OpLtstSchedldTrdwnStrtDte
+	 * OpLtstSchedldTrdwnStrtTme
+	 * RemainingCapReqOpSegSetupDurn
+	 * RemainingCapReqOpSegProcgDurn
+	 * RemainingCapReqOpSegTrdwnDurn
+	 * CapacityRequirementsAreDtmnd
+	 * RemainingCapReqExecutionDurn
+	 * OrderInternalID
+
+## A_WorkCenterCapacity
+
+## A_WorkCenterCapacityInterval
+	 * WorkCenterInternalID
+	 * WorkCenterTypeCode
+	 * CapacityCategoryAllocation
+	 * CapacityInternalID
+	 * CapacityActiveVersion
+	 * IntervalEndDate
+	 * IntervalStartDate
+	 * WorkCenter
+	 * Plant
+	 * WorkDayRule
+	 * AvailableCapacityIntervalDurn
+	 * ShiftSequence
+	 * StdAvailableCapacityIsValid
+	 * to_WorkCenterShift
+
+## A_WorkCenterCapacityInterval_2
+	 * CapacityInternalID
+	 * CapacityActiveVersion
+	 * IntervalEndDate
+	 * IntervalStartDate
+	 * StdAvailableCapacityIsValid
+	 * AvailableCapacityIntervalDurn
+	 * ShiftSequence
+	 * WorkDayRule
+	 * CapacityNumberOfShifts
+	 * CapacityNumberOfCapacities
+	 * CapacityPlanUtilizationPercent
+	 * CapacityLastChangeDateTime
+	 * to_CapacityShift
+
+## A_WorkCenterCapacityShift
+	 * WorkCenterInternalID
+	 * WorkCenterTypeCode
+	 * CapacityCategoryAllocation
+	 * CapacityInternalID
+	 * CapacityActiveVersion
+	 * IntervalEndDate
+	 * WeekDay
+	 * AvailableCapacityShift
+	 * WorkCenter
+	 * Plant
+	 * IntervalStartDate
+	 * ShiftName
+	 * ShiftDefValidityStart
+	 * ShiftDefValidityEnd
+	 * ShiftStartTime
+	 * ShiftEndTime
+	 * CapacityBreakDuration
+	 * CapacityPlanUtilizationPercent
+	 * CapacityNumberOfCapacities
+	 * TotOperatingDurationInHours
+	 * TotOperationDurationUnit
+
+## A_WorkCenterCapacityShift_2
+	 * CapacityInternalID
+	 * CapacityActiveVersion
+	 * IntervalEndDate
+	 * WeekDay
+	 * AvailableCapacityShift
+	 * IntervalStartDate
+	 * WorkDayRule
+	 * ShiftDefinition
+	 * ShiftStartTime
+	 * ShiftEndTime
+	 * ShiftDefValidityStartDate
+	 * ShiftDefValidityEndDate
+	 * CapacityNumberOfCapacities
+	 * CapacityPlanUtilizationPercent
+	 * CapacityBreakDuration
+	 * OperatingDurationInSeconds
+	 * TotOperatingDurationInSeconds
+	 * CapacityLastChangeDateTime
+
+## A_WorkCenterCapacityText
+	 * CapacityInternalID
+	 * Language
+	 * CapacityText
+	 * CapacityLastChangeDateTime
+
+## A_WorkCenterCostCenter
+
+## A_WorkCenterDayOperation
+	 * WorkCenterInternalID
+	 * ManufacturingOrder
+	 * ManufacturingOrderOperation
+	 * ManufacturingOrderCategory
+	 * MfgOrderOperationText
+	 * Material
+	 * OperationIsReleased
+	 * OpErlstSchedldExecStrtDte
+	 * OpErlstSchedldExecStrtTme
+	 * OpErlstSchedldExecEndDte
+	 * OpErlstSchedldExecEndTme
+	 * OpPlannedTotalQuantity
+	 * OperationUnit
+	 * ConfirmedQuantity
+	 * ConfirmedQuantityInBaseUnit
+	 * ConfirmedQuantityUnit
+	 * ErlstSchedldExecDurnInWorkdays
+	 * OpActualExecutionDays
+	 * ManufacturingOrderSequence
+
+## A_WorkCenterDescription
+	 * WorkCenterInternalID
+	 * WorkCenterTypeCode
+	 * Language
+	 * WorkCenterDesc
+	 * WorkCenter
+	 * Plant
+	 * WorkCenterCategoryCode
+	 * WorkCenterLastChangeDateTime
+
+## A_WorkCenterPipeLineOperation
+	 * WorkCenterInternalID
+	 * ManufacturingOrder
+	 * ManufacturingOrderOperation
+	 * ManufacturingOrderCategory
+	 * MfgOrderOperationText
+	 * Material
+	 * OperationIsReleased
+	 * OpErlstSchedldExecStrtDte
+	 * OpErlstSchedldExecStrtTme
+	 * OpErlstSchedldExecEndDte
+	 * OpErlstSchedldExecEndTme
+	 * OpPlannedTotalQuantity
+	 * OperationUnit
+	 * ConfirmedQuantity
+	 * ConfirmedQuantityInBaseUnit
+	 * ConfirmedQuantityUnit
+	 * ErlstSchedldExecDurnInWorkdays
+	 * RemainingDuration
+	 * ManufacturingOrderSequence
+
+## A_WorkCenters
+	 * __metadata
+	 * WorkCenterInternalID
+	 * WorkCenterTypeCode
+	 * WorkCenter
+	 * WorkCenterDesc
+	 * Plant
+	 * WorkCenterCategoryCode
+	 * WorkCenterResponsible
+	 * WorkCenterResponsibleName
+	 * SupplyArea
+	 * WorkCenterUsage
+	 * CapacityInternalID
+	 * WorkCenterIsToBeDeleted
+	 * ValidityStartDate
+	 * ValidityEndDate
+	 * WorkCenterFormulaParam1
+	 * WorkCenterFormulaParam2
+	 * WorkCenterFormulaParam3
+	 * WorkCenterFormulaParam4
+	 * WorkCenterFormulaParam5
+	 * WorkCenterFormulaParam6
+	 * WorkCenterFmlaParamValue1
+	 * WorkCenterFmlaParamValue2
+	 * WorkCenterFmlaParamValue3
+	 * WorkCenterFmlaParamValue4
+	 * WorkCenterFmlaParamValue5
+	 * WorkCenterFmlaParamValue6
+	 * WorkCenterFmlaParamUnit1
+	 * WorkCenterFmlaParamUnit2
+	 * WorkCenterFmlaParamUnit3
+	 * WorkCenterFmlaParamUnit4
+	 * WorkCenterFmlaParamUnit5
+	 * WorkCenterFmlaParamUnit6
+	 * StandardWorkFormulaParamGroup
+	 * WrkCtrStdValMaintRule1
+	 * WrkCtrStdValMaintRule2
+	 * WrkCtrStdValMaintRule3
+	 * WrkCtrStdValMaintRule4
+	 * WrkCtrStdValMaintRule5
+	 * WrkCtrStdValMaintRule6
+	 * WorkCenterStandardWorkQtyUnit1
+	 * WorkCenterStandardWorkQtyUnit2
+	 * WorkCenterStandardWorkQtyUnit3
+	 * WorkCenterStandardWorkQtyUnit4
+	 * WorkCenterStandardWorkQtyUnit5
+	 * WorkCenterStandardWorkQtyUnit6
+	 * OperationControlProfile
+	 * MatlCompIsMarkedForBackflush
+	 * WorkCenterLocation
+	 * WorkCenterLocationGroup
+	 * WrkCtrSetupSchedgFmla
+	 * WrkCtrProcgSchedgFmla
+	 * WrkCtrTeardownSchedgFmla
+	 * WrkCtrIntProcgSchedgFmla
+	 * WorkCenterLastChangeDateTime
+	 * to_Capacity
+	 * to_WorkCenterAllCapacity
+	 * to_WorkCenterCapacity
+	 * to_WorkCenterCostCenter
+	 * to_WorkCenterDescription
+	 * to_WorkCenterQueuingOp
+	 * to_WorkCenterTodayOp
+
+## BaseUnit
+	 * UnitOfMeasure
+	 * UnitOfMeasure_Text
+	 * UnitOfMeasureISOCode
+	 * UnitOfMeasureNumberOfDecimals
+	 * UnitOfMeasureDspNmbrOfDcmls
+	 * to_CnsldtnBaseUnitT
+
+## BaseUnitText
+	 * Language
+	 * UnitOfMeasure
+	 * BaseUnitText
+	 * UnitOfMeasure_E
+	 * to_CnsldtnBaseUnit
+
+## BillToParty
+	 * Customer
+	 * Customer_Text
+	 * AdditionalMasterDataSource
+	 * to_CnsldtnBillToPartyT
+
+## BillToPartyText
+	 * Language
+	 * Customer
+	 * BillToPartyText
+	 * to_CnsldtnBillToParty
+
+## BillingDocumentType
+	 * BillingDocumentType
+	 * BillingDocumentType_Text
+	 * AdditionalMasterDataSource
+	 * to_CnsldtnBillingTypeT
+
+## BillingDocumentTypeText
+	 * Language
+	 * BillingDocumentType
+	 * BillingDocumentTypeText
+	 * to_CnsldtnBillingType
+
+## BreakdownBySubassignment
+
+## BreakdownCategory
+	 * ConsolidationChartOfAccounts
+	 * ConsolidationChartOfAccounts_Text
+	 * BreakdownCategory
+	 * BreakdownCategory_Text
+	 * to_CnsldtnBreakdownCategoryT
+	 * to_CnsldtnBrkdwnBySubassgmt
+
+## BreakdownCategoryText
+	 * Language
+	 * ConsolidationChartOfAccounts
+	 * ConsolidationChartOfAccounts_Text
+	 * BreakdownCategory
+	 * BreakdownCategoryText
+	 * to_CnsldtnBreakdownCategory
+
+## BreakdownType
+
+## BreakdownTypeText
+
+## BusinessArea
+	 * BusinessArea
+	 * BusinessArea_Text
+	 * AdditionalMasterDataSource
+	 * to_CnsldtnBusinessAreaHier
+	 * to_CnsldtnBusinessAreaT
+
+## BusinessAreaHier
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * HierarchyNode_Text
+	 * ValidityEndDate
+	 * ParentNode
+	 * ValidityStartDate
+	 * BusinessArea
+	 * BusinessArea_Text
+	 * SequenceNumber
+	 * HierarchyNodeSequence
+	 * HierarchyNodeLevel
+	 * NodeType
+	 * to_CnsldtnBusinessArea
+	 * to_CnsldtnBusinessAreaHierT
+
+## BusinessAreaHierText
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * ValidityEndDate
+	 * Language
+	 * HierarchyNodeText
+	 * ValidityStartDate
+	 * NodeType
+
+## BusinessAreaText
+	 * Language
+	 * BusinessArea
+	 * BusinessAreaText
+	 * to_CnsldtnBusinessArea
+
+## Cancel
+	 * PostingDate
+	 * GoodsMovementCode
+	 * DocumentDate
+	 * MaterialDocument
+	 * __metadata
+	 * MaterialDocumentYear
+	 * InventoryTransactionType
+	 * CreationDate
+	 * CreationTime
+	 * CreatedByUser
+	 * MaterialDocumentHeaderText
+	 * ReferenceDocument
+	 * to_MaterialDocumentItem
+
+## CancelItem
+	 * PostingDate
+	 * GoodsMovementCode
+	 * DocumentDate
+	 * MaterialDocument
+	 * __metadata
+	 * MaterialDocumentYear
+	 * InventoryTransactionType
+	 * CreationDate
+	 * CreationTime
+	 * CreatedByUser
+	 * MaterialDocumentHeaderText
+	 * ReferenceDocument
+	 * to_MaterialDocumentItem
+
+## CancelledDocumentItem
+	 * Material
+	 * Plant
+	 * StorageLocation
+	 * GoodsMovementType
+	 * EntryUnit
+	 * QuantityInEntryUnit
+	 * ManufacturingOrder
+	 * ManufacturingOrderItem
+	 * GoodsMovementRefDocType
+	 * CostCenter
+	 * InventorySpecialStockType
+	 * MaterialDocument
+	 * Customer
+	 * SalesOrder
+	 * SalesOrderItem
+	 * SalesOrderScheduleLine
+	 * PurchaseOrder
+	 * PurchaseOrderItem
+	 * WBSElement
+	 * MaterialDocumentYear
+	 * InventoryStockType
+	 * InventoryValuationType
+	 * GoodsMovementReasonCode
+	 * AccountAssignmentCategory
+	 * MaterialDocumentItem
+	 * ControllingArea
+	 * CostObject
+	 * ProfitabilitySegment
+	 * ProfitCenter
+	 * GLAccount
+	 * FunctionalArea
+	 * MaterialBaseUnit
+	 * QuantityInBaseUnit
+	 * Batch
+	 * Supplier
+	 * CompanyCodeCurrency
+	 * GdsMvtExtAmtInCoCodeCrcy
+	 * SlsPrcAmtInclVATInCoCodeCrcy
+	 * FiscalYear
+	 * FiscalYearPeriod
+	 * FiscalYearVariant
+	 * IssgOrRcvgMaterial
+	 * IssgOrRcvgBatch
+	 * IssuingOrReceivingPlant
+	 * IssuingOrReceivingStorageLoc
+	 * IssuingOrReceivingStockType
+	 * IssgOrRcvgSpclStockInd
+	 * IssuingOrReceivingValType
+	 * IsCompletelyDelivered
+	 * MaterialDocumentItemText
+	 * UnloadingPointName
+	 * ShelfLifeExpirationDate
+	 * ManufactureDate
+	 * SerialNumbersAreCreatedAutomly
+	 * Reservation
+	 * ReservationItem
+	 * ReservationIsFinallyIssued
+	 * SpecialStockIdfgSalesOrder
+	 * SpecialStockIdfgSalesOrderItem
+	 * SpecialStockIdfgWBSElement
+	 * IsAutomaticallyCreated
+	 * MaterialDocumentLine
+	 * MaterialDocumentParentLine
+	 * HierarchyNodeLevel
+	 * GoodsMovementIsCancelled
+	 * ReversedMaterialDocumentYear
+	 * ReversedMaterialDocument
+	 * ReversedMaterialDocumentItem
+	 * to_MaterialDocumentHeader
+	 * to_SerialNumbers
+
+## ChartOfAccounts
+	 * ChartOfAccounts
+	 * ChartOfAccounts_Text
+	 * AdditionalMasterDataSource
+	 * to_CnsldtnGLChartOfAccountsT
+
+## ChartOfAccountsText
+	 * Language
+	 * ChartOfAccounts
+	 * ChartOfAccountsText
+	 * to_CnsldtnGLChartOfAccounts
+
+## CnsldtnInvesteeUnit
+	 * ConsolidationUnit
+	 * ConsolidationUnit_Text
+	 * ConsolidationUnitLocalCurrency
+	 * ConsolidationUnitLocalCurrency_Text
+	 * Country
+	 * to_CnsldtnInvesteeUnitHier
+	 * to_CnsldtnInvesteeUnitT
+
+## CnsldtnInvesteeUnitHier
+	 * ConsolidationUnitHierarchy
+	 * HierarchyNode
+	 * HierarchyNode_Text
+	 * ValidityEndDate
+	 * ValidityStartDate
+	 * ParentNode
+	 * ConsolidationUnit
+	 * ConsolidationUnit_Text
+	 * SequenceNumber
+	 * HierarchyNodeLevel
+	 * NodeType
+	 * to_CnsldtnInvesteeUnit
+	 * to_CnsldtnInvesteeUnitHierT
+
+## CnsldtnInvesteeUnitHierText
+	 * ConsolidationUnitHierarchy
+	 * HierarchyNode
+	 * ValidityEndDate
+	 * Language
+	 * HierarchyNodeText
+	 * ValidityStartDate
+	 * NodeType
+
+## CnsldtnInvesteeUnitText
+	 * ConsolidationUnit
+	 * Language
+	 * ConsolidationUnitText
+	 * to_CnsldtnInvesteeUnit
+
+## CnsldtnOfInvestmentsActivity
+	 * InvestmentActivityType
+	 * to_CnsldtnOfInvestmentsActyT
+
+## CnsldtnOfInvestmentsActyText
+	 * Language
+	 * InvestmentActivityType
+
+## CnsldtnUnitForElimText
+	 * ConsolidationUnit
+	 * Language
+	 * CnsldtnUnitForElimText
+	 * to_CnsldtnUnitElim
+
+## CnsldtnUnitForElimination
+	 * ConsolidationUnit
+	 * ConsolidationUnit_Text
+	 * AdditionalMasterDataSource
+	 * ConsolidationUnitLocalCurrency
+	 * ConsolidationUnitLocalCurrency_Text
+	 * Country
+	 * to_CnsldtnUnitForEliminationT
+	 * to_CnsldtnUnitHierForElim
+
+## CnsldtnUnitHierForElim
+	 * ConsolidationUnitHierarchy
+	 * HierarchyNode
+	 * HierarchyNode_Text
+	 * ValidityEndDate
+	 * ValidityStartDate
+	 * ParentNode
+	 * ConsolidationUnit
+	 * ConsolidationUnit_Text
+	 * SequenceNumber
+	 * HierarchyNodeLevel
+	 * NodeType
+	 * to_CnsldtnUnitElim
+	 * to_CnsldtnUnitHierForElimText
+
+## CnsldtnUnitHierForElimText
+	 * ConsolidationUnitHierarchy
+	 * HierarchyNode
+	 * ValidityEndDate
+	 * Language
+	 * HierarchyNodeText
+	 * ValidityStartDate
+	 * NodeType
+
+## ConsolidationAllMDAttribText
+	 * ConsolidationAttributeName
+	 * ConsolidationMDCharcName
+	 * Language
+	 * ConsolidationAttributeMedText
+	 * to_CnsldtnAllMD
+	 * to_CnsldtnAllMDAttribute
+
+## ConsolidationAllMDAttribute
+	 * ConsolidationAttributeName
+	 * ConsolidationAttributeName_Text
+	 * ConsolidationMDCharcName
+	 * ConsolidationAttributeSuprord
+	 * ConsolidationAttributeSuprord2
+	 * ConsolidationAttributeSuprord3
+	 * ConsolidationAttributeSuprord4
+	 * ConsolidationAttributeMultiVal
+	 * to_CnsldtnAllMD
+	 * to_CnsldtnAllMDAttribT
+
+## ConsolidationAllMDText
+	 * AdditionalCharcFieldName
+	 * Language
+	 * ConsolidationMDMedText
+	 * ConsolidationMDLongText
+	 * to_CnsldtnAllMD
+
+## ConsolidationAllMasterData
+	 * AdditionalCharcFieldName
+	 * AdditionalCharcFieldName_Text
+	 * AdditionalCharcIsInUse
+	 * AdditionalMasterDataIsInUse
+	 * AdditionalMDHierarchyIsInUse
+	 * ConsolidationMDPairedFldName
+	 * ConsolidationMDSuprordFldName
+	 * to_CnsldtnAllCharcsAttribute
+	 * to_CnsldtnAllMDT
+
+## ConsolidationChartOfAccounts
+	 * ConsolidationChartOfAccounts
+	 * ConsolidationChartOfAccounts_Text
+	 * to_CnsldtnChartOfAccountsT
+
+## ConsolidationChtAcctsText
+	 * ConsolidationChartOfAccounts
+	 * Language
+	 * ConsolidationChartOfAcctsText
+	 * to_CnsldtnChartOfAccounts
+
+## ConsolidationDocTypeText
+	 * ConsolidationDocumentType
+	 * Language
+	 * ConsolidationDocumentTypeText
+	 * to_CnsldtnDocumentType
+
+## ConsolidationDocumentType
+	 * ConsolidationDocumentType
+	 * ConsolidationDocumentType_Text
+	 * PostingLevel
+	 * PostingLevel_Text
+	 * ConsolidationBalanceCheck
+	 * ConsolidationBalanceCheck_Text
+	 * ConsolidationPostgItemAutoFlag
+	 * IsDocumentPostInTransCurrency
+	 * IsDocumentPostInLocalCurrency
+	 * IsDocumentPostInGroupCurrency
+	 * DocHasCreditDeferredTax
+	 * DocHasDebitDeferredTax
+	 * DocumentTypeBusinessAppl
+	 * DocumentTypeBusinessAppl_Text
+	 * to_CnsldtnDocumentTypeHier
+	 * to_CnsldtnDocumentTypeT
+
+## ConsolidationGroup
+	 * ConsolidationGroup
+	 * ConsolidationGroup_Text
+	 * to_CnsldtnGroupT
+
+## ConsolidationGroupText
+	 * ConsolidationGroup
+	 * Language
+	 * ConsolidationGroupText
+	 * to_CnsldtnGroup
+
+## ConsolidationLedger
+	 * ConsolidationLedger
+	 * ConsolidationLedger_Text
+	 * GroupCurrency
+	 * to_CnsldtnLedgerT
+
+## ConsolidationLedgerText
+	 * ConsolidationLedger
+	 * Language
+	 * ConsolidationLedgerText
+	 * to_CnsldtnLedger
+
+## ConsolidationUnit
+	 * ConsolidationUnit
+	 * ConsolidationUnit_Text
+	 * ConsolidationUnitLocalCurrency
+	 * ConsolidationUnitLocalCurrency_Text
+	 * Country
+	 * to_CnsldtnUnitHier
+	 * to_CnsldtnUnitT
+
+## ConsolidationUnitHier
+	 * ConsolidationUnitHierarchy
+	 * HierarchyNode
+	 * HierarchyNode_Text
+	 * ValidityEndDate
+	 * ValidityStartDate
+	 * ParentNode
+	 * ConsolidationUnit
+	 * ConsolidationUnit_Text
+	 * SequenceNumber
+	 * HierarchyNodeLevel
+	 * NodeType
+	 * to_CnsldtnUnit
+	 * to_CnsldtnUnitHierT
+
+## ConsolidationUnitHierText
+	 * ConsolidationUnitHierarchy
+	 * HierarchyNode
+	 * ValidityEndDate
+	 * Language
+	 * HierarchyNodeText
+	 * ValidityStartDate
+	 * NodeType
+
+## ConsolidationUnitText
+	 * ConsolidationUnit
+	 * Language
+	 * ConsolidationUnitText
+	 * to_CnsldtnUnit
+
+## ConsolidationVersion
+	 * ConsolidationVersion
+	 * ConsolidationVersion_Text
+	 * CnsldtnReferenceVersion
+	 * CnsldtnReferenceVersion_Text
+	 * GroupCurrency
+	 * GroupCurrency_Text
+	 * CnsldtnIsPlanVersion
+	 * CnsldtnVersionType
+	 * CnsldtnVersionType_Text
+	 * to_CnsldtnVersionT
+
+## ConsolidationVersionText
+	 * ConsolidationVersion
+	 * Language
+	 * ConsolidationVersionText
+	 * to_CnsldtnVersion
+
+## ControllingArea
+	 * ControllingArea
+	 * ControllingArea_Text
+	 * AdditionalMasterDataSource
+	 * to_CnsldtnControllingAreaT
+
+## ControllingAreaText
+	 * Language
+	 * ControllingArea
+	 * ControllingAreaText
+	 * to_CnsldtnControllingArea
+
+## CostCenter
+	 * CostCenter
+	 * CostCenter_Text
+	 * ControllingArea
+	 * AdditionalMasterDataSource
+	 * to_CnsldtnCostCenterHier
+	 * to_CnsldtnCostCenterT
+
+## CostCenterHier
+	 * ControllingArea
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * HierarchyNode_Text
+	 * ValidityEndDate
+	 * ParentNode
+	 * HierarchyVersion
+	 * ValidityStartDate
+	 * CostCenter
+	 * CostCenter_Text
+	 * SequenceNumber
+	 * HierarchyNodeSequence
+	 * HierarchyNodeLevel
+	 * NodeType
+	 * to_CnsldtnCostCenter
+	 * to_CnsldtnCostCenterHierT
+
+## CostCenterHierText
+	 * ControllingArea
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * ValidityEndDate
+	 * Language
+	 * HierarchyNodeText
+	 * ValidityStartDate
+	 * NodeType
+
+## CostCenterText
+	 * Language
+	 * CostCenter
+	 * ControllingArea
+	 * CostCenterText
+	 * to_CnsldtnCostCenter
+
+## Customer
+	 * Customer
+	 * Customer_Text
+	 * AdditionalMasterDataSource
+	 * to_CnsldtnCustomerHier
+	 * to_CnsldtnCustomerT
+
+## CustomerGroup
+	 * CustomerGroup
+	 * CustomerGroup_Text
+	 * AdditionalMasterDataSource
+	 * to_CnsldtnCustomerGroupHier
+	 * to_CnsldtnCustomerGroupT
+
+## CustomerGroupHier
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * HierarchyNode_Text
+	 * ValidityEndDate
+	 * ParentNode
+	 * ValidityStartDate
+	 * CustomerGroup
+	 * CustomerGroup_Text
+	 * SequenceNumber
+	 * HierarchyNodeSequence
+	 * HierarchyNodeLevel
+	 * NodeType
+	 * to_CnsldtnCustomerGroup
+	 * to_CnsldtnCustomerGroupHierT
+
+## CustomerGroupHierText
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * ValidityEndDate
+	 * Language
+	 * HierarchyNodeText
+	 * ValidityStartDate
+	 * NodeType
+
+## CustomerGroupText
+	 * Language
+	 * CustomerGroup
+	 * CustomerGroupText
+	 * to_CnsldtnCustomerGroup
+
+## CustomerHier
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * HierarchyNode_Text
+	 * ValidityEndDate
+	 * ParentNode
+	 * ValidityStartDate
+	 * Customer
+	 * Customer_Text
+	 * SequenceNumber
+	 * HierarchyNodeSequence
+	 * HierarchyNodeLevel
+	 * NodeType
+	 * to_CnsldtnCustomer
+	 * to_CnsldtnCustomerHierT
+
+## CustomerHierText
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * ValidityEndDate
+	 * Language
+	 * HierarchyNodeText
+	 * ValidityStartDate
+
+## CustomerSuplrCntryHierText
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * ValidityEndDate
+	 * Language
+	 * HierarchyNodeText
+	 * ValidityStartDate
+	 * NodeType
+
+## CustomerSupplierCountry
+	 * Country
+	 * Country_Text
+	 * AdditionalMasterDataSource
+	 * to_CnsldtnCountryHier
+	 * to_CnsldtnCountryT
+
+## CustomerSupplierCountryHier
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * HierarchyNode_Text
+	 * ValidityEndDate
+	 * ParentNode
+	 * ValidityStartDate
+	 * Country
+	 * Country_Text
+	 * SequenceNumber
+	 * HierarchyNodeSequence
+	 * HierarchyNodeLevel
+	 * NodeType
+	 * to_CnsldtnCountry
+	 * to_CnsldtnCountryHierT
+
+## CustomerSupplierCountryText
+	 * Language
+	 * Country
+	 * CustomerSupplierCountryText
+	 * to_CnsldtnCountry
+
+## CustomerSupplierIndustry
+	 * Industry
+	 * Industry_Text
+	 * AdditionalMasterDataSource
+	 * to_CnsldtnIndustryT
+
+## CustomerSupplierIndustryText
+	 * Language
+	 * Industry
+	 * CustomerSupplierIndustryText
+	 * to_CnsldtnIndustry
+
+## CustomerText
+	 * Language
+	 * Customer
+	 * CnsldtnCustomerText
+	 * to_CnsldtnCustomer
+
+## DistributionChannel
+
+## DistributionChannelText
+
+## DocumentTypeHier
+	 * ConsolidationDocTypeHierarchy
+	 * HierarchyNode
+	 * HierarchyNode_Text
+	 * ValidityEndDate
+	 * ValidityStartDate
+	 * ParentNode
+	 * ConsolidationDocumentType
+	 * ConsolidationDocumentType_Text
+	 * SequenceNumber
+	 * HierarchyNodeLevel
+	 * NodeType
+	 * to_CnsldtnDocumentType
+	 * to_CnsldtnDocumentTypeHierT
+
+## DocumentTypeHierText
+	 * Language
+	 * ConsolidationDocTypeHierarchy
+	 * HierarchyNode
+	 * ValidityEndDate
+	 * ValidityStartDate
+	 * HierarchyNodeText
+	 * NodeType
+	 * to_CnsldtnDocumentTypeHier
+
+## FSItemAttribByTimeVersion
+	 * ConsolidationChartOfAccounts
+	 * ConsolidationChartOfAccounts_Text
+	 * FinancialStatementItem
+	 * FinancialStatementItem_Text
+	 * ConsolidationVersion
+	 * ConsolidationVersion_Text
+	 * FromFiscalYearPeriod
+	 * ToFiscalYearPeriod
+	 * FinancialStatementItemRole
+	 * FSItemRoleText
+	 * FSItemDataCollection
+	 * FSItemDataCollectionText
+	 * FSItemCurrencyTranslation
+	 * FSItemCurrencyTranslationText
+	 * FSItemElimination
+	 * FSItemEliminationText
+	 * FSItemCashFlow
+	 * FSItemCashFlowText
+	 * FSItemScope
+	 * FSItemScopeText
+	 * FSItemCustomerSpecific
+	 * FSItemCustomerSpecificText
+	 * EliminationTargetFSItem
+	 * EliminationTargetFSItemText
+	 * NCITargetFSItem
+	 * NCITargetFSItemText
+	 * PlanningTargetFSItem
+	 * PlanningTargetFSItemText
+	 * to_CnsldtnFSItem
+
+## FSItemSelectionAttrib
+	 * FSItemAttributeName
+	 * FSItemAttributeName_Text
+	 * to_CnsldtnFSItemSelAttribT
+	 * to_CnsldtnFSItemSelAttribVal
+
+## FSItemSelectionAttribText
+	 * Language
+	 * FSItemAttributeName
+	 * FSItemAttributeText
+	 * to_CnsldtnFSItemSelAttrib
+
+## FSItemSelectionAttribVal
+	 * FSItemAttributeName
+	 * FSItemAttributeName_Text
+	 * FSItemAttributeValueName
+	 * FSItemAttributeValueName_Text
+	 * to_CnsldtnFSItemSelAttribValT
+
+## FSItemSelectionAttribValText
+	 * Language
+	 * FSItemAttributeName
+	 * FSItemAttributeName_Text
+	 * FSItemAttributeValueName
+	 * FSItemAttributeValueText
+	 * FSItemAttributeValueLongText
+	 * to_CnsldtnFSItemSelAttribVal
+
+## FSItemTargetAttrib
+	 * FSItemAttributeName
+	 * FSItemAttributeName_Text
+	 * to_CnsldtnFSItemTgtAttribT
+
+## FSItemTargetAttribText
+	 * Language
+	 * FSItemAttributeName
+	 * FSItemAttributeText
+	 * to_CnsldtnFSItemTgtAttrib
+
+## FSItemTargetAttribVal
+	 * ConsolidationChartOfAccounts
+	 * ConsolidationChartOfAccounts_Text
+	 * FinancialStatementItem
+	 * FinancialStatementItem_Text
+	 * FinancialStatementItemType
+	 * FinancialStatementItemType_Text
+	 * to_CnsldtnFSItemTgtAttribValT
+
+## FSItemTargetAttribValText
+	 * Language
+	 * ConsolidationChartOfAccounts
+	 * ConsolidationChartOfAccounts_Text
+	 * FinancialStatementItem
+	 * FinancialStatementItemText
+	 * FinancialStatementItemMdmText
+	 * FinancialStatementItemLongText
+	 * to_CnsldtnFSItemTgtAttribVal
+
+## FSItemType
+	 * FinancialStatementItemType
+	 * FinancialStatementItemType_Text
+	 * to_CnsldtnFSItemTypeT
+
+## FSItemTypeText
+	 * Language
+	 * FinancialStatementItemType
+	 * FinancialStatementItemTypeText
+	 * to_CnsldtnFSItemType
+
+## Feature
+	 * CnsldtnFeature
+	 * CnsldtnFeatureText
+	 * CnsldtnFeatureIsActive
+	 * CnsldtnFeatureFromFiscalYear
+
+## FinancialStatementItem
+	 * ConsolidationChartOfAccounts
+	 * ConsolidationChartOfAccounts_Text
+	 * FinancialStatementItem
+	 * FinancialStatementItem_Text
+	 * ConsolidationFSItemType
+	 * ConsolidationFSItemType_Text
+	 * BreakdownCategory
+	 * BreakdownCategory_Text
+	 * IsConsolidationItem
+	 * FinancialStatementItemIsBlkd
+	 * FSItemElimination
+	 * FSItemEliminationText
+	 * FSItemCurrencyTranslation
+	 * FSItemCurrencyTranslationText
+	 * FinancialStatementItemRole
+	 * FSItemRoleText
+	 * FSItemDataCollection
+	 * FSItemDataCollectionText
+	 * FSItemCashFlow
+	 * FSItemCashFlowText
+	 * FSItemScope
+	 * FSItemScopeText
+	 * FSItemCustomerSpecific
+	 * FSItemCustomerSpecificText
+	 * EliminationTargetFSItem
+	 * EliminationTargetFSItemText
+	 * NCITargetFSItem
+	 * NCITargetFSItemText
+	 * PlanningTargetFSItem
+	 * PlanningTargetFSItemText
+	 * to_CnsldtnFSItemHier
+	 * to_CnsldtnFSItemT
+
+## FinancialStatementItemHier
+	 * ConsolidationChartOfAccounts
+	 * ConsolidationChartOfAccounts_Text
+	 * FinancialStatementItemHier
+	 * HierarchyNode
+	 * HierarchyNode_Text
+	 * ParentNode
+	 * HierarchyVersion
+	 * FinancialStatementItem
+	 * FinancialStatementItem_Text
+	 * SequenceNumber
+	 * HierarchyNodeLevel
+	 * NodeType
+	 * to_CnsldtnFSItem
+	 * to_CnsldtnFSItemHierT
+
+## FinancialStatementItemHier_2
+	 * ConsolidationChartOfAccounts
+	 * ConsolidationChartOfAccounts_Text
+	 * FinancialStatementItemHier
+	 * HierarchyNode
+	 * HierarchyNode_Text
+	 * ParentNode
+	 * HierarchyVersion
+	 * FinancialStatementItem
+	 * FinancialStatementItem_Text
+	 * SequenceNumber
+	 * HierarchyNodeLevel
+	 * NodeType
+	 * to_CnsldtnFSItem
+	 * to_CnsldtnFSItemHierT
+
+## FinancialStatementItemText
+	 * ConsolidationChartOfAccounts
+	 * ConsolidationChartOfAccounts_Text
+	 * FinancialStatementItem
+	 * Language
+	 * FinancialStatementItemText
+	 * to_CnsldtnFSItem
+
+## FinancialStatementItemText_2
+	 * Language
+	 * ConsolidationChartOfAccounts
+	 * ConsolidationChartOfAccounts_Text
+	 * FinancialStatementItem
+	 * FinancialStatementItemText
+	 * FinancialStatementItemMdmText
+	 * FinancialStatementItemLongText
+	 * to_CnsldtnFSItem
+
+## FinancialStatementItem_2
+	 * ConsolidationChartOfAccounts
+	 * ConsolidationChartOfAccounts_Text
+	 * FinancialStatementItem
+	 * FinancialStatementItem_Text
+	 * FinancialStatementItemType
+	 * FinancialStatementItemType_Text
+	 * BreakdownCategory
+	 * BreakdownCategory_Text
+	 * IsConsolidationItem
+	 * FinancialStatementItemIsBlkd
+	 * to_CnsldtnFSItemAttribAssgmt
+	 * to_CnsldtnFSItemHier
+	 * to_CnsldtnFSItemT
+
+## FinancialStmntItemHierText
+	 * ConsolidationChartOfAccounts
+	 * ConsolidationChartOfAccounts_Text
+	 * FinancialStatementItemHier
+	 * HierarchyNode
+	 * Language
+	 * HierarchyNodeText
+	 * NodeType
+	 * to_CnsldtnFSItemHier
+
+## FinancialStmntItemHierText_2
+	 * Language
+	 * ConsolidationChartOfAccounts
+	 * ConsolidationChartOfAccounts_Text
+	 * FinancialStatementItemHier
+	 * HierarchyNode
+	 * HierarchyNodeText
+	 * NodeType
+	 * to_CnsldtnFSItemHier
+
+## FinancialTransTypeHierText
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * ValidityEndDate
+	 * Language
+	 * HierarchyNodeText
+	 * ValidityStartDate
+	 * NodeType
+
+## FinancialTransactionType
+	 * FinancialTransactionType
+	 * FinancialTransactionType_Text
+	 * AdditionalMasterDataSource
+	 * to_CnsldtnFinTransTypeHier
+	 * to_CnsldtnFinTransTypeT
+
+## FinancialTransactionTypeHier
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * HierarchyNode_Text
+	 * ValidityEndDate
+	 * ParentNode
+	 * ValidityStartDate
+	 * FinancialTransactionType
+	 * FinancialTransactionType_Text
+	 * SequenceNumber
+	 * HierarchyNodeSequence
+	 * HierarchyNodeLevel
+	 * NodeType
+	 * to_CnsldtnFinTransType
+	 * to_CnsldtnFinTransTypeHierT
+
+## FinancialTransactionTypeText
+	 * Language
+	 * FinancialTransactionType
+	 * FinancialTransactionTypeText
+	 * to_CnsldtnFinTransType
+
+## FunctionalArea
+	 * FunctionalArea
+	 * FunctionalArea_Text
+	 * AdditionalMasterDataSource
+	 * to_CnsldtnFunctionalAreaHier
+	 * to_CnsldtnFunctionalAreaT
+
+## FunctionalAreaHier
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * HierarchyNode_Text
+	 * ValidityEndDate
+	 * ParentNode
+	 * ValidityStartDate
+	 * FunctionalArea
+	 * FunctionalArea_Text
+	 * SequenceNumber
+	 * HierarchyNodeSequence
+	 * HierarchyNodeLevel
+	 * NodeType
+	 * to_CnsldtnFuncnlAreaHierT
+	 * to_CnsldtnFunctionalArea
+
+## FunctionalAreaHierText
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * ValidityEndDate
+	 * Language
+	 * HierarchyNodeText
+	 * ValidityStartDate
+	 * NodeType
+
+## FunctionalAreaText
+	 * Language
+	 * FunctionalArea
+	 * FunctionalAreaText
+	 * to_CnsldtnFunctionalArea
+
+## GLAccount
+	 * GLAccount
+	 * GLAccount_Text
+	 * ChartOfAccounts
+	 * AdditionalMasterDataSource
+	 * to_CnsldtnGLAccountHier
+	 * to_CnsldtnGLAccountT
+
+## GLAccountHier
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * HierarchyNode_Text
+	 * ValidityEndDate
+	 * ParentNode
+	 * HierarchyVersion
+	 * ValidityStartDate
+	 * ChartOfAccounts
+	 * GLAccount
+	 * GLAccount_Text
+	 * SequenceNumber
+	 * HierarchyNodeSequence
+	 * HierarchyNodeLevel
+	 * NodeType
+	 * to_CnsldtnGLAccount
+	 * to_CnsldtnGLAccountHierT
+
+## GLAccountHierText
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * ValidityEndDate
+	 * Language
+	 * HierarchyNodeText
+	 * ValidityStartDate
+	 * NodeType
+
+## GLAccountText
+	 * Language
+	 * GLAccount
+	 * ChartOfAccounts
+	 * GLAccountText
+	 * to_CnsldtnGLAccount
+
+## InvestmentActivityType
+	 * InvestmentActivityType
+	 * InvestmentActivityType_Text
+	 * to_CnsldtnInvmtActyTypeT
+
+## InvestmentActivityTypeText
+	 * Language
+	 * InvestmentActivityType
+	 * InvestmentActivityTypeText
+	 * to_CnsldtnInvmtActyType
+
+## Material
+	 * Material
+	 * Material_Text
+	 * AdditionalMasterDataSource
+	 * to_CnsldtnMaterialHier
+	 * to_CnsldtnMaterialT
+
+## MaterialGroup
+	 * MaterialGroup
+	 * MaterialGroup_Text
+	 * AdditionalMasterDataSource
+	 * to_CnsldtnMaterialGroupHier
+	 * to_CnsldtnMaterialGroupT
+
+## MaterialGroupHier
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * HierarchyNode_Text
+	 * ParentNode
+	 * MaterialGroup
+	 * MaterialGroup_Text
+	 * HierarchyNodeSequence
+	 * HierarchyNodeLevel
+	 * NodeType
+	 * to_CnsldtnMaterialGroup
+	 * to_CnsldtnMaterialGroupHierT
+
+## MaterialGroupHierText
+	 * Language
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * HierarchyNodeText
+	 * NodeType
+	 * to_CnsldtnMaterialGroupHier
+
+## MaterialGroupText
+	 * Language
+	 * MaterialGroup
+	 * MaterialGroupText
+	 * to_CnsldtnMaterialGroup
+
+## MaterialHier
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * HierarchyNode_Text
+	 * ValidityEndDate
+	 * ParentNode
+	 * ValidityStartDate
+	 * Material
+	 * Material_Text
+	 * SequenceNumber
+	 * HierarchyNodeSequence
+	 * HierarchyNodeLevel
+	 * NodeType
+	 * to_CnsldtnMaterial
+	 * to_CnsldtnMaterialHierT
+
+## MaterialHierText
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * ValidityEndDate
+	 * Language
+	 * HierarchyNodeText
+	 * ValidityStartDate
+	 * NodeType
+
+## MaterialText
+	 * Language
+	 * Material
+	 * CnsldtnMaterialText
+	 * to_CnsldtnMaterial
+
+## OrderID
+	 * InternalOrder
+	 * InternalOrder_Text
+	 * AdditionalMasterDataSource
+	 * to_CnsldtnInternalOrderT
+
+## OrderIDText
+	 * Language
+	 * InternalOrder
+	 * CnsldtnOrderIDText
+	 * to_CnsldtnInternalOrder
+
+## OrganizationDivision
+	 * Division
+	 * Division_Text
+	 * AdditionalMasterDataSource
+	 * to_CnsldtnDivisionT
+
+## OrganizationDivisionText
+	 * Language
+	 * Division
+	 * OrganizationDivisionText
+	 * to_CnsldtnDivision
+
+## PartnerBusinessArea
+	 * BusinessArea
+	 * BusinessArea_Text
+	 * AdditionalMasterDataSource
+	 * to_CnsldtnPartnerBusAreaHier
+	 * to_CnsldtnPartnerBusAreaT
+
+## PartnerBusinessAreaHier
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * HierarchyNode_Text
+	 * ValidityEndDate
+	 * ParentNode
+	 * ValidityStartDate
+	 * BusinessArea
+	 * BusinessArea_Text
+	 * SequenceNumber
+	 * HierarchyNodeSequence
+	 * HierarchyNodeLevel
+	 * NodeType
+	 * to_CnsldtnPartnerBusArea
+	 * to_CnsldtnPartnerBusAreaHierT
+
+## PartnerBusinessAreaHierText
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * ValidityEndDate
+	 * Language
+	 * HierarchyNodeText
+	 * ValidityStartDate
+	 * NodeType
+
+## PartnerBusinessAreaText
+	 * Language
+	 * BusinessArea
+	 * PartnerBusinessAreaText
+	 * to_CnsldtnPartnerBusArea
+
+## PartnerCnsldtnUnit
+	 * ConsolidationUnit
+	 * ConsolidationUnit_Text
+	 * ConsolidationUnitLocalCurrency
+	 * ConsolidationUnitLocalCurrency_Text
+	 * Country
+	 * to_CnsldtnPartnerUnitHier
+	 * to_CnsldtnPartnerUnitT
+
+## PartnerCnsldtnUnitHier
+	 * ConsolidationUnitHierarchy
+	 * HierarchyNode
+	 * HierarchyNode_Text
+	 * ValidityEndDate
+	 * ValidityStartDate
+	 * ParentNode
+	 * ConsolidationUnit
+	 * ConsolidationUnit_Text
+	 * SequenceNumber
+	 * HierarchyNodeLevel
+	 * NodeType
+	 * to_CnsldtnPartnerUnit
+	 * to_CnsldtnPartnerUnitHierT
+
+## PartnerCnsldtnUnitHierText
+	 * ConsolidationUnitHierarchy
+	 * HierarchyNode
+	 * ValidityEndDate
+	 * Language
+	 * HierarchyNodeText
+	 * ValidityStartDate
+	 * NodeType
+
+## PartnerCnsldtnUnitText
+	 * ConsolidationUnit
+	 * Language
+	 * PartnerConsolidationUnitText
+	 * to_CnsldtnPartnerUnit
+
+## PartnerCompany
+	 * Company
+	 * Company_Text
+	 * AdditionalMasterDataSource
+	 * to_CnsldtnGlobalCompanyT
+
+## PartnerCompanyText
+	 * Language
+	 * Company
+	 * AdditionalMasterDataSource
+	 * PartnerCompanyText
+	 * to_CnsldtnGlobalCompany
+
+## PartnerCostCenter
+	 * CostCenter
+	 * CostCenter_Text
+	 * ControllingArea
+	 * AdditionalMasterDataSource
+	 * to_CnsldtnPartnerCostCtrHier
+	 * to_CnsldtnPartnerCostCtrT
+
+## PartnerCostCenterHier
+	 * ControllingArea
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * HierarchyNode_Text
+	 * ValidityEndDate
+	 * ParentNode
+	 * HierarchyVersion
+	 * ValidityStartDate
+	 * CostCenter
+	 * CostCenter_Text
+	 * SequenceNumber
+	 * HierarchyNodeSequence
+	 * HierarchyNodeLevel
+	 * NodeType
+	 * to_CnsldtnPartnerCostCenter
+	 * to_CnsldtnPartnerCostCtrHierT
+
+## PartnerCostCenterHierText
+	 * ControllingArea
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * ValidityEndDate
+	 * Language
+	 * HierarchyNodeText
+	 * ValidityStartDate
+	 * NodeType
+
+## PartnerCostCenterText
+	 * Language
+	 * CostCenter
+	 * ControllingArea
+	 * PartnerCostCenterText
+	 * to_CnsldtnPartnerCostCenter
+
+## PartnerFunctionalArea
+	 * FunctionalArea
+	 * FunctionalArea_Text
+	 * AdditionalMasterDataSource
+	 * to_CnsldtnPartFuncnlAreaHier
+	 * to_CnsldtnPartFuncnlAreaT
+
+## PartnerFunctionalAreaHier
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * HierarchyNode_Text
+	 * ValidityEndDate
+	 * ParentNode
+	 * ValidityStartDate
+	 * FunctionalArea
+	 * FunctionalArea_Text
+	 * SequenceNumber
+	 * HierarchyNodeSequence
+	 * HierarchyNodeLevel
+	 * NodeType
+	 * to_CnsldtnPartFuncnlAreaHierT
+	 * to_CnsldtnPartnerFuncnlArea
+
+## PartnerFunctionalAreaHierText
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * ValidityEndDate
+	 * Language
+	 * HierarchyNodeText
+	 * ValidityStartDate
+	 * NodeType
+
+## PartnerFunctionalAreaText
+	 * Language
+	 * FunctionalArea
+	 * PartnerFunctionalAreaText
+	 * to_CnsldtnPartnerFuncnlArea
+
+## PartnerProfitCenter
+	 * ProfitCenter
+	 * ProfitCenter_Text
+	 * ControllingArea
+	 * AdditionalMasterDataSource
+	 * to_CnsldtnPartnerPrftCtrHier
+	 * to_CnsldtnPartnerPrftCtrT
+
+## PartnerProfitCenterHier
+	 * ControllingArea
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * HierarchyNode_Text
+	 * ValidityEndDate
+	 * ParentNode
+	 * HierarchyVersion
+	 * ValidityStartDate
+	 * ProfitCenter
+	 * ProfitCenter_Text
+	 * SequenceNumber
+	 * HierarchyNodeSequence
+	 * HierarchyNodeLevel
+	 * NodeType
+	 * to_CnsldtnPartnerPrftCtrHierT
+	 * to_CnsldtnPartnerProfitCenter
+
+## PartnerProfitCenterHierText
+	 * ControllingArea
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * ValidityEndDate
+	 * Language
+	 * HierarchyNodeText
+	 * ValidityStartDate
+	 * NodeType
+
+## PartnerProfitCenterText
+	 * Language
+	 * ProfitCenter
+	 * ControllingArea
+	 * PartnerProfitCenterText
+	 * to_CnsldtnPartnerProfitCenter
+
+## PartnerSegment
+	 * Segment
+	 * Segment_Text
+	 * AdditionalMasterDataSource
+	 * to_CnsldtnPartnerSegmentHier
+	 * to_CnsldtnPartnerSegmentT
+
+## PartnerSegmentHier
+	 * ConsolidationSegmentHierarchy
+	 * HierarchyNode
+	 * HierarchyNode_Text
+	 * ValidityEndDate
+	 * ParentNode
+	 * ValidityStartDate
+	 * Segment
+	 * Segment_Text
+	 * SequenceNumber
+	 * HierarchyNodeSequence
+	 * HierarchyNodeLevel
+	 * NodeType
+	 * to_CnsldtnPartnerSegment
+	 * to_CnsldtnPartSegmentHierT
+
+## PartnerSegmentHierText
+	 * ConsolidationSegmentHierarchy
+	 * HierarchyNode
+	 * ValidityEndDate
+	 * Language
+	 * HierarchyNodeText
+	 * ValidityStartDate
+
+## PartnerSegmentText
+	 * Language
+	 * Segment
+	 * PartnerSegmentText
+	 * to_CnsldtnPartnerSegment
+
+## PlannedIndepRqmt
+	 * Product
+	 * Plant
+	 * MRPArea
+	 * PlndIndepRqmtType
+	 * PlndIndepRqmtVersion
+	 * RequirementPlan
+	 * RequirementSegment
+	 * RequirementPlanIsExternal
+	 * PlndIndepRqmtInternalID
+	 * PlndIndepRqmtIsActive
+	 * PlndIndepRqmtLastChgdDateTime
+	 * to_PlndIndepRqmtItem
+
+## PlannedIndepRqmtItem
+	 * Product
+	 * Plant
+	 * MRPArea
+	 * PlndIndepRqmtType
+	 * PlndIndepRqmtVersion
+	 * RequirementPlan
+	 * RequirementSegment
+	 * PlndIndepRqmtPeriod
+	 * PeriodType
+	 * PlndIndepRqmtPeriodStartDate
+	 * PlndIndepRqmtInternalID
+	 * WorkingDayDate
+	 * PlannedQuantity
+	 * WithdrawalQuantity
+	 * UnitOfMeasure
+	 * LastChangedByUser
+	 * LastChangeDate
+	 * PlndIndepRqmtLastChgdDateTime
+	 * to_PlndIndepRqmt
+
+## Plant
+	 * Plant
+	 * Plant_Text
+	 * AdditionalMasterDataSource
+	 * to_CnsldtnPlantT
+
+## PlantText
+	 * Language
+	 * Plant
+	 * CnsldtnPlantText
+	 * to_CnsldtnPlant
+
+## PostingLevel
+	 * PostingLevel
+	 * PostingLevel_Text
+	 * to_CnsldtnPostingLevelHier
+	 * to_CnsldtnPostingLevelT
+
+## PostingLevelHier
+	 * ConsolidationPostgLevelHier
+	 * HierarchyNode
+	 * HierarchyNode_Text
+	 * ParentNode
+	 * PostingLevel
+	 * PostingLevel_Text
+	 * SequenceNumber
+	 * HierarchyNodeLevel
+	 * NodeType
+	 * to_CnsldtnPostingLevel
+	 * to_CnsldtnPostingLevelHierT
+
+## PostingLevelHierText
+	 * Language
+	 * ConsolidationPostgLevelHier
+	 * HierarchyNode
+	 * HierarchyNodeText
+	 * NodeType
+	 * to_CnsldtnPostingLevelHier
+
+## PostingLevelText
+	 * Language
+	 * PostingLevel
+	 * PostingLevelText
+	 * to_CnsldtnPostingLevel
+
+## ProcOrdConfMatlDocItm
+
+## ProdnOrdConf2
+
+## ProdnOrdConfMatlDocItm
+
+## ProductType
+
+## ProductType
+	 * ProductTypeName
+	 * ProductType
+
+## ProfitCenter
+	 * ProfitCenter
+	 * ProfitCenter_Text
+	 * ControllingArea
+	 * AdditionalMasterDataSource
+	 * to_CnsldtnProfitCenterHier
+	 * to_CnsldtnProfitCenterT
+
+## ProfitCenterForElimText
+	 * Language
+	 * ProfitCenter
+	 * ControllingArea
+	 * ProfitCenterForElimText
+	 * to_CnsldtnPrftCtrForElim
+
+## ProfitCenterForElimination
+	 * ProfitCenter
+	 * ProfitCenter_Text
+	 * ControllingArea
+	 * AdditionalMasterDataSource
+	 * to_CnsldtnPrftCtrHierForElim
+	 * to_CnsldtnProfitCtrForElimT
+
+## ProfitCenterHier
+	 * ControllingArea
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * HierarchyNode_Text
+	 * ValidityEndDate
+	 * ParentNode
+	 * HierarchyVersion
+	 * ValidityStartDate
+	 * ProfitCenter
+	 * ProfitCenter_Text
+	 * SequenceNumber
+	 * HierarchyNodeSequence
+	 * HierarchyNodeLevel
+	 * NodeType
+	 * to_CnsldtnProfitCenter
+	 * to_CnsldtnProfitCenterHierT
+
+## ProfitCenterHierForElim
+	 * ControllingArea
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * HierarchyNode_Text
+	 * ValidityEndDate
+	 * ParentNode
+	 * HierarchyVersion
+	 * ValidityStartDate
+	 * ProfitCenter
+	 * ProfitCenter_Text
+	 * SequenceNumber
+	 * HierarchyNodeSequence
+	 * HierarchyNodeLevel
+	 * NodeType
+	 * to_CnsldtnPrftCtrForElim
+	 * to_CnsldtnPrftCtrHierForElimT
+
+## ProfitCenterHierForElimText
+	 * ControllingArea
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * ValidityEndDate
+	 * Language
+	 * HierarchyNodeText
+	 * ValidityStartDate
+	 * NodeType
+
+## ProfitCenterHierText
+	 * ControllingArea
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * ValidityEndDate
+	 * Language
+	 * HierarchyNodeText
+	 * ValidityStartDate
+	 * NodeType
+
+## ProfitCenterText
+	 * Language
+	 * ProfitCenter
+	 * ControllingArea
+	 * ProfitCenterText
+	 * to_CnsldtnProfitCenter
+
+## Project
+	 * Project
+	 * Project_Text
+	 * AdditionalMasterDataSource
+	 * to_CnsldtnProjectHier
+	 * to_CnsldtnProjectT
+
+## ProjectHier
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * HierarchyNode_Text
+	 * ValidityEndDate
+	 * ParentNode
+	 * ValidityStartDate
+	 * Project
+	 * Project_Text
+	 * SequenceNumber
+	 * HierarchyNodeSequence
+	 * HierarchyNodeLevel
+	 * NodeType
+	 * to_CnsldtnProject
+	 * to_CnsldtnProjectHierT
+
+## ProjectHierText
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * ValidityEndDate
+	 * Language
+	 * HierarchyNodeText
+	 * ValidityStartDate
+	 * NodeType
+
+## ProjectText
+	 * Language
+	 * Project
+	 * CnsldtnProjectText
+	 * to_CnsldtnProject
+
+## ReportingItem
+	 * ConsolidationChartOfAccounts
+	 * ConsolidationChartOfAccounts_Text
+	 * ConsolidationReportingItem
+	 * ConsolidationReportingItem_Text
+	 * to_CnsldtnRptgItmHier
+	 * to_CnsldtnRptgItmT
+
+## ReportingItemHier
+	 * ConsolidationChartOfAccounts
+	 * ConsolidationChartOfAccounts_Text
+	 * ConsolidationReportingItemHier
+	 * HierarchyNode
+	 * HierarchyNode_Text
+	 * ParentNode
+	 * HierarchyVersion
+	 * ConsolidationReportingItem
+	 * ConsolidationReportingItem_Text
+	 * SequenceNumber
+	 * HierarchyNodeLevel
+	 * NodeType
+	 * to_CnsldtnRptgItm
+	 * to_CnsldtnRptgItmHierT
+
+## ReportingItemHierText
+	 * Language
+	 * ConsolidationChartOfAccounts
+	 * ConsolidationChartOfAccounts_Text
+	 * ConsolidationReportingItemHier
+	 * HierarchyNode
+	 * HierarchyNodeText
+	 * NodeType
+	 * to_CnsldtnRptgItmHier
+
+## ReportingItemText
+	 * ConsolidationChartOfAccounts
+	 * ConsolidationChartOfAccounts_Text
+	 * ConsolidationReportingItem
+	 * Language
+	 * ConsolidationReportingItemText
+	 * ConsolidationRptgItemMdmText
+	 * to_CnsldtnRptgItm
+
+## SalesDistrict
+	 * SalesDistrict
+	 * SalesDistrict_Text
+	 * AdditionalMasterDataSource
+	 * to_CnsldtnSaleDistrictT
+
+## SalesDistrictText
+	 * Language
+	 * SalesDistrict
+	 * SalesDistrictText
+	 * to_CnsldtnSalesDistrict
+
+## SalesOrganization
+	 * SalesOrganization
+	 * SalesOrganization_Text
+	 * AdditionalMasterDataSource
+	 * to_CnsldtnSalesOrgHier
+	 * to_CnsldtnSalesOrgT
+
+## SalesOrganizationHier
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * HierarchyNode_Text
+	 * ValidityEndDate
+	 * ParentNode
+	 * ValidityStartDate
+	 * SalesOrganization
+	 * SalesOrganization_Text
+	 * SequenceNumber
+	 * HierarchyNodeSequence
+	 * HierarchyNodeLevel
+	 * NodeType
+	 * to_CnsldtnSalesOrg
+	 * to_CnsldtnSalesOrgHierT
+
+## SalesOrganizationHierText
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * ValidityEndDate
+	 * Language
+	 * HierarchyNodeText
+	 * ValidityStartDate
+	 * NodeType
+
+## SalesOrganizationText
+	 * Language
+	 * SalesOrganization
+	 * SalesOrganizationText
+	 * to_CnsldtnSalesOrg
+
+## Segment
+	 * Segment
+	 * Segment_Text
+	 * AdditionalMasterDataSource
+	 * to_CnsldtnSegmentHier
+	 * to_CnsldtnSegmentT
+
+## SegmentForElimText
+	 * Segment
+	 * Language
+	 * SegmentForElimText
+	 * to_CnsldtnSegmentForElim
+
+## SegmentForElimination
+	 * Segment
+	 * Segment_Text
+	 * AdditionalMasterDataSource
+	 * to_CnsldtnSegmentForElimT
+	 * to_CnsldtnSegmentHierForElim
+
+## SegmentForHierElimText
+	 * ConsolidationSegmentHierarchy
+	 * HierarchyNode
+	 * ValidityEndDate
+	 * Language
+	 * HierarchyNodeText
+	 * ValidityStartDate
+	 * NodeType
+
+## SegmentHier
+	 * ConsolidationSegmentHierarchy
+	 * HierarchyNode
+	 * HierarchyNode_Text
+	 * ValidityEndDate
+	 * ParentNode
+	 * ValidityStartDate
+	 * Segment
+	 * Segment_Text
+	 * SequenceNumber
+	 * HierarchyNodeSequence
+	 * HierarchyNodeLevel
+	 * NodeType
+	 * to_CnsldtnSegment
+	 * to_CnsldtnSegmentHierT
+
+## SegmentHierForElim
+	 * ConsolidationSegmentHierarchy
+	 * HierarchyNode
+	 * HierarchyNode_Text
+	 * ValidityEndDate
+	 * ParentNode
+	 * ValidityStartDate
+	 * Segment
+	 * Segment_Text
+	 * SequenceNumber
+	 * HierarchyNodeSequence
+	 * HierarchyNodeLevel
+	 * NodeType
+	 * to_CnsldtnSegmentForElim
+	 * to_CnsldtnSegmentHierForElimT
+
+## SegmentHierText
+	 * ConsolidationSegmentHierarchy
+	 * HierarchyNode
+	 * ValidityEndDate
+	 * Language
+	 * HierarchyNodeText
+	 * ValidityStartDate
+	 * NodeType
+
+## SegmentText
+	 * Language
+	 * Segment
+	 * CnsldtnSegmentText
+	 * to_CnsldtnSegment
+
+## ShipToParty
+	 * Customer
+	 * Customer_Text
+	 * AdditionalMasterDataSource
+	 * to_CnsldtnShipToPartyT
+
+## ShipToPartyText
+	 * Language
+	 * Customer
+	 * ShipToPartyText
+	 * to_CnsldtnShipToParty
+
+## SoldProduct
+	 * Material
+	 * Material_Text
+	 * AdditionalMasterDataSource
+	 * to_CnsldtnProductSoldHier
+	 * to_CnsldtnProductSoldT
+
+## SoldProductGroup
+	 * MaterialGroup
+	 * MaterialGroup_Text
+	 * AdditionalMasterDataSource
+	 * to_CnsldtnProductSoldGroupT
+
+## SoldProductGroupText
+	 * Language
+	 * MaterialGroup
+	 * SoldProductGroupText
+	 * to_CnsldtnProductSoldGroup
+
+## SoldProductHier
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * HierarchyNode_Text
+	 * ValidityEndDate
+	 * ParentNode
+	 * ValidityStartDate
+	 * Material
+	 * Material_Text
+	 * SequenceNumber
+	 * HierarchyNodeSequence
+	 * HierarchyNodeLevel
+	 * NodeType
+	 * to_CnsldtnProductSold
+	 * to_CnsldtnProductSoldHierT
+
+## SoldProductHierText
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * ValidityEndDate
+	 * Language
+	 * HierarchyNodeText
+	 * ValidityStartDate
+	 * NodeType
+
+## SoldProductText
+	 * Language
+	 * Material
+	 * SoldProductText
+	 * to_CnsldtnProductSold
+
+## SubItem
+	 * SubItemCategory
+	 * SubItemCategory_Text
+	 * SubItem
+	 * SubItem_Text
+	 * SubitemCarryForwardDestination
+	 * SubitemCarryForwardDestination_Text
+	 * SubitemRtrmtDivestitureDest
+	 * SubitemRtrmtDivestitureDest_Text
+	 * SubitemAcquisitionDestination
+	 * SubitemAcquisitionDestination_Text
+	 * to_CnsldtnSubitemHier
+	 * to_CnsldtnSubItemT
+
+## SubItemCategory
+	 * SubItemCategory
+	 * SubItemCategory_Text
+	 * IsSubItemsForAcquisitionsDives
+	 * to_CnsldtnSubitemCategoryT
+
+## SubItemCategoryText
+	 * SubItemCategory
+	 * Language
+	 * SubItemCategoryText
+	 * to_CnsldtnSubitemCategory
+
+## SubItemText
+	 * SubItemCategory
+	 * SubItemCategory_Text
+	 * Language
+	 * SubItem
+	 * SubItemText
+	 * to_CnsldtnSubItem
+
+## Subassignment
+	 * CnsldtnSubassignment
+	 * CnsldtnSubassignment_Text
+	 * to_CnsldtnSubassignmentT
+
+## SubassignmentText
+	 * Language
+	 * CnsldtnSubassignment
+	 * CnsldtnSubassignmentText
+	 * to_CnsldtnSubassignment
+
+## SubitemHier
+	 * ConsolidationSubitemHierarchy
+	 * HierarchyNode
+	 * HierarchyNode_Text
+	 * SubItemCategory
+	 * SubItemCategory_Text
+	 * ParentNode
+	 * HierarchyVersion
+	 * SubItem
+	 * SubItem_Text
+	 * SequenceNumber
+	 * HierarchyNodeLevel
+	 * NodeType
+	 * to_CnsldtnSubitem
+	 * to_CnsldtnSubitemHierT
+
+## SubitemHierText
+	 * Language
+	 * ConsolidationSubitemHierarchy
+	 * HierarchyNode
+	 * SubItemCategory
+	 * SubItemCategory_Text
+	 * HierarchyNodeText
+	 * NodeType
+	 * to_CnsldtnSubitemHier
+
+## Supplier
+	 * Supplier
+	 * Supplier_Text
+	 * AdditionalMasterDataSource
+	 * to_CnsldtnSupplierHier
+	 * to_CnsldtnSupplierT
+
+## SupplierHier
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * HierarchyNode_Text
+	 * ValidityEndDate
+	 * ParentNode
+	 * ValidityStartDate
+	 * Supplier
+	 * Supplier_Text
+	 * SequenceNumber
+	 * HierarchyNodeSequence
+	 * HierarchyNodeLevel
+	 * NodeType
+	 * to_CnsldtnSupplier
+	 * to_CnsldtnSupplierHierT
+
+## SupplierHierText
+	 * AdditionalMasterDataHierarchy
+	 * HierarchyNode
+	 * ValidityEndDate
+	 * Language
+	 * HierarchyNodeText
+	 * ValidityStartDate
+	 * NodeType
+
+## SupplierText
+	 * Language
+	 * Supplier
+	 * CnsldtnSupplierText
+	 * to_CnsldtnSupplier
+
+## TransactionCurrency
+	 * Currency
+	 * Currency_Text
+	 * to_CnsldtnTransCurrencyT
+
+## TransactionCurrencyText
+	 * Language
+	 * Currency
+	 * TransactionCurrencyText
+	 * to_CnsldtnTransactionCurrency
+
+## WBSElement
+	 * WBSElement
+	 * WBSElement_Text
+	 * Project
+	 * AdditionalMasterDataSource
+	 * WBSElementInternalID
+	 * to_CnsldtnWBSElementT
+
+## WBSElementInternalID
+	 * WBSElementInternalID
+	 * ProjectInternalID
+	 * WBSElement
+	 * WBSDescription
+	 * WBSElementObject
+	 * CreatedByUser
+	 * CreationDate
+	 * LastChangedByUser
+	 * LastChangeDate
+	 * ResponsiblePerson
+	 * ResponsiblePersonName
+	 * ApplicantCode
+	 * ApplicantName
+	 * CompanyCode
+	 * BusinessArea
+	 * ControllingArea
+	 * ProfitCenter
+	 * ProjectType
+	 * WBSElementIsPlanningElement
+	 * WBSIsAccountAssignmentElement
+	 * WBSElementIsBillingElement
+	 * CostingSheet
+	 * RequestingCostCenter
+	 * ResponsibleCostCenter
+	 * FactoryCalendar
+	 * PriorityCode
+	 * Currency
+	 * Plant
+	 * FreeDefinedTableFieldSemantic
+	 * WBSIsStatisticalWBSElement
+	 * TaxJurisdiction
+	 * WBSIsMarkedForIntegratedPlng
+	 * FunctionalArea
+	 * Location
+	 * Equipment
+	 * FunctionalLocation
+	 * ProjectObjectChangeNumber
+	 * ProjectObjectReferenceElement
+	 * ProjInterestCalcProfile
+	 * InvestmentProfile
+	 * BasicStartDate
+	 * ForecastedStartDate
+	 * ActualStartDate
+	 * BasicEndDate
+	 * ForecastedEndDate
+	 * ActualEndDate
+	 * ActualDurationUnit
+	 * ForecastedDurationUnit
+	 * BasicDurationUnit
+	 * BasicDuration
+	 * ForecastedDuration
+	 * ActualDuration
+	 * SchedldBasicEarliestStartDate
+	 * ScheduledBasicLatestEndDate
+	 * SchedldFcstdEarliestStartDate
+	 * LatestSchedldFcstdEndDate
+	 * TentativeActualStartDate
+	 * TentativeActualEndDate
+	 * SchedldBasicLatestStartDate
+	 * SchedldBasicEarliestEndDate
+	 * LatestSchedldFcstdStartDate
+	 * SchedldFcstdEarliestEndDate
+	 * WBSElementHierarchyLevel
+	 * OverheadCode
+	 * ResultAnalysisInternalID
+	 * ProgressAnlysAggregationWeight
+	 * WBSElementShortID
+	 * ReqgCostCenterControllingArea
+	 * RespCostCenterControllingArea
+	 * Language
+	 * CostCenter
+	 * CostObject
+	 * WBSElementIsUsedInProjSmmry
+	 * IsMarkedForDeletion
+	 * InventorySpecialStockValnType
+	 * BillingPlan
+	 * WBSElementIsGroupingWBSElement
+	 * CostingVariant
+	 * JointVenture
+	 * JointVentureRecoveryCode
+	 * JointVentureEquityType
+	 * JointVentureObjectType
+	 * JointVentureClass
+	 * JointVentureSubClass
+	 * WBSElementHasActivities
+	 * WBSHasFcstdDateFromActivity
+	 * WBSHasFcstdDateSetManually
+	 * WBSHasBasicDateManuallySet
+	 * WBSHasActualDateSetManually
+	 * WBSElmntHasActualDateFromActy
+	 * ControllingObjectClass
+	 * FreeDefinedAttribute01
+	 * FreeDefinedAttribute02
+	 * FreeDefinedAttribute03
+	 * FreeDefinedAttribute04
+	 * FreeDefinedQuantity1
+	 * FreeDefinedQuantity1Unit
+	 * FreeDefinedQuantity2
+	 * FreeDefinedQuantity2Unit
+	 * FreeDefinedAmount1
+	 * FreeDefinedAmount1Currency
+	 * FreeDefinedAmount2
+	 * FreeDefinedAmount2Currency
+	 * FreeDefinedDate1
+	 * FreeDefinedDate2
+	 * FreeDefinedIndicator1
+	 * FreeDefinedIndicator2
+
+## WBSElementText
+	 * Language
+	 * WBSElement
+	 * Project
+	 * WBSElementText
+	 * to_CnsldtnWBSElement
