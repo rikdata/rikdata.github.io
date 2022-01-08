@@ -1,0 +1,106 @@
+-- MySQL dump 10.13  Distrib 8.0.27, for Win64 (x86_64)
+--
+-- Host: localhost    Database: inoerp
+-- ------------------------------------------------------
+-- Server version	8.0.27
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `prj_project_header`
+--
+
+DROP TABLE IF EXISTS `prj_project_header`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `prj_project_header` (
+  `prj_project_header_id` int NOT NULL AUTO_INCREMENT,
+  `bu_org_id` int NOT NULL,
+  `prj_project_type_id` int NOT NULL,
+  `project_number` varchar(50) DEFAULT NULL,
+  `ar_customer_id` int DEFAULT NULL,
+  `ar_customer_site_id` int DEFAULT NULL,
+  `pm_employee_id` int DEFAULT NULL,
+  `description` varchar(256) DEFAULT NULL,
+  `manager_user_id` int DEFAULT NULL,
+  `start_date` date DEFAULT NULL,
+  `completion_date` date DEFAULT NULL,
+  `header_amount` decimal(20,5) DEFAULT NULL,
+  `project_class` varchar(25) DEFAULT NULL,
+  `category` varchar(25) DEFAULT NULL,
+  `finance_structure_cb` tinyint(1) DEFAULT NULL,
+  `operation_structure_cb` tinyint(1) DEFAULT NULL,
+  `life_cycle` varchar(25) DEFAULT NULL,
+  `current_phase` varchar(25) DEFAULT NULL,
+  `role_list_id` int DEFAULT NULL,
+  `prj_work_type` int NOT NULL,
+  `probability` decimal(6,3) DEFAULT NULL,
+  `currency` varchar(25) DEFAULT NULL,
+  `doc_currency` varchar(25) DEFAULT NULL,
+  `exchange_rate_type` varchar(25) DEFAULT NULL,
+  `exchange_rate` decimal(15,5) DEFAULT NULL,
+  `opportunity_value` decimal(15,3) DEFAULT NULL,
+  `expected_approval_date` date DEFAULT NULL,
+  `billing_method` varchar(5) NOT NULL,
+  `billing_cycle` varchar(20) DEFAULT NULL,
+  `prj_burden_list_header_id` int DEFAULT NULL,
+  `account_burdened_cost_cb` tinyint(1) DEFAULT NULL,
+  `labor_billing_type` varchar(20) DEFAULT NULL,
+  `nlr_billing_type` varchar(20) DEFAULT NULL,
+  `employee_schedule_id` int DEFAULT NULL,
+  `job_schedule_id` int DEFAULT NULL,
+  `l_revenue_burden_id` int DEFAULT NULL,
+  `l_invoice_burdern_id` int DEFAULT NULL,
+  `nlr_schedule_id` int DEFAULT NULL,
+  `nrl_revenue_burden_id` int DEFAULT NULL,
+  `nlr_invoice_burdern_id` int DEFAULT NULL,
+  `source` varchar(25) DEFAULT NULL,
+  `name` varchar(50) DEFAULT NULL,
+  `reference_type` varchar(25) DEFAULT NULL,
+  `reference_key_name` varchar(25) DEFAULT NULL,
+  `reference_key_value` varchar(25) DEFAULT NULL,
+  `direct_labor_cb` tinyint(1) DEFAULT NULL,
+  `is_template_cb` tinyint(1) DEFAULT NULL,
+  `project_status` varchar(25) DEFAULT NULL,
+  `accounting_group` varchar(25) NOT NULL,
+  `approval_status` varchar(25) DEFAULT NULL,
+  `rev_enabled_cb` tinyint(1) DEFAULT NULL,
+  `rev_number` int DEFAULT NULL,
+  `created_by` varchar(50) NOT NULL DEFAULT 'UNKOWN',
+  `creation_date` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `last_updated_by` varchar(50) NOT NULL DEFAULT 'UNKOWN',
+  `last_update_date` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `gl_ac_profile_header_id` int DEFAULT NULL,
+  PRIMARY KEY (`prj_project_header_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `prj_project_header`
+--
+
+LOCK TABLES `prj_project_header` WRITE;
+/*!40000 ALTER TABLE `prj_project_header` DISABLE KEYS */;
+INSERT INTO `prj_project_header` VALUES (1,5,1,'5-1',3,5,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,NULL,'USD','USD','CORP',0.83333,NULL,NULL,'',NULL,1,NULL,'SCHEDULE',NULL,1,2,1,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,'1','2021-10-04 12:32:01','1','2021-10-04 12:38:19',NULL),(2,5,1,'1000',3,5,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,NULL,'USD','USD','CORP',0.83333,NULL,NULL,'WORK',NULL,1,NULL,'SCHEDULE',NULL,1,2,1,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'',NULL,NULL,NULL,'1','2021-10-04 12:32:01','1','2021-10-04 12:38:19',NULL),(3,5,1,'5-3',3,5,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'IN',NULL,1,NULL,'USD','USD','CORP',0.83333,NULL,NULL,'WORK',NULL,1,NULL,'SCHEDULE',NULL,1,2,1,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'','APPROVED',NULL,NULL,'1','2021-10-04 12:32:01','1','2021-10-04 12:38:19',NULL),(4,5,1,'5-4',3,5,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'IN',NULL,1,NULL,'USD','USD','CORP',0.83333,NULL,NULL,'WORK',NULL,1,NULL,'SCHEDULE',NULL,1,2,1,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'','APPROVED',NULL,NULL,'1','2021-10-04 12:32:01','1','2021-10-04 12:38:19',NULL),(5,5,1,'5-5',3,5,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'IN',NULL,1,NULL,'USD','USD','CORP',0.83333,NULL,NULL,'WORK',NULL,1,NULL,'SCHEDULE',NULL,1,2,1,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'US_CA_SVC','APPROVED',NULL,NULL,'1','2021-10-04 12:32:01','1','2021-10-04 12:38:19',NULL),(6,5,1,'5-6',3,5,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'IN',NULL,1,NULL,'USD','USD','CORP',0.83333,NULL,NULL,'WORK',NULL,1,NULL,'SCHEDULE',NULL,1,2,1,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'US_CA_SVC','APPROVED',NULL,NULL,'1','2021-10-04 12:32:01','1','2021-10-04 12:38:19',NULL),(7,5,1,'5-7',3,5,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'IN',NULL,1,NULL,'USD','USD','CORP',0.83333,NULL,NULL,'EE',NULL,1,NULL,'SCHEDULE',NULL,1,2,1,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'ACTIVE','US_CA_SVC','APPROVED',NULL,NULL,'1','2021-10-04 12:32:01','1','2021-10-04 12:38:19',NULL),(8,5,1,'5-8',3,5,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'IN',NULL,1,NULL,'USD','USD','CORP',0.83333,NULL,NULL,'CC',NULL,1,NULL,'SCHEDULE',NULL,1,2,1,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'ACTIVE','US_CA_SVC','APPROVED',NULL,NULL,'1','2021-10-04 12:32:01','1','2021-10-04 12:38:19',NULL),(9,5,1,'5-9',3,5,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'IN',NULL,1,NULL,'USD','USD','CORP',0.83333,NULL,NULL,'WW',NULL,1,NULL,'SCHEDULE',NULL,1,2,1,1,3,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'ACTIVE','US_CA_SVC','APPROVED',NULL,NULL,'1','2021-10-04 12:32:01','1','2021-10-04 12:38:19',NULL),(10,5,1,'5-10',1,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,3,NULL,'USD','USD','CORP',1.00000,NULL,NULL,'WW',NULL,1,NULL,'SCHEDULE','SCHEDULE',1,2,1,1,3,1,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'ACTIVE','US_CA_SVC','APPROVED',NULL,NULL,'1','2021-10-04 12:32:01','1','2021-10-04 12:38:19',NULL);
+/*!40000 ALTER TABLE `prj_project_header` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2022-01-08  3:48:29
