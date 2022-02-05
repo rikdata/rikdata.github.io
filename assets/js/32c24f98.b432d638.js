@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkinoerp=self.webpackChunkinoerp||[]).push([[7147],{4728:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/sap","name":"SAP","count":1,"permalink":"/blog/tags/sap"}')}}]);

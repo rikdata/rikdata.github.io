@@ -1,0 +1,71 @@
+-- MySQL dump 10.13  Distrib 8.0.27, for Win64 (x86_64)
+--
+-- Host: localhost    Database: inoerp
+-- ------------------------------------------------------
+-- Server version	8.0.27
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `wip_wo_line_mat`
+--
+
+DROP TABLE IF EXISTS `wip_wo_line_mat`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `wip_wo_line_mat` (
+  `wip_wo_line_mat_id` int unsigned NOT NULL AUTO_INCREMENT,
+  `wip_wo_line_id` int unsigned NOT NULL,
+  `item_sequence` int unsigned NOT NULL,
+  `component_item_id_m` int NOT NULL,
+  `component_revision` varchar(10) DEFAULT NULL,
+  `usage_basis` varchar(50) DEFAULT NULL,
+  `usage_quantity` decimal(15,5) NOT NULL,
+  `auto_request_material_cb` tinyint(1) DEFAULT NULL,
+  `planning_percentage` decimal(6,2) DEFAULT NULL,
+  `yield` decimal(6,6) DEFAULT NULL,
+  `wip_supply_type` enum('PUSH','ASSEMBLY_PULL','OPERATION_PULL','PHANTOM','BULK','SUPPLIER') DEFAULT 'PUSH',
+  `supply_sub_inventory` int DEFAULT NULL,
+  `supply_locator_id` int DEFAULT NULL,
+  `required_quantity` int DEFAULT NULL,
+  `issued_quantity` int DEFAULT NULL,
+  `ef_id` int DEFAULT NULL,
+  `created_by` varchar(50) NOT NULL DEFAULT 'UNKOWN',
+  `creation_date` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `last_updated_by` varchar(50) NOT NULL DEFAULT 'UNKOWN',
+  `last_update_date` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`wip_wo_line_mat_id`),
+  UNIQUE KEY `bom_header_id` (`wip_wo_line_id`,`item_sequence`),
+  UNIQUE KEY `bom_header_id_2` (`wip_wo_line_id`,`component_item_id_m`)
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wip_wo_line_mat`
+--
+
+LOCK TABLES `wip_wo_line_mat` WRITE;
+/*!40000 ALTER TABLE `wip_wo_line_mat` DISABLE KEYS */;
+INSERT INTO `wip_wo_line_mat` VALUES (1,171,10,10036,NULL,'ITEM',10.00000,NULL,NULL,0.000000,'PUSH',2,5,NULL,NULL,NULL,'UNKOWN','2021-10-07 10:50:06','UNKOWN','2021-10-07 10:50:06'),(2,171,40,10042,NULL,'ITEM',20.00000,NULL,NULL,0.000000,'OPERATION_PULL',2,5,NULL,NULL,NULL,'UNKOWN','2021-10-07 10:50:06','UNKOWN','2021-10-07 10:50:06'),(3,171,50,10046,NULL,'ITEM',5.00000,NULL,NULL,0.000000,'ASSEMBLY_PULL',3,9,NULL,NULL,NULL,'UNKOWN','2021-10-07 10:50:06','UNKOWN','2021-10-07 10:50:06'),(4,171,30,10058,NULL,'ITEM',20.00000,NULL,NULL,0.000000,'OPERATION_PULL',2,5,NULL,NULL,NULL,'UNKOWN','2021-10-07 10:50:06','UNKOWN','2021-10-07 10:50:06'),(8,28,10,10036,NULL,'ITEM',10.00000,NULL,NULL,0.000000,'PUSH',2,5,NULL,NULL,NULL,'UNKOWN','2021-10-07 10:55:19','UNKOWN','2021-10-07 10:55:19'),(9,28,40,10042,NULL,'ITEM',20.00000,NULL,NULL,0.000000,'OPERATION_PULL',2,5,NULL,NULL,NULL,'UNKOWN','2021-10-07 10:55:19','UNKOWN','2021-10-07 10:55:19'),(10,28,50,10046,NULL,'ITEM',5.00000,NULL,NULL,0.000000,'ASSEMBLY_PULL',3,9,NULL,NULL,NULL,'UNKOWN','2021-10-07 10:55:19','UNKOWN','2021-10-07 10:55:19'),(11,28,30,10058,NULL,'ITEM',20.00000,NULL,NULL,0.000000,'OPERATION_PULL',2,5,NULL,NULL,NULL,'UNKOWN','2021-10-07 10:55:19','UNKOWN','2021-10-07 10:55:19');
+/*!40000 ALTER TABLE `wip_wo_line_mat` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2022-01-08  3:47:50

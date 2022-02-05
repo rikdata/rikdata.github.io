@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkinoerp=self.webpackChunkinoerp||[]).push([[2535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Design Stack","permalink":"/blog/oneapp-design-stack"}]}')}}]);
