@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[7147],{4728:function(e){e.exports=JSON.parse('{"label":"SAP","permalink":"/blog/tags/sap","allTagsPath":"/blog/tags","count":1}')}}]);
